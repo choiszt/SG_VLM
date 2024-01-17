@@ -13,7 +13,6 @@ from torch.distributed.fsdp import FullStateDictConfig
 from torch.distributed.fsdp import FullyShardedDataParallel as FSDP
 from torch.distributed.fsdp import StateDictType
 
-
 llama_model_sizes = {
     4096: "7B",  # 7B n_embd=4096
     5120: "13B",  # 13B n_embd=5120

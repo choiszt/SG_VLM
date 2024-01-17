@@ -16,7 +16,7 @@ from lit_llama import Tokenizer
 from lit_llama.adapter import LLaMA
 from lit_llama.utils import EmptyInitOnDevice, lazy_load, llama_model_lookup
 from scripts.prepare_alpaca import generate_prompt
-
+import sys;sys.path.append("/nvme/liushuai/TaPA/lit_llama")
 
 def main(
     prompt: str = "What food do lamas eat?",

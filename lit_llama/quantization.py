@@ -30,7 +30,6 @@ try:
     import triton.language as tl  # noqa: E402
 except:
     triton = None
-
 if bnb is not None:
 
     class Linear8bitLt(bnb.nn.Linear8bitLt):
