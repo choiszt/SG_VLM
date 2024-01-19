@@ -35,8 +35,8 @@ from lightning.fabric.strategies import DeepSpeedStrategy
 eval_interval = 600
 save_interval = 1000
 eval_iters = 100
-log_interval = 1
-devices = 8
+log_interval = 1000
+devices = 1
 
 # Hyperparameters
 learning_rate = 9e-3
@@ -106,7 +106,7 @@ def main(
     # Save the final checkpoint at the end of training
     save_model_checkpoint(fabric, model, os.path.join(out_dir, "lit-llama-adapter-finetuned.pth"))
 
-
+from tqdm import tqdm
 def train(
     fabric: L.Fabric,
     model: torch.nn.Module,
@@ -121,7 +121,7 @@ def train(
     """
     step_count = 0
 
-    for iter_num in range(max_iters):
+    for iter_num in tqdm(range(max_iters)):
 
         if step_count <= warmup_steps:
             # linear warmup
