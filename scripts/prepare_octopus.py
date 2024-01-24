@@ -15,7 +15,7 @@ def parse_relation(text):
 
 
 if __name__ == "__main__":
-    with open("/nvme/liushuai/TaPA/data/OctoGibson.json","r")as f:
+    with open("/mnt/petrelfs/liushuai1/TaPA/data/OctoGibson.json","r")as f:
         octopus_data=json.load(f)
 
     new_json={}
