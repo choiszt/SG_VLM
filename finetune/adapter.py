@@ -35,12 +35,8 @@ from lightning.fabric.loggers import TensorBoardLogger
 eval_interval = 600
 save_interval = 1000
 eval_iters = 100
-<<<<<<< HEAD
-log_interval = 1000
-=======
 log_interval = 1
->>>>>>> 1c3c7b0d55fc9537d8e2ac500f043c4ddcd2e1e0
-devices = 1
+devices = 8
 
 # Hyperparameters
 learning_rate = 9e-3
@@ -161,8 +157,8 @@ def train(
         dt = time.time() - t0
         if iter_num % log_interval == 0:
             fabric.print(f"iter {iter_num}: loss {loss.item():.4f}, time: {dt*1000:.2f}ms")
-            log_values = {"iter":iter_num, "loss":loss.item()}
-            fabric.log_dict(log_values)
+            log_values = {"loss":loss.item()}
+            fabric.log_dict(log_values,step=iter_num)
 
 
 def generate_response(model, instruction, input=""):
