@@ -30,12 +30,16 @@ from lit_llama.adapter import LLaMA, LLaMAConfig, mark_only_adapter_as_trainable
 from lit_llama.tokenizer import Tokenizer
 from scripts.prepare_alpaca import generate_prompt
 from lightning.fabric.strategies import DeepSpeedStrategy
-
+from lightning.fabric.loggers import TensorBoardLogger
 
 eval_interval = 600
 save_interval = 1000
 eval_iters = 100
+<<<<<<< HEAD
 log_interval = 1000
+=======
+log_interval = 1
+>>>>>>> 1c3c7b0d55fc9537d8e2ac500f043c4ddcd2e1e0
 devices = 1
 
 # Hyperparameters
@@ -66,11 +70,13 @@ def main(
     out_dir: str = "out/adapter/alpaca",
 ):
 
+    logger=TensorBoardLogger("./log", name="tapa")
     fabric = L.Fabric(
         accelerator="cuda", 
         devices=devices, 
         strategy=(DeepSpeedStrategy(config=ds_config) if devices > 1 else "auto"), 
         precision="bf16-true",
+        loggers=logger
     )
     fabric.launch()
     fabric.seed_everything(1337 + fabric.global_rank)
@@ -155,6 +161,8 @@ def train(
         dt = time.time() - t0
         if iter_num % log_interval == 0:
             fabric.print(f"iter {iter_num}: loss {loss.item():.4f}, time: {dt*1000:.2f}ms")
+            log_values = {"iter":iter_num, "loss":loss.item()}
+            fabric.log_dict(log_values)
 
 
 def generate_response(model, instruction, input=""):
