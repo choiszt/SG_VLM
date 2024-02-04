@@ -28,7 +28,7 @@ sys.path.append(str(wd))
 from generate import generate
 from lit_llama.adapter import LLaMA, LLaMAConfig, mark_only_adapter_as_trainable, adapter_state_from_state_dict
 from lit_llama.tokenizer import Tokenizer
-from scripts.prepare_alpaca import generate_prompt
+from scripts.prepare_octopus import generate_prompt
 from lightning.fabric.strategies import DeepSpeedStrategy
 from lightning.fabric.loggers import TensorBoardLogger
 
@@ -49,7 +49,7 @@ epoch_size = 15000  # train dataset size
 num_epochs = 5
 max_iters = num_epochs * epoch_size // devices
 weight_decay = 0.02
-max_seq_length = 512  # see scripts/prepare_alpaca.py
+max_seq_length = 2048  # see scripts/prepare_alpaca.py
 warmup_steps = epoch_size * 2 // micro_batch_size // devices  # 2 epochs
 # warmup_steps = 2
 
@@ -61,12 +61,12 @@ ds_config = {
 
 
 def main(
-    data_dir: str = "data/alpaca", 
+    data_dir: str = "data/Octopus", 
     pretrained_path: str = "checkpoints/lit-llama/7B/lit-llama.pth",
-    out_dir: str = "out/adapter/alpaca",
+    out_dir: str = "out/adapter/Octopus",
 ):
 
-    logger=TensorBoardLogger("./log", name="tapa")
+    logger=TensorBoardLogger("./log", name="octopus_0204")
     fabric = L.Fabric(
         accelerator="cuda", 
         devices=devices, 
