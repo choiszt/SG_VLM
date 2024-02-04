@@ -16,11 +16,7 @@ from lit_llama import Tokenizer
 from lit_llama.adapter import LLaMA
 from lit_llama.utils import EmptyInitOnDevice, lazy_load, llama_model_lookup
 from scripts.prepare_alpaca import generate_prompt
-<<<<<<< HEAD
-import sys;sys.path.append("/nvme/liushuai/TaPA/lit_llama")
-=======
 # import sys;sys.path.append("/nvme/liushuai/TaPA/lit_llama")
->>>>>>> 1c3c7b0d55fc9537d8e2ac500f043c4ddcd2e1e0
 
 def main(
     prompt: str = "Can you prepare me a sandwich?",
