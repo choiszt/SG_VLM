@@ -11,20 +11,47 @@ import re
 import torch
 import requests
 import json
-from torch.utils.data import random_split
 from lit_llama.tokenizer import Tokenizer
 from tqdm import tqdm
+import math
+import random
 
 
 DATA_FILE_NAME = "SG_planning_Octopus.json"
 IGNORE_INDEX = -1
 
+def split_dataset(dataset,train_ratio):
+    train_set={}
+    test_set={}
+    remove_repeat=lambda x:list(set(x))
+    all_task=[]
+    for ele in dataset.keys():
+        task=''
+        for name in ele.split("_")[:-3]:
+            task+=name+'_'
+        all_task.append(task[:-1])
+    all_task=remove_repeat(all_task)
+    random.shuffle(all_task)
+    train_keys=all_task[:math.floor(len(all_task)*train_ratio)]
+    test_keys=all_task[math.floor(len(all_task)*train_ratio):]
+    for ele in dataset.keys():
+        for train_key in train_keys:
+            if train_key in ele:
+                train_set[ele]=dataset[ele]
+        for test_key in test_keys:
+            if test_key in ele:
+                test_set[ele]=dataset[ele]
 
+    return train_set,test_set
+
+            
+    
 def prepare(
     destination_path: Path = Path("data/Octopus"), 
     tokenizer_path: Path = Path("checkpoints/lit-llama/tokenizer.model"),
+    train_ratio=0.8,
     test_split_size: int = 600,
-    max_seq_length: int = 512,
+    max_seq_length: int = 2048,
     seed: int = 42,
     mask_inputs: bool = False,  # as in alpaca-lora
     data_file_name: str = DATA_FILE_NAME
@@ -45,43 +72,35 @@ def prepare(
     with open(file_path, "r") as file:
         data = json.load(file)
 
-    # Partition the dataset into train and test
-    train_split_size = len(data) - test_split_size
-    """
-    train_set, test_set = random_split(
-        data, 
-        lengths=(train_split_size, test_split_size),
-        generator=torch.Generator().manual_seed(seed),
-    )
-    train_set, test_set = list(train_set), list(test_set)
-    """
-    train_set = data[:train_split_size]
-    test_set = data[-test_split_size:]
+    train_set,test_set=split_dataset(data,train_ratio)
 
     print(f"train has {len(train_set):,} samples")
     print(f"val has {len(test_set):,} samples")
 
     print("Processing train split ...")
-    train_set = [prepare_sample(sample, tokenizer, max_seq_length, mask_inputs) for sample in tqdm(train_set)]
+    train_set = [prepare_sample(train_set[sample], tokenizer, max_seq_length, mask_inputs) for sample in tqdm(train_set.keys())]
 
     len_list = []
     prompt_list = []
+    cho=[]
     for train_set_one in train_set:
         len_list.append(train_set_one["input_ids"].shape[0])
-        if len_list[-1] == 256:
-            prompt_list.append(generate_prompt(train_set_one) + train_set_one["output"])
+        if len_list[-1] == max_seq_length:
+            prompt_list.append(generate_prompt(train_set_one) + train_set_one["SceneGraph"])
+            cho.append(train_set_one)
     len_list = np.asarray(len_list)
 
     # If the number greater than 512 is too large,
     # you may need to increase the value of max_seq_length or modify the dataset
-    print("Number of max_seq_lengths greater than 512：", np.sum(len_list >= 512))
+    print(f"Number of max_seq_lengths greater than {max_seq_length}：", np.sum(len_list >= max_seq_length))
     print("max_seq_length", np.max(len_list))
     print("min_seq_length", np.min(len_list))
 
     torch.save(train_set, file_path.parent / "train_15k.pt")
 
     print("Processing test split ...")
-    test_set = [prepare_sample(sample, tokenizer, max_seq_length, mask_inputs) for sample in tqdm(test_set)]
+    test_set = [prepare_sample(test_set[sample], tokenizer, max_seq_length, mask_inputs) for sample in tqdm(test_set.keys())]
+
     torch.save(test_set, file_path.parent / "test_15k.pt")
 
 def prepare_sample(example: dict, tokenizer: Tokenizer, max_length: int, mask_inputs: bool = True):
@@ -102,7 +121,7 @@ def prepare_sample(example: dict, tokenizer: Tokenizer, max_length: int, mask_in
     in the label that correspond to the original input prompt get masked out (default).
     """
     full_prompt = generate_prompt(example)
-    full_prompt_and_response = full_prompt + example["output"]
+    full_prompt_and_response = full_prompt + example["answer_planning"]
     encoded_full_prompt = tokenize(tokenizer, full_prompt, max_length=max_length, eos=False)
     encoded_full_prompt_and_response = tokenize(tokenizer, full_prompt_and_response, eos=True, max_length=max_length)
 
@@ -131,16 +150,16 @@ def generate_prompt(example):
     """Generates a standardized message to prompt the model with an instruction, optional input and a
     'response' field."""
     # Original prompt
-    if example["input"]:
-        return (
-            "Below is an instruction that describes a task, paired with an input that provides further context. "
-            "Write a response that appropriately completes the request.\n\n"
-            f"### Instruction:\n{example['instruction']}\n\n### Input:\n{example['input']}\n\n### Response:"
-        )
+    # if example["input"]:
+    #     return (
+    #         "Below is an instruction that describes a task, paired with an input that provides further context. "
+    #         "Write a response that appropriately completes the request.\n\n"
+    #         f"### Instruction:\n{example['instruction']}\n\n### Input:\n{example['input']}\n\n### Response:"
+    #     )
     return (
         "Below is an instruction that describes a task. "
         "Write a response that appropriately completes the request.\n\n"
-        f"### Instruction:\n{example['instruction']}\n\n### Response:"
+        f"### Instruction:\n{example['goal']}{example['SceneGraph']}\n\n### Response:\n"
     )
 def parse_goal(instructions):
     task_goal_match = re.search(r'Task Goal: (.+?)\n', instructions)
