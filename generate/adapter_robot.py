@@ -6,7 +6,7 @@ from typing import Optional
 
 import lightning as L
 import torch
-
+import json
 # support running without installing as a package
 wd = Path(__file__).parent.parent.resolve()
 sys.path.append(str(wd))
@@ -21,7 +21,7 @@ from scripts.prepare_alpaca import generate_prompt
 def main(
     prompt: str = "Can you prepare me a sandwich?",
     input: str = "",
-    adapter_path: Path = Path("out/adapter/alpaca/lit-llama-adapter-finetuned.pth"),
+    adapter_path: Path = Path("out/adapter/Octopus/lit-llama-adapter-finetuned.pth"),
     pretrained_path: Path = Path("checkpoints/lit-llama/7B/lit-llama.pth"),
     tokenizer_path: Path = Path("checkpoints/lit-llama/tokenizer.model"),
     quantize: Optional[str] = None,
@@ -79,6 +79,10 @@ def main(
     tokenizer = Tokenizer(tokenizer_path)
     sample = {"instruction": prompt, "input": input}
     prompt = generate_prompt(sample)
+    
+    with open('/nvme/liushuai/SG_VLM/data/Octopus/Octopus_executable_and_unseen_planning.json',"r")as f:
+        octopus_data=json.load(f)
+
     encoded = tokenizer.encode(prompt, bos=True, eos=False, device=model.device)
     print("===================")
     print(prompt)

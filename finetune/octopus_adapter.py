@@ -36,7 +36,7 @@ eval_interval = 600
 save_interval = 1000
 eval_iters = 100
 log_interval = 1
-devices = 1
+devices = 8
 
 # Hyperparameters
 learning_rate = 9e-3
@@ -59,14 +59,14 @@ ds_config = {
     "zero_optimization": {"stage": 2},
 }
 
-
+EXPERIMENT_NAME="octopus_iterative_plan_0317"
 def main(
-    data_dir: str = "data/Octopus", 
+    data_dir: str = "data/Octopus/Octopus_iterative_executable_planning", 
     pretrained_path: str = "checkpoints/lit-llama/7B/lit-llama.pth",
-    out_dir: str = "out/adapter/Octopus",
+    out_dir: str = F"out/adapter/Octopus/{EXPERIMENT_NAME}",
 ):
 
-    logger=TensorBoardLogger("./log", name="octopus_0204")
+    logger=TensorBoardLogger("./log", name=EXPERIMENT_NAME)
     fabric = L.Fabric(
         accelerator="cuda", 
         devices=devices, 
@@ -144,10 +144,10 @@ def train(
             optimizer.zero_grad()
             step_count += 1
                 
-            if step_count % eval_interval == 0:
-                val_loss = validate(fabric, model, val_data)
-                fabric.print(f"step {iter_num}: val loss {val_loss:.4f}")
-                fabric.barrier()
+            # if step_count % eval_interval == 0:
+            #     val_loss = validate(fabric, model, val_data)
+            #     fabric.print(f"step {iter_num}: val loss {val_loss:.4f}")
+            #     fabric.barrier()
 
             if step_count % save_interval == 0:
                 print(f"Saving adapter weights to {out_dir}")

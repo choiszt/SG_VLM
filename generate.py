@@ -121,8 +121,7 @@ def main(
 
     model.eval()
     model = fabric.setup_module(model)
-    print("please input")
-    prompt=input()
+    prompt="Hi I am"
     tokenizer = Tokenizer(tokenizer_path)
     encoded = tokenizer.encode(prompt, bos=True, eos=False, device=fabric.device)
     prompt_length = encoded.size(0)

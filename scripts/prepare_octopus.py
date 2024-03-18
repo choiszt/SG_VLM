@@ -17,7 +17,7 @@ import math
 import random
 
 
-DATA_FILE_NAME = "SG_planning_Octopus.json"
+
 IGNORE_INDEX = -1
 
 def split_dataset(dataset,train_ratio):
@@ -44,14 +44,14 @@ def split_dataset(dataset,train_ratio):
 
     return train_set,test_set
 
-            
-    
+
+DATA_FILE_NAME = "Octopus_iterative_executable_planning.json"
 def prepare(
-    destination_path: Path = Path("data/Octopus"), 
+    destination_path: Path = Path("data/Octopus/Octopus_iterative_executable_planning"), 
     tokenizer_path: Path = Path("checkpoints/lit-llama/tokenizer.model"),
-    train_ratio=0.8,
+    train_ratio=1,
     test_split_size: int = 600,
-    max_seq_length: int = 2048,
+    max_seq_length: int = 1024,
     seed: int = 42,
     mask_inputs: bool = False,  # as in alpaca-lora
     data_file_name: str = DATA_FILE_NAME
@@ -86,7 +86,7 @@ def prepare(
     for train_set_one in train_set:
         len_list.append(train_set_one["input_ids"].shape[0])
         if len_list[-1] == max_seq_length:
-            prompt_list.append(generate_prompt(train_set_one) + train_set_one["SceneGraph"])
+            prompt_list.append(generate_prompt(train_set_one) + train_set_one["answer"])
             cho.append(train_set_one)
     len_list = np.asarray(len_list)
 
@@ -121,7 +121,7 @@ def prepare_sample(example: dict, tokenizer: Tokenizer, max_length: int, mask_in
     in the label that correspond to the original input prompt get masked out (default).
     """
     full_prompt = generate_prompt(example)
-    full_prompt_and_response = full_prompt + example["answer_planning"]
+    full_prompt_and_response = full_prompt + example["answer"]
     encoded_full_prompt = tokenize(tokenizer, full_prompt, max_length=max_length, eos=False)
     encoded_full_prompt_and_response = tokenize(tokenizer, full_prompt_and_response, eos=True, max_length=max_length)
 
@@ -156,58 +156,16 @@ def generate_prompt(example):
     #         "Write a response that appropriately completes the request.\n\n"
     #         f"### Instruction:\n{example['instruction']}\n\n### Input:\n{example['input']}\n\n### Response:"
     #     )
-    return (
-        "Below is an instruction that describes a task. "
-        "Write a response that appropriately completes the request.\n\n"
-        f"### Instruction:\n{example['goal']}{example['SceneGraph']}\n\n### Response:\n"
-    )
-def parse_goal(instructions):
-    task_goal_match = re.search(r'Task Goal: (.+?)\n', instructions)
-    if task_goal_match:
-        task_goal = task_goal_match.group(0)
-    return task_goal
-
-def parse_answer(instructions):
-    answer_planning=instructions.split('Code')[0].split("Subtask:\n")[1]
-    # return "Subtask:\n"+answer_planning
-    return answer_planning
-
-def parse_planning(instructions):
-    planning=instructions.split("Original Subtasks:")[1].split('Previous')[0].lstrip(" ").lstrip("\n")
-    
-    # return "Original Subtasks: \n"+planning
-    return planning
-
-def parse_relation(text):
-    pattern = r"\('([^']+)', '([^']+)', '([^']+)'\)"
-
-    matches = re.findall(pattern, text)
-
-    return matches
+    prompt=f"### Instruction:\n{example['instruction']}### Response:\n"
+    return prompt
+    # return (
+    #     "Below is an instruction that describes a task. "
+    #     "Write a response that appropriately completes the request.\n\n"
+    #     f"### Instruction:\n{example['goal']}{example['SceneGraph']}\n\n### Response:\n"
+    # )
 
 if __name__ == "__main__":
-
-    with open("./data/Octopus/OctoGibson.json","r")as f:
-        octopus_data=json.load(f)
-
-    tapa_octopus={}
-    for k in octopus_data['data'].keys():
-        tapa_octopus[k]={}
-        one_data=octopus_data['data'][k]
-        tapa_octopus[k]['goal']=parse_goal(one_data['instruction'])  # 'Task Goal: fold_a_towl_and_put_it_in_the_basket\n'
-        tapa_octopus[k]['SceneGraph']=one_data['relations']          # Scene Graph
-        # tapa_octopus[k]['current_planning']=parse_planning(one_data['instruction']) #Original Subtask
-        # tapa_octopus[k]['instruction']=one_data['instruction']     #Don't need
-        tapa_octopus[k]['answer_planning']=parse_answer(one_data['answer']) #Explain + New Planning
-        tapa_octopus[k]['reward']=one_data['reward']
-        tapa_octopus[k]['main_reward']=one_data['main_reward']     
-        # tapa_octopus[k]['objects']=one_data['objects']             #Don't need 
-        
-    with open("./data/Octopus/SG_planning_Octopus.json","w+")as f:
-        f.write(json.dumps(tapa_octopus))
-
     from jsonargparse import CLI
-
     CLI(prepare)
 
 
