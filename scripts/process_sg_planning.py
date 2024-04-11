@@ -130,106 +130,82 @@ def get_scene_graph(goal,objects): #Recursively find scene graph in bddl file, M
             final.append([rel[1].split(".")[0],rel[0],rel[2].split(".")[0]])
     return final
 
-# if __name__ == '__main__':
+def generate_instruction(option):
+    train_path="data/Omnigibson_sg_JSON/train"
+    test_path="data/Omnigibson_sg_JSON/test"
+    errorlist=[]
 
-train_path="data/Omnigibson_sg_JSON/train"
-test_path="data/Omnigibson_sg_JSON/test"
-errorlist=[]
-
-for task in tqdm(os.listdir(train_path)):
-    with open(os.path.join(train_path,task),"r")as f:
-        og_planning=json.load(f)
-
-    bddl_task=task.split(".json")[0] 
-
-    behavior_activity =bddl_task 
-
-    activity_definition = 0                      
-    simulator = "omnigibson"
-    conds = Conditions(behavior_activity, activity_definition, simulator)
-
-    objects=[a+"_1" for a in conds.parsed_objects.keys()] #Get the first instance 
-    initial=conds.parsed_initial_conditions
-    initial_scene_graph=get_scene_graph(initial,objects)
-
-    clean_objects=[obj.split(".")[0] for obj in objects]
-
-    goal=conds.parsed_goal_conditions
-    goal_scene_graph=get_scene_graph(goal,objects)
-
-    input_initial_scene_graph="\n".join(str(tuple(a)) for a in initial_scene_graph)
-    input_goal_scene_graph="\n".join(str(tuple(a)) for a in goal_scene_graph)
-
-#Generate Planning
-planning=''
-for step,info in og_planning.items():
-    planning+=f"{step}: {info['Planning']}\n"
+    OGSG_result={}
+    for task in tqdm(os.listdir(train_path)):
+        with open(os.path.join(train_path,task),"r")as f:
+            og_planning=json.load(f)
 
 
-    status_list=[]
-    plan_list=[] #store the executable plan
-    task_plan={}
-    for k in octopus_data['data'].keys():
-        one_data=octopus_data['data'][k]
-        task_status = '_'.join(k.split('_')[:-3])
+        bddl_task=task.split(".json")[0] 
+        OGSG_result[bddl_task]={}
 
-        tapa_octopus[task_status]={}
+        behavior_activity =bddl_task 
 
-        if task_status not in status_list: #new task
-            status_list.append(task_status)
-            plan_list=[]
-            SG_list=[]
+        activity_definition = 0                      
+        simulator = "omnigibson"
+        conds = Conditions(behavior_activity, activity_definition, simulator)
 
-        if one_data['reward']==1: #denote that the code is success -> the plan is valid
-            code=parse_code(one_data['answer'])
-            try:
-                executable_plan=code.split("\n")[1].lstrip().split(":")[1].lstrip()
-                plan_list.append(executable_plan)
-                SG_list.append(one_data['relations'].split(":")[1].lstrip()[:-1])
-                # task_plan[task_status]=plan_list
+        objects=[a+"_1" for a in conds.parsed_objects.keys()] #Get the first instance 
+        initial=conds.parsed_initial_conditions
+        initial_scene_graph=get_scene_graph(initial,objects)
 
-                tapa_octopus[task_status]['plan']=plan_list
-                tapa_octopus[task_status]['goal']=parse_goal(one_data['instruction'])[:-1].split(":")[1].lstrip()  # 'Task Goal: fold_a_towl_and_put_it_in_the_basket\n'
-                tapa_octopus[task_status]['SceneGraph']=SG_list        # Scene Graph
-                # tapa_octopus[task_status]['gpt_planning']=parse_answer(one_data['answer']) #Explain + New Planning
-            except Exception as e:
-                continue
+        clean_objects=[obj.split(".")[0] for obj in objects]
 
-    print("checkmark") #60 empty and 421 valid executable planning task
+        goal=conds.parsed_goal_conditions
+        goal_scene_graph=get_scene_graph(goal,objects)
 
-    result={}
-    for key in list(tapa_octopus.keys()):
-        if tapa_octopus[key]=={}:
-            continue
-        task=tapa_octopus[key]
-        Previous_plan=''
-        Previous_sg=''
-        for cnt in tqdm(range(len(task["plan"]))):
-            task_with_step=f"{key}_step{cnt+1}"
-            result_plan=''
-            result[task_with_step]={}
-            goal=task['goal']
-            plan=task['plan']
-            if cnt==0:
-                Previous_plan=f"Previous Plan: None\n"
-                Previous_sg=f"Previous SceneGraph: None\n"
-                Scene_Graph=f"Scene Graph: {task['SceneGraph'][cnt]}\n"
-                result[task_with_step]['instruction']=f"Task Goal: {goal}\n{Previous_plan}{Previous_sg}{Scene_Graph}"
-                for i in range(len(task['plan'])):
-                    result_plan+=f"Step {i+1}: {task['plan'][i]}\n"
-                result[task_with_step]['answer']=result_plan
+        input_initial_scene_graph="\n".join(str(list(a)) for a in initial_scene_graph)
+        input_goal_scene_graph="\n".join(str(list(a)) for a in goal_scene_graph)
 
-            else:
-                Previous_plan=f"Previous Plan: {task['plan'][cnt-1]}\n"
-                Previous_sg=f"Previous SceneGraph: {task['SceneGraph'][cnt-1]}\n"
-                Scene_Graph=f"Scene Graph: {task['SceneGraph'][cnt]}\n"
-                result[task_with_step]['instruction']=f"Task Goal: {goal}\n{Previous_plan}{Previous_sg}{Scene_Graph}"
-                for i in range(cnt,len(task['plan'])):
-                    result_plan+=f"Step {i+1}: {task['plan'][i]}\n"
-                result[task_with_step]['answer']=result_plan
+        if option=="initsg_planning":
+            #Generate Planning
+            planning=''
+            for step,info in og_planning.items():
+                planning+=f"{step}: {info['Planning']}\n"     
 
-    with open("./data/Octopus/Octopus_executable_planning.json","w+")as f:
-        f.write(json.dumps(result))
+            OGSG_result[bddl_task]['instruction']=f"Task Goal:\n{bddl_task}\nObserved Relation:\n{input_initial_scene_graph}\nNow please output plannings for doing {bddl_task}"
+            OGSG_result[bddl_task]['answer']=planning
 
+        if option=="initsg_targetobj_planning":
+            #Generate Planning
+            planning=''
+            for step,info in og_planning.items():
+                planning+=f"{step}: {info['Planning']}\nTarget:{str(info['Target'])}\n"                 
 
+            OGSG_result[bddl_task]['instruction']=f"Task Goal:\n{bddl_task}\nObserved Relation:\n{input_initial_scene_graph}\nNow please output plannings for doing {bddl_task}"
+            OGSG_result[bddl_task]['answer']=planning
+
+        if option=="initsg_finalsg_planning":
+            planning=''
+            for step,info in og_planning.items():
+                planning+=f"{step}: {info['Planning']}\n"    
+
+            OGSG_result[bddl_task]['instruction']=f"Task Goal:\n{bddl_task}\nObserved Relation:\n{input_initial_scene_graph}\Goal Expected Relation:\n{input_goal_scene_graph}\nNow please output plannings for doing {bddl_task}"
+            OGSG_result[bddl_task]['answer']=planning
+
+        if option=="initsg_finalsg_targetobj_planning":
+            planning=''
+            for step,info in og_planning.items():
+                planning+=f"{step}: {info['Planning']}\nTarget:{str(info['Target'])}\n"     
+
+            OGSG_result[bddl_task]['instruction']=f"Task Goal:\n{bddl_task}\nObserved Relation:\n{input_initial_scene_graph}\Goal Expected Relation:\n{input_goal_scene_graph}\nNow please output plannings for doing {bddl_task}"
+            OGSG_result[bddl_task]['answer']=planning
+
+    return OGSG_result         
+
+if __name__ == '__main__':
+    makedir=lambda PATH: os.makedirs(PATH) if not os.path.exists(PATH) else None
+
+    OPTIONS=["initsg_planning","initsg_targetobj_planning","initsg_finalsg_planning","initsg_finalsg_targetobj_planning"]
+    for OPTION in OPTIONS:
+        tar_path=os.path.join("data/OGSG_data/",OPTION)
+        makedir(tar_path)
+        OGSG_result=generate_instruction(OPTION)
+        with open(f"{tar_path}/{OPTION}.json","w+")as f:
+            f.write(json.dumps(OGSG_result))
 
