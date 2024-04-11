@@ -1,87 +1,45 @@
 """Implementation derived from https://github.com/tloen/alpaca-lora"""
-import ptvsd
-ptvsd.enable_attach(address=('10.140.0.184', 5678))
-ptvsd.wait_for_attach()
+# import ptvsd
+# ptvsd.enable_attach(address=('10.140.0.184', 5678))
+# ptvsd.wait_for_attach()
+
 import sys
 from pathlib import Path
-
 # support running without installing as a package
 import numpy as np
 
 wd = Path(__file__).parent.parent.resolve()
 sys.path.append(str(wd))
-import re
 import torch
-import requests
 import json
 from lit_llama.tokenizer import Tokenizer
 from tqdm import tqdm
-import math
-import random
-
-
+import os
 
 IGNORE_INDEX = -1
 
-def split_dataset(dataset,train_ratio):
-    train_set={}
-    test_set={}
-    remove_repeat=lambda x:list(set(x))
-    all_task=[]
-    for ele in dataset.keys():
-        task=''
-        for name in ele.split("_")[:-3]:
-            task+=name+'_'
-        all_task.append(task[:-1])
-    all_task=remove_repeat(all_task)
-    random.shuffle(all_task)
-    train_keys=all_task[:math.floor(len(all_task)*train_ratio)]
-    test_keys=all_task[math.floor(len(all_task)*train_ratio):]
-    for ele in dataset.keys():
-        for train_key in train_keys:
-            if train_key in ele:
-                train_set[ele]=dataset[ele]
-        for test_key in test_keys:
-            if test_key in ele:
-                test_set[ele]=dataset[ele]
-
-    return train_set,test_set
-
-
-DATA_FILE_NAME = "Octopus_iterative_executable_planning.json"
 def prepare(
-    destination_path: Path = Path("data/Octopus/Octopus_iterative_executable_planning"), 
+    experiment_name: str = None,
     tokenizer_path: Path = Path("checkpoints/lit-llama/tokenizer.model"),
-    train_ratio=1,
-    test_split_size: int = 600,
-    max_seq_length: int = 2048,
-    seed: int = 42,
+    max_seq_length: int = 1024,
     mask_inputs: bool = False,  # as in alpaca-lora
-    data_file_name: str = DATA_FILE_NAME
 ) -> None:
-    """Prepare the Alpaca dataset for instruction tuning.
     
-    The output is a training and validation dataset saved as `train.pt` and `val.pt`,
-    which stores the preprocessed and tokenized prompts and labels.
-    """
-    
-    destination_path.mkdir(parents=True, exist_ok=True)
-    file_path = destination_path / data_file_name
-    # download(file_path)
-
-    # TODO: If we don't have the Meta weights, where do we get the tokenizer from?
+    base_path="data/OGSG_data"
     tokenizer = Tokenizer(tokenizer_path)
     
-    with open(file_path, "r") as file:
-        data = json.load(file)
+    experiment_path=os.path.join(base_path,experiment_name)
 
-    train_set,test_set=split_dataset(data,train_ratio)
+    train_path=f"{experiment_path}/{experiment_name}_train.json"
+    test_path=f"{experiment_path}/{experiment_name}_test.json"
+    with open(train_path, "r") as file:
+        train_dataset = json.load(file)
 
-    print(f"train has {len(train_set):,} samples")
-    print(f"val has {len(test_set):,} samples")
+    with open(test_path, "r") as file:
+        test_dataset = json.load(file)        
 
     print("Processing train split ...")
-    train_set = [prepare_sample(train_set[sample], tokenizer, max_seq_length, mask_inputs) for sample in tqdm(train_set.keys())]
+    train_set = [prepare_sample(train_dataset[sample], tokenizer, max_seq_length, mask_inputs) for sample in tqdm(train_dataset.keys())]
 
     len_list = []
     prompt_list = []
@@ -93,18 +51,16 @@ def prepare(
             cho.append(train_set_one)
     len_list = np.asarray(len_list)
 
-    # If the number greater than 512 is too large,
-    # you may need to increase the value of max_seq_length or modify the dataset
     print(f"Number of max_seq_lengths greater than {max_seq_length}：", np.sum(len_list >= max_seq_length))
     print("max_seq_length", np.max(len_list))
     print("min_seq_length", np.min(len_list))
 
-    torch.save(train_set, file_path.parent / "train_15k.pt")
+    torch.save(train_set, f"{experiment_path}/train.pt")
 
     print("Processing test split ...")
-    test_set = [prepare_sample(test_set[sample], tokenizer, max_seq_length, mask_inputs) for sample in tqdm(test_set.keys())]
+    test_set = [prepare_sample(test_dataset[sample], tokenizer, max_seq_length, mask_inputs) for sample in tqdm(test_dataset.keys())]
 
-    torch.save(test_set, file_path.parent / "test_15k.pt")
+    torch.save(test_set, f"{experiment_path}/test.pt")
 
 def prepare_sample(example: dict, tokenizer: Tokenizer, max_length: int, mask_inputs: bool = True):
     """Processes a single sample.
@@ -159,7 +115,7 @@ def generate_prompt(example):
     #         "Write a response that appropriately completes the request.\n\n"
     #         f"### Instruction:\n{example['instruction']}\n\n### Input:\n{example['input']}\n\n### Response:"
     #     )
-    prompt=f"### Instruction:\n{example['instruction']}### Response:\n"
+    prompt=f"### Instruction:\n{example['instruction']}\n### Response:\n"
     return prompt
     # return (
     #     "Below is an instruction that describes a task. "
@@ -168,8 +124,9 @@ def generate_prompt(example):
     # )
 
 if __name__ == "__main__":
-    from jsonargparse import CLI
-    CLI(prepare)
+    OPTIONS=["initsg_planning","initsg_targetobj_planning","initsg_finalsg_planning","initsg_finalsg_targetobj_planning"]
+    for OPTION in OPTIONS:
+        prepare(experiment_name=OPTION)
 
 
 

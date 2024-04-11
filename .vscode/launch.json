@@ -8,8 +8,8 @@
             "host": "10.140.0.184",
             "pathMappings": [
                 {
-                    "localRoot": "scripts/process_sg_planning.py",
-                    "remoteRoot": "scripts/process_sg_planning.py"
+                    "localRoot": "${fileDirname}",
+                    "remoteRoot": "${fileDirname}"
                 }
             ],
         }

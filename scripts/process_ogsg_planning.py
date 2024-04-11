@@ -130,14 +130,16 @@ def get_scene_graph(goal,objects): #Recursively find scene graph in bddl file, M
             final.append([rel[1].split(".")[0],rel[0],rel[2].split(".")[0]])
     return final
 
-def generate_instruction(option):
-    train_path="data/Omnigibson_sg_JSON/train"
-    test_path="data/Omnigibson_sg_JSON/test"
+def generate_instruction(option,is_train):
+    if is_train:
+        dataset_path="data/Omnigibson_sg_JSON/train"
+    else:
+        dataset_path="data/Omnigibson_sg_JSON/test"
     errorlist=[]
 
     OGSG_result={}
-    for task in tqdm(os.listdir(train_path)):
-        with open(os.path.join(train_path,task),"r")as f:
+    for task in tqdm(os.listdir(dataset_path)):
+        with open(os.path.join(dataset_path,task),"r")as f:
             og_planning=json.load(f)
 
 
@@ -205,7 +207,11 @@ if __name__ == '__main__':
     for OPTION in OPTIONS:
         tar_path=os.path.join("data/OGSG_data/",OPTION)
         makedir(tar_path)
-        OGSG_result=generate_instruction(OPTION)
-        with open(f"{tar_path}/{OPTION}.json","w+")as f:
+        OGSG_result=generate_instruction(OPTION,is_train=True)
+        with open(f"{tar_path}/{OPTION}_train.json","w+")as f:
+            f.write(json.dumps(OGSG_result))
+
+        OGSG_result=generate_instruction(OPTION,is_train=False)
+        with open(f"{tar_path}/{OPTION}_test.json","w+")as f:
             f.write(json.dumps(OGSG_result))
 
