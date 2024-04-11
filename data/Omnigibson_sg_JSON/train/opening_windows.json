@@ -1,0 +1,1 @@
+{"Step 1": {"Planning": "Move to the window", "Target": ["window"], "Expect Scene Graph": [["agent", "ontop", "floor"]]}, "Step 2": {"Planning": "Open the window", "Target": ["window"], "Expect Scene Graph": [["agent", "ontop", "window"], ["window", "open"]]}}

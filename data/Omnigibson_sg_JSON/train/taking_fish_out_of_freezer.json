@@ -1,0 +1,1 @@
+{"Step 1": {"Planning": "Open the electric refrigerator", "Target": ["electric_refrigerator"], "Expect Scene Graph": [["salmon", "inside", "electric_refrigerator"], ["agent", "ontop", "floor"]]}, "Step 2": {"Planning": "Take the salmon out of the electric refrigerator", "Target": ["electric_refrigerator", "salmon"], "Expect Scene Graph": null}}

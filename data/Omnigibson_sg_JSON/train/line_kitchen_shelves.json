@@ -1,0 +1,1 @@
+{"Step 1": {"Planning": "Move the lining onto the shelf", "Target": ["lining", "shelf"], "Expect Scene Graph": [["lining", "inside", "shelf"], ["agent", "ontop", "floor"]]}}

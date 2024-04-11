@@ -1,0 +1,1 @@
+{"Step 1": {"Planning": "Pick up the battery from the shelf", "Target": ["battery", "shelf"], "Expect Scene Graph": null}, "Step 2": {"Planning": "Place the battery in the chest_of_drawers", "Target": ["battery", "chest_of_drawers"], "Expect Scene Graph": [["battery", "ontop", "chest_of_drawers"], ["agent", "ontop", "floor"]]}}

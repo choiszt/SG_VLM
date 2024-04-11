@@ -1,0 +1,1 @@
+{"Step 1": {"Planning": "Pick up the log from the floor", "Target": ["log", "floor"], "Expect Scene Graph": null}, "Step 2": {"Planning": "Put the log on the table", "Target": ["log", "table"], "Expect Scene Graph": [["log", "ontop", "table"], ["agent", "ontop", "floor"]]}}

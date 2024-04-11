@@ -1,0 +1,1 @@
+{"Step 1": {"Planning": "Remove the tarpaulin from the lawn", "Target": ["tarpaulin"], "Expect Scene Graph": null}, "Step 2": {"Planning": "Place the tarpaulin over the scrub", "Target": ["tarpaulin", "scrub"], "Expect Scene Graph": ["tarpaulin", "overlaid", "scrub"]}, "Step 3": {"Planning": "Move the agent off the floor", "Target": ["agent"], "Expect Scene Graph": null}}

@@ -1,0 +1,1 @@
+{"Step 1": {"Planning": "Find and locate the switches", "Target": ["switch"], "Expect Scene Graph": null}, "Step 2": {"Planning": "Turn off all the lights", "Target": ["switch"], "Expect Scene Graph": null}, "Step 3": {"Planning": "Go to sleep", "Target": ["agent"], "Expect Scene Graph": null}}

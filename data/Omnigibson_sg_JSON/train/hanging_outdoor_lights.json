@@ -1,0 +1,1 @@
+{"Step 1": {"Planning": "Move the coffee table outside", "Target": ["coffee_table"], "Expect Scene Graph": [["icicle_lights", "ontop", "coffee_table"], ["agent", "ontop", "floor"]]}, "Step 2": {"Planning": "Hang the icicle lights on the tree", "Target": ["icicle_lights", "tree"], "Expect Scene Graph": [["icicle_lights", "ontop", "tree"], ["agent", "ontop", "floor"]]}}

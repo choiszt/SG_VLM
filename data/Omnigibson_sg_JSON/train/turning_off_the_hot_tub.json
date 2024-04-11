@@ -1,0 +1,1 @@
+{"Step 1": {"Planning": "Drain the water from the hot tub", "Target": ["hot_tub"], "Expect Scene Graph": [["hot_tub", "empty", "water"], ["agent", "ontop", "floor"]]}, "Step 2": {"Planning": "Turn off the hot tub", "Target": ["hot_tub"], "Expect Scene Graph": [["hot_tub", "empty", "water"], ["agent", "ontop", "floor"]]}}

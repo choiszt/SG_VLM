@@ -1,0 +1,1 @@
+{"Step 1": {"Planning": "Pick up the license plate from the floor", "Target": ["license_plate", "floor"], "Expect Scene Graph": null}, "Step 2": {"Planning": "Put the license plate on the car", "Target": ["car", "license_plate"], "Expect Scene Graph": [["car", "ontop", "license_plate"], ["agent", "ontop", "floor"]]}}

@@ -1,0 +1,28 @@
+{
+    "Step 1": {
+        "Planning": "Go to the hot tub",
+        "Target": [
+            "hot_tub"
+        ],
+        "Expect Scene Graph": [
+            [
+                "agent",
+                "ontop",
+                "floor"
+            ]
+        ]
+    },
+    "Step 2": {
+        "Planning": "Turn on the hot tub",
+        "Target": [
+            "hot_tub"
+        ],
+        "Expect Scene Graph": [
+            [
+                "agent",
+                "ontop",
+                "floor"
+            ]
+        ]
+    }
+}

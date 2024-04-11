@@ -1,0 +1,142 @@
+{
+    "Step 1": {
+        "Planning": "Pick up the wicker basket from the floor",
+        "Target": [
+            "wicker_basket",
+            "floor"
+        ],
+        "Expect Scene Graph": null
+    },
+    "Step 2": {
+        "Planning": "Pick up the candle from the table",
+        "Target": [
+            "candle",
+            "table"
+        ],
+        "Expect Scene Graph": null
+    },
+    "Step 3": {
+        "Planning": "Pick up the butter cookie from the table",
+        "Target": [
+            "butter_cookie",
+            "table"
+        ],
+        "Expect Scene Graph": null
+    },
+    "Step 4": {
+        "Planning": "Put the candle inside the wicker basket",
+        "Target": [
+            "candle",
+            "wicker_basket"
+        ],
+        "Expect Scene Graph": [
+            [
+                "candle",
+                "inside",
+                "wicker_basket"
+            ],
+            [
+                "swiss_cheese",
+                "inside",
+                "wicker_basket"
+            ],
+            [
+                "butter_cookie",
+                "inside",
+                "wicker_basket"
+            ],
+            [
+                "bow",
+                "inside",
+                "wicker_basket"
+            ]
+        ]
+    },
+    "Step 5": {
+        "Planning": "Put the swiss cheese inside the wicker basket",
+        "Target": [
+            "swiss_cheese",
+            "wicker_basket"
+        ],
+        "Expect Scene Graph": [
+            [
+                "candle",
+                "inside",
+                "wicker_basket"
+            ],
+            [
+                "swiss_cheese",
+                "inside",
+                "wicker_basket"
+            ],
+            [
+                "butter_cookie",
+                "inside",
+                "wicker_basket"
+            ],
+            [
+                "bow",
+                "inside",
+                "wicker_basket"
+            ]
+        ]
+    },
+    "Step 6": {
+        "Planning": "Put the butter cookie inside the wicker basket",
+        "Target": [
+            "butter_cookie",
+            "wicker_basket"
+        ],
+        "Expect Scene Graph": [
+            [
+                "candle",
+                "inside",
+                "wicker_basket"
+            ],
+            [
+                "swiss_cheese",
+                "inside",
+                "wicker_basket"
+            ],
+            [
+                "butter_cookie",
+                "inside",
+                "wicker_basket"
+            ],
+            [
+                "bow",
+                "inside",
+                "wicker_basket"
+            ]
+        ]
+    },
+    "Step 7": {
+        "Planning": "Put the bow inside the wicker basket",
+        "Target": [
+            "bow",
+            "wicker_basket"
+        ],
+        "Expect Scene Graph": [
+            [
+                "candle",
+                "inside",
+                "wicker_basket"
+            ],
+            [
+                "swiss_cheese",
+                "inside",
+                "wicker_basket"
+            ],
+            [
+                "butter_cookie",
+                "inside",
+                "wicker_basket"
+            ],
+            [
+                "bow",
+                "inside",
+                "wicker_basket"
+            ]
+        ]
+    }
+}

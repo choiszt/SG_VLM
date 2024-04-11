@@ -1,0 +1,1 @@
+{"Step 1": {"Planning": "Climb onto the floor", "Target": ["floor"], "Expect Scene Graph": [["mirror", "attached", "wall_nail"], ["agent", "ontop", "floor"]]}, "Step 2": {"Planning": "Remove the mirror from the wall", "Target": ["mirror", "wall_nail"], "Expect Scene Graph": null}}
