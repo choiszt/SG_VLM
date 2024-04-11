@@ -36,7 +36,7 @@ eval_interval = 600
 save_interval = 1000
 eval_iters = 100
 log_interval = 1
-devices = 8
+devices = 4
 
 # Hyperparameters
 learning_rate = 9e-3
@@ -44,9 +44,9 @@ batch_size = 64 / devices
 micro_batch_size = 2
 # micro_batch_size = 2
 gradient_accumulation_steps = batch_size // micro_batch_size
-epoch_size = 15000  # train dataset size
+epoch_size = 500  # train dataset size
 # epoch_size = 2
-num_epochs = 5
+num_epochs = 1
 max_iters = num_epochs * epoch_size // devices
 weight_decay = 0.02
 max_seq_length = 2048  # see scripts/prepare_alpaca.py
