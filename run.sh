@@ -1,0 +1,1 @@
+srun -p 3dobject_aigc_mid --gres=gpu:8 -J SG_VLM --ntasks-per-node=8 python finetune/octopus_adapter.py
