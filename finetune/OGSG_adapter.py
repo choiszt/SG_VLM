@@ -39,19 +39,12 @@ from wandb.integration.lightning.fabric import WandbLogger
 
 import argparse
 
-parser = argparse.ArgumentParser()
-
-# 添加 experiment_name 参数
-parser.add_argument('experiment_name', type=str, help='Name of the experiment')
-
-args = parser.parse_args()
-experiment_name = args.experiment_name
 
 eval_interval = 600
 save_interval = 1000
 eval_iters = 100
 log_interval = 1
-devices = 4
+devices = 8
 
 # Hyperparameters
 learning_rate = 9e-3
@@ -74,15 +67,36 @@ ds_config = {
 }
 
 def main(
-    data_dir: str = f"data/OGSG_data/{experiment_name}", 
-    pretrained_path: str = "checkpoints/lit-llama/7B/lit-llama.pth",
-    out_dir: str = F"out/adapter/OGSG/{experiment_name}",
+    data_dir: None, 
+    pretrained_path: None,
+    out_dir: None,
 ):
 
     wandb_logger = WandbLogger(log_model="all")
 
     # logger=TensorBoardLogger("./log", name=EXPERIMENT_NAME)
+    wandb_logger.log_hyperparams(
+        dict(
+        eval_interval = 600,
+        save_interval = 1000,
+        eval_iters = 100,
+        log_interval = 1,
+        devices = 8,
 
+        # Hyperparameters
+        learning_rate = 9e-3,
+        batch_size = 64 / devices,
+        micro_batch_size = 2,
+        gradient_accumulation_steps = batch_size // micro_batch_size,
+        epoch_size = 1500,  # train dataset size
+        # epoch_size = 2
+        num_epochs = 1,
+        max_iters = num_epochs * epoch_size // devices,
+        weight_decay = 0.02,
+        max_seq_length = 1024,  # see scripts/prepare_alpaca.py
+        warmup_steps = epoch_size * 2 // micro_batch_size // devices, # 2 epochs
+        )
+    )
     fabric = L.Fabric(
         accelerator="cuda", 
         devices=devices, 
@@ -243,8 +257,8 @@ def get_batch(fabric: L.Fabric, data: list):
 
 
 def load_datasets(data_dir):
-    train_data = torch.load(os.path.join(data_dir, "train_15k.pt"))
-    val_data = torch.load(os.path.join(data_dir, "test_15k.pt"))
+    train_data = torch.load(os.path.join(data_dir, "train.pt"))
+    val_data = torch.load(os.path.join(data_dir, "test.pt"))
     return train_data, val_data
 
 
@@ -278,4 +292,15 @@ if __name__ == "__main__":
 
     from jsonargparse.cli import CLI
 
-    CLI(main)
+    parser = argparse.ArgumentParser()
+
+    # 添加 experiment_name 参数
+    parser.add_argument('experiment_name', type=str, help='Name of the experiment')
+
+    # 解析命令行参数
+    args = parser.parse_args()
+
+    # 使用传入的 experiment_name 参数
+    experiment_name = args.experiment_name
+    print(experiment_name)
+    CLI(main(data_dir= f"data/OGSG_data/{experiment_name}", pretrained_path= "checkpoints/lit-llama/7B/lit-llama.pth",out_dir= F"out/adapter/OGSG/{experiment_name}"))

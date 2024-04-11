@@ -1,0 +1,4 @@
+
+[2024-04-12 00:55:32,868] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+initializing deepspeed distributed: GLOBAL_RANK: 0, MEMBER: 1/8
+Enabling DeepSpeed BF16. Model parameters and inputs will be cast to `bfloat16`.

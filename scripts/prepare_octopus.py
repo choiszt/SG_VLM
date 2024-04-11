@@ -1,7 +1,7 @@
 """Implementation derived from https://github.com/tloen/alpaca-lora"""
-import ptvsd
-ptvsd.enable_attach(address=('10.140.0.184', 5678))
-ptvsd.wait_for_attach()
+# import ptvsd
+# ptvsd.enable_attach(address=('10.140.0.184', 5678))
+# ptvsd.wait_for_attach()
 import sys
 from pathlib import Path
 
