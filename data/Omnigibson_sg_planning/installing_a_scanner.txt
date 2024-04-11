@@ -1,0 +1,1 @@
+"{\n\"Step 1\": {\"Planning\":\"Pick up the scanner from the table\", \"Target\": [\"scanner\",\"table\"], \"Expect Scene Graph\": null},\n\"Step 2\": {\"Planning\":\"Place the scanner on the floor\", \"Target\": [\"scanner\",\"floor\"], \"Expect Scene Graph\": [\"scanner\", \"ontop\", \"floor\"]}\n}"

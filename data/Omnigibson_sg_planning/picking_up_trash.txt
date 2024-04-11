@@ -1,0 +1,1 @@
+"{\n\"Step 1\": {\"Planning\":\"Find the trash on the floor\", \"Target\": [\"floor\"], \"Expect Scene Graph\": [[\"can__of__soda\", \"ontop\", \"floor\"]]},\n\"Step 2\": {\"Planning\":\"Pick up the trash\", \"Target\": [\"floor\",\"ashcan\"], \"Expect Scene Graph\": null}\n}"

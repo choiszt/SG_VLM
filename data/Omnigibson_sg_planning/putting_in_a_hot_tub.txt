@@ -1,0 +1,1 @@
+"{\n\"Step 1\": {\"Planning\":\"Move the hot tub from the driveway to the lawn\", \"Target\": [\"hot_tub\",\"driveway\",\"lawn\"], \"Expect Scene Graph\": [[\"hot_tub\", \"ontop\", \"lawn\"],[\"agent\", \"ontop\", \"floor\"]]}\n}"
