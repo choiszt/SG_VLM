@@ -1,14 +1,10 @@
-Here's a template for a README.md file for your project "SG_VLM" (Scene Graph Enhanced Embodied Task Planning). This README will outline the project's purpose, setup, installation, and usage guidelines.
-
----
-
 <div align="center">
-<img src="./howto/figure/SG_VLM_logo.png" alt="SG_VLM Logo" width="200"/>
+<img src="figure/logo.png" alt="SG_VLM Logo" width="200"/>
 
 # SG_VLM
 </div>
 
-# Scene Graph Enhanced Embodied Task Planning (SG_VLM)
+# Scene Graph Enhanced Embodied Task Planning
 Official implementation of "Scene Graph Enhanced Embodied Task Planning with Large Language Models".
 
 Try out the web demo 🤗 of **SG_VLM**: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/yourusername/SG_VLM)
