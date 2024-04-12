@@ -53,7 +53,7 @@ micro_batch_size = 2
 gradient_accumulation_steps = batch_size // micro_batch_size
 epoch_size = 1500  # train dataset size
 # epoch_size = 2
-num_epochs = 1
+num_epochs = 8
 max_iters = num_epochs * epoch_size // devices
 weight_decay = 0.02
 max_seq_length = 1024  # see scripts/prepare_alpaca.py
@@ -67,36 +67,36 @@ ds_config = {
 }
 
 def main(
-    data_dir: None, 
-    pretrained_path: None,
-    out_dir: None,
+    data_dir=None,
+    pretrained_path=None,
+    out_dir=None,
+    wandb=True
 ):
+    if wandb:
+        wandb_logger = WandbLogger(log_model="all")
+        wandb_logger.log_hyperparams(
+            dict(
+            eval_interval = 600,
+            save_interval = 1000,
+            eval_iters = 100,
+            log_interval = 1,
+            devices = 8,
 
-    wandb_logger = WandbLogger(log_model="all")
-
-    # logger=TensorBoardLogger("./log", name=EXPERIMENT_NAME)
-    wandb_logger.log_hyperparams(
-        dict(
-        eval_interval = 600,
-        save_interval = 1000,
-        eval_iters = 100,
-        log_interval = 1,
-        devices = 8,
-
-        # Hyperparameters
-        learning_rate = 9e-3,
-        batch_size = 64 / devices,
-        micro_batch_size = 2,
-        gradient_accumulation_steps = batch_size // micro_batch_size,
-        epoch_size = 1500,  # train dataset size
-        # epoch_size = 2
-        num_epochs = 1,
-        max_iters = num_epochs * epoch_size // devices,
-        weight_decay = 0.02,
-        max_seq_length = 1024,  # see scripts/prepare_alpaca.py
-        warmup_steps = epoch_size * 2 // micro_batch_size // devices, # 2 epochs
+            # Hyperparameters
+            learning_rate = 9e-3,
+            batch_size = 64 / devices,
+            micro_batch_size = 2,
+            gradient_accumulation_steps = batch_size // micro_batch_size,
+            epoch_size = 1500,  # train dataset size
+            # epoch_size = 2
+            num_epochs = 8,
+            max_iters = num_epochs * epoch_size // devices,
+            weight_decay = 0.02,
+            max_seq_length = 1024,  # see scripts/prepare_alpaca.py
+            warmup_steps = epoch_size * 2 // micro_batch_size // devices, # 2 epochs
+            )
         )
-    )
+    # tsboard_logger=TensorBoardLogger("./log", name=data_dir.split("/")[-1])
     fabric = L.Fabric(
         accelerator="cuda", 
         devices=devices, 
@@ -290,17 +290,17 @@ if __name__ == "__main__":
     torch.backends.cuda.enable_flash_sdp(False)
     torch.set_float32_matmul_precision("high")
 
-    from jsonargparse.cli import CLI
+    # from jsonargparse.cli import CLI
 
     parser = argparse.ArgumentParser()
 
-    # 添加 experiment_name 参数
     parser.add_argument('experiment_name', type=str, help='Name of the experiment')
-
-    # 解析命令行参数
+    parser.add_argument('outpath_dir', type=str, help='Output path')
     args = parser.parse_args()
 
-    # 使用传入的 experiment_name 参数
     experiment_name = args.experiment_name
+    outpath=args.outpath_dir
+
+
     print(experiment_name)
-    CLI(main(data_dir= f"data/OGSG_data/{experiment_name}", pretrained_path= "checkpoints/lit-llama/7B/lit-llama.pth",out_dir= F"out/adapter/OGSG/{experiment_name}"))
+    main(data_dir= f"data/OGSG_data/{experiment_name}", pretrained_path= "checkpoints/lit-llama/7B/lit-llama.pth",out_dir= F"out/adapter/OGSG/{outpath}",wandb=True)
