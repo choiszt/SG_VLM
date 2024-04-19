@@ -22,17 +22,17 @@ from scripts.prepare_alpaca import generate_prompt
 
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "7"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 def main(
     prompt: str = "Can you prepare me a sandwich?",
     input: str = "",
-    adapter_path: Path = Path("out/adapter/OGSG/octopus_adapter_04_12_1712908577_initsg_planning/lit-llama-adapter-finetuned.pth"),
-    test_EXP: str="initsg_planning",
+    adapter_path: Path = Path("out/adapter/OGSG/octopus_adapter_04_12_1712919751_initsg_finalsg_targetobj_planning/lit-llama-adapter-finetuned.pth"),
+    test_EXP: str="initsg_finalsg_targetobj_planning",
     pretrained_path: Path = Path("checkpoints/lit-llama/7B/lit-llama.pth"),
     tokenizer_path: Path = Path("checkpoints/lit-llama/tokenizer.model"),
     quantize: Optional[str] = None,
-    max_new_tokens: int = 100,
+    max_new_tokens: int = 1024,
     top_k: int = 200,
     temperature: float = 0.8,
 ) -> None:
@@ -85,7 +85,7 @@ def main(
 
     tokenizer = Tokenizer(tokenizer_path)
     
-    with open(f"data/OGSG_data/{test_EXP}/{test_EXP}_train.json","r")as f:
+    with open(f"data/OGSG_data/{test_EXP}/{test_EXP}_test.json","r")as f:
         OGSG_data=json.load(f)
 
     result={}
@@ -109,8 +109,9 @@ def main(
             eos_id=tokenizer.eos_id
         )
         output = tokenizer.decode(y)
-        print(output)
-        break
+        # print(output)
+        with open(f"out/{test_EXP}/{task}.txt","w")as f:
+            f.write(output)
 
 if __name__ == "__main__":
     from jsonargparse import CLI
