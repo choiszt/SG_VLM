@@ -1,6 +1,6 @@
-import ptvsd
-ptvsd.enable_attach(address=('10.140.0.184', 5678))
-ptvsd.wait_for_attach()
+# import ptvsd
+# ptvsd.enable_attach(address=('10.140.0.184', 5678))
+# ptvsd.wait_for_attach()
 import re
 import json
 from tqdm import tqdm
@@ -187,7 +187,7 @@ def generate_instruction(option,is_train):
             for step,info in og_planning.items():
                 planning+=f"{step}: {info['Planning']}\n"    
 
-            OGSG_result[bddl_task]['instruction']=f"Task Goal:\n{bddl_task}\nObserved Relation:\n{input_initial_scene_graph}\Goal Expected Relation:\n{input_goal_scene_graph}\nNow please output plannings for doing {bddl_task}"
+            OGSG_result[bddl_task]['instruction']=f"Task Goal:\n{bddl_task}\nObserved Relation:\n{input_initial_scene_graph}\nGoal Expected Relation:\n{input_goal_scene_graph}\nNow please output plannings for doing {bddl_task}"
             OGSG_result[bddl_task]['answer']=planning
 
         if option=="initsg_finalsg_targetobj_planning":
@@ -195,7 +195,7 @@ def generate_instruction(option,is_train):
             for step,info in og_planning.items():
                 planning+=f"{step}: {info['Planning']}\nTarget:{str(info['Target'])}\n"     
 
-            OGSG_result[bddl_task]['instruction']=f"Task Goal:\n{bddl_task}\nObserved Relation:\n{input_initial_scene_graph}\Goal Expected Relation:\n{input_goal_scene_graph}\nNow please output plannings for doing {bddl_task}"
+            OGSG_result[bddl_task]['instruction']=f"Task Goal:\n{bddl_task}\nObserved Relation:\n{input_initial_scene_graph}\nGoal Expected Relation:\n{input_goal_scene_graph}\nNow please output plannings for doing {bddl_task}"
             OGSG_result[bddl_task]['answer']=planning
 
     return OGSG_result         
@@ -204,6 +204,7 @@ if __name__ == '__main__':
     makedir=lambda PATH: os.makedirs(PATH) if not os.path.exists(PATH) else None
 
     OPTIONS=["initsg_planning","initsg_targetobj_planning","initsg_finalsg_planning","initsg_finalsg_targetobj_planning"]
+    # OPTIONS=["initsg_targetobj_planning","initsg_finalsg_targetobj_planning"]
     for OPTION in OPTIONS:
         tar_path=os.path.join("data/OGSG_data/",OPTION)
         makedir(tar_path)
