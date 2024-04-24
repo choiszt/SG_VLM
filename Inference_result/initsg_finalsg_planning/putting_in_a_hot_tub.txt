@@ -1,0 +1,9 @@
+Task Goal:
+putting_in_a_hot_tub
+Observed Relation:
+['hot_tub', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+['hot_tub', 'ontop', 'lawn']
+Now please output plannings for doing putting_in_a_hot_tub
+### Response:
+Step 1: Move the hot tub from the driveway to the lawn

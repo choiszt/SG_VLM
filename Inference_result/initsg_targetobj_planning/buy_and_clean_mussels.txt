@@ -1,0 +1,49 @@
+Task Goal:
+buy_and_clean_mussels
+Observed Relation:
+['mussel', 'inside', 'sack']
+['mussel', 'covered', 'sand']
+['sack', 'ontop', 'countertop']
+['mixing_bowl', 'filled', 'water']
+['mixing_bowl', 'ontop', 'countertop']
+['paper_towel', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing buy_and_clean_mussels
+Step 1: Take the sack to the cashier
+Target:['sack']
+Step 2: Open the sack
+Target:['sack']
+Step 3: Take the mussels out of the sack
+Target:['sack', 'mussel']
+Step 4: Clean the mussels with sand
+Target:['mussel', 'sand']
+Step 5: Fill the mixing bowl with water
+Target:['mixing_bowl', 'water']
+Step 6: Put the mussels into the mixing bowl
+Target:['mussel', 'mixing_bowl']
+Step 7: Dry the paper towel
+Target:['paper_towel']
+Step 8: Put the mussels into the microwave
+Target:['mussel', 'microwave']
+Step 9: Microwave the mussels
+Target:['mussel', 'microwave']
+Step 10: Take the mussels out of the microwave
+Target:['mussel', 'microwave']
+Step 11: Put the mussels into the sink
+Target:['mussel', 'sink']
+Step 12: Wipe the sink with the paper towel
+Target:['sink', 'paper_towel']
+Step 13: Put the mussels into the sink
+Target:['mussel', 'sink']
+Step 14: Clean the sink with water
+Target:['sink', 'water']
+Step 15: Put the mussels into the sink
+Target:['mussel', 'sink']
+Step 16: Clean the sink with water
+Target:['sink', 'water']
+Step 17: Put the mussels into the sink
+Target:['mussel', 'sink']
+Step 18: Clean the sink with water
+Target:['sink', 'water']
+Step 19: Put the mussels into the sink
+Target:['mussel', 'sink']

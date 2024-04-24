@@ -1,0 +1,21 @@
+Task Goal:
+sorting_vegetables
+Observed Relation:
+['mixing_bowl', 'ontop', 'countertop']
+['wicker_basket', 'ontop', 'countertop']
+['bok_choy', 'inside', 'wicker_basket']
+['chard', 'inside', 'wicker_basket']
+['leek', 'inside', 'wicker_basket']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+['bok_choy', 'inside', 'mixing_bowl']
+['chard', 'inside', 'mixing_bowl']
+['leek', 'inside', 'mixing_bowl']
+['artichoke', 'inside', 'mixing_bowl']
+['sweet_corn', 'inside', 'mixing_bowl']
+Now please output plannings for doing sorting_vegetables
+Step 1: Move the wicker basket from the countertop to the floor
+Step 2: Take the bok choy out of the wicker basket and put it into the mixing bowl
+Step 3: Take the chard out of the wicker basket and put it into the mixing bowl
+Step 4: Take the leek out of the wicker basket and put it into the mixing bowl
+Step 5: Take the artichoke out of the wicker basket and put it into the mixing bowl
+Step 6: Take the sweet corn out of the wicker basket and put it into the mixing bowl

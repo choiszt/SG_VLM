@@ -1,0 +1,39 @@
+Task Goal:
+cleaning_shed
+Observed Relation:
+['broom', 'ontop', 'floor']
+['vacuum', 'ontop', 'floor']
+['rake', 'ontop', 'floor']
+['shovel', 'ontop', 'floor']
+['chicken_wire', 'ontop', 'floor']
+['trowel', 'ontop', 'floor']
+['leaf_blower', 'ontop', 'floor']
+['leaf_blower', 'covered', 'dust']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cleaning_shed
+The broom should be moved to the right side of the shed
+The vacuum should be moved to the right side of the shed
+The rake should be moved to the left side of the shed
+The shovel should be moved to the left side of the shed
+The chicken wire should be moved to the right side of the shed
+The trowel should be moved to the right side of the shed
+The leaf blower should be cleaned off dust
+The leaf blower should be moved to the right side of the shed
+The agent should stand on the right side of the shed
+
+Answer: Agent:
+
+Observed Relation:
+
+'Broom' is covered with dust
+
+'Vacuum' is covered with dust
+
+'Rake' is covered with dust
+
+'Shovel' is covered with dust
+
+'Chicken wire' is covered with dust
+
+'Trowel' is covered with dust
+

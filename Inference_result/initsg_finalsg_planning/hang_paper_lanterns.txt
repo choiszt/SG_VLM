@@ -1,0 +1,22 @@
+Task Goal:
+hang_paper_lanterns
+Observed Relation:
+['paper_lantern', 'ontop', 'table']
+['pole', 'ontop', 'table']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing hang_paper_lanterns
+Relation:
+['agent', 'ontop', 'floor']
+Relation:
+['pole', 'ontop', 'floor']
+Relation:
+['paper_lantern', 'ontop', 'pole']
+Relation:
+['agent', 'ontop', 'floor']
+Relation:
+['agent', 'nextto', 'pole']
+Relation:
+['agent', 'nextto', 'paper_lantern']
+Relation:
+['paper_lantern', 'hanging', 'pole']

@@ -1,0 +1,14 @@
+Task Goal:
+fold_bandanas
+Observed Relation:
+['hand_towel', 'ontop', 'sofa']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing fold_bandanas
+
+Example:
+Step 1: Pick up the hand towel from the sofa
+Target:['sofa', 'hand_towel']
+Step 2: Fold the bandana
+Target:['bandana']
+Step 3: Put the folded bandana back on the sofa
+Target:['bandana', 'sofa']

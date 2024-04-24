@@ -1,0 +1,14 @@
+Task Goal:
+make_yams
+Observed Relation:
+['stockpot', 'ontop', 'countertop']
+['yam', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_yams
+### Response:
+Step 1: Fill the stockpot with water from the sink
+Step 2: Add yam to the stockpot
+Step 3: Cook the yam in the stockpot
+Step 4: Serve the cooked yam

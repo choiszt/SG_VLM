@@ -1,0 +1,14 @@
+Task Goal:
+putting_protective_cover_on_vehicle
+Observed Relation:
+['car', 'ontop', 'driveway']
+['tarpaulin', 'ontop', 'lawn']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing putting_protective_cover_on_vehicle
+
+Now please output plannings for doing putting_protective_cover_on_vehicle
+
+The put protective cover on the vehicle task involves putting a tarpaulin on the vehicle. Since this is a sequential planning task, the plannings for doing putting_protective_cover_on_vehicle should include plannings for doing put_protective_cover_on_vehicle
+Now please output plannings for doing putting_protective_cover_on_vehicle
+

@@ -1,0 +1,18 @@
+Task Goal:
+treating_stains
+Observed Relation:
+['table_linen', 'covered', 'stain']
+['detergent__bottle', 'filled', 'detergent']
+['detergent__bottle', 'ontop', 'floor']
+['table_linen', 'ontop', 'floor']
+['rag', 'ontop', 'floor']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing treating_stains
+Step 1: Take the rag and put it on the sink
+Step 2: Take the detergent bottle and fill it with detergent
+Step 3: Pick up the table linen and put it on the rag
+Step 4: Take the stained clothing and put it on the rag
+Step 5: Fill the sink with water
+Step 6: Laid the rag with detergent in the sink
+Step 7: Treat the stain on the clothing with the rag

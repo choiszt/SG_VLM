@@ -1,0 +1,25 @@
+Task Goal:
+adding_chemicals_to_lawn
+Observed Relation:
+['herbicide__bottle', 'ontop', 'floor']
+['fertilizer__atomizer', 'ontop', 'floor']
+['herbicide__bottle', 'filled', 'herbicide']
+['fertilizer__atomizer', 'insource', 'fertilizer']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing adding_chemicals_to_lawn
+### Response:
+Step 1: Pick up the herbicide bottle
+Target:['herbicide__bottle']
+Step 2: Pick up the fertilizer atomizer
+Target:['fertilizer__atomizer']
+Step 3: Open the herbicide bottle
+Target:['herbicide__bottle']
+Step 4: Pour the herbicide into the fertilizer atomizer
+Target:['herbicide__bottle', 'fertilizer__atomizer']
+Step 5: Spray the herbicide onto the lawn
+Target:['herbicide__bottle', 'lawn']
+Step 6: Finish spraying the herbicide
+Target:['lawn']
+Step 7: Put the herbicide bottle and fertilizer atomizer back
+Target:['herbicide__bottle', 'fertilizer__atomizer']

@@ -1,0 +1,22 @@
+Task Goal:
+decorating_for_religious_ceremony
+Observed Relation:
+['dip', 'inside', 'shelf']
+['wreath', 'ontop', 'floor']
+['candlestick', 'inside', 'shelf']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing decorating_for_religious_ceremony
+Step 1: Move the agent off the floor
+Target:['floor']
+Step 2: Move the dip out of the shelf
+Target:['shelf', 'dip']
+Step 3: Move the wreath off the floor
+Target:['floor', 'wreath']
+Step 4: Move the candlestick out of the shelf
+Target:['shelf', 'candlestick']
+Step 5: Place the wreath on the floor
+Target:['floor', 'wreath']
+Step 6: Place the candlestick on the floor
+Target:['floor', 'candlestick']
+Step 7: Place the dip on the shelf
+Target:['shelf', 'dip']

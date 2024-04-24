@@ -1,0 +1,24 @@
+Task Goal:
+cook_brussels_sprouts
+Observed Relation:
+['brussels_sprouts', 'inside', 'tupperware']
+['tupperware', 'inside', 'electric_refrigerator']
+['stockpot', 'ontop', 'stove']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing cook_brussels_sprouts
+### Response:
+Step 1: Take the tupperware out of the electric refrigerator
+Target:['electric_refrigerator', 'tupperware']
+Step 2: Take the brussels sprouts out of the tupperware
+Target:['tupperware', 'brussels_sprouts']
+Step 3: Fill the stockpot with water
+Target:['stockpot', 'water']
+Step 4: Put the stockpot on the stove
+Target:['stockpot', 'stove']
+Step 5: Cook the brussels sprouts on the stove
+Target:['stockpot', 'brussels_sprouts']
+Step 6: Remove the brussels sprouts from the stockpot
+Target:['stockpot', 'brussels_sprouts']
+Step 7: Transfer the brussels sprouts into a bowl
+Target:['brussels_sprouts', 'bowl']

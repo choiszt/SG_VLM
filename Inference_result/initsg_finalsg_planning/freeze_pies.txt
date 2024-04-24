@@ -1,0 +1,17 @@
+Task Goal:
+freeze_pies
+Observed Relation:
+['apple_pie', 'ontop', 'plate']
+['plate', 'ontop', 'oven']
+['tupperware', 'inside', 'cabinet']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+['apple_pie', 'inside', 'tupperware']
+Now please output plannings for doing freeze_pies
+Step 1: Open the cabinet
+Step 2: Take the tupperware out of the cabinet
+Step 3: Put the apple pie inside the tupperware
+Step 4: Close the tupperware
+Step 5: Put the tupperware into the oven
+Step 6: Turn on the oven
+Step 7: Wait for the oven to heat up

@@ -1,0 +1,18 @@
+Task Goal:
+making_a_meal
+Observed Relation:
+['pasta__box', 'filled', 'penne']
+['pasta__box', 'inside', 'cabinet']
+['meatball', 'inside', 'tupperware']
+['tupperware', 'inside', 'electric_refrigerator']
+['marinara__jar', 'filled', 'marinara']
+['marinara__jar', 'inside', 'electric_refrigerator']
+['bowl', 'inside', 'cabinet']
+['stockpot', 'inside', 'cabinet']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing making_a_meal
+"""
+coverage="task"
+maintenance

@@ -1,0 +1,17 @@
+Task Goal:
+polishing_furniture
+Observed Relation:
+['shelf', 'covered', 'dust']
+['table', 'covered', 'dust']
+['rag', 'ontop', 'table']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing polishing_furniture
+### Response:
+Step 1: Take the rag from the table
+Step 2: Remove the dust from the shelf
+Step 3: Remove the dust from the table
+Step 4: Polish the furniture
+Step 5: Put the rag back on the table
+Step 6: Move the furniture back to its original position
+Step 7: Ensure the furniture is polished

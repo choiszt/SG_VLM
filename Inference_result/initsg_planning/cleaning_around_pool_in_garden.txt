@@ -1,0 +1,14 @@
+Task Goal:
+cleaning_around_pool_in_garden
+Observed Relation:
+['driveway', 'covered', 'dust']
+['broom', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cleaning_around_pool_in_garden
+Step 1: Pick up the broom
+Step 2: Sweep the dust from the driveway
+Step 3: Clean the broom
+Step 4: Put the broom back
+Step 5: Clean the floor
+Step 6: Remove the agent from the floor
+Step 7: Finish cleaning_around_pool_in_garden

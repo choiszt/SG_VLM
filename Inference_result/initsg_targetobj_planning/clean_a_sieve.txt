@@ -1,0 +1,25 @@
+Task Goal:
+clean_a_sieve
+Observed Relation:
+['sieve', 'covered', 'adhesive_material']
+['sieve', 'ontop', 'countertop']
+['liquid_soap__bottle', 'filled', 'liquid_soap']
+['liquid_soap__bottle', 'inside', 'cabinet']
+['sponge', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_a_sieve
+Step 1: Open the cabinet
+Target:['cabinet']
+Step 2: Take the liquid soap bottle out of the cabinet
+Target:['cabinet', 'liquid_soap__bottle']
+Step 3: Take the sieve off the countertop
+Target:['sieve', 'ontop', 'countertop']
+Step 4: Fill the sink with water
+Target:['sink', 'water']
+Step 5: Pour liquid soap into the sink
+Target:['liquid_soap__bottle', 'sink']
+Step 6: Clean the sieve with the soapy water
+Target:['sieve', 'sink']
+Step 7: Rinse the sieve with water
+Target:['sieve', 'sink']

@@ -1,0 +1,27 @@
+Task Goal:
+make_a_blended_iced_cappuccino
+Observed Relation:
+['sink', 'insource', 'water']
+['tablespoon', 'ontop', 'countertop']
+['instant_coffee__jar', 'filled', 'instant_coffee']
+['instant_coffee__jar', 'inside', 'cabinet']
+['sugar__sack', 'filled', 'cane_sugar']
+['sugar__sack', 'inside', 'cabinet']
+['milk__carton', 'filled', 'chocolate_milk']
+['milk__carton', 'inside', 'electric_refrigerator']
+['ice_cube', 'inside', 'bowl']
+['cup', 'ontop', 'countertop']
+['blender', 'ontop', 'countertop']
+['coffee_maker', 'ontop', 'countertop']
+['bowl', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_a_blended_iced_cappuccino
+###
+Step 1: Take the water from the sink
+Step 2: Take the coffee powder from the coffee jar
+Step 3: Take the sugar from the sugar sack
+Step 4: Take the chocolate milk from the milk carton
+Step 5: Take the ice cube from the bowl
+Step 6: Put the coffee powder in the blender
+Step 7: Put the sugar in the blender

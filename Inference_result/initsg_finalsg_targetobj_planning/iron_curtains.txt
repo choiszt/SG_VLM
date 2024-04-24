@@ -1,0 +1,23 @@
+Task Goal:
+iron_curtains
+Observed Relation:
+['ironing_board', 'ontop', 'floor']
+['iron', 'ontop', 'ironing_board']
+['curtain', 'ontop', 'ironing_board']
+['curtain', 'covered', 'wrinkle']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing iron_curtains
+### Response:
+Step 1: Pick up the ironing board
+Target:['ironing_board']
+Step 2: Place the ironing board on the floor
+Target:['ironing_board', 'floor']
+Step 3: Place the wrinkled curtain on the ironing board
+Target:['curtain', 'ironing_board']
+Step 4: Iron the wrinkles out of the curtain using the iron
+Target:['iron', 'curtain']
+Step 5: Remove the iron from the ironing board
+Target:['iron', 'curtain']
+Step 6: Hang the ironed curtain on the wall-nail
+Target:['ironed_curtain', 'wall_nail']

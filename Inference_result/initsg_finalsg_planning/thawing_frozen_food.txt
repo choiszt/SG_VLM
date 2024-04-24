@@ -1,0 +1,18 @@
+Task Goal:
+thawing_frozen_food
+Observed Relation:
+['date', 'inside', 'electric_refrigerator']
+['olive', 'inside', 'electric_refrigerator']
+['lobster', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing thawing_frozen_food
+
+## Response:
+Step 1: Open the electric refrigerator
+Step 2: Take the date out of the electric refrigerator
+Step 3: Place the date in the microwave
+Step 4: Set the microwave to heat mode
+Step 5: Turn on the microwave and set the microwave to cook mode
+Step 6: Start thawing the date
+Step 7: Continue thawing the date

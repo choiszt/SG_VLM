@@ -1,0 +1,47 @@
+Task Goal:
+make_garlic_mushrooms
+Observed Relation:
+['frying_pan', 'inside', 'cabinet']
+['olive_oil__bottle', 'filled', 'olive_oil']
+['olive_oil__bottle', 'inside', 'cabinet']
+['clove', 'inside', 'tupperware']
+['tupperware', 'inside', 'electric_refrigerator']
+['green_onion', 'inside', 'electric_refrigerator']
+['chopping_board', 'ontop', 'breakfast_table']
+['carving_knife', 'inside', 'cabinet']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'breakfast_table']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_garlic_mushrooms
+First we need to take the garlic out of the tupperware
+Target:
+['tupperware', 'garlic']
+Then we need to take the garlic out of the frying pan
+Target:
+['frying_pan', 'garlic']
+Then we need to take the olive oil out of the olive oil bottle
+Target:
+['olive_oil__bottle', 'olive_oil']
+Now we can prepare the ingredients for cooking
+Target:
+['olive_oil', 'olive_oil__bottle', 'frying_pan', 'tupperware', 'green_onion', 'clove', 'chopping_board', 'carving_knife', 'salt__shaker']
+Now we can start cooking the garlic mushrooms
+Target:
+['garlic__mushroom']
+
+Plan:
+take the garlic out of the tupperware
+Target:
+['tupperware', 'garlic']
+take the garlic out of the frying pan
+Target:
+['frying_pan', 'garlic']
+take the olive oil out of the olive oil bottle
+Target:
+['olive_oil__bottle', 'olive_oil']
+prepare the ingredons for cooking
+Target:
+['olive_oil', 'olive_oil__bottle', 'frying_pan', 'tupperware', 'green_onion', 'clove', 'chopping_board', 'carving_knife', 'salt__shaker']
+cook the garlic mushrooms
+Target:
+['garlic__mushroom']

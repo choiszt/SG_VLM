@@ -1,0 +1,26 @@
+Task Goal:
+pack_a_pencil_case
+Observed Relation:
+['pencil_box', 'ontop', 'desk']
+['pen', 'ontop', 'desk']
+['pencil', 'ontop', 'desk']
+['eraser', 'ontop', 'desk']
+['shears', 'ontop', 'desk']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing pack_a_pencil_case
+### Response:
+Step 1: Pick up the pencil box
+Target:['pencil_box']
+Step 2: Open the pencil box
+Target:['pencil_box']
+Step 3: Put the pencil inside the pencil box
+Target:['pencil_box', 'pen']
+Step 4: Close the pencil box
+Target:['pencil_box']
+Step 5: Put the pen inside the pencil case
+Target:['pencil_case', 'pen']
+Step 6: Close the pencil case
+Target:['pencil_case']
+Step 7: Put the eraser, shears, and eraser powder on top of the pencil case
+Target:['pencil_case', 'eraser', 'shears', 'eraser_powder']

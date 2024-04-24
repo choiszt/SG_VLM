@@ -1,0 +1,18 @@
+Task Goal:
+throwing_out_used_napkins
+Observed Relation:
+['napkin', 'ontop', 'countertop']
+['ashcan', 'ontop', 'floor']
+['napkin', 'covered', 'stain']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing throwing_out_used_napkins
+
+### Response:
+Step 1: Pick up the napkin from the countertop
+Step 2: Remove the stain from the napkin
+Step 3: Put the stainless steel sink on the floor
+Step 4: Throw away the stained napkin into the sink
+Step 5: Pick up the clean napkin from the countertop
+Step 6: Put the clean napkin on the countertop
+Step 7: Finish throwing out used napkins

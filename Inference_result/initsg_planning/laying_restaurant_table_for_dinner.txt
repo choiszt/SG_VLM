@@ -1,0 +1,26 @@
+Task Goal:
+laying_restaurant_table_for_dinner
+Observed Relation:
+['plate', 'inside', 'cabinet']
+['tablefork', 'inside', 'cabinet']
+['table_knife', 'inside', 'cabinet']
+['tablespoon', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing laying_restaurant_table_for_dinner
+The tabletop is usually covered with a tablecloth. So first, take off the tablecloth. Then put the plates and utensils on the table. Finally, add mats and linens to the table.
+Relation between plannings and doing laying_restaurant_table_for_dinner:
+Relation between plannings and doing laying_restaurant_table_for_dinner:
+'Take off the tablecloth'
+'Put the plates and utensils on the table'
+'Add mats and linens to the table'
+'Step 1: Take off the tablecloth'
+'Step 2: Put the plates and utensils on the table'
+'Step 3: Add mats and linens to the table'
+'Step 4: Finish'
+'Step 4: Ongoing'
+'Step 4: Complete'
+'Step 4: Task plannings'
+'Step 4: Output plannings'
+'Step 4: Relation between plannings and doing'
+'Step 4: Continue'
+'Step 4: Relation between plannings and doing'

@@ -1,0 +1,30 @@
+Task Goal:
+make_cinnamon_sugar
+Observed Relation:
+['cinnamon__shaker', 'insource', 'cinnamon']
+['cinnamon__shaker', 'ontop', 'countertop']
+['sugar__sack', 'filled', 'granulated_sugar']
+['sugar__sack', 'ontop', 'countertop']
+['tablespoon', 'ontop', 'countertop']
+['mixing_bowl', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_cinnamon_sugar
+\Goal Expected Relation:
+None
+
+Possible Action:
+Step 1: Open the sugar sack
+Target:['sugar__sack']
+Step 2: Take a tablespoon of granulated sugar from the sack
+Target:['sugar__sack', 'tablespoon']
+Step 3: Take a tablespoon of cinnamon from the shaker
+Target:['cinnamon__shaker', 'tablespoon']
+Step 4: Put the cinnamon in the mixing bowl
+Target:['cinnamon', 'mixing_bowl']
+Step 5: Sprinkle the cinnamon sugar on the breakfast waffle
+Target:['cinnamon__shaker', 'mixing_bowl', 'waffle']
+Step 6: Close the sugar sack
+Target:['sugar__sack']
+Step 7: Close the shaker
+Target:['cinnamon__shaker']

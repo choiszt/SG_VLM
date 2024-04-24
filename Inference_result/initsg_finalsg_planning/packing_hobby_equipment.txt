@@ -1,0 +1,19 @@
+Task Goal:
+packing_hobby_equipment
+Observed Relation:
+['jigsaw_puzzle', 'ontop', 'sofa']
+['carton', 'ontop', 'floor']
+['baseball', 'ontop', 'floor']
+['soccer_ball', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing packing_hobby_equipment
+
+### Response:
+Step 1: Pick up the jigsaw puzzle from the sofa
+Step 2: Pick up the carton from the floor
+Step 3: Pick up the baseball from the floor
+Step 4: Pick up the soccer ball from the floor
+Step 5: Put the jigsaw puzzle in the carton
+Step 6: Put the baseball in the carton
+Step 7: Put the soccer ball in the carton

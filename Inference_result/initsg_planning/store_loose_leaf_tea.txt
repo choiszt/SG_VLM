@@ -1,0 +1,16 @@
+Task Goal:
+store_loose_leaf_tea
+Observed Relation:
+['sack', 'filled', 'green_tea']
+['sack', 'ontop', 'countertop']
+['mason_jar', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing store_loose_leaf_tea
+| Response:
+Step 1: Open the electric refrigerator
+Step 2: Put the sack of green tea into the electric refrigerator
+Step 3: Open the cabinet
+Step 4: Put the mason jar into the cabinet
+Step 5: Close the cabinet
+Step 6: Close the electric refrigerator
+Step 7: Store the loose leaf tea in the electric refrigerator

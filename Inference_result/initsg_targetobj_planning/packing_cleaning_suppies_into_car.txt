@@ -1,0 +1,23 @@
+Task Goal:
+packing_cleaning_suppies_into_car
+Observed Relation:
+['car', 'ontop', 'driveway']
+['face_mask', 'ontop', 'backpack']
+['rag', 'ontop', 'floor']
+['backpack', 'ontop', 'driveway']
+['scrub_brush', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing packing_cleaning_suppies_into_car
+### Response:
+Step 1: Open the car
+Target:['car']
+Step 2: Put the face mask into the car
+Target:['face_mask', 'car']
+Step 3: Put the rag on the floor
+Target:['rag', 'floor']
+Step 4: Put the backpack into the car
+Target:['backpack', 'car']
+Step 5: Put the scrub brush on the floor
+Target:['scrub_brush', 'floor']
+Step 6: Put the agent into the car
+Target:['agent', 'car']

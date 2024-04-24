@@ -1,0 +1,14 @@
+Task Goal:
+cleaning_around_pool_in_garden
+Observed Relation:
+['driveway', 'covered', 'dust']
+['broom', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing cleaning_around_pool_in_garden\Goal Expected Relation plannings should be output as a list of actions
+Now please output output plannings for cleaning_around_pool_in_garden
+### Response:
+Step 1: Pick up the broom from the floor
+Step 2: Move towards the driveway
+Step 3: Sweep the dust on the driveway
+Step 4: Put the broom back on the floor

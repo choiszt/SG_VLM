@@ -1,0 +1,16 @@
+Task Goal:
+boxing_food_after_dinner
+Observed Relation:
+['kabob', 'ontop', 'plate']
+['plate', 'ontop', 'breakfast_table']
+['tupperware', 'ontop', 'breakfast_table']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing boxing_food_after_dinner
+The postboxing_food_after_dinner answered the question: Now please output plannings for doing boxing_food_after_dinner
+Step 1: Pick up the plate from the breakfast table
+Step 2: Put the plate inside the tupperware
+Step 3: Take the kabob off the plate
+Step 4: Put the kabob into the tupperware
+Step 5: Close the tupperware
+Step 6: Move the tupperware to the pantry
+Step 7: Put the tupperware on the shelf

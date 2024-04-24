@@ -1,0 +1,19 @@
+Task Goal:
+clean_your_baseboard_radiators
+Observed Relation:
+['radiator', 'ontop', 'floor']
+['scrub_brush', 'ontop', 'floor']
+['radiator', 'covered', 'dust']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing clean_your_baseboard_radiators
+### Response:
+Step 1: Turn off the heating/air-conditioning unit
+Target:['heating_unit']
+Step 2: Clean the dust off the radiator
+Target:['dust']
+Step 3: Rinse the radiator with water
+Target:['water', 'sink']
+Step 4: Dry the radiator
+Target:['dry_towel']

@@ -1,0 +1,30 @@
+Task Goal:
+make_chicken_curry
+Observed Relation:
+['chicken_breast', 'inside', 'electric_refrigerator']
+['beefsteak_tomato', 'inside', 'electric_refrigerator']
+['vidalia_onion', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'chopping_board']
+['chopping_board', 'ontop', 'countertop']
+['cooking_oil__bottle', 'filled', 'cooking_oil']
+['cooking_oil__bottle', 'ontop', 'countertop']
+['curry_powder__shaker', 'insource', 'curry_powder']
+['curry_powder__shaker', 'ontop', 'countertop']
+['stockpot', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_chicken_curry task
+### Response:
+Step 1: Take the chicken breast out of the refrigerator
+Target:['electric_refrigerator', 'chicken_breast']
+Step 2: Take the beefsteak tomato out of the refrigerator
+Target:['electric_refrigerator', 'beefsteak_tomato']
+Step 3: Take the vidalia onion off the countertop
+Target:['countertop', 'vidalia_onion']
+Step 4: Put the chopping board on the countertop
+Target:['chopping_board', 'countertop']
+Step 5: Take the carving knife and chopping board from the countertop
+Target:['countertop', 'carving_knife', 'chopping_board']
+Step 6: Take the cooking oil bottle from the countertop
+Target:['countertop', 'cooking_oil__bottle']
+Step 7: Take the curry powder shaker from the countertop
+Target:['countertop', 'curry_powder__shaker']

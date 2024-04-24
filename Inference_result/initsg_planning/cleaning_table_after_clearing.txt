@@ -1,0 +1,17 @@
+Task Goal:
+cleaning_table_after_clearing
+Observed Relation:
+['table', 'covered', 'stain']
+['bar_soap', 'inside', 'cabinet']
+['dishtowel', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cleaning_table_after_clearing
+From the result above, we see that there are many things that can be done for cleaning_table_after_clearing
+Now please output plannings for doing 'cleaning_table_after_clearing'
+Step 1: Open the cabinet
+Step 2: Take the bar soap out of the cabinet
+Step 3: Take the dishtowel out of the cabinet
+Step 4: Clean the table with water and bar soap
+Step 5: Wipe the table with the dishtowel
+Step 6: Clean the floor with the dishtowel
+Step 7: Put everything back

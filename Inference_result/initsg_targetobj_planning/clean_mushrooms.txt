@@ -1,0 +1,24 @@
+Task Goal:
+clean_mushrooms
+Observed Relation:
+['paper_towel', 'ontop', 'countertop']
+['mushroom', 'inside', 'bowl']
+['bowl', 'inside', 'electric_refrigerator']
+['mushroom', 'covered', 'dirt']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_mushrooms
+Step 1: Take the mushroom out of the bowl
+Target:['bowl', 'mushroom']
+Step 2: Remove the dirt from the mushroom
+Target:['mushroom', 'dirt']
+Step 3: Fill the sink with water
+Target:['sink', 'water']
+Step 4: Wash the mushroom in the sink
+Target:['mushroom', 'sink']
+Step 5: Dry the mushroom with a paper towel
+Target:['mushroom', 'paper_towel']
+Step 6: Put the mushroom back in the bowl
+Target:['mushroom', 'bowl']
+Step 7: Refill the water in the sink
+Target:['sink', 'water']

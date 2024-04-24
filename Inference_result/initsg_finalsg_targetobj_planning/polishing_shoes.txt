@@ -1,0 +1,33 @@
+Task Goal:
+polishing_shoes
+Observed Relation:
+['shoe', 'covered', 'stain']
+['rag', 'ontop', 'floor']
+['shoe', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing polishing_shoes
+\Goal:
+None
+Task Goal:
+polish_shoes
+Now please output plannings for doing polishing_shoes
+Target:
+['shoe', 'rag']
+Step:
+['shoe', 'ontop', 'floor']
+['shoe', 'covered', 'stain']
+['rag', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Step:
+['shoe', 'covered', 'stain']
+['rag', 'ontop', 'floor']
+Step:
+['shoe', 'covered', 'stain']
+['shoe', 'free', 'stain']
+Step:
+['shoe', 'free', 'stain']
+Step:
+['shoe', 'polished']
+Target:
+None

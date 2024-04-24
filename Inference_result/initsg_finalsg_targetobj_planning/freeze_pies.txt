@@ -1,0 +1,25 @@
+Task Goal:
+freeze_pies
+Observed Relation:
+['apple_pie', 'ontop', 'plate']
+['plate', 'ontop', 'oven']
+['tupperware', 'inside', 'cabinet']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+['apple_pie', 'inside', 'tupperware']
+Now please output plannings for doing freeze_pies
+Now please output plannings for doing freeze_pies
+Step 1: Open the cabinet
+Target:['cabinet']
+Step 2: Take the tupperware out of the cabinet
+Target:['cabinet', 'tupperware']
+Step 3: Open the oven
+Target:['oven']
+Step 4: Put the apple pie in the tupperware
+Target:['apple_pie', 'tupperware']
+Step 5: Close the oven
+Target:['oven']
+Step 6: Fill the sink with water
+Target:['sink']
+Step 7: Put the tupperware with apple pie in the oven
+Target:['apple_pie', 'oven']

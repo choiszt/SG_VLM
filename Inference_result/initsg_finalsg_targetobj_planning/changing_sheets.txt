@@ -1,0 +1,16 @@
+Task Goal:
+changing_sheets
+Observed Relation:
+['sheet', 'ontop', 'bed']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing changing_sheets
+\Goal
+\ExpectedGoal: Tupperware
+\ExpectedGoal: Detergent__Bottle
+\ExpectedGoal: Laundry_Basket
+\ExpectedGoal: Sheet
+\Targets:['tupperware', 'detergent__bottle', 'laundry_basket', 'sheet']
+
+Now please output plannings for doing changing_sheets
+\Goal

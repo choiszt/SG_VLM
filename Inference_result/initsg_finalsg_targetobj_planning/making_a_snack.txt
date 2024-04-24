@@ -1,0 +1,26 @@
+Task Goal:
+making_a_snack
+Observed Relation:
+['tortilla_chip', 'inside', 'sack']
+['sack', 'ontop', 'countertop']
+['tupperware', 'filled', 'diced__beefsteak_tomato']
+['tupperware', 'inside', 'electric_refrigerator']
+['platter', 'ontop', 'electric_refrigerator']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing making_a_snack
+### Response:
+Step 1: Take the tortilla chip out of the sack
+Target:['tortilla_chip']
+Step 2: Open the electric refrigerator
+Target:['electric_refrigerator']
+Step 3: Take the platter out of the electric refrigerator
+Target:['platter', 'electric_refrigerator']
+Step 4: Put the platter on the countertop
+Target:['platter', 'countertop']
+Step 5: Take the diced beefsteak tomato out of the tupperware
+Target:['diced__beefsteak_tomato', 'tupperware']
+Step 6: Put the diced beefsteak tomato on the platter
+Target:['diced__beefsteak_tomato', 'platter']
+Step 7: Make the snack
+Target:['tortilla_chip', 'diced__beefsteak_tomato']

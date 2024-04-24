@@ -1,0 +1,19 @@
+Task Goal:
+organizing_file_cabinet
+Observed Relation:
+['marker', 'ontop', 'chair']
+['document', 'ontop', 'table']
+['folder', 'ontop', 'table']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing organizing_file_cabinet
+
+### Response:
+Step 1: Pick up the marker
+Step 2: Put the marker in the cabinet
+Step 3: Pick up the document
+Step 4: Put the document in the cabinet
+Step 5: Pick up the folder
+Step 6: Put the folder in the cabinet
+Step 7: Pick up the agent
+Step 8: Put the agent in the cabinet

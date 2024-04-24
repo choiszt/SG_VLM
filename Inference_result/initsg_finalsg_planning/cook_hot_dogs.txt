@@ -1,0 +1,18 @@
+Task Goal:
+cook_hot_dogs
+Observed Relation:
+['frying_pan', 'ontop', 'oven']
+['sink', 'insource', 'water']
+['hotdog', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing cook_hot_dogs
+
+### Response:
+Step 1: Take the hotdog out of the electric refrigerator
+Step 2: Put the hotdog on the frying pan
+Step 3: Turn on the stove
+Step 4: Put the frying pan on the stove
+Step 5: Pour water from the sink onto the stove
+Step 6: Cook the hotdog on the stove
+Step 7: Remove the hotdog from the frying pan

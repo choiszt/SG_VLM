@@ -1,0 +1,20 @@
+Task Goal:
+store_a_kayak
+Observed Relation:
+['kayak', 'ontop', 'floor']
+['kayak_rack', 'ontop', 'floor']
+['kayak', 'covered', 'water']
+['bath_towel', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing store_a_kayak
+Target:
+'kayak', 'bath_towel'
+Step 1: Move the kayak from the floor to the kayak rack
+Target:
+'kayak', 'kayak_rack'
+Step 2: Hang the wet bath towel on the kayak rack
+Target:
+'bath_towel', 'kayak_rack'
+Step 3: Store the kayak in the kayak rack
+Target:
+'kayak', 'kayak_rack'

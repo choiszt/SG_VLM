@@ -1,0 +1,28 @@
+Task Goal:
+putting_in_a_hot_tub
+Observed Relation:
+['hot_tub', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+['hot_tub', 'ontop', 'lawn']
+Now please output plannings for doing putting_in_a_hot_tub
+Now please output plannings for doing putting_in_a_hot_tub
+
+Answer: Step 1: Pick up the hot tub
+Target:['hot_tub']
+Step 2: Move the hot tub to the lawn
+Target:['hot_tub', 'lawn']
+Step 3: Place the hot tub on the lawn
+Target:['hot_tub', 'lawn']
+Step 4: Adjust the position of the hot tub on the lawn
+Target:['hot_tub']
+Step 5: Check if the hot tub is in the correct position
+Target:['coord__diamond']
+Step 6: Ensure that there are no obstacles under the hot tub
+Target:['floor']
+Step 7: Move the hot tub to the correct position on the lawn
+Target:['hot_tub', 'coord__diamond']
+
+Note: The hot_tub will be picked up if it is too heavy to be carried by one person
+Note: The goal was to put the hot tub on the lawn
+Target:['hot_tub', 'lawn']
+

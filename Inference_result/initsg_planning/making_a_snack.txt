@@ -1,0 +1,25 @@
+Task Goal:
+making_a_snack
+Observed Relation:
+['tortilla_chip', 'inside', 'sack']
+['sack', 'ontop', 'countertop']
+['tupperware', 'filled', 'diced__beefsteak_tomato']
+['tupperware', 'inside', 'electric_refrigerator']
+['platter', 'ontop', 'electric_refrigerator']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing making_a_snack
+The sack should be moved from the countertop to the floor
+Then the tupperware should be taken out of the refrigerator and put on the countertop
+Then the platter should be taken out of the refrigerator and put on the countertop
+Then the tortilla chip should be taken out of the sack and put on the countertop
+Then the diced beefsteak tomato should be shredded and distributed on the platter
+Then the shredded beefsteak tomato should be mixed with the tortilla chip
+Then the snack should be served
+The planner should not move the agent
+Response:
+Step 1: Move the sack from the countertop to the floor
+Step 2: Take the tupperware out of the refrigerator and put it on the countertop
+Step 3: Take the platter from the refrigerator and put it on the countertop
+Step 4: Take the tortilla chip from the sack and put it on the platter
+Step 5: Shred the beefsteak tomato and distribute it on the platter
+Step 6: Serve the snack

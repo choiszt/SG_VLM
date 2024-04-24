@@ -1,0 +1,44 @@
+Task Goal:
+store_a_kayak
+Observed Relation:
+['kayak', 'ontop', 'floor']
+['kayak_rack', 'ontop', 'floor']
+['kayak', 'covered', 'water']
+['bath_towel', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing store_a_kayak
+\Goal Expected Relation:
+
+## Response:
+Step 1: Remove the bath towel from the floor
+Target:['bath_towel']
+Step 2: Remove the kayak cover from the kayak
+Target:['kayak', 'kayak_cover']
+Step 3: Store the kayak on the kayak rack
+Target:['kayak', 'kayak_rack']
+Step 4: Hang the kayak on the kayak rack using the bath towel
+Target:['kayak', 'bath_towel']
+Step 5: Clean the floor
+Target:['floor']
+Step 6: Store the oar in the kayak
+Target:['oar', 'kayak']
+Step 7: Clean up and put everything away
+Target:['floor', 'bath_towel', 'kayak', 'kayak_rack', 'oar']
+
+## Recommended Task Goal:
+
+Step 1: Remove the bath towel from the floor
+Target:['bath_towel']
+Step 2: Remove the kayak cover from the kayak
+Target:['kayak', 'kayak_cover']
+Step 3: Store the kayak on the kayak rack
+Target:['kayak', 'kayak_rack']
+Step 4: Hang the kayak on the kayak rack using the bath towel
+Target:['kayak', 'bath_towel']
+Step 5: Clean the floor
+Target:['floor']
+Step 6: Store the oar in the kayak
+Target:['oar', 'kayak']
+Step 7: Clean up and put everything away
+Target:['floor', 'bath_towel', 'kayak', 'kayak_rack', 'oar']

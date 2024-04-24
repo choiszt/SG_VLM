@@ -1,0 +1,11 @@
+Task Goal:
+putting_wood_in_fireplace
+Observed Relation:
+['log', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing putting_wood_in_fireplace
+### Response:
+Step 1: Pick up the log from the floor
+Step 2: Place the log into the fireplace
+Step 3: Goal Expected Relation:approved

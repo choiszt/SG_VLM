@@ -1,0 +1,15 @@
+Task Goal:
+clearing_table_after_coffee
+Observed Relation:
+['mug', 'ontop', 'countertop']
+['mug', 'filled', 'drip_coffee']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clearing_table_after_coffee
+from clearing_table_after_coffee
+Step 1: Pick up the mug from the countertop
+Step 2: Empty the drip coffee from the mug
+Step 3: Put the mug down on the table
+Step 4: Pick up the sandwich from the plate
+Step 5: Put the sandwich on the table
+Step 6: Pick up the chocolate chip muffin from the plate
+Step 7: Put the chocolate chip muffin on the table

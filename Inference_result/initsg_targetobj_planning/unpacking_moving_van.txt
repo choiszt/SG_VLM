@@ -1,0 +1,26 @@
+Task Goal:
+unpacking_moving_van
+Observed Relation:
+['pan', 'inside', 'carton']
+['saucepot', 'inside', 'carton']
+['carton', 'ontop', 'pickup']
+['pickup', 'ontop', 'floor']
+['blanket', 'ontop', 'pickup']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing unpacking_moving_van
+
+Response:
+Step 1: Open the carton
+Target:['carton']
+Step 2: Take the pan out of the carton
+Target:['carton', 'pan']
+Step 3: Take the saucepot out of the carton
+Target:['carton', 'saucepot']
+Step 4: Remove the blanket from the pickup
+Target:['pickup', 'blanket']
+Step 5: Put the pan inside the cabinet
+Target:['cabinet', 'pan']
+Step 6: Put the saucepot inside the cabinet
+Target:['cabinet', 'saucepot']
+Step 7: Put the blanket back on the pickup
+Target:['pickup', 'blanket']

@@ -1,0 +1,19 @@
+Task Goal:
+pack_your_gym_bag
+Observed Relation:
+['muffin', 'ontop', 'coffee_table']
+['tank_top', 'ontop', 'coffee_table']
+['duffel_bag', 'ontop', 'floor']
+['gym_shoe', 'ontop', 'floor']
+['sock', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing pack_your_gym_bag
+### Response:
+Step 1: Pick up the duffel bag from the floor
+Step 2: Pick up the gym shoes from the floor
+Step 3: Pick up the tank top from the coffee table
+Step 4: Pick up the sock from the floor
+Step 5: Put the duffel bag into the gym bag
+Step 6: Put the tank top into the gym bag
+Step 7: Put the gym shoes into the gym bag

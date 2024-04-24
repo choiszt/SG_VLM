@@ -1,0 +1,13 @@
+Task Goal:
+clean_fur
+Observed Relation:
+['fur_coat', 'ontop', 'floor']
+['fur_coat', 'covered', 'stain']
+['rag', 'ontop', 'floor']
+['toilet_soap__bottle', 'filled', 'toilet_soap']
+['toilet_soap__bottle', 'ontop', 'floor']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_fur
+Responsibility: Task Agent
+Expected Result: Response

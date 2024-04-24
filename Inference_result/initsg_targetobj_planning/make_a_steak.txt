@@ -1,0 +1,31 @@
+Task Goal:
+make_a_steak
+Observed Relation:
+['olive_oil__bottle', 'filled', 'olive_oil']
+['olive_oil__bottle', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['pepper_mill', 'insource', 'black_pepper']
+['pepper_mill', 'ontop', 'countertop']
+['steak', 'ontop', 'chopping_board']
+['chopping_board', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_a_steak
+Response:
+Step 1: Take the steak from the chopping board
+Target:['steak', 'chopping_board']
+Step 2: Season the steak with salt and pepper
+Target:['steak', 'salt__shaker', 'black_pepper__shaker']
+Step 3: Heat the olive oil in the pan
+Target:['olive_oil__bottle', 'pan']
+Step 4: Put the steak in the pan
+Target:['steak', 'pan']
+Step 5: Fry the steak in the pan
+Target:['steak']
+Step 6: Serve the steak
+Target:['steak']
+Step 7: Finish preparing the steak
+Target:[]
+Relation:
+['steak', 'pan', 'cooker']
+['steak', 'cooker']

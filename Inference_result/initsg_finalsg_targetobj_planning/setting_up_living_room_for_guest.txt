@@ -1,0 +1,15 @@
+Task Goal:
+setting_up_living_room_for_guest
+Observed Relation:
+['chip', 'inside', 'bowl']
+['bowl', 'inside', 'shelf']
+['hardback', 'ontop', 'table']
+['rag', 'inside', 'shelf']
+['teddy', 'ontop', 'floor']
+['table', 'covered', 'dust']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing setting_up_living_room_for_guest
+\Goal/table --urn/table
+Now please output plannings for doing setting_up_living_room_for_guest
+\Goal/table

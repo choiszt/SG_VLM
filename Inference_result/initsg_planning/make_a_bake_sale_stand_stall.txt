@@ -1,0 +1,23 @@
+Task Goal:
+make_a_bake_sale_stand_stall
+Observed Relation:
+['plate', 'inside', 'carton']
+['pitcher', 'inside', 'carton']
+['mason_jar', 'filled', 'lemonade']
+['plastic_wrap', 'overlaid', 'cookie_sheet']
+['brownie', 'ontop', 'cookie_sheet']
+['cupcake', 'inside', 'tupperware']
+['carton', 'ontop', 'floor']
+['booth', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_a_bake_sale_stand_stall
+Step 1: Open the carton
+Step 2: Take the plate out of the carton
+Step 3: Take the pitcher out of the carton
+Step 4: Put the plate on the booth
+Step 5: Put the pitcher on the booth
+Step 6: Put the mason jar with lemonade on the plate
+Step 7: Put the brownie on the plate
+Step 8: Put the cupcake in the tupperware
+Step 9: Close the carton
+Step 10: Move the stand to the desired location

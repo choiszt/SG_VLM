@@ -1,0 +1,23 @@
+Task Goal:
+prepare_sea_salt_soak
+Observed Relation:
+['cup', 'ontop', 'bed']
+['salt__shaker', 'insource', 'salt']
+['tablespoon', 'ontop', 'countertop']
+['salt__shaker', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing prepare_sea_salt_soak
+The answer was: Step 1: Fill the sink with water Step 2: Take the salt 3 cubic inches away from the cup Step 3: Take the salt 3 cubic inches away from the shaker Step 4: Put the cup in the sink Step 5: Add salt to the water in the sink Step 6: Soak the shrimp in the salt water Step 7: Remove the shrimp from the soak Step 8: Preheat the broiler Step 9: Cook the shrimp Step 10: Remove the shrimp from the pan Step 11: Serve the shrimp Step 12: Clean up
+Step 1: Fill the sink with water
+Step 2: Take the salt 3 cubic inches away from the cup
+Step 3: Take the salt 3 cubic inches away from the shaker
+Step 4: Put the cup in the sink
+Step 5: Add salt to the water in the sink
+Step 6: Soak the shrimp in the salt water
+Step 7: Remove the shrimp from the soak
+Step 8: Preheat the broiler
+Step 9: Cook the shrimp
+Step 10: Remove the shrimp from the pan
+Step 11: Serve the shrimp
+Step 12: Clean up

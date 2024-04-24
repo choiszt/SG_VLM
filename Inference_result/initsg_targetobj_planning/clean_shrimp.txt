@@ -1,0 +1,24 @@
+Task Goal:
+clean_shrimp
+Observed Relation:
+['chopping_board', 'ontop', 'oven']
+['prawn', 'ontop', 'chopping_board']
+['prawn', 'covered', 'sand']
+['carving_knife', 'ontop', 'chopping_board']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_shrimp
+Step 1: Take the chopping board out of the oven
+Target:['oven', 'chopping_board']
+Step 2: Remove the sand from the prawn
+Target:['prawn', 'sand']
+Step 3: Take the chopping board out of the oven
+Target:['oven', 'chopping_board']
+Step 4: Fill the sink with water
+Target:['sink', 'water']
+Step 5: Wash the prawn with water
+Target:['prawn', 'water']
+Step 6: Put the prawn on the chopping board
+Target:['prawn', 'chopping_board']
+Step 7: Use the carving knife to clean the prawn
+Target:['carving_knife', 'prawn']

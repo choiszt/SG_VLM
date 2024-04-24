@@ -1,0 +1,27 @@
+Task Goal:
+filling_pepper
+Observed Relation:
+['bell_pepper', 'inside', 'electric_refrigerator']
+['chili', 'inside', 'electric_refrigerator']
+['carving_knife', 'ontop', 'countertop']
+['saucepot', 'filled', 'white_rice']
+['saucepot', 'ontop', 'countertop']
+['plate', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing filling_pepper
+### Response:
+Step 1: Open the electric refrigerator
+Target:['electric_refrigerator']
+Step 2: Take the bell pepper out of the electric refrigerator
+Target:['electric_refrigerator', 'bell_pepper']
+Step 3: Take the chili out of the electric refrigerator
+Target:['electric_refrigerator', 'chili']
+Step 4: Preparation area on the countertop
+Target:['countertop']
+Step 5: Open the salt powder container
+Target:['salt_powder']
+Step 6: Pour the salt powder onto the plate
+Target:['salt_powder', 'plate']
+Step 7: Close the salt powder container
+Target:['salt_powder']

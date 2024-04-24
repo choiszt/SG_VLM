@@ -1,0 +1,20 @@
+Task Goal:
+cook_red_peppers
+Observed Relation:
+['frying_pan', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'countertop']
+['chopping_board', 'ontop', 'countertop']
+['bell_pepper', 'inside', 'electric_refrigerator']
+['hummus__box', 'filled', 'hummus']
+['hummus__box', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing cook_red_peppers
+### Response Plannings:
+Step 1: Open the electric refrigerator
+Step 2: Take the bell_pepper out of the electric refrigerator
+Step 3: Put the bell_pepper on the chopping board
+Step 4: Cut the bell_pepper using the carving knife
+Step 5: Put the bell_pepper slices on the chopping board
+Step 6: Put the chopping board with bell_pepper slices on the countertop
+Step 7: Cook the bell_pepper slices in the frying pan

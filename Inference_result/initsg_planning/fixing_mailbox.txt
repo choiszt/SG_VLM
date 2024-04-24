@@ -1,0 +1,14 @@
+Task Goal:
+fixing_mailbox
+Observed Relation:
+['mailbox', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing fixing_mailbox
+Task Goal: fixing_mailbox
+Step 1: Pick up the mailbox from the floor
+Step 2: Move the mailbox to the table
+Step 3: Attach the mailbox to the mailbox-holder
+Step 4: Adjust the mailbox to fit the mail
+Step 5: Secure the mailbox to the mailbox-holder
+Step 6: Organize and sort the mail
+Step 7: Put the lettered paper into the envelope

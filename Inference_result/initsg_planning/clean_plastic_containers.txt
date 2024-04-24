@@ -1,0 +1,20 @@
+Task Goal:
+clean_plastic_containers
+Observed Relation:
+['liquid_soap__bottle', 'filled', 'liquid_soap']
+['liquid_soap__bottle', 'ontop', 'countertop']
+['bowl', 'ontop', 'countertop']
+['lid', 'ontop', 'countertop']
+['bowl', 'covered', 'adhesive_material']
+['lid', 'covered', 'adhesive_material']
+['rag', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_plastic_containers
+Step 1: Remove the adhesive material from the bowl and lid
+Step 2: Wash the bowl and lid with water
+Step 3: Put the rag on the countertop
+Step 4: Clean the plastic containers with liquid soap
+Step 5: Dry the plastic containers with a clean rag
+Step 6: Put the plastic containers back on the countertop
+Step 7: Clean up the countertop

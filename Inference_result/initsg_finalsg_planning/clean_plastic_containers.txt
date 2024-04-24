@@ -1,0 +1,23 @@
+Task Goal:
+clean_plastic_containers
+Observed Relation:
+['liquid_soap__bottle', 'filled', 'liquid_soap']
+['liquid_soap__bottle', 'ontop', 'countertop']
+['bowl', 'ontop', 'countertop']
+['lid', 'ontop', 'countertop']
+['bowl', 'covered', 'adhesive_material']
+['lid', 'covered', 'adhesive_material']
+['rag', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing clean_plastic_containers
+
+## Question: Output plannings?
+Step 1: Take the liquid soap bottle from the countertop
+Step 2: Pour the liquid soap into the bowl
+Step 3: Cover the bowl and lid with adhesive material
+Step 4: Clean the plastic containers with the rag
+Step 5: Take the rag, lid, and adhesive material away from the bowl
+Step 6: Rinse the bowl with water
+Step 7: Clean the plastic containers again with the rag

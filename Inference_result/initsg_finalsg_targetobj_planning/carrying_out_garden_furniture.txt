@@ -1,0 +1,24 @@
+Task Goal:
+carrying_out_garden_furniture
+Observed Relation:
+['lawn_chair', 'ontop', 'floor']
+['barrow', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing carrying_out_garden_furniture
+with lawn_chair
+### Response:
+Step 1: Pick up the lawn chair
+Target:['lawn_chair']
+Step 2: Pick up the barrow
+Target:['barrow']
+Step 3: Carrying out garden furniture to the car
+Target:['lawn_chair', 'barrow']
+Step 4: Place the lawn chair in the car
+Target:['lawn_chair', 'car']
+Step 5: Place the barrow in the car
+Target:['barrow', 'car']
+Step 6: Drive to the storage unit
+Target:['car']
+Step 7: Store the garden furniture in the storage unit
+Target:['lawn_chair', 'barrow']

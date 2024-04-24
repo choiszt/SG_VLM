@@ -1,0 +1,19 @@
+Task Goal:
+fertilizing_garden
+Observed Relation:
+['fertilizer__atomizer', 'insource', 'fertilizer']
+['pot', 'ontop', 'floor']
+['pot', 'filled', 'soil']
+['fertilizer__atomizer', 'ontop', 'floor']
+['potato', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing fertilizing_garden
+### Response:
+Step 1: Move the pot from the floor to the table
+Step 2: Open the fertilizer__atomizer
+Step 3: Fill the fertilizer__atomizer with fertilizer
+Step 4: Move the pot from the table to the spot where the potato is
+Step 5: Spray the fertilizer onto the potato
+Step 6: Move the potato back to the floor
+Step 7: Finish fertilizing the garden

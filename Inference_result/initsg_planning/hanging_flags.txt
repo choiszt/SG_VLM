@@ -1,0 +1,25 @@
+Task Goal:
+hanging_flags
+Observed Relation:
+['pole', 'attached', 'wall_nail']
+['national_flag', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing hanging_flags
+Relation change:
+agent --> floor
+Pole is attached to the wall nail
+Hanging flags is done by attaching the national flag to the pole
+Pole is a wall nail
+Hanging flags is accomplished
+Having acceptable plannings is a requirement for doing hanging_flags
+Overall time: {['pole']} minutes; {['national_flag']} minutes; {['agent']} seconds
+Now & then: Plannings are accepted
+Hanging flags: perform action >> pole is attached to the wall nail
+Hanging flags: perform action >> national_flag is lifted
+Hanging flags: perform action >> agent is lifted
+Hanging flags: accomplishment
+Observed Result:
+Hanging flags is accomplished
+Hanging flags is accomplished is accepted
+Having acceptable plannings is a requirement for doing hanging_flags
+Having acceptable plannings is a requirement for doing hanging_flags

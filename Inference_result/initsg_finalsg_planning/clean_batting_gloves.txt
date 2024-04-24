@@ -1,0 +1,18 @@
+Task Goal:
+clean_batting_gloves
+Observed Relation:
+['batting_glove', 'ontop', 'washer']
+['batting_glove', 'covered', 'mud']
+['detergent__bottle', 'filled', 'detergent']
+['detergent__bottle', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing clean_batting_gloves
+### Response:
+Step 1: Pick up the battting glove from the washer
+Step 2: Remove the mud from the battting glove
+Step 3: Take the detergent bottle from the floor
+Step 4: Pour the detergent from the bottle into the washer
+Step 5: Put the battting glove into the washer
+Step 6: Turn on the washer
+Step 7: Transfer the battting glove to the clothes dryer

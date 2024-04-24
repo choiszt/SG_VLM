@@ -1,0 +1,34 @@
+Task Goal:
+clean_a_backpack
+Observed Relation:
+['detergent__bottle', 'filled', 'detergent']
+['detergent__bottle', 'ontop', 'floor']
+['backpack', 'ontop', 'floor']
+['bucket', 'ontop', 'floor']
+['rag', 'ontop', 'clothes_dryer']
+['hand_towel', 'ontop', 'washer']
+['sponge', 'ontop', 'clothes_dryer']
+['bucket', 'filled', 'water']
+['backpack', 'covered', 'dust']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing clean_a_backpack
+"""
+### Response:
+"""
+""'" flask '"', 'bucket', 'water', 'detergent__bottle', 'detergent', 'rag', 'hand_towel', 'sponge', 'bucket'
+"""
+Step 1: Move the bucket from the floor to the washer
+Target:['bucket', 'washer']
+Step 2: Take the bucket out of the washer
+Target:['bucket']
+Step 3: Move the detergent bottle from the floor to the washer
+Target:['detergent__bottle', 'washer']
+Step 4: Pour water from the bucket into the washer
+Target:['bucket', 'washer']
+Step 5: Take the rag out of the clothes dryer
+Target:['rag', 'clothes_dryer']
+Step 6: Take the sponge out of the clothes dryer
+Target:['sponge', 'clothes_dryer']
+Step 7: Clean the backpack with the rag and sponge
+Target:['rag', 'sponge', 'backpack']

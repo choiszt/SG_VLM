@@ -1,0 +1,57 @@
+Task Goal:
+taking_clothes_out_of_washer
+Observed Relation:
+['jersey', 'inside', 'washer']
+['jersey', 'saturated', 'water']
+['underwear', 'inside', 'washer']
+['underwear', 'saturated', 'water']
+['sock', 'inside', 'washer']
+['sock', 'saturated', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing taking_clothes_out_of_washer
+
+## Response:
+## Step 1: Move the agent off the floor
+## Step 2: Open the washer
+## Step 3: Take the jersey out of the washer
+## Step 4: Repeat step 2 and 3 for the underwear and socks
+## Step 5: Empty the washer
+## Step 6: Close the washer
+## Step 7: Put the clothes into the electric dryer
+## Step 8: Turn on the dryer
+## Step 9: Wait for the clothes to dry
+## Step 10: Remove the clothes from the dryer
+## Step 11: Put the clothes away in a convenient location
+## Step 12: Put the clothes from the washer into the laundry basket
+## Step 13: Close the washer
+## Step 14: Move the agent off the floor
+## Step 15: Open the laundry basket
+## Step 16: Take the jersey out of the laundry basket
+## Step 17: Repeat step 15 and 16 for the underwear and socks
+## Step 18: Put the clothes into the washer
+## Step 19: Turn on the washer
+## Step 20:Wait for the clothes to be shampooed
+## Step 21:Remove the clothes from the washer
+## Step 22:Put the clothes away in a convenient location
+## Step 23:Put the clothes from the washer into the laundry basket
+## Step 24:Close the washer
+## Step 25:Move the agent off the floor
+## Step 26:Open the laundry basket
+## Step 27:Take the jersey out of the laundry basket
+## Step 28:Put the clothes into the washer
+## Step 29:Close the washer
+## Step 30:Wait for the clothes to be rinsed
+## Step 31:Remove the clothes from the washer
+## Step 32:Put the clothes away in a convenient location
+## Step 33:Put the clothes from the washer into the laundry basket
+## Step 34:Close the washer
+## Step 35:Move the agent off the floor
+## Step 36:Open the laundry basket
+## Step 37:Take the jersey out of the laundry basket
+## Step 38:Put the clothes into the washer
+## Step 39:Close the washer
+## Step 40:Wait for the clothes to be dried
+## Step 41:Remove the clothes from the washer
+## Step 42:Put the clothes away in a convenient location
+## Step 43:Put the clothes from the washer into the laundry basket
+## Step 44:Close the washer

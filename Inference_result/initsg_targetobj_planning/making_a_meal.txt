@@ -1,0 +1,44 @@
+Task Goal:
+making_a_meal
+Observed Relation:
+['pasta__box', 'filled', 'penne']
+['pasta__box', 'inside', 'cabinet']
+['meatball', 'inside', 'tupperware']
+['tupperware', 'inside', 'electric_refrigerator']
+['marinara__jar', 'filled', 'marinara']
+['marinara__jar', 'inside', 'electric_refrigerator']
+['bowl', 'inside', 'cabinet']
+['stockpot', 'inside', 'cabinet']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing making_a_meal
+Step 1: Open the cabinet
+Target:['cabinet']
+Step 2: Take the pasta box out of the cabinet
+Target:['cabinet', 'pasta__box']
+Step 3: Take the tupperware out of the refrigerator
+Target:['electric_refrigerator', 'tupperware']
+Step 4: Take the marinara jar out of the refrigerator
+Target:['electric_refrigerator', 'marinara__jar']
+Step 5: Take the bowl out of the cabinet
+Target:['cabinet', 'bowl']
+Step 6: Fill the stockpot with water from the sink
+Target:['sink', 'stockpot']
+Step 7: Put the pasta into the stockpot
+Target:['pasta', 'stockpot']
+Step 8: Put the meatballs into the stockpot
+Target:['meatball', 'stockpot']
+Step 9: Add marinara to the stockpot
+Target:['marinara', 'stockpot']
+Step 10: Cook the meatballs and pasta in the stockpot
+Target:['meatball', 'pasta', 'stockpot']
+Step 11: Take the cooked meal out of the stockpot
+Target:['stockpot', 'meal']
+Step 12: Clean up the kitchen
+Target:['cabinet', 'sink', 'stove']
+Step 13: Dispose of the extra food
+Target:['meatball', 'pasta', 'marinara', 'marinara__jar', 'tupperware', 'marinara', 'bowl']
+Step 14: Check if the meal is correct
+Target:['meal']
+Step 15: Put the meal on the table
+Target:['meal']

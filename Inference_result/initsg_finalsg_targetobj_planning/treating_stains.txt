@@ -1,0 +1,14 @@
+Task Goal:
+treating_stains
+Observed Relation:
+['table_linen', 'covered', 'stain']
+['detergent__bottle', 'filled', 'detergent']
+['detergent__bottle', 'ontop', 'floor']
+['table_linen', 'ontop', 'floor']
+['rag', 'ontop', 'floor']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing treating_stains
+\Goal/table_linen:objecetofactors
+['table_linen']

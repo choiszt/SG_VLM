@@ -1,0 +1,17 @@
+Task Goal:
+putting_out_dog_food
+Observed Relation:
+['dog_food__can', 'filled', 'dog_food']
+['bowl', 'ontop', 'floor']
+['dog_food__can', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing putting_out_dog_food
+### Response:
+Step 1: Pick up the bowl
+Step 2: Move the bowl to the coffee table
+Step 3: Pick up the dog food can
+Step 4: Move the dog food can to the coffee table
+Step 5: Open the dog food can
+Step 6: Pour the dog food into the bowl
+Step 7: Close the dog food can

@@ -1,0 +1,39 @@
+Task Goal:
+cook_lasagne
+Observed Relation:
+['lasagna', 'ontop', 'oven']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing cook_lasagne
+\Goal Expected Relation:
+
+Now please output plannings for doing cooking
+\Task Goal:
+
+Now please output plannings for doing cooking
+\Task Goal:
+
+Now please output plannings for doing cooking
+\Task Goal:
+
+Now please output plannings for doing cooking
+\Task Goal:
+
+Now please output plannings for doing cooking
+\Task Goal:
+
+Now please output plannings for doing cooking
+\Task Goal:
+
+Now please output plannings for doing cooking
+\Task Goal:
+
+Now please output plannings for doing cooking
+\Task Goal:
+
+Now please output plannings for doing cooking
+\Task Goal:
+
+Now please output plannings for doing cooking
+\Task Goal:
+

@@ -1,0 +1,28 @@
+Task Goal:
+make_baked_pears
+Observed Relation:
+['pear', 'inside', 'electric_refrigerator']
+['wine_bottle', 'filled', 'red_wine']
+['wine_bottle', 'inside', 'cabinet']
+['granulated_sugar__sack', 'filled', 'granulated_sugar']
+['granulated_sugar__sack', 'inside', 'cabinet']
+['stockpot', 'inside', 'cabinet']
+['wooden_spoon', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_baked_pears
+Observed Relation:
+['pear', 'oil', 'baking_powder', 'baking_sugar', 'salt', 'cinnamon', 'cocoa', 'sack']
+Target Relation:
+['pear', 'oven', 'baking_powder', 'baking_salt', 'cinnamon', 'cocoa', 'sack']
+\Goal Expected Relation:
+
+Now please output plannings for doing make_baked_pears
+
+Answer: Task Goal: make_baked_pears
+Observed Relation:
+['pear', 'oil', 'baking_powder', 'baking_sugar', 'salt', 'cinnamon', 'cocoa', 'sack']
+Target Relation:
+['pear', 'oven', 'baking_powder', 'baking_salt', 'cinnamon', 'cocoa', 'sack']
+
+Now please output plannings for doing make_baked_pears

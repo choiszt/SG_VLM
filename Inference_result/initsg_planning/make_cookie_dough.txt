@@ -1,0 +1,23 @@
+Task Goal:
+make_cookie_dough
+Observed Relation:
+['flour__sack', 'filled', 'flour']
+['flour__sack', 'inside', 'cabinet']
+['sugar__sack', 'filled', 'granulated_sugar']
+['sugar__sack', 'inside', 'cabinet']
+['vanilla__bottle', 'insource', 'vanilla']
+['vanilla__bottle', 'inside', 'electric_refrigerator']
+['butter', 'inside', 'bowl']
+['baking_powder__jar', 'filled', 'baking_powder']
+['baking_powder__jar', 'inside', 'cabinet']
+['salt__shaker', 'insource', 'salt']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_cookie_dough
+### Response # Response:
+Step 1: Take the flour sack out of the cabinet
+Step 2: Take the sugar sack out of the cabinet
+Step 3: Take the vanilla bottle out of the refrigerator
+Step 4: Take the butter out of the bowl
+Step 5: Take the baking powder jar out of the cabinet
+Step 6: Take the salt shaker out of the cabinet
+Step 7: Mix the flour, sugar, butter, baking powder, and salt

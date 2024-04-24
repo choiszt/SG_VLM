@@ -1,0 +1,37 @@
+Task Goal:
+slicing_vegetables
+Observed Relation:
+['bell_pepper', 'inside', 'electric_refrigerator']
+['beet', 'inside', 'electric_refrigerator']
+['zucchini', 'inside', 'electric_refrigerator']
+['carving_knife', 'ontop', 'countertop']
+['chopping_board', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing slicing_vegetables
+ with respect to the observed relation
+and the task goal
+Attention: Please output plannings for doing slicing_vegetables
+with respect to the observed relation
+and the task goal
+\Goal Expected Relation:
+
+Now please output plannings for doing slicing_vegetables
+with respect to the task goal
+and the observed relation
+Possible Plannings:
+Step 1: Open the electric refrigerator
+Target:['electric_refrigerator']
+Step 2: Take the bell pepper out of the electric refrigerator
+Target:['electric_refrigerator', 'bell_pepper']
+Step 3: Take the beet out of the electric refrigerator
+Target:['electric_refrigerator', 'beet']
+Step 4: Take the zucchini out of the electric refrigerator
+Target:['electric_refrigerator', 'zucchini']
+Step 5: Place the chopping board onto the countertop
+Target:['chopping_board', 'countertop']
+Step 6: Place the carving knife onto the chopping board
+Target:['carving_knife', 'chopping_board']
+Step 7: Slice the vegetables on the chopping board
+Target:['beet', 'bell_pepper', 'zucchini']
+

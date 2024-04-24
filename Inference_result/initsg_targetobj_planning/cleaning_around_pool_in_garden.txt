@@ -1,0 +1,28 @@
+Task Goal:
+cleaning_around_pool_in_garden
+Observed Relation:
+['driveway', 'covered', 'dust']
+['broom', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cleaning_around_pool_in_garden
+'driveway' => 'floor'
+Then the broom will be moved to clean the fence
+['broom', 'ontop', 'fence']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cleaning_around_pool_in_garden
+'fence' => 'floor'
+Then the broom will be moved to clean the hedge
+['broom', 'ontop', 'hedge']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cleaning_around_pool_in_garden
+'hedge' => 'floor'
+Then the broom will be moved to clean the grass
+['broom', 'ontop', 'grass']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cleaning_around_pool_in_garden
+'grass' => 'floor'
+Then the broom will be moved to clean the pool
+['broom', 'ontop', 'pool']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cleaning_around_pool_in_garden
+'pool' => 'floor'

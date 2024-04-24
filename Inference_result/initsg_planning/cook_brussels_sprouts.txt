@@ -1,0 +1,18 @@
+Task Goal:
+cook_brussels_sprouts
+Observed Relation:
+['brussels_sprouts', 'inside', 'tupperware']
+['tupperware', 'inside', 'electric_refrigerator']
+['stockpot', 'ontop', 'stove']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cook_brussels_sprouts
+The tupperware is inside the electric refrigerator
+The stockpot is on top of the stove
+The agent is on top of the floor
+Step 1: Open the electric refrigerator
+Step 2: Take the brussels sprouts out of the tupperware
+Step 3: Put the stockpot on the stove
+Step 4: Put the brussels sprouts into the stockpot
+Step 5: Close the electric refrigerator
+Step 6: Turn on the stove
+Step 7: Cook the brussels sprouts

@@ -1,0 +1,10 @@
+Task Goal:
+cleaning_table_after_clearing
+Observed Relation:
+['table', 'covered', 'stain']
+['bar_soap', 'inside', 'cabinet']
+['dishtowel', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing cleaning_table_after_clearing
+\Goal

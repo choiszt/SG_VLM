@@ -1,0 +1,16 @@
+Task Goal:
+bottling_wine
+Observed Relation:
+['bucket', 'ontop', 'countertop']
+['wine_bottle', 'ontop', 'countertop']
+['cork', 'inside', 'cabinet']
+['bucket', 'filled', 'red_wine']
+Now please output plannings for doing bottling_wine
+Note: plannings for doing bottling_wine are complex and require multiple steps
+response = 'Pour the red wine from the bucket into the wine bottle'
+response = 'Open the cabinet'
+response = 'Take out the cork'
+response = 'Place the cork inside the wine bottle'
+response = 'Close the cabinet'
+response = 'Finish pouring the red wine into the wine bottle'
+response = 'The bottling of wine is complete'

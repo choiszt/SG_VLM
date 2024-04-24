@@ -1,0 +1,21 @@
+Task Goal:
+make_a_steak
+Observed Relation:
+['olive_oil__bottle', 'filled', 'olive_oil']
+['olive_oil__bottle', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['pepper_mill', 'insource', 'black_pepper']
+['pepper_mill', 'ontop', 'countertop']
+['steak', 'ontop', 'chopping_board']
+['chopping_board', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+['clove', 'ontop', 'steak']
+Now please output plannings for doing make_a_steak
+
+Now please output inventory for doing make_a-steak
+\Goal Expected Relation:
+['clove', 'ontop', 'steak']
+Now please output plannings for doing make_a_clove
+\Goal Expected Relation:
+['clove', 'ontop', 'steak']

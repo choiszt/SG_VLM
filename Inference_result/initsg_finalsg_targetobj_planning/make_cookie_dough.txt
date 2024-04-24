@@ -1,0 +1,33 @@
+Task Goal:
+make_cookie_dough
+Observed Relation:
+['flour__sack', 'filled', 'flour']
+['flour__sack', 'inside', 'cabinet']
+['sugar__sack', 'filled', 'granulated_sugar']
+['sugar__sack', 'inside', 'cabinet']
+['vanilla__bottle', 'insource', 'vanilla']
+['vanilla__bottle', 'inside', 'electric_refrigerator']
+['butter', 'inside', 'bowl']
+['baking_powder__jar', 'filled', 'baking_powder']
+['baking_powder__jar', 'inside', 'cabinet']
+['salt__shaker', 'insource', 'salt']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_cookie_dough
+Observed Relation:
+['flour__sack']
+['sack']
+['flour']
+['sack']
+['vanilla__bottle']
+['baking_powder__jar']
+['baking_powder']
+['batter']
+['bowl']
+['mixer']
+['cookie_sheet']
+['oven']
+['cabinet']
+Now please output plannings for doing make_cookie_dough
+
+Now please output plannings for doing make_cookie_dough

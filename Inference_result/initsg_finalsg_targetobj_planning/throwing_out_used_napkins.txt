@@ -1,0 +1,25 @@
+Task Goal:
+throwing_out_used_napkins
+Observed Relation:
+['napkin', 'ontop', 'countertop']
+['ashcan', 'ontop', 'floor']
+['napkin', 'covered', 'stain']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing throwing_out_used_napkins
+into the coffee cup
+### Response:
+Step 1: Pick up the napkin
+Target:['napkin']
+Step 2: Open the ashcan
+Target:['ashcan']
+Step 3: Throw the napkin into the ashcan
+Target:['napkin', 'ashcan']
+Step 4: Close the ashcan
+Target:['ashcan']
+Step 5: Open the coffee cup
+Target:['coffee_cup']
+Step 6: Throw the napkin into the coffee cup
+Target:['napkin', 'coffee_cup']
+Step 7: Close the coffee cup
+Target:['coffee_cup']

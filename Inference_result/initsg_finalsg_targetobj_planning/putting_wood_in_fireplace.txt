@@ -1,0 +1,29 @@
+Task Goal:
+putting_wood_in_fireplace
+Observed Relation:
+['log', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing putting_wood_in_fireplace
+\GoalExpectedResponse:
+['fireplace']
+\GoalExpectedResponse:['agent']
+
+Now please output plannings for doing putting_wood_in_fireplace
+
+Task Goal:
+putting_wood_in_fireplace
+Observed Relation:
+['log', 'ontop', 'fireplace']
+['agent', 'ontop', 'floor']
+['fireplace']
+Goal Expected Relation:
+None
+Target:
+['log', 'fireplace']
+Plan Goal:
+do:
+move_agent-to-fireplace;
+move-log-to-fireplace;
+Target:
+['agent', 'log', 'floor']

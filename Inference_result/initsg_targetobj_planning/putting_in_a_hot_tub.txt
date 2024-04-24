@@ -1,0 +1,44 @@
+Task Goal:
+putting_in_a_hot_tub
+Observed Relation:
+['hot_tub', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_in_a_hot_tub
+'Hot Tub' => 'Hot Tub'
+'Hot Tub' => 'Driveway'
+'Hot Tub' => 'Floor'
+['agent'] => 'agent'
+Step 1: Pick up the Hot Tub
+Target:['hot_tub']
+Step 2: Carry the Hot Tub to the patio
+Target:['hot_tub', 'patio']
+Step 3: Set the Hot Tub in the appropriate position on the patio
+Target:['hot_tub', 'patio']
+Step 4: Secure the Hot Tub on the patio
+Target:['hot_tub']
+Step 5: Connect the hot tub to the water supply
+Target:['hot_tub', 'water_supply']
+Step 6: Connect the hot tub to the electrical outlet
+Target:['hot_tub', 'electric_outlet']
+Step 7: Turn on the water heater and fill the hot tub
+Target:['water_heater']
+Now please output plannings for doing turning_on_the_water_heater and filling_the_hot_tub
+'Hot Tub' => 'Hot Tub'
+'Hot Tub' => 'Driveway'
+'Hot Tub' => 'Patio'
+'Hot Tub' => 'Water_Supply'
+'Hot Tub' => 'Electric_Outlet'
+'Hot Tub' => 'Water_Heater'
+'Hot Tub' => 'Filling'
+'Hot Tub' => 'Target'
+'Hot Tub' => 'Potential_Target'
+'Hot Tub' => 'Target'
+'Hot Tub' => 'Potential_Target'
+'Hot Tub' => 'Target'
+'Hot Tub' => 'Potential_Target'
+'Hot Tub' => 'Target'
+'Hot Tub' => 'Potential_Target'
+'Hot Tub' => 'Target'
+'Hot Tub' => 'Potential_Target'
+'Hot Tub' => 'Target'
+'Hot Tub' => 'Potential_Target'

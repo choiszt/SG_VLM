@@ -1,0 +1,19 @@
+Task Goal:
+putting_dirty_dishes_in_sink
+Observed Relation:
+['bowl', 'covered', 'breadcrumb']
+['plate', 'covered', 'breadcrumb']
+['bowl', 'ontop', 'countertop']
+['plate', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing putting_dirty_dishes_in_sink
+
+### Response:
+Step 1: Pick up the bowl and plate from the countertop
+Step 2: Place the bowl in the sink
+Step 3: Pick up the plate from the countertop
+Step 4: Place the plate in the sink
+Step 5: Clean the bowl and plate with water and detergent
+Step 6: Put the clean bowl and plate back on the countertop
+Step 7: Finish putting the dirty dishes in the sink

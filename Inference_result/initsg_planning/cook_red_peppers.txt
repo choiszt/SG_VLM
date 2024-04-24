@@ -1,0 +1,30 @@
+Task Goal:
+cook_red_peppers
+Observed Relation:
+['frying_pan', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'countertop']
+['chopping_board', 'ontop', 'countertop']
+['bell_pepper', 'inside', 'electric_refrigerator']
+['hummus__box', 'filled', 'hummus']
+['hummus__box', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cook_red_peppers
+The agent is on the floor
+HideousAgent: 'ontop', 'floor'
+Relation: agent |ontop| floor
+ObservedRelation: ['frying_pan', 'ontop', 'countertop']
+Relation: ['carving_knife', 'ontop', 'countertop']
+Relation: ['chopping_board', 'ontop', 'countertop']
+Relation: ['bell_pepper', 'inside', 'electric_refrigerator']
+Relation: 'hummus__box', 'filled', 'hummus'
+Relation: 'agent', 'ontop', 'floor'
+Plan: Remove the bell_pepper from the electric_refrigerator
+Plan: Cut the pepper using the carving_knife
+Plan: Chop the pepper using the chopping_board
+Plan: Take the hummus_box from the refrigerator
+Plan: Put the hummus_box on the countertop
+Plan: Put the pepper on the chopping_board
+Plan: Place the frying_pan on the stove
+Plan: Turn on the stove
+Plan: Cook the red_peppers
+Plan: Serve the red_peppers

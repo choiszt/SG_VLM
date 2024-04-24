@@ -1,0 +1,45 @@
+Task Goal:
+adding_chemicals_to_lawn
+Observed Relation:
+['herbicide__bottle', 'ontop', 'floor']
+['fertilizer__atomizer', 'ontop', 'floor']
+['herbicide__bottle', 'filled', 'herbicide']
+['fertilizer__atomizer', 'insource', 'fertilizer']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing adding_chemicals_to_lawn
+
+## Questions:
+
+##1. Where should the agent put the herbicide bottle?
+['herbicide__bottle']
+
+##2. Where should the agent put the fertilizer atomizer?
+['fertilizer__atomizer']
+
+##3. Which area of the lawn should be treated with herbicide?
+['herbicide']
+
+##4. Which area of the lawn should be treated with fertilizer?
+['fertilizer']
+
+##5. What should be planned to do next?
+['none']
+
+##6. Which lawn are you working on?
+['lawn']
+
+##7. Which of the following languages are being used in the conversation?
+['none']
+
+##8. Relationalage to the lawn: grass
+['grass']
+
+##9. Relation to the task: lawn maintenance
+['none']
+
+##10. Result:
+['none']
+
+##11. Planner:
+['none']
+

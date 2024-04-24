@@ -1,0 +1,29 @@
+Task Goal:
+bottling_wine
+Observed Relation:
+['bucket', 'ontop', 'countertop']
+['wine_bottle', 'ontop', 'countertop']
+['cork', 'inside', 'cabinet']
+['bucket', 'filled', 'red_wine']
+Now please output plannings for doing bottling_wine
+Step 1: Open the cabinet
+Target:
+['cabinet']
+Step 2: Take the cork out of the cabinet
+Target:
+['cabinet', 'cork']
+Step 3: Take the wine bottle out of the icebox
+Target:
+['icebox', 'wine_bottle']
+Step 4: Pour the red wine into the bucket
+Target:
+['wine_bottle', 'bucket']
+Step 5: Take the cork out of the cabinet
+Target:
+['cabinet', 'cork']
+Step 6: Put the cork inside the bucket
+Target:
+['bucket', 'cork']
+Step 7: Cap the wine bottle
+Target:
+['wine_bottle', 'cork']

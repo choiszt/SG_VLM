@@ -1,0 +1,20 @@
+Task Goal:
+clearing_table_after_coffee
+Observed Relation:
+['mug', 'ontop', 'countertop']
+['mug', 'filled', 'drip_coffee']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing clearing_table_after_coffee
+\Goal:
+None
+Task Goal:
+clearing_table_after_coffee
+Now please output plannings for doing clearing_table_after_coffee
+\Goal:
+Step 1: Pick up the mug from the countertop
+Target:['mug']
+Step 2: Empty the drip coffee from the mug
+Target:['mug', 'drip_coffee']
+Step 3: Put the mug back on the countertop
+Target:['mug']

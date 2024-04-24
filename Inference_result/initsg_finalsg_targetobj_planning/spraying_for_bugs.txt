@@ -1,0 +1,11 @@
+Task Goal:
+spraying_for_bugs
+Observed Relation:
+['insectifuge__atomizer', 'ontop', 'floor']
+['insectifuge__atomizer', 'insource', 'insectifuge']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing spraying_for_bugs
+\Goal Expected Relation:
+
+Now please output plannings for doing spraying_for_bugs

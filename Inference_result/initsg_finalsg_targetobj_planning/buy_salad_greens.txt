@@ -1,0 +1,57 @@
+Task Goal:
+buy_salad_greens
+Observed Relation:
+['cash_register', 'ontop', 'checkout']
+['lettuce', 'ontop', 'shelf']
+['spinach', 'ontop', 'shelf']
+['sack', 'ontop', 'checkout']
+['money', 'ontop', 'checkout']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing buy_salad_greens
+\Goal/
+
+Task Goal:
+lose_weight
+buy_detergent
+buy_toothpaste
+Task Goal::task_goal
+Target:
+task_goal
+Expected Relation:
+
+Now please output plannings for doing lose_weight
+Task Goal/Target:
+lose_weight
+buy_detergent
+buy_toothpaste
+Target:
+lose_weight
+buy_detergent
+buy_toothpaste
+Target:
+
+Now please output plannings for doing lose_weight
+Task Goal/Target:
+lose_weight
+buy_detergent
+buy_toothpaste
+Target:
+
+Now please output plannings for doing lose_weight
+Task Goal/Target:
+lose_weight
+buy_detergent
+buy_toothpaste
+Target:
+
+Now please output plannings for doing lose_weight
+Task Goal/Target:
+lose_weight
+buy_detergent
+buy_toothpaste
+Target:
+
+Now please output plannings for doing lose_weight
+Task Goal/Target:
+lose_weight

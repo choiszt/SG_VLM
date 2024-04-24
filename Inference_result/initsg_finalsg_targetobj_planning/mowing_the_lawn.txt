@@ -1,0 +1,40 @@
+Task Goal:
+mowing_the_lawn
+Observed Relation:
+['lawn', 'covered', 'bunchgrass']
+['lawn_mower', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing mowing_the_lawn
+\Goal Expected Relation:
+['ladder', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+['lawn_mower', 'ontop', 'floor']
+['lawn', 'covered', 'bunchgrass']
+['ladder', 'nextto', 'wall']
+['agent', 'nextto', 'wall']
+['lawn', 'covered', 'bunchgrass']
+['agent', 'nextto', 'wall']
+
+Now please output plannings for doing mowing_the_lawn
+\Goal Expected Relation:
+
+Now please output plannings for doing mowing_the_lawn
+\Goal Expected Relation:
+Noneptokillular_items: Noneptokillular_item
+
+Step 1: Pick up the ladder from the floor
+Target:['floor', 'ladder']
+Step 2: Move the ladder to the wall
+Target:['ladder', 'wall']
+Step 3: Move the lawn mower to the wall
+Target:['lawn_mower', 'wall']
+Step 4: Move the agent to the wall
+Target:['agent', 'wall']
+Step 5: Mow the lawn using the lawn mower
+Target:['lawn_mower', 'lawn']
+Step 6: Put the ladder back to the floor
+Target:['floor', 'ladder']
+Step 7: Put the agent back to the floor
+Target:['floor', 'agent']
+

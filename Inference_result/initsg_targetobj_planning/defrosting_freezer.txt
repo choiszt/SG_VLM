@@ -1,0 +1,26 @@
+Task Goal:
+defrosting_freezer
+Observed Relation:
+['dustpan', 'ontop', 'floor']
+['bucket', 'ontop', 'floor']
+['scraper', 'ontop', 'countertop']
+['towel', 'ontop', 'countertop']
+['rag', 'ontop', 'countertop']
+['crayfish', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing defrosting_freezer
+Response:
+Step 1: Open the electric refrigerator
+Target:['electric_refrigerator']
+Step 2: Take the bucket out of the electric refrigerator
+Target:['electric_refrigerator', 'bucket']
+Step 3: Take the crayfish out of the electric refrigerator
+Target:['electric_refrigerator', 'crayfish']
+Step 4: Pour water into the bucket
+Target:['bucket']
+Step 5: Scrape the dirt off the floor using the scraper
+Target:['floor', 'scraper']
+Step 6: Wipe the floor with the towel
+Target:['floor', 'towel']
+Step 7: Put the crayfish into the dustpan
+Target:['dustpan', 'crayfish']

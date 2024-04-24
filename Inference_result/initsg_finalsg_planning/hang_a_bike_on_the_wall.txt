@@ -1,0 +1,14 @@
+Task Goal:
+hang_a_bike_on_the_wall
+Observed Relation:
+['bicycle', 'ontop', 'floor']
+['bicycle_rack', 'attached', 'wall_nail']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing hang_a_bike_on_the_wall
+
+### Response:
+Step 1: Move the agent to the wall nail
+Step 2: Remove the bicycle rack from the wall nail
+Step 3: Attach the bicycle rack to the wall nail
+Step 4: Hang the bicycle on the bicycle rack

@@ -1,0 +1,18 @@
+Task Goal:
+delivering_groceries_to_doorstep
+Observed Relation:
+['bread_slice', 'inside', 'sack']
+['carton__of__milk', 'inside', 'sack']
+['sack', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing delivering_groceries_to_doorstep
+
+### Response:
+Step 1: Open the car trunk
+Step 2: Take the sack out of the car trunk
+Step 3: Open the screen door
+Step 4: Put the sack on the floor
+Step 5: Take the bread slice out of the sack
+Step 6: Take the carton of milk out of the sack
+Step 7: Put the bread slice on the countertop

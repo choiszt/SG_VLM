@@ -1,0 +1,64 @@
+Task Goal:
+fertilize_a_lawn
+Observed Relation:
+['fertilizer__atomizer', 'insource', 'fertilizer']
+['fertilizer__atomizer', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing fertilize_a_lawn
+
+October 22, 2009, 10:22 AM
+Relation: agent|ontop|floor
+Relation: fertilizer__atomizer|insource|fertilizer|product_of|nutrient_and_other_elements|include|calcium|include|potassium|include|sodium|include|iron|include|copper|include|zinc|include|molybdenum|include|lime;ontop;floor
+Relation: agent|ontop|floor
+Relation: floor|covered_with_carpet|covered_with_carpet
+Relation: lawn|covered_with_sod|covered_with_sod
+Relation: lawn|covered_with_sand|covered_with_sand
+Relation: agent|nearby|water_hose|water_hose|ontop|floor
+Relation: fertilizer__atomizer|ontop|floor
+Relation: lawn|shade|lawn
+Relation: floor|shade|floor
+Relation: water_hose|shade|water_hose
+Relation: agent|nearby|water_tank|water_tank|ontop|floor
+Relation: water_tank|full|full
+Relation: water_tank|covered_with_sand|covered_with_sand
+Relation: agent|nearby|truck|truck
+Relation: water_tank|inside|water_tank|inside|truck|ontop|floor
+Relation: floor|covered_with_carpet|covered_with_carpet
+Relation: truck|covered_with_sand|covered_with_sand
+Relation: floor|covered_with_sand|covered_with_sand
+Relation: water_hose|ontop|floor
+Relation: water_hose|ontop|water_tank
+Relation: water_tank|ontop|floor
+Relation: water_tank|full|full
+Relation: water_tank|covered_with_sand|covered_with_sand
+Relation: water_tank|covered_with_sand
+Relation: water_tank|covered_with_sand
+Relation: water_hose|covered_with_sand|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: water_hose|covered_with_sand
+Relation: agent|nearby|water_hose|nearby|water_hose|covered_with_sand
+Relation: water_hose|nearby|water_hose|covered_with_sand
+Relation: water_hose|nearby|water_hose|covered_with_sand
+Relation: water_hose|nearby|water_hose|covered_with_sand
+Relation: water_hose|nearby|water_hose|covered_with_sand
+Relation:

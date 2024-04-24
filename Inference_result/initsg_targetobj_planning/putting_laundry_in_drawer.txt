@@ -1,0 +1,18 @@
+Task Goal:
+putting_laundry_in_drawer
+Observed Relation:
+['short_pants', 'ontop', 'bed']
+['tank_top', 'ontop', 'bed']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_laundry_in_drawer
+Doing putting_laundry_in_drawer:
+['agent']
+Now please output plannings for doing doing_putting_laundry_in_drawer
+Doing doing_putting_laundry_in_drawer:
+Now please output plannings for doing doing_doing_putting_laundry_in_drawer
+Doing doing_doing_putting_laundry_in_drawer:
+Now please output plannings for doing doing_doing_doing_putting_laundry_in_drawer
+Doing doing_doing_doing_putting_laundry_in_drawer:
+Now please output plannings for doing doing_doings_doings_putting_laundry_in_drawer
+Doing doing_doings_doings_putting_laundry_in_drawer:
+Now please output plannings for doing doing_doings_doings_putting_laundry_in_drawer

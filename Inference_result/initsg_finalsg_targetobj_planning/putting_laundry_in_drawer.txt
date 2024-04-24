@@ -1,0 +1,8 @@
+Task Goal:
+putting_laundry_in_drawer
+Observed Relation:
+['short_pants', 'ontop', 'bed']
+['tank_top', 'ontop', 'bed']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+['tank_top', 'inside', 'cabinet']
+Now please output plannings for doing putting_laundry_in_drawer

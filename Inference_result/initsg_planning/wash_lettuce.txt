@@ -1,0 +1,21 @@
+Task Goal:
+wash_lettuce
+Observed Relation:
+['colander', 'inside', 'cabinet']
+['lettuce', 'inside', 'electric_refrigerator']
+['paper_towel', 'ontop', 'countertop']
+['lettuce', 'covered', 'dirt']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing wash_lettuce
+The colander should be filled with water from the sink
+The lettuce should be rinsed with water in the electric refrigerator
+The paper towel should be used to wipe up the dirt from the lettuce
+The colander should be placed in the cabinet
+The lettuce should be washed in the colander
+The colander should be removed from the cabinet
+The lettuce should be rinsed in the colander
+The colander should be taken out of the cabinet
+The lettuce should be washed in the colander
+The colander should be dried on the countertop
+Then the colander can be put back in the cabinet

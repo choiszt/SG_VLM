@@ -1,0 +1,45 @@
+Task Goal:
+make_a_blended_iced_cappuccino
+Observed Relation:
+['sink', 'insource', 'water']
+['tablespoon', 'ontop', 'countertop']
+['instant_coffee__jar', 'filled', 'instant_coffee']
+['instant_coffee__jar', 'inside', 'cabinet']
+['sugar__sack', 'filled', 'cane_sugar']
+['sugar__sack', 'inside', 'cabinet']
+['milk__carton', 'filled', 'chocolate_milk']
+['milk__carton', 'inside', 'electric_refrigerator']
+['ice_cube', 'inside', 'bowl']
+['cup', 'ontop', 'countertop']
+['blender', 'ontop', 'countertop']
+['coffee_maker', 'ontop', 'countertop']
+['bowl', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_a_blended_iced_cappuccino
+
+Answer: Step 1: Take the water out of the sink
+
+Step 2: Take the instant coffee out of the instant coffee jar
+
+Step 3: Take the cane sugar out of the sugar sack
+
+Step 4: Take the chocolate milk out of the milk carton
+
+Step 5: Take the ice cube out of the bowl
+
+Step 6: Put the water in the blender
+
+Step 7: Put the instant coffee in the blender
+
+Step 8: Put the cane sugar in the blender
+
+Step 9: Put the chocolate milk in the blender
+
+Step 10: Put the ice cube in the blender
+
+Step 11: Blend all the ingredients in the blender
+
+Step 12: Pour the blended drink into the cup
+
+Step 13: Serve the cup of blended iced coffee
+

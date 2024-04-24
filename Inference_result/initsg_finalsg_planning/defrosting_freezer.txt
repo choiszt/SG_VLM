@@ -1,0 +1,20 @@
+Task Goal:
+defrosting_freezer
+Observed Relation:
+['dustpan', 'ontop', 'floor']
+['bucket', 'ontop', 'floor']
+['scraper', 'ontop', 'countertop']
+['towel', 'ontop', 'countertop']
+['rag', 'ontop', 'countertop']
+['crayfish', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing defrosting_freezer
+### Agent Response:
+Step 1: Open the electric refrigerator
+Step 2: Take the rag out of the countertop
+Step 3: Remove the crayfish from the electric refrigerator
+Step 4: Take the dustpan from the floor
+Step 5: Take the bucket from the floor
+Step 6: Take the scraper from the countertop
+Step 7: Put the rag on the floor

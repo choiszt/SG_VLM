@@ -1,0 +1,55 @@
+Task Goal:
+delivering_groceries_to_doorstep
+Observed Relation:
+['bread_slice', 'inside', 'sack']
+['carton__of__milk', 'inside', 'sack']
+['sack', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing delivering_groceries_to_doorstep
+Step 1: Pick up the sack from the floor
+Target:['sack', 'floor']
+Step 2: Take out the bread slice from the sack
+Target:['sack', 'bread_slice']
+Step 3: Take out the carton of milk from the sack
+Target:['sack', 'carton__of__milk']
+Step 4: Put the bread slice on the countertop
+Target:['bread_slice', 'countertop']
+Step 5: Put the carton of milk on the countertop
+Target:['carton__of__milk', 'countertop']
+Step 6: Deliver the groceries to the doorstep
+Target:['sack', 'carton__of__milk', 'doorstep']
+Step 7: Finish
+Target:[]
+
+Now please output plannings for doing delivering_groceries_to_doorstep
+Step 1: Pick up the sack from the floor
+Target:['sack', 'floor']
+Step 2: Take out the bread slice from the sack
+Target:['sack', 'bread_slice']
+Step 3: Take out the carton of milk from the sack
+Target:['sack', 'carton__of__milk']
+Step 4: Put the bread slice on the countertop
+Target:['bread_slice', 'countertop']
+Step 5: Put the carton of milk on the countertop
+Target:['carton__of__milk', 'countertop']
+Step 6: Deliver the groceries to the doorstep
+Target:['sack', 'carton__of__milk', 'doorstep']
+Step 7: Finish
+Target:[]
+
+Now please output plannings for doing delivering_grocery_to_doorstep
+Step 1: Pick up the sack from the floor
+Target:['sack', 'floor']
+Step 2: Take out the bread slice from the sack
+Target:['sack', 'bread_slice']
+Step 3: Take out the carton of milk from the sack
+Target:['sack', 'carton__of__milk']
+Step 4: Put the bread slice on the countertop
+Target:['bread_slice', 'countertop']
+Step 5: Put the carton of milk on the countertop
+Target:['carton__of__milk', 'countertop']
+Step 6: Deliver the groceries to the doorstep
+Target:['sack', 'carton__of__milk', 'doorstep']
+Step 7: Finish
+Target:[]
+

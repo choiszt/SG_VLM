@@ -1,0 +1,31 @@
+Task Goal:
+store_firewood_outdoors
+Observed Relation:
+['firewood', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing store_firewood_outdoors
+'firewood' -> 'shed'
+'agent' -> 'shed'
+Orders:
+Step 1: Pick up the firewood
+Target:['firewood']
+Step 2: Carry the firewood to the shed
+Target:['firewood', 'shed']
+Step 3: Store the firewood in the shed
+Target:['firewood', 'shed']
+Response:
+Step 1: Pick up the firewood
+Target:['firewood']
+Step 2: Carry the firewood to the shed
+Target:['firewood', 'shed']
+Step 3: Store the firewood in the shed
+Target:['firewood', 'shed']
+Note: There is no need to use a cart
+Comment: The author's intention is to move the firewood to the shed using a cart.
+Target:['firewood', 'cart']
+Step 1: Pick up the firewood
+Target:['firewood']
+Step 2: Carry the firewood to the shed
+Target:['firewood', 'shed']
+Step 3: Store the firewood in the shed
+Target:['firewood', 'shed']

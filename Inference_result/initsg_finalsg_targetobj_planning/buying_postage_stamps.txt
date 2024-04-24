@@ -1,0 +1,26 @@
+Task Goal:
+buying_postage_stamps
+Observed Relation:
+['cash_register', 'ontop', 'checkout']
+['postage', 'ontop', 'checkout']
+['money', 'ontop', 'checkout']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing buying_postage_stamps
+\Goal
+Target:
+['money', 'postage']
+Step 1: Approach the cash register
+Target:['cash_register']
+Step 2: Take the money from the cash register
+Target:['cash_register', 'money']
+Step 3: Take the postage from the checkout
+Target:['checkout', 'postage']
+Step 4: Go to the cash register
+Target:['cash_register']
+Step 5: Put the money on the cash register
+Target:['money', 'cash_register']
+Step 6: Put the postage on the cash register
+Target:['postage', 'cash_register']
+Step 7: Pay for the postage
+Target:['money']

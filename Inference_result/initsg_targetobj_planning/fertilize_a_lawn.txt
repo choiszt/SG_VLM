@@ -1,0 +1,19 @@
+Task Goal:
+fertilize_a_lawn
+Observed Relation:
+['fertilizer__atomizer', 'insource', 'fertilizer']
+['fertilizer__atomizer', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing fertilize_a_lawn
+Step 1: Pick up the fertilizer atomizer
+Target:
+['fertilizer__atomizer']
+Step 2: Spray fertilizer on the lawn
+Target:
+['fertilizer__atomizer', 'lawn']
+Step 3: Rinse the fertilizer on the lawn
+Target:
+['fertilizer__atomizer', 'lawn']
+Step 4: Put down the fertilizer atomizer
+Target:
+['fertilizer__atomizer']

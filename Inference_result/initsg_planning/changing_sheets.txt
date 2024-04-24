@@ -1,0 +1,30 @@
+Task Goal:
+changing_sheets
+Observed Relation:
+['sheet', 'ontop', 'bed']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing changing_sheets
+Task Goal:
+cook_dinner
+Observed Relation:
+['chicken', 'ontop', 'countertop']
+['tomato', 'ontop', 'countertop']
+['avocado', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cook_dinner

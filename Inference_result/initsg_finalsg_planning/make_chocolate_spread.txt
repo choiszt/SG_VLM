@@ -1,0 +1,27 @@
+Task Goal:
+make_chocolate_spread
+Observed Relation:
+['butter', 'inside', 'butter__package']
+['honey__jar', 'filled', 'honey']
+['honey__jar', 'ontop', 'countertop']
+['cocoa__box', 'filled', 'cocoa_powder']
+['cocoa__box', 'ontop', 'countertop']
+['tablespoon', 'ontop', 'countertop']
+['food_processor', 'ontop', 'countertop']
+['mixing_bowl', 'ontop', 'countertop']
+['butter__package', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_chocolate_spread
+Expected Relation:
+
+Step 1: Open the electric refrigerator
+Step 2: Take the butter out of the butter__package
+Step 3: Take the honey jar off the countertop
+Step 4: Pour honey into the mixing bowl
+Step 5: Take the cocoa box off the countertop
+Step 6: Pour cocoa powder into the mixing bowl
+Step 7: Add nutrient_oil, honey, and cocoa powder to the food processor
+Step 8: Mix the ingredients in the food processor
+Step 9: Pour the chocolate spread into a container
+Step 10: Clean up the countertop

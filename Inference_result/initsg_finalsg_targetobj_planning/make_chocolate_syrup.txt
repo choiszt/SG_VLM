@@ -1,0 +1,29 @@
+Task Goal:
+make_chocolate_syrup
+Observed Relation:
+['sugar__sack', 'filled', 'granulated_sugar']
+['sugar__sack', 'ontop', 'countertop']
+['tablespoon', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['vanilla__bottle', 'insource', 'vanilla']
+['vanilla__bottle', 'ontop', 'countertop']
+['cocoa__box', 'filled', 'cocoa_powder']
+['cocoa__box', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_chocolate_syrup
+Observed Relation:
+['cooking_oil__bottle', 'filled', 'cooking_oil']
+['cooking_oil__bottle', 'inside', 'cabinet']
+['cooking_oil__bottle', 'outside', 'countertop']
+['cooking_oil__bottle', 'ontop', 'countertop']
+['bowl', 'filled', 'water']
+['bowl', 'ontop', 'countertop']
+['whisk', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_chocolate_syrup
+
+

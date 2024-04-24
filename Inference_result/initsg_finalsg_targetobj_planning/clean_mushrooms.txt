@@ -1,0 +1,22 @@
+Task Goal:
+clean_mushrooms
+Observed Relation:
+['paper_towel', 'ontop', 'countertop']
+['mushroom', 'inside', 'bowl']
+['bowl', 'inside', 'electric_refrigerator']
+['mushroom', 'covered', 'dirt']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing clean_mushrooms
+\Goal Expected Relation:
+['throw_the_dirty_towel']
+['wash_the_mushroom']
+['dry_the_mushroom']
+['put_the_mushroom_back_inside_the_bowl']
+['return_the_bowl_to_the_electric_refrigerator']
+['return__the__countertop__to__task']
+
+Now please output plannings for doing clean_mushrooms
+\Goal Expected Relation:
+

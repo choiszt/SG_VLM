@@ -1,0 +1,20 @@
+Task Goal:
+clean_a_loofah_or_natural_sponge
+Observed Relation:
+['loofa', 'covered', 'stain']
+['bleaching_agent__atomizer', 'insource', 'bleaching_agent']
+['bleaching_agent__atomizer', 'ontop', 'floor']
+['loofa', 'ontop', 'sink']
+['rag', 'ontop', 'sink']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing clean_a_loofah_or_natural_sponge
+### Response:
+Step 1: Take the loofah out of the cabinet
+Step 2: Fill the sink with water
+Step 3: Take the agent out of the floor
+Step 4: Put the loofah in the sink
+Step 5: Pour the bleaching agent into the sink
+Step 6: Soak the loofah in the bleaching agent
+Step 7: Clean the loofah

@@ -1,0 +1,19 @@
+Task Goal:
+prepare_sea_salt_soak
+Observed Relation:
+['cup', 'ontop', 'bed']
+['salt__shaker', 'insource', 'salt']
+['tablespoon', 'ontop', 'countertop']
+['salt__shaker', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing prepare_sea_salt_soak
+
+Answer: Task Goal: Preparing sea salt soak
+Step 1: Pick up the cup
+Step 2: Take the salt shaker
+Step 3: Fill the cup with water from the sink
+Step 4: Add salt to the cup
+Step 5: Put the cup with sea salt soak in the sink
+Step 6: Clean the countertop

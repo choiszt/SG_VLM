@@ -1,0 +1,33 @@
+Task Goal:
+clean_a_birdcage
+Observed Relation:
+['birdcage', 'ontop', 'floor']
+['birdcage', 'covered', 'mildew']
+['liquid_soap__bottle', 'ontop', 'floor']
+['liquid_soap__bottle', 'filled', 'liquid_soap']
+['rag', 'ontop', 'floor']
+['birdcage', 'covered', 'disinfectant']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+['disinfectant__bottle', 'filled', 'disinfectant']
+['disinfectant__bottle', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing clean_a_birdcage
+\Goal Expected Relation:
+
+Note: Response for making the output more intelligible may be necessary and expected
+Observed Output:
+Step 1: Pick up the birdcage
+Target:['birdcage']
+Step 2: Fill the birdcage with water from the sink
+Target:['birdcage', 'sink']
+Step 3: Take the birdcage to the laundry room
+Target:['birdcage', 'laundry_room']
+Step 4: Spray disinfectant on the birdcage
+Target:['birdcage', 'disinfectant__bottle']
+Step 5: Wipe the birdcage with the rag
+Target:['birdcage', 'rag']
+Step 6: Rinse the birdcage with water from the sink
+Target:['birdcage', 'sink']
+Step 7: Put the birdcage back on the floor
+Target:['birdcage']

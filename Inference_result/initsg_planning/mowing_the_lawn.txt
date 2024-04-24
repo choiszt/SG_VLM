@@ -1,0 +1,19 @@
+Task Goal:
+mowing_the_lawn
+Observed Relation:
+['lawn', 'covered', 'bunchgrass']
+['lawn_mower', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing mowing_the_lawn
+The lawn is covered by bunchgrass
+The lawn mower is on top of the floor
+The agent is on top of the floor
+How do you want to do mowing_the_lawn?
+Then don't plannings for doing mowing_the_lawn
+Now please output output for doing mowing_the_lawn
+The lawn mower should be moved to the lawn
+Then the lawn should be mowed
+The lawn should be cleared of bunchgrass
+The lawn mower should be picked up
+The agent should be picked up
+Then plannings for doing mowing_the_lawn can be output

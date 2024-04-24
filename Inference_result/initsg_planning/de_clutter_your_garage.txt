@@ -1,0 +1,23 @@
+Task Goal:
+de_clutter_your_garage
+Observed Relation:
+['ski', 'ontop', 'floor']
+['bicycle', 'ontop', 'floor']
+['tennis_racket', 'ontop', 'floor']
+['hockey_stick', 'ontop', 'floor']
+['carton', 'ontop', 'floor']
+['shovel', 'ontop', 'floor']
+['ashcan', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing de_clutter_your_garage
+The carton should be moved to the cabinet
+The skis should be moved to the cupboard
+The bicycle should be moved to the shelf
+The tennis racket should be moved to the shelf
+The hockey stick should be moved to the shelf
+The carton should be thrown to the garbage
+The shelf should be cleared
+The agent should clear the garage
+
+Note: Plannings are designed to be used in the context of de_clutter_your_garage
+

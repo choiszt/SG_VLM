@@ -1,0 +1,17 @@
+Task Goal:
+unpacking_moving_van
+Observed Relation:
+['pan', 'inside', 'carton']
+['saucepot', 'inside', 'carton']
+['carton', 'ontop', 'pickup']
+['pickup', 'ontop', 'floor']
+['blanket', 'ontop', 'pickup']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing unpacking_moving_van
+
+Please output plannings for at least 3 seconds
+Then output the plannings
+Now output plannings for unpacking_moving_van
+\Goal Expected Relation:
+

@@ -1,0 +1,22 @@
+Task Goal:
+putting_away_bicycles
+Observed Relation:
+['bicycle', 'ontop', 'driveway']
+['tarpaulin', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_away_bicycles
+Step 1: Pick up the bicycle from the driveway
+Target:['bicycle', 'driveway']
+Step 2: Place the bicycle on the tarpaulin
+Target:['bicycle', 'tarpaulin']
+Step 3: Task plannings for doing putting_away_bicycles
+Now please output plannings for doing putting_away_bicycles
+### Response:
+### Goal:
+### Task plannings for doing putting_away_bicycles
+### Step 1: Pick up the bicycle from the driveway
+Target:['bicycle', 'driveway']
+### Step 2: Place the bicycle on the tarpaulin
+Target:['bicycle', 'tarpaulin']
+### Step 3: Task plannings for doing putting_away_bicycles
+Target:['bicycle', 'tarpaulin']

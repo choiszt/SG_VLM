@@ -1,0 +1,20 @@
+Task Goal:
+taking_clothes_out_of_washer
+Observed Relation:
+['jersey', 'inside', 'washer']
+['jersey', 'saturated', 'water']
+['underwear', 'inside', 'washer']
+['underwear', 'saturated', 'water']
+['sock', 'inside', 'washer']
+['sock', 'saturated', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing taking_clothes_out_of_washer
+### Response:
+Step 1: Open the washer
+Step 2: Take the clothes out of the washer
+Step 3: Remove the socks from the washer
+Step 4: Remove the jersey from the washer
+Step 5: Remove the underwear from the washer
+Step 6: Dry the clothes
+Step 7: Put the clothes in the closet

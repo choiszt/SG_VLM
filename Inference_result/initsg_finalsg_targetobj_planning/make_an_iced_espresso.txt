@@ -1,0 +1,31 @@
+Task Goal:
+make_an_iced_espresso
+Observed Relation:
+['cup', 'filled', 'espresso']
+['cup', 'ontop', 'countertop']
+['milk__carton', 'filled', 'low-fat_milk']
+['milk__carton', 'ontop', 'countertop']
+['sugar_syrup__bottle', 'insource', 'sugar_syrup']
+['sugar_syrup__bottle', 'ontop', 'countertop']
+['teaspoon', 'ontop', 'countertop']
+['mug', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_an_iced_espresso
+
+Answer: @cygspace;account/make_an_iced_espresso
+
+Step 1: Open the cupboard
+Target:['cupboard']
+Step 2: Take the cup out of the cupboard
+Target:['cupboard', 'cup']
+Step 3: Pour the espresso into the cup
+Target:['cup', 'espresso']
+Step 4: Pour the low-fat milk into the cup
+Target:['cup', 'low-fat_milk']
+Step 5: Add sugar syrup to the cup
+Target:['cup', 'sugar_syrup']
+Step 6: Stir the ingredients in the cup
+Target:['cup']
+Step 7: Put the mug on the countertop
+Target:['mug', 'countertop']

@@ -1,0 +1,12 @@
+Task Goal:
+polishing_shoes
+Observed Relation:
+['shoe', 'covered', 'stain']
+['rag', 'ontop', 'floor']
+['shoe', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing polishing_shoes
+from the shoe back to the rag
+Step 1: Pick up the rag from the floor
+Step 2: Polish the shoes using the rag
+Step 3: Put the rag back on the floor

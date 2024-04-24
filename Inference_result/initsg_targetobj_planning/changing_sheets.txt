@@ -1,0 +1,16 @@
+Task Goal:
+changing_sheets
+Observed Relation:
+['sheet', 'ontop', 'bed']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing changing_sheets
+Now please output plannings for doing both_sides_at once
+Now please output plannings for doing putting_a_sheet_in_the_clothes_dryer
+Now please output plannings for doing putting_a_sheet_in_the_cabinet
+Now please output plannings for doing putting_a_sheet_in_the_trash
+Now please output plannings for doing putting_a_sheet_in_the_washer
+Now please output plannings for doing putting_a_sheet_in_the_washing_machine
+Now please output plannings for doing putting_a_sheet_in_the_sink
+Now please output plannings for doing putting_a_sheet_in_the_shower
+Now please output plannings for doing putting_a_sheet_in_the_toilet
+Now please output plannings for doing putting_a_sheet_in_the_floor

@@ -1,0 +1,16 @@
+Task Goal:
+sorting_vegetables
+Observed Relation:
+['mixing_bowl', 'ontop', 'countertop']
+['wicker_basket', 'ontop', 'countertop']
+['bok_choy', 'inside', 'wicker_basket']
+['chard', 'inside', 'wicker_basket']
+['leek', 'inside', 'wicker_basket']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing sorting_vegetables
+The agent should put the bok_choy into the mixing bowl
+The agent should put the chard into the mixing bowl
+The agent should put the leek into the mixing bowl
+The agent should take the bok_choy out of the wicker basket
+The agent should take the chard out of the wicker basket
+The agent should take the leek out of the wicker basket

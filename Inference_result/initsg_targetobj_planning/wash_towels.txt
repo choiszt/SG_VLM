@@ -1,0 +1,23 @@
+Task Goal:
+wash_towels
+Observed Relation:
+['bath_towel', 'ontop', 'floor']
+['bath_towel', 'covered', 'dirt']
+['detergent__bottle', 'ontop', 'floor']
+['detergent__bottle', 'filled', 'detergent']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing wash_towels
+### Step 1: Pick up the bath towel from the floor
+Target:['bath_towel', 'floor']
+### Step 2: Fill the sink with water
+Target:['sink']
+### Step 3: Take the bath towel and detergent bottle to the sink
+Target:['bath_towel', 'sink']
+### Step 4: Wash the bath towel in the sink
+Target:['bath_towel']
+### Step 5: Put the bath towel back on the floor
+Target:['bath_towel', 'floor']
+### Step 6: Put the detergent bottle back on the floor
+Target:['detergent__bottle', 'floor']
+### Step 7: Task completed
+Target:[]

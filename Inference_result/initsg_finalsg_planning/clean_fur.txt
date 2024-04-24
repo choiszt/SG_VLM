@@ -1,0 +1,20 @@
+Task Goal:
+clean_fur
+Observed Relation:
+['fur_coat', 'ontop', 'floor']
+['fur_coat', 'covered', 'stain']
+['rag', 'ontop', 'floor']
+['toilet_soap__bottle', 'filled', 'toilet_soap']
+['toilet_soap__bottle', 'ontop', 'floor']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing clean_fur
+### Response:
+Step 1: Pick up the rag from the floor
+Step 2: Fill the sink with water
+Step 3: Take the toilet soap bottle from the floor
+Step 4: Apply toilet soap on the rag
+Step 5: Clean the fur coat with the rag
+Step 6: Rinse the rag with water from the sink
+Step 7: Put the rag back on the floor

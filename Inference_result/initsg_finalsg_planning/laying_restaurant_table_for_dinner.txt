@@ -1,0 +1,15 @@
+Task Goal:
+laying_restaurant_table_for_dinner
+Observed Relation:
+['plate', 'inside', 'cabinet']
+['tablefork', 'inside', 'cabinet']
+['table_knife', 'inside', 'cabinet']
+['tablespoon', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+['wineglass', 'nextto', 'plate']
+['water_glass', 'nextto', 'plate']
+['dinner_napkin', 'nextto', 'plate']
+['dinner_napkin', 'nextto', 'tablefork']
+['tablespoon', 'nextto', 'table_knife']
+Now please output plannings for doing laying_restaurant_table_for_dinner
+Now please output experimenting

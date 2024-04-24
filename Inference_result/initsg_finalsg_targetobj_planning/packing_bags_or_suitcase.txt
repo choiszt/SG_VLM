@@ -1,0 +1,38 @@
+Task Goal:
+packing_bags_or_suitcase
+Observed Relation:
+['backpack', 'ontop', 'floor']
+['toothbrush', 'ontop', 'bed']
+['bottle__of__shampoo', 'ontop', 'bed']
+['hardback', 'ontop', 'bed']
+['underwear', 'ontop', 'bed']
+['tube__of__toothpaste', 'ontop', 'bed']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing packing_bags_or_suitcase
+\Goal expects plannings for doing Task Goal:
+
+Any further plannings for doing Task Goal?
+exit
+In this question, pixels are considered entities of the task and the goal
+is to place the entities on the floor, bed, and so on
+Then plannings for doing Task Goal are:
+«agent»
+«backpack»
+«hardback»
+«tube__of__toothpaste»
+«bottle__of__shampoo»
+«toothbrush»
+«underwear»
+«toothpaste»
+«noise_door»
+«swipe_closure_door»
+Now please output plannings for doing Task Goal
+\Goal expects plannings for doing Task Goal:
+
+Now please output plannings for doing Task Goal
+
+Due to a mistake, please retry the task
+
+### Task Goal:
+

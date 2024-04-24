@@ -1,0 +1,26 @@
+Task Goal:
+make_baked_pears
+Observed Relation:
+['pear', 'inside', 'electric_refrigerator']
+['wine_bottle', 'filled', 'red_wine']
+['wine_bottle', 'inside', 'cabinet']
+['granulated_sugar__sack', 'filled', 'granulated_sugar']
+['granulated_sugar__sack', 'inside', 'cabinet']
+['stockpot', 'inside', 'cabinet']
+['wooden_spoon', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_baked_pears
+Step 1: Open the cabinet
+Target:['cabinet']
+Step 2: Take the wine bottle out of the cabinet
+Target:['cabinet', 'wine_bottle']
+Step 3: Take the granulated sugar sack out of the cabinet
+Target:['cabinet', 'granulated_sugar__sack']
+Step 4: Take the stockpot out of the cabinet
+Target:['cabinet', 'stockpot']
+Step 5: Take the wooden spoon out of the cabinet
+Target:['cabinet', 'wooden_spoon']
+Step 6: Pour the red wine into the stockpot
+Target:['wine_bottle', 'stockpot']
+Step 7: Put the stockpot on the stove and cook the pears
+Target:['stockpot', 'stove']

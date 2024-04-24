@@ -1,0 +1,14 @@
+Task Goal:
+packing_art_supplies_into_car
+Observed Relation:
+['car', 'ontop', 'driveway']
+['bag', 'ontop', 'driveway']
+['pencil', 'ontop', 'bag']
+['marker', 'ontop', 'bag']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing packing_art_supplies_into_car
+\Goal Expected Relation:
+
+Now please generate plannings for doing packing_art_supplies_into_car
+\Goal Expected Relation:

@@ -1,0 +1,24 @@
+Task Goal:
+buy_pet_food_for_less
+Observed Relation:
+['cash_register', 'ontop', 'checkout']
+['can__of__dog_food', 'ontop', 'shelf']
+['money', 'inside', 'shopping_cart']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing buy_pet_food_for_less
+Step 1: Approaches the checkout
+Target:['agent']
+Step 2: Picks up a shopping cart
+Target:['shopping_cart']
+Step 3: Goes to the checkout
+Target:['agent']
+Step 4: Puts the shopping cart on the checkout
+Target:['shopping_cart', 'checkout']
+Step 5: Pays for the food
+Target:['money']
+Step 6: Approaches the shelf
+Target:['agent']
+Step 7: Takes the can of dog food from the shelf
+Target:['can__of__dog_food']
+Step 8: Pays for the pet food
+Target:['money']

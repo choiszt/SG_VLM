@@ -1,0 +1,26 @@
+Task Goal:
+throwing_out_used_napkins
+Observed Relation:
+['napkin', 'ontop', 'countertop']
+['ashcan', 'ontop', 'floor']
+['napkin', 'covered', 'stain']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing throwing_out_used_napkins
+Target Relation:
+None
+Now please output plannings for doing throwing_out_used_napkins
+Target:['throwing_out_used_napkins']
+Step 1: Pick up the napkin from the countertop
+Target:['napkin']
+Step 2: Go to the sink
+Target:['sink']
+Step 3: Throw the napkin into the sink
+Target:['napkin', 'sink']
+Step 4: Clean the napkin
+Target:['napkin']
+Step 5: Put the napkin back on the countertop
+Target:['napkin', 'countertop']
+Step 6: Pick up the ashcan from the floor
+Target:['ashcan']
+Step 7: Throw the ashcan into the sink
+Target:['ashcan', 'sink']

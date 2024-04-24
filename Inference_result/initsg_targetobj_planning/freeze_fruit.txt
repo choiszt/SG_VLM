@@ -1,0 +1,13 @@
+Task Goal:
+freeze_fruit
+Observed Relation:
+['tupperware', 'inside', 'cabinet']
+['bowl', 'ontop', 'countertop']
+['apple', 'inside', 'bowl']
+['tray', 'ontop', 'countertop']
+['strawberry', 'ontop', 'tray']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing freeze_fruit
+Target Relation:
+None
+

@@ -1,0 +1,22 @@
+Task Goal:
+cleaning_shed
+Observed Relation:
+['broom', 'ontop', 'floor']
+['vacuum', 'ontop', 'floor']
+['rake', 'ontop', 'floor']
+['shovel', 'ontop', 'floor']
+['chicken_wire', 'ontop', 'floor']
+['trowel', 'ontop', 'floor']
+['leaf_blower', 'ontop', 'floor']
+['leaf_blower', 'covered', 'dust']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing cleaning_shed
+### Response:
+Step 1: Pick up the broom from the floor
+Step 2: Pick up the vacuum from the floor
+Step 3: Pick up the rake from the floor
+Step 4: Pick up the shovel from the floor
+Step 5: Pick up the chicken_wire from the floor
+Step 6: Pick up the trowel from the floor
+Step 7: Pick up the leaf blower from the floor

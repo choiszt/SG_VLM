@@ -1,0 +1,24 @@
+Task Goal:
+clean_greens
+Observed Relation:
+['chard', 'inside', 'bowl']
+['bowl', 'ontop', 'countertop']
+['chard', 'covered', 'dirt']
+['rag', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_greens
+Step 1: Take the bowl off the countertop
+Target:['bowl']
+Step 2: Empty the dirt from the chard
+Target:['chard', 'dirt']
+Step 3: Wash the bowl in the sink
+Target:['bowl', 'sink']
+Step 4: Take the rag from the countertop
+Target:['rag']
+Step 5: Wipe the chard with the rag
+Target:['chard', 'rag']
+Step 6: Put the chard back in the bowl
+Target:['chard', 'bowl']
+Step 7: Put the clean bowl back on the countertop
+Target:['bowl', 'countertop']

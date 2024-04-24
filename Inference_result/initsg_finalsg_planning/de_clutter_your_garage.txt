@@ -1,0 +1,21 @@
+Task Goal:
+de_clutter_your_garage
+Observed Relation:
+['ski', 'ontop', 'floor']
+['bicycle', 'ontop', 'floor']
+['tennis_racket', 'ontop', 'floor']
+['hockey_stick', 'ontop', 'floor']
+['carton', 'ontop', 'floor']
+['shovel', 'ontop', 'floor']
+['ashcan', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing de_clutter_your_garage
+### Response:
+Step 1: Pick up the ski from the floor
+Step 2: Put the ski in the carton
+Step 3: Put the bicycle in the carton
+Step 4: Put the tennis racket in the carton
+Step 5: Put the hockey stick in the carton
+Step 6: Put the carton in the corner of the garage
+Step 7: Put the shovel in the corner of the garage

@@ -1,0 +1,27 @@
+Task Goal:
+cook_kale
+Observed Relation:
+['kale', 'inside', 'electric_refrigerator']
+['olive_oil__bottle', 'filled', 'olive_oil']
+['olive_oil__bottle', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['saucepot', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cook_kale
+
+## Response:
+## Step 1: Take the saucepot out of the countertop
+Target:['saucepot', 'countertop']
+Step 2: Take the kale out of the saucepot
+Target:['saucepot', 'kale']
+Step 3: Turn on the stove
+Target:['stove']
+Step 4: Pour olive oil into the saucepot
+Target:['olive_oil__bottle', 'saucepot', 'olive_oil']
+Step 5: Sprinkle salt on the kale
+Target:['salt__shaker', 'kale']
+Step 6: Put the saucepot on the oven
+Target:['saucepot', 'oven']
+Step 7: Cook the kale till it is soft
+Target:['kale']

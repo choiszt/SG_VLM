@@ -1,0 +1,43 @@
+Task Goal:
+scrubbing_bathroom_floor
+Observed Relation:
+['floor', 'covered', 'dirt']
+['bucket', 'filled', 'water']
+['scrub_brush', 'ontop', 'floor']
+['bucket', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing scrubbing_bathroom_floor
+Target:
+['floor', 'dirt']
+['bucket', 'water']
+['scrub_brush', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Step:
+['take', 'bucket', 'water']
+['take', 'scrub_brush', 'floor']
+['apply', 'water', 'water']
+['apply', 'scrub_brush', 'scrub_brush']
+['scrub', 'scrub_brush', 'floor']
+['remove', 'bucket', 'water']
+['remove', 'scrub_brush', 'floor']
+['tighten', 'noose', 'noose']
+['attach', 'noose', 'wire_spool']
+['attach', 'noose', 'wall']
+['output', 'welded_barbell']
+['finish']
+Step:
+['clean', 'floor']
+Now please output plannings for doing scrubbing_bathroom_floor
+Target:
+['floor']
+Step:
+['clean', 'floor']
+
+Output:
+None
+Conclusion:
+None
+
+"""
+Step:
+""""

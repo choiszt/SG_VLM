@@ -1,0 +1,18 @@
+Task Goal:
+buy_basic_garden_tools
+Observed Relation:
+['shovel', 'ontop', 'shelf']
+['rake', 'ontop', 'shelf']
+['money', 'inside', 'backpack']
+['backpack', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing buy_basic_garden_tools
+### Response:
+Step 1: Open the backpack
+Step 2: Take the money out of the backpack
+Step 3: Move the backpack to the floor
+Step 4: Move onto the shelf 2 shovels and 2 rakes
+Step 5: Move onto the shelf 2 trowels and 2 hoes
+Step 6: Move onto the shelf 2 billycloins and 2 trugbots
+Step 7: Move onto the shelf 2 garden_torches and 2 garden_acorns

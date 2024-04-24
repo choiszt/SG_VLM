@@ -1,0 +1,24 @@
+Task Goal:
+hanging_flags
+Observed Relation:
+['pole', 'attached', 'wall_nail']
+['national_flag', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing hanging_flags
+'''
+Step 1: Pick up the national flag
+Target:['national_flag']
+Step 2: Attach the national flag to the pole
+Target:['pole', 'national_flag']
+Step 3: Hang the national flag on the wall nail
+Target:['pole', 'wall_nail']
+Step 4: Place the agent on the floor
+Target:['floor', 'agent']
+Step 5: Hang the national flag on the wall nail
+Target:['pole', 'wall_nail']
+Step 6: Move the agent from the floor to the wall nail
+Target:['floor', 'wall_nail']
+Step 7: Task completed
+Target:[]
+Now please output plannings for doing hanging_flags
+'''

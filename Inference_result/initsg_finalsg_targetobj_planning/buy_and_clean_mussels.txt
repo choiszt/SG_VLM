@@ -1,0 +1,119 @@
+Task Goal:
+buy_and_clean_mussels
+Observed Relation:
+['mussel', 'inside', 'sack']
+['mussel', 'covered', 'sand']
+['sack', 'ontop', 'countertop']
+['mixing_bowl', 'filled', 'water']
+['mixing_bowl', 'ontop', 'countertop']
+['paper_towel', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing buy_and_clean_mussels
+\Goal/
+"""
+entity:['mussel', 'mixing_bowl', 'paper_towel']
+target:['sack']
+task:taskgoaldescendancy
+"""
+id:['sack']
+target:['sack']
+
+response:[]
+target:[]
+
+invoice:None
+target:[]
+
+self:agent
+target:['agent']
+
+Step 1: Pick up the sack
+Target:['sack']
+
+Step 2: Take the sack to the grocery store
+Target:['sack', 'grocery_store']
+
+Step 3: Take the mussels out of the sack
+Target:['sack', 'mussel']
+
+Step 4: Wash the mussels under the sink
+Target:['mussel', 'sink']
+
+Step 5: Clean the mussels with the paper towel
+Target:['mussel', 'paper_towel']
+
+Step 6: Dispose of the dirty paper towel
+Target:['paper_towel']
+
+Step 7: Go to the checkout counter
+Target:['checkout_countertop']
+
+"""
+
+Answer: Task Goal:
+
+"""
+Observed Relation:
+['mussel', 'inside', 'sack']
+['mussel', 'covered', 'sand']
+['sack', 'ontop', 'countertop']
+['mixing_bowl', 'filled', 'water']
+['mixing_bowl', 'ontop', 'countertop']
+['paper_towel', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Target:['mussel', 'sack']
+Goal Expected Relation:
+
+"""
+Step 1: Pick up the sack
+Target:['sack']
+
+Step 2: Take the sack to the grocery store
+Target:['sack', 'grocery_store']
+
+Step 3: Take the sack from the agent
+Target:['sack']
+
+Step 4: Take the mussels out of the sack
+Target:['sack', 'mussel']
+
+Step 5: Wash the mussels under the sink
+Target:['mussel', 'sink']
+
+Step 6: Clean the mussels with the paper towel
+Target:['mussel', 'paper_towel']
+
+Step 7: Go to the checkout counter
+Target:['checkout_countertop']
+
+Step 8: Pay for the mussels at the checkout counter
+Target:['checkout_countertop']
+
+Step 9: Leave the grocery store
+Target:['grocery_store']
+
+Step 10: Go back to the agent
+Target:['agent']
+
+Step 11: Place the mussels in the mixing bowl
+Target:['mussel', 'mixing_bowl']
+
+Step 12: Place the paper towel on the floor
+Target:['paper_towel']
+
+Step 13: Place the mixing bowl on the floor
+Target:['mixing_bowl']
+
+Step 14: Put the agent on the floor
+Target:['agent']
+
+Step 15: Put the ingredients on the floor
+Target:['mixing_bowl', 'mussel', 'paper_towel', 'agent']
+
+Step 16: Go to the floor
+Target:['floor']
+
+Step 17: Calculate the invoice
+Target:['invoice']
+",__input__json__step__step__data__step__14__source__agent__task__step__12__venue__grocery_store__step__11__target__grocery_store__target__none__step__no__output__none__step__no__target__none__target__none__step__none__target__none__target__none__step__none__target__none__target__none__step__none__target__none__target__none__step__none__target__none__target__none__step__none__target__none__target__none__step__none__target__none__target__none__step__none__target__none__target__none__step__none__target__none__target__none__step__none__target__none__target__none__step__none__target__none__target__none__step__none__target__none__

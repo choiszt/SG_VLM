@@ -1,0 +1,18 @@
+Task Goal:
+cook_bacon
+Observed Relation:
+['bacon', 'ontop', 'tray']
+['tray', 'inside', 'electric_refrigerator']
+['griddle', 'ontop', 'stove']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing cook_bacon
+
+### Response:
+Step 1: Open the electric refrigerator
+Step 2: Take the bacon tray out of the electric refrigerator
+Step 3: Place the bacon tray on the griddle
+Step 4: Turn on the stove
+Step 5: Put the griddle on the stove
+Step 6: Cook the bacon on the griddle
+Step 7: Remove the bacon from the griddle

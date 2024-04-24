@@ -1,0 +1,65 @@
+Task Goal:
+make_chocolate_spread
+Observed Relation:
+['butter', 'inside', 'butter__package']
+['honey__jar', 'filled', 'honey']
+['honey__jar', 'ontop', 'countertop']
+['cocoa__box', 'filled', 'cocoa_powder']
+['cocoa__box', 'ontop', 'countertop']
+['tablespoon', 'ontop', 'countertop']
+['food_processor', 'ontop', 'countertop']
+['mixing_bowl', 'ontop', 'countertop']
+['butter__package', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_chocolate_spread
+Step 1: Open the electric refrigerator
+Target:['electric_refrigerator']
+Step 2: Take the butter out of the butter package
+Target:['butter__package', 'butter']
+Step 3: Take the honey out of the honey jar
+Target:['honey__jar', 'honey']
+Step 4: Take the cocoa powder out of the cocoa box
+Target:['cocoa__box', 'coca_powder']
+Step 5: Take the tablespoon out of the countertop
+Target:['tablespoon', 'tablespoon']
+Step 6: Put the butter into the food processor
+Target:['butter', 'food_processor']
+Step 7: Put the honey into the food processor
+Target:['honey', 'food_processor']
+Step 8: Put the cocoa powder into the food processor
+Target:['cocoa_powder', 'food_processor']
+Step 9: Put the tablespoon into the food processor
+Target:['tablespoon', 'food_processor']
+Step 10: Turn on the mixer in the food processor
+Target:['food_processor']
+Step 11: Mix the butter, honey, and cocoa powder in the food processor
+Target:['butter', 'honey', 'cocoa_powder', 'food_processor']
+Step 12: Take the mixture out of the food processor
+Target:['mixing_bowl', 'food_processor']
+Step 13: Cool down the mixture in the mixing bowl
+Target:['mixing_bowl']
+Step 14: Put the mixture into a Tupperware
+Target:['mixing_bowl', 'tupperware']
+Step 15: Put the Tupperware into the refrigerator
+Target:['tupperware', 'electric_refrigerator']
+Step 16: Check if the chocolate spread is ready
+Target:chocolate_spread
+Step 17: Take the chocolate spread out of the refrigerator
+Target:['chocolate_spread', 'electric_refrigerator']
+Step 18: Serve the chocolate spread
+Target:chocolate_spread
+Step 19: Relax
+Target:chocolate_spread
+Step 20: Enjoy the chocolate spread
+Target:chocolate_spread
+Step 21: Clean up the kitchen
+Target:['mixing_bowl', 'food_processor', 'tablespoon', 'honey_jar', 'cocoa_box', 'butter__package', 'countertop']
+Step 22: End
+
+## Output:
+##   step_num: 22
+##   target:['mixing_bowl', 'food_processor', 'tablespoon', 'honey_jar', 'cocoa_box', 'butter__package', 'countertop']
+##   relation:Mild
+##
+## test_result:pleasant
+##

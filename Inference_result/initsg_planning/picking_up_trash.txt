@@ -1,0 +1,75 @@
+Task Goal:
+picking_up_trash
+Observed Relation:
+['can__of__soda', 'ontop', 'floor']
+Now please output plannings for doing picking_up_trash
+A simple Google search for "picking_up_trash" returns the following result:
+Picking Up Trash Step 1: Collect trash
+Picking Up Trash Step 2: Find a trashcan
+Picking Up Trash Step 3: Empty the trashcan
+Picking Up Trash Step 4: Put the paper in the trashcan
+Picking Up Trash Step 5: Close the trashcan
+Picking Up Trash Step 6: Carry the trashcan
+Picking Up Trash Step 7: Put the trashcan by the waste_disposal
+Now please output plannings for doing picking_up_trash
+Now please output efficiency for doing picking_up_trash
+Observed Relation:
+['trashcan', 'ontop', 'counter']
+['disposal', 'ontop', 'counter']
+['curtain', 'ontop', 'floor']
+['carpet', 'ontop', 'floor']
+['sweep', 'ontop', 'floor']
+['detergent', 'ontop', 'floor']
+['sink', 'insource', 'water']
+['watermelon', 'inside', 'fridge']
+['watermelon', 'ontop', 'floor']
+['broccoli', 'inside', 'bowl']
+['broccoli', 'ontop', 'floor']
+['broccoli_leaf', 'ontop', 'bowl']
+['broccoli_leaf', 'ontop', 'floor']
+['cheese_wheel', 'inside', 'cheese_wheel']
+['cheese_wheel', 'ontop', 'counter']
+['cheese_wheel', 'insource', 'milk']
+['cheese_wheel', 'insource', 'milk']
+['tortilla', 'inside', 'tortilla']
+['tortilla', 'ontop', 'plate']
+['tortilla', 'ontop', 'floor']
+['tortilla', 'ontop', 'table']
+['tortilla_shell', 'inside', 'tortilla_shell']
+['tortilla_shell', 'ontop', 'floor']
+['tortilla_shell', 'ontop', 'plate']
+['tortilla_shell', 'ontop', 'floor']
+['tortilla_shell', 'ontop', 'table']
+['tortilla_shell', 'inside', 'tortilla_shell']
+['water_bottle', 'inside', 'water']
+['water_bottle', 'ontop', 'counter']
+['water_bottle', 'ontop', 'floor']
+['water_bottle', 'ontop', 'table']
+['water_bottle', 'ontop', 'floor']
+['water_bottle', 'ontop', 'plate']
+['water_bottle', 'ontop', 'floor']
+['water_bottle', 'ontop', 'table']
+['water_bottle', 'inside', 'water']
+['water_bottle', 'ontop', 'water']
+['water_bottle', 'ontop', 'floor']
+['water_bottle', 'ontop', 'table']
+['water_bottle', 'inside', 'water']
+['water_bottle', 'ontop', 'floor']
+['water_bottle', 'ontop', 'table']
+['water_bottle', 'inside', 'water']
+['water_bottle', 'ontop', 'floor']
+['water_bottle', 'ontop', 'table']
+['water_bottle', 'inside', 'water']
+['carpet', 'ontop', 'floor']
+['curtain', 'ontop', 'floor']
+['sweep', 'ontop', 'floor']
+['detergent', 'ontop', 'floor']
+['sofa', 'ontop', 'floor']
+['sink', 'insource', 'water']
+['toilet', 'insource', 'water']
+['trashcan', 'ontop', 'counter']
+['disposal', 'ontop', 'counter']
+['broccoli', 'ontop', 'floor']
+['broccoli_leaf', 'ontop', 'bowl']
+['broccoli_leaf', 'ontop', 'floor']
+['cheese_wheel', 'inside', 'cheese_wheel']

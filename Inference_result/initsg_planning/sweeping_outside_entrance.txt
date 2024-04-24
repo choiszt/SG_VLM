@@ -1,0 +1,22 @@
+Task Goal:
+sweeping_outside_entrance
+Observed Relation:
+['driveway', 'covered', 'dust']
+['ashcan', 'ontop', 'floor']
+['entire_leaf', 'ontop', 'driveway']
+['wreath', 'ontop', 'driveway']
+['broom', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing sweeping_outside_entrance
+The driveway is covered with dust
+The entire leaf is on top of the driveway
+The wreath is on top of the driveway
+The broom is on top of the driveway
+The agent is on top of the floor
+Step 1: Move the broom from the driveway to the floor
+Step 2: Move the ashcan from the floor to the ashcan holder
+Step 3: Move the wreath from the driveway to the wall
+Step 4: Move the entire leaf from the driveway to the floor
+Step 5: Move the agent from the floor to the driveway
+Step 6: Pick up the broom from the floor
+Step 7: Put the broom back on the driveway

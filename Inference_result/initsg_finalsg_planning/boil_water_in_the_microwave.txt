@@ -1,0 +1,17 @@
+Task Goal:
+boil_water_in_the_microwave
+Observed Relation:
+['mug', 'inside', 'cabinet']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing boil_water_in_the_microwave
+
+### Response:
+Step 1: Open the cabinet
+Step 2: Take the mug out of the cabinet
+Step 3: Turn on the microwave
+Step 4: Pour water from the sink into the mug
+Step 5: Place the mug in the microwave
+Step 6: Set the microwave to boil water
+Step 7: Turn on the microwave

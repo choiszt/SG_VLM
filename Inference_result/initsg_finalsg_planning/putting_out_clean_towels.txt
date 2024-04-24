@@ -1,0 +1,17 @@
+Task Goal:
+putting_out_clean_towels
+Observed Relation:
+['bath_towel', 'ontop', 'floor']
+['hand_towel', 'ontop', 'floor']
+['wicker_basket', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing putting_out_clean_towels
+### Response:
+Step 1: Pick up the bath towel from the floor
+Step 2: Pick up the hand towel from the floor
+Step 3: Pick up the wicker basket from the floor
+Step 4: Put the bath towel in the wicker basket
+Step 5: Put the hand towel in the wicker basket
+Step 6: Put the wicker basket with towels on the floor
+Step 7: Finish putting out clean towels

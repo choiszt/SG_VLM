@@ -1,0 +1,26 @@
+Task Goal:
+scrubbing_bathroom_floor
+Observed Relation:
+['floor', 'covered', 'dirt']
+['bucket', 'filled', 'water']
+['scrub_brush', 'ontop', 'floor']
+['bucket', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing scrubbing_bathroom_floor
+under ideal conditions
+### Response:
+Step 1: Pick up the scrub brush
+Target:['scrub_brush']
+Step 2: Empty the water from the bucket
+Target:['bucket']
+Step 3: Move the bucket to the sink
+Target:['bucket', 'sink']
+Step 4: Pick up the scrub brush
+Target:['scrub_brush']
+Step 5: Move the scrub brush to the floor
+Target:['scrub_brush', 'floor']
+Step 6: Scrub the floor with the scrub brush
+Target:['scrub_brush', 'floor']
+Step 7: Remove the scrub brush from the floor
+Target:['scrub_brush']

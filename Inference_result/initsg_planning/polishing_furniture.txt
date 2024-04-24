@@ -1,0 +1,13 @@
+Task Goal:
+polishing_furniture
+Observed Relation:
+['shelf', 'covered', 'dust']
+['table', 'covered', 'dust']
+['rag', 'ontop', 'table']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing polishing_furniture
+FROM THE SITE/TOOLKIT:
+['shelf', 'ontop', 'table']
+['agent', 'ontop', 'table']
+['rag', 'ontop', 'shelf']
+['agent', 'ontop', 'floor']

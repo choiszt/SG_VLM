@@ -1,0 +1,24 @@
+Task Goal:
+make_chocolate_syrup
+Observed Relation:
+['sugar__sack', 'filled', 'granulated_sugar']
+['sugar__sack', 'ontop', 'countertop']
+['tablespoon', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['vanilla__bottle', 'insource', 'vanilla']
+['vanilla__bottle', 'ontop', 'countertop']
+['cocoa__box', 'filled', 'cocoa_powder']
+['cocoa__box', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_chocolate_syrup
+Response:
+Step 1: Take the sugar sack from the countertop
+Step 2: Take the tablespoon from the countertop
+Step 3: Take the salt shaker from the countertop
+Step 4: Take the vanilla bottle from the countertop
+Step 5: Take the cocoa box from the countertop
+Step 6: Fill the saucepan with water
+Step 7: Combine the granulated sugar, tablespoon of sugar, salt, vanilla, and water in the saucepan

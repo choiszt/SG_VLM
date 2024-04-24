@@ -1,0 +1,19 @@
+Task Goal:
+clean_a_golf_club
+Observed Relation:
+['golf_club', 'ontop', 'floor']
+['liquid_soap__bottle', 'filled', 'liquid_soap']
+['golf_club', 'covered', 'mud']
+['liquid_soap__bottle', 'ontop', 'floor']
+['rag', 'ontop', 'floor']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+['golf_club', 'covered', 'mud']
+Now please output plannings for doing clean_a_golf_club
+First of all, uncover the golf club from the mud
+Then, apply liquid soap on the golf club
+After that, wipe off the liquid soap with the rag
+Finally, rinsing the golf club with water from the sink
+Now the golf club is clean
+Note that this plannings is a suggestion only and cannot guarantee the outcome
+Note that this plannings is based on current situation only and cannot be used for dealing with the scenario at the next step

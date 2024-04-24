@@ -1,0 +1,19 @@
+Task Goal:
+spraying_for_bugs
+Observed Relation:
+['insectifuge__atomizer', 'ontop', 'floor']
+['insectifuge__atomizer', 'insource', 'insectifuge']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing spraying_for_bugs
+Step 1: Pick up the insectifuge atomizer
+Target:
+['insectifuge__atomizer']
+Step 2: Spray the insectifuge atomizer
+Output:
+['insectifuge__atomizer', 'spray']
+Step 3: Move the insectifuge atomizer to the sofa
+Target:
+['insectifuge__atomizer', 'sofa']
+Step 4: Spray the sofa with the insectifuge atomizer
+Output:
+['insectifuge__atomizer', 'sofa', 'spray']

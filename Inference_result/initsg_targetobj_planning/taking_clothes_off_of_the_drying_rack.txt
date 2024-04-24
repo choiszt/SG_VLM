@@ -1,0 +1,18 @@
+Task Goal:
+taking_clothes_off_of_the_drying_rack
+Observed Relation:
+['blouse', 'draped', 'coatrack']
+['tank_top', 'draped', 'coatrack']
+['hamper', 'ontop', 'floor']
+['coatrack', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing taking_clothes_off_of_the_drying_rack
+Target:['blouse', 'tank_top', 'hamper', 'coatrack']
+Time Horizon:['null']
+Expected Result:
+['blouse', 'tank_top', 'hamper']
+Now please output plannings for doing taking_clothes_off_of_the_drying_rack
+Target:['blouse', 'tank_top', 'hamper', 'coatrack']
+Time Horizon:['null']
+Expected Result:
+['blouse', 'tank_top', 'hamper']

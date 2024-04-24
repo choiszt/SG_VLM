@@ -1,0 +1,20 @@
+Task Goal:
+make_baked_pears
+Observed Relation:
+['pear', 'inside', 'electric_refrigerator']
+['wine_bottle', 'filled', 'red_wine']
+['wine_bottle', 'inside', 'cabinet']
+['granulated_sugar__sack', 'filled', 'granulated_sugar']
+['granulated_sugar__sack', 'inside', 'cabinet']
+['stockpot', 'inside', 'cabinet']
+['wooden_spoon', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_baked_pears
+### Response ###
+Step 1: Open the electric refrigerator
+Step 2: Take the pear out of the electric refrigerator
+Step 3: Pour the red wine into the stockpot
+Step 4: Preheat the oven
+Step 5: Dust the pear with granulated sugar
+Step 6: Put the pear in the preheated oven and bake it
+Step 7: Take the pear out of the oven and serve it

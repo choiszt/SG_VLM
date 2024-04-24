@@ -1,0 +1,34 @@
+Task Goal:
+clean_shrimp
+Observed Relation:
+['chopping_board', 'ontop', 'oven']
+['prawn', 'ontop', 'chopping_board']
+['prawn', 'covered', 'sand']
+['carving_knife', 'ontop', 'chopping_board']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_shrimp
+The shrimp is covered with sand. First, remove the sand from the shrimp
+Then wash the shrimp under tap water
+Dry the shrimp with paper towel
+Put the shrimp in the electric refrigerator
+Hey @ Tarek, please put or take something else from the task goal?
+Relation: __task Goal: __plan__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__
+Relation: __agent__,, problem; please solve __problem__

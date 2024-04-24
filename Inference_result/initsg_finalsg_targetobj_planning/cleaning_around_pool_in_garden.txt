@@ -1,0 +1,25 @@
+Task Goal:
+cleaning_around_pool_in_garden
+Observed Relation:
+['driveway', 'covered', 'dust']
+['broom', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing cleaning_around_pool_in_garden
+\Goal: taskGoal
+Then plannings for doing cleaning_around_pool_in_garden
+Target:['driveway', 'broom', 'agent']
+Step 1: Pick up the broom
+Target:['broom']
+Step 2: Sweep the dust off the driveway
+Target:['driveway', 'dust']
+Step 3: Put down the broom
+Target:['broom']
+Step 4: Pick up the agent
+Target:['agent']
+Step 5: Sweep the dust off the driveway
+Target:['driveway', 'dust']
+Step 6: Put down the agent
+Target:['agent']
+Step 7: Clean around the pool in the garden
+Target:['driveway', 'broom']

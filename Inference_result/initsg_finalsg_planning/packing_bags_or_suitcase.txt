@@ -1,0 +1,19 @@
+Task Goal:
+packing_bags_or_suitcase
+Observed Relation:
+['backpack', 'ontop', 'floor']
+['toothbrush', 'ontop', 'bed']
+['bottle__of__shampoo', 'ontop', 'bed']
+['hardback', 'ontop', 'bed']
+['underwear', 'ontop', 'bed']
+['tube__of__toothpaste', 'ontop', 'bed']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing packing_bags_or_suitcase
+### Response:
+Step 1: Pick up the backpack from the floor
+Step 2: Pick up the toothbrush, bottle of shampoo, hardback, and tube of toothpaste from the bed
+Step 3: Put the backpack in the suitcase
+Step 4: Put the toothbrush, bottle of shampoo, hardback, and tube of toothpaste in the suitcase
+Step 5: Put the hardback and underwear in the suitcase
+Step 6: Close the suitcase

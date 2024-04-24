@@ -1,0 +1,25 @@
+Task Goal:
+preserving_fruit
+Observed Relation:
+['strawberry', 'inside', 'tupperware']
+['tupperware', 'inside', 'electric_refrigerator']
+['mint', 'inside', 'electric_refrigerator']
+['granulated_sugar__sack', 'filled', 'granulated_sugar']
+['granulated_sugar__sack', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'countertop']
+['saucepot', 'inside', 'cabinet']
+['soup_ladle', 'inside', 'cabinet']
+['mason_jar', 'ontop', 'countertop']
+['blender', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing preserving_fruit
+### Response:
+Step 1: Open the electric refrigerator
+Step 2: Take the tupperware out of the electric refrigerator
+Step 3: Take the strawberry out of the tupperware
+Step 4: Put the strawberry in the blender
+Step 5: Add water to the blender
+Step 6: Put granulated sugar into the saucepot
+Step 7: Put the carving knife into the saucepot

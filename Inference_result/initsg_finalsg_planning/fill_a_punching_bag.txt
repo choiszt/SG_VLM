@@ -1,0 +1,17 @@
+Task Goal:
+fill_a_punching_bag
+Observed Relation:
+['bucket', 'filled', 'white_rice']
+['punching_bag', 'ontop', 'floor']
+['bucket', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing fill_a_punching_bag
+### Response:
+Step 1: Move the punching bag to the bucket
+Step 2: Fill the bucket with white rice
+Step 3: Put the punching bag in the bucket
+Step 4: Remove the punching bag from the bucket
+Step 5: Move the punching bag to the floor
+Step 6: Remove the white rice from the bucket
+Step 7: Move the punching bag back to the floor

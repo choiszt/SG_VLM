@@ -1,0 +1,39 @@
+Task Goal:
+clean_a_lobster
+Observed Relation:
+['lobster', 'covered', 'mud']
+['bowl', 'inside', 'electric_refrigerator']
+['lobster', 'inside', 'bowl']
+['hand_towel', 'inside', 'shelf']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_a_lobster
+Step 1: Get a hand towel
+Target:['hand_towel']
+Step 2: Take the lobster out of the bowl
+Target:['bowl', 'lobster']
+Step 3: Clean the lobster with water
+Target:['lobster']
+Step 4: Dry the lobster with the hand towel
+Target:['lobster', 'hand_towel']
+Step 5: Put the lobster back into the bowl
+Target:['lobster', 'bowl']
+Step 6: Put the bowl with lobster back into the electric refrigerator
+Target:['bowl', 'electric_refrigerator']
+Step 7: Finish cleaning the floor
+Target:['floor']
+Response:
+Step 1: Get a hand towel
+Target:['hand_towel']
+Step 2: Take the lobster out of the bowl
+Target:['bowl', 'lobster']
+Step 3: Clean the lobster with water
+Target:['lobster']
+Step 4: Dry the lobster with the hand towel
+Target:['lobster', 'hand_towel']
+Step 5: Put the lobster back into the bowl
+Target:['lobster', 'bowl']
+Step 6: Put the bowl with lobster back into the electric refrigerator
+Target:['bowl', 'electric_refrigerator']
+Step 7: Finish cleaning the floor
+Target:['floor']

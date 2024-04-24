@@ -1,0 +1,10 @@
+Task Goal:
+putting_wood_in_fireplace
+Observed Relation:
+['log', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_wood_in_fireplace
+The answer is: Pick up the log from the floor and put it in the fireplace
+Then plannings for doing putting_wood_in_fireplace === pick_up_log_from_floor; put_log_in_fireplace
+Now please output effects and/or objections for doing putting_wood_in_fireplace
+The answer is: None

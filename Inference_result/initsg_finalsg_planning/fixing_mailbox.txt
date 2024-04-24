@@ -1,0 +1,10 @@
+Task Goal:
+fixing_mailbox
+Observed Relation:
+['mailbox', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing fixing_mailbox
+### Response:
+Step 1: Pick up the mailbox
+Step 2: Move the mailbox to the wall nail

@@ -1,0 +1,21 @@
+Task Goal:
+watering_outdoor_flowers
+Observed Relation:
+['watering_can', 'insource', 'water']
+['watering_can', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing watering_outdoor_flowers
+Step 1: Pick up the watering can
+Target:['watering_can']
+Step 2: Move to the desired location
+Target:['agent']
+Step 3: Pour water into the watering can
+Target:['watering_can', 'water']
+Step 4: Move to the desired location
+Target:['watering_can']
+Step 5: Pour water into the plant
+Target:['watering_can', 'plant']
+Step 6: Move to the desired location
+Target:['watering_can']
+Step 7: Repeat step 5 until all plants are watered
+Target:['watering_can', 'plant']

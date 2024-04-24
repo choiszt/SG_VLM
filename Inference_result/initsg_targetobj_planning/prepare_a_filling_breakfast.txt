@@ -1,0 +1,27 @@
+Task Goal:
+prepare_a_filling_breakfast
+Observed Relation:
+['table_knife', 'ontop', 'countertop']
+['egg', 'inside', 'electric_refrigerator']
+['bratwurst', 'inside', 'electric_refrigerator']
+['frying_pan', 'ontop', 'countertop']
+['orange', 'inside', 'electric_refrigerator']
+['plate', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing prepare_a_filling_breakfast
+PD: Note that the desired output should be in plannings form, not in action form
+Step 1: Take the egg out of the electric refrigerator
+Target:['electric_refrigerator', 'egg']
+Step 2: Take the bratwurst out of the electric refrigerator
+Target:['electric_refrigerator', 'bratwurst']
+Step 3: Take the orange out of the electric refrigerator
+Target:['electric_refrigerator', 'orange']
+Step 4: Cut the bratwurst with the carving knife
+Target:['bratwurst', 'carving_knife']
+Step 5: Put the bratwurst in the frying pan
+Target:['bratwurst', 'frying_pan']
+Step 6: Put the egg on top of the bratwurst in the frying pan
+Target:['egg', 'bratwurst', 'frying_pan']
+Step 7: Grill the breakfast sandwich
+Target:['grill']

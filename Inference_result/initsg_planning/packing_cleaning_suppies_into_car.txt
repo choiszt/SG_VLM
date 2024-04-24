@@ -1,0 +1,26 @@
+Task Goal:
+packing_cleaning_suppies_into_car
+Observed Relation:
+['car', 'ontop', 'driveway']
+['face_mask', 'ontop', 'backpack']
+['rag', 'ontop', 'floor']
+['backpack', 'ontop', 'driveway']
+['scrub_brush', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing packing_cleaning_suppies_into_car
+The backpack is the best place to put the face mask. Then, you can easily access the face mask.
+The scrub brush is the best place to put the detergent.
+The rag should be placed inside the backpack.
+The car is on the driveway, and the driveway is not floor
+The agent is on the floor, and the floor is not backpack
+The goal of this task is packing cleaning suppies into car
+Explanation:
+The backpack is the best place to put the face mask. Then, you can easily access the face mask.
+The scrub brush is the best place to put the detergent.
+The rag should be placed inside the backpack.
+The car is on the driveway, and the driveway is not floor
+The agent is on the floor, and the floor is not backpack
+Hence, the backpack should be moved to the floor
+Hence, the face mask should be moved to the backpack
+Hence, the scrub brush should be moved to the floor
+Hence, the rag should be moved to the backpack

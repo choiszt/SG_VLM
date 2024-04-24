@@ -1,0 +1,26 @@
+Task Goal:
+cook_chickpeas
+Observed Relation:
+['bowl', 'filled', 'chickpea']
+['bowl', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['salt__shaker', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['stockpot', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cook_chickpeas
+### Response:
+Step 1: Take the bowl with chickpeas from the countertop
+Target:['bowl', 'countertop']
+Step 2: Fill the sink with water
+Target:['sink', 'water']
+Step 3: Take the salt shaker from the countertop
+Target:['salt__shaker', 'countertop']
+Step 4: Salt the chickpeas
+Target:['chickpea', 'salt']
+Step 5: Put the salted chickpeas into the pot
+Target:['chickpea', 'pot']
+Step 6: Bring the pot to boil
+Target:['pot']
+Step 7: Cook the chickpeas
+Target:['chickpea']

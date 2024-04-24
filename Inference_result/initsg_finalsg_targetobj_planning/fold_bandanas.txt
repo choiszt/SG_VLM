@@ -1,0 +1,27 @@
+Task Goal:
+fold_bandanas
+Observed Relation:
+['hand_towel', 'ontop', 'sofa']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing fold_bandanas
+\Goal::Index
+\Goal::Expected
+Now please output plannings for doing fold_bandanas
+\Goal::Execution
+Now please output plannings for doing fold_bandanas
+\Goal::Response
+Step 1: Pick up the hand towel from the sofa
+Target:['sofa', 'hand_towel']
+Step 2: Find a suitable place to hang the hand towel
+Target:['wall_nail']
+Step 3: Fold the hand towel
+Target:['hand_towel']
+Step 4: Hang the folded hand towel on the wall nail
+Target:['wall_nail']
+Step 5: Pick up the hand towel from the sofa
+Target:['sofa', 'hand_towel']
+Step 6: Fold the bandana
+Target:['bandana']
+Step 7: Put the bandana on the shelf
+Target:['shelf']

@@ -1,0 +1,23 @@
+Task Goal:
+fill_a_canteen
+Observed Relation:
+['canteen', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing fill_a_canteen
+Step 1: Pick up the canteen
+Target:['canteen']
+Step 2: Fill the canteen with water from the sink
+Target:['sink', 'canteen']
+Step 3: Put the canteen back on the countertop
+Target:['canteen']
+Step 4: Open the electric refrigerator
+Target:['electric_refrigerator']
+Step 5: Take the canteen out of the electric refrigerator
+Target:['canteen', 'electric_refrigerator']
+Step 6: Put the canteen back on the countertop
+Target:['canteen']
+Step 7: Move the canteen to the countertop with water dispenser
+Target:['canteen', 'water_dispenser']
+Step 8: Pour water from the water dispenser into the canteen
+Target:['canteen', 'water_dispenser']

@@ -1,0 +1,23 @@
+Task Goal:
+putting_away_bicycles
+Observed Relation:
+['bicycle', 'ontop', 'driveway']
+['tarpaulin', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+['tarpaulin', 'overlaid', 'bicycle']
+Now please output plannings for doing putting_away_bicycles
+\Goal Output:
+Step 1: Pick up the tarpaulin
+Target:['tarpaulin']
+Step 2: Put the tarpaulin on the bicycle
+Target:['tarpaulin', 'bicycle']
+Step 3: Remove the bicycle from the driveway
+Target:['bicycle']
+Step 4: Hang the tarpaulin on the wall-nail
+Target:['tarpaulin', 'wall-nail']
+Step 5: Put the bicycle in the storage room
+Target:['bicycle', 'storage_room']
+Step 6: Put the tarpaulin on the floor
+Target:['tarpaulin', 'floor']
+Step 7: Put the bicycle in the storage room
+Target:['bicycle', 'storage_room']

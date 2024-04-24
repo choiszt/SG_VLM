@@ -1,0 +1,23 @@
+Task Goal:
+cook_ground_beef
+Observed Relation:
+['bowl', 'inside', 'electric_refrigerator']
+['frying_pan', 'ontop', 'oven']
+['wooden_spoon', 'ontop', 'oven']
+['onion_powder__shaker', 'insource', 'onion_powder']
+['onion_powder__shaker', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['bowl', 'filled', 'ground_beef']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing cook_ground_beef
+
+### Response
+Step 1: Open the electric refrigerator and take the bowl out of the refrigerator
+Step 2: Take the ground beef out of the bowl
+Step 3: Preheat the oven
+Step 4: Place the pan on the oven
+Step 5: Put the ground beef in the pan
+Step 6: Sprinkle onion powder and salt on the beef
+Step 7: Cook the ground beef in the oven

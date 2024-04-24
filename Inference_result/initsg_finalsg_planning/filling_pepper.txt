@@ -1,0 +1,20 @@
+Task Goal:
+filling_pepper
+Observed Relation:
+['bell_pepper', 'inside', 'electric_refrigerator']
+['chili', 'inside', 'electric_refrigerator']
+['carving_knife', 'ontop', 'countertop']
+['saucepot', 'filled', 'white_rice']
+['saucepot', 'ontop', 'countertop']
+['plate', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing filling_pepper
+### Response:
+Step 1: Open the electric refrigerator
+Step 2: Take the bell_pepper out of the electric refrigerator
+Step 3: Take the chili out of the electric refrigerator
+Step 4: Cut the bell_pepper and chili using the carving knife
+Step 5: Put the bell_pepper and chili into the saucepot
+Step 6: Fill the saucepot with white_rice
+Step 7: Serve the filling_pepper

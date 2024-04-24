@@ -1,0 +1,16 @@
+Task Goal:
+setting_up_living_room_for_guest
+Observed Relation:
+['chip', 'inside', 'bowl']
+['bowl', 'inside', 'shelf']
+['hardback', 'ontop', 'table']
+['rag', 'inside', 'shelf']
+['teddy', 'ontop', 'floor']
+['table', 'covered', 'dust']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing setting_up_living_room_for_guest
+The bowl cannot be placed on the table.
+The rag cannot be placed on the shelf.
+The teddy cannot be placed on the floor.
+The table cannot be cleaned due to dust.
+The agent cannot be on the floor.

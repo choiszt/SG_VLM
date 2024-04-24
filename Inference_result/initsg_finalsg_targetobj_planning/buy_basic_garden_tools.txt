@@ -1,0 +1,14 @@
+Task Goal:
+buy_basic_garden_tools
+Observed Relation:
+['shovel', 'ontop', 'shelf']
+['rake', 'ontop', 'shelf']
+['money', 'inside', 'backpack']
+['backpack', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing buy_basic_garden_tools
+\Goal Expected Relation:
+
+Now please output plannings for doing buy_basic_garden_tools
+\Goal Expected Relation:

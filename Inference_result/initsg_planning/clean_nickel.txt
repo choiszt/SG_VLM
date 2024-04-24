@@ -1,0 +1,19 @@
+Task Goal:
+clean_nickel
+Observed Relation:
+['rag', 'ontop', 'countertop']
+['vinegar__bottle', 'filled', 'vinegar']
+['vinegar__bottle', 'ontop', 'countertop']
+['nickel', 'ontop', 'countertop']
+['nickel', 'covered', 'stain']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_nickel
+The response was:
+Step 1: Take the rag from the countertop
+Step 2: Take the vinegar bottle from the countertop
+Step 3: Pour some vinegar from the bottle onto the stain
+Step 4: Take the nickel from the countertop
+Step 5: Clean the stain with the rag
+Step 6: Rinse the nickel with water from the sink
+Step 7: Dry the nickel

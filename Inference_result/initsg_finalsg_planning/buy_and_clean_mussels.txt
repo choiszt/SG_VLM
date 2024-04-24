@@ -1,0 +1,20 @@
+Task Goal:
+buy_and_clean_mussels
+Observed Relation:
+['mussel', 'inside', 'sack']
+['mussel', 'covered', 'sand']
+['sack', 'ontop', 'countertop']
+['mixing_bowl', 'filled', 'water']
+['mixing_bowl', 'ontop', 'countertop']
+['paper_towel', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing buy_and_clean_mussels
+### Response:
+Step 1: Open the sack
+Step 2: Take the mussel out of the sack
+Step 3: Remove the sand from the mussel
+Step 4: Wash the mussel in the sink
+Step 5: Dry the mussel with a paper towel
+Step 6: Put the mussel in the mixing bowl
+Step 7: Fill the mixing bowl with water

@@ -1,0 +1,14 @@
+Task Goal:
+organizing_file_cabinet
+Observed Relation:
+['marker', 'ontop', 'chair']
+['document', 'ontop', 'table']
+['folder', 'ontop', 'table']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing organizing_file_cabinet
+
+Now please output plannings for doing organizing_file_cabinet
+
+Now please output plannings for doing organizing_file_cabinet
+

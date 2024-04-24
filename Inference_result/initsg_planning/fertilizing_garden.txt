@@ -1,0 +1,29 @@
+Task Goal:
+fertilizing_garden
+Observed Relation:
+['fertilizer__atomizer', 'insource', 'fertilizer']
+['pot', 'ontop', 'floor']
+['pot', 'filled', 'soil']
+['fertilizer__atomizer', 'ontop', 'floor']
+['potato', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing fertilizing_garden
+The fertilizer atomizer is on the floor.
+Among the pooling_tomatoes, there is a potato.
+Among the pooling_tomatoes, there are 20 white poppies.
+Among the pooling_tomatoes, there are 1 mushroom.
+Among the pooling_tomatoes, there are 5 limes.
+Among the pooling_tomatoes, there are 5 apples.
+Among the pooling_tomatoes, there are 5 pineapples.
+Among the pooling_tomatoes, there are 5 pumpkins.
+Among the pooling_tomatoes, there are 5 watermelons.
+Step 1: Pick up the fertilizer atomizer
+Step 2: Move the pot to the pot
+Step 3: Remove the white poppies from the pot
+Step 4: Remove the mushroom from the pot
+Step 5: Remove the limes from the pot
+Step 6: Remove the apples from the pot
+Step 7: Remove the pineapples from the pot
+Step 8: Remove the pumpkins from the pot
+Step 9: Remove the watermelons from the pot
+Step 10: Fertilize the garden

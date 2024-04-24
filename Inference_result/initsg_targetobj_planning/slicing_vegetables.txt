@@ -1,0 +1,26 @@
+Task Goal:
+slicing_vegetables
+Observed Relation:
+['bell_pepper', 'inside', 'electric_refrigerator']
+['beet', 'inside', 'electric_refrigerator']
+['zucchini', 'inside', 'electric_refrigerator']
+['carving_knife', 'ontop', 'countertop']
+['chopping_board', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing slicing_vegetables
+Step 1: Open the electric refrigerator
+Target:['electric_refrigerator']
+Step 2: Take the bell pepper out of the electric refrigerator
+Target:['electric_refrigerator', 'bell_pepper']
+Step 3: Take the beet out of the electric refrigerator
+Target:['electric_refrigerator', 'beet']
+Step 4: Take the zucchini out of the electric refrigerator
+Target:['electric_refrigerator', 'zucchini']
+Step 5: Put the bell pepper, beet, and zucchini onto the chopping board
+Target:['bell_pepper', 'beet', 'zucchini', 'chopping_board']
+Step 6: Cut the bell pepper into slices using the carving knife
+Target:['bell_pepper', 'carving_knife', 'sliced_bell_pepper']
+Step 7: Cut the beet into slices using the carving knife
+Target:['beet', 'carving_knife', 'sliced_beet']
+Step 8: Cut the zucchini into slices using the carving knife
+Target:['zucchini', 'carving_knife', 'sliced_zucchini']

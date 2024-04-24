@@ -1,0 +1,28 @@
+Task Goal:
+make_chocolate_syrup
+Observed Relation:
+['sugar__sack', 'filled', 'granulated_sugar']
+['sugar__sack', 'ontop', 'countertop']
+['tablespoon', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['vanilla__bottle', 'insource', 'vanilla']
+['vanilla__bottle', 'ontop', 'countertop']
+['cocoa__box', 'filled', 'cocoa_powder']
+['cocoa__box', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_chocolate_syrup
+from the above relations.
+Obtained Plannings:
+Step 1: Take the sugar sack from the countertop
+Step 2: Pour the sugar into the bowl
+Step 3: Take the salt shaker from the countertop
+Step 4: Put the salt into the sugar bowl
+Step 5: Take the vanilla bottle from the countertop
+Step 6: Pour the vanilla into the bowl
+Step 7: Take the cocoa box from the countertop
+Step 8: Pour the cocoa powder into the bowl
+Step 9: Mix the ingredients in the bowl with the stirring device
+Step 10: Check if the mixture is ready
+Step 11: Pour the mixture into the pan

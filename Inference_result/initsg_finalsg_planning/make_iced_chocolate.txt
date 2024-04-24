@@ -1,0 +1,26 @@
+Task Goal:
+make_iced_chocolate
+Observed Relation:
+['ice_cube', 'inside', 'cup']
+['cup', 'inside', 'electric_refrigerator']
+['cocoa_powder__box', 'filled', 'cocoa_powder']
+['cocoa_powder__box', 'inside', 'cabinet']
+['milk__carton', 'filled', 'whole_milk']
+['milk__carton', 'inside', 'electric_refrigerator']
+['sugar__sack', 'filled', 'granulated_sugar']
+['sugar__sack', 'ontop', 'countertop']
+['vanilla__bottle', 'insource', 'vanilla']
+['vanilla__bottle', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_iced_chocolate
+Step 1: Open the cabinet
+Step 2: Take the cocoa_powder__box out of the cabinet
+Step 3: Take the cup out of the electric refrigerator
+Step 4: Put the ice_cube into the cup
+Step 5: Put 2 teaspoons of cocoa_powder into the cup
+Step 6: Put 1 teaspoon of sugar into the cup
+Step 7: Put 1 tablespoon of milk into the cup
+Step 8: Stir the cup with a spoon
+Step 9: Pour the iced_chocolate into the blender
+Step 10: Blend the iced_chocolate

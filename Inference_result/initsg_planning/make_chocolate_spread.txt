@@ -1,0 +1,38 @@
+Task Goal:
+make_chocolate_spread
+Observed Relation:
+['butter', 'inside', 'butter__package']
+['honey__jar', 'filled', 'honey']
+['honey__jar', 'ontop', 'countertop']
+['cocoa__box', 'filled', 'cocoa_powder']
+['cocoa__box', 'ontop', 'countertop']
+['tablespoon', 'ontop', 'countertop']
+['food_processor', 'ontop', 'countertop']
+['mixing_bowl', 'ontop', 'countertop']
+['butter__package', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_chocolate_spread
+Expected Outcome:
+Oven • Preheat • 225° • 50′ • 45′ • 6″
+Countertop • Preheat • 500° • 100′ • 10′ • 10′
+Melt butter in the pan
+Take the butter out of the pan
+Take the honey jar out of the countertop
+Take the cocoa box out of the countertop
+Take the tablespoon out of the countertop
+Take the food processor out of the countertop
+Take the cocoa powder out of the cocoa box
+Grab the cocoa powder and put it in the mixing bowl
+Grab the honey and put it in the mixing bowl
+Grab the butter and put it in the mixing bowl
+Grab the tablespoon and put it in the mixing bowl
+Grab the food processor and put it in the mixing bowl
+Grab the cocoa powder and put it in the food processor
+Grab the honey and put it in the food processor
+Grab the butter and put it in the food processor
+Grab the cocoa powder and put it in the food processor
+Combine the butter, honey, and cocoa powder in the mixing bowl
+Cook the mixture in the oven
+Check the cooked spread in the oven
+Clean up the mess
+

@@ -1,0 +1,20 @@
+Task Goal:
+picking_up_trash
+Observed Relation:
+['can__of__soda', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing picking_up_trash
+\Goal
+\Goal: Task Goal
+\Expected Relation: None
+\Target:['can__of__soda']
+\Task Goal: pick up trash
+Now please output plannings for doing picking_up_trash
+\Goal
+\Target:['can__of__soda']
+Step 1: Pick up the can of soda
+Target:['can__of__soda']
+Step 2: Move the can of soda to the trash bin
+Target:['can__of__soda', 'trash_bin']
+Step 3: Close the trash bin
+Target:['trash_bin']

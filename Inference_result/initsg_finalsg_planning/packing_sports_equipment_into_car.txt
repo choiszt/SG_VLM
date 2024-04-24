@@ -1,0 +1,12 @@
+Task Goal:
+packing_sports_equipment_into_car
+Observed Relation:
+['car', 'ontop', 'driveway']
+['sock', 'ontop', 'lawn']
+['helmet', 'ontop', 'lawn']
+['sports_equipment', 'ontop', 'lawn']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing packing_sports_equipment_into_car
+
+Octo:

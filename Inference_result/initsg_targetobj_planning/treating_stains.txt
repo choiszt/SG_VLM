@@ -1,0 +1,41 @@
+Task Goal:
+treating_stains
+Observed Relation:
+['table_linen', 'covered', 'stain']
+['detergent__bottle', 'filled', 'detergent']
+['detergent__bottle', 'ontop', 'floor']
+['table_linen', 'ontop', 'floor']
+['rag', 'ontop', 'floor']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing treating_stains
+There are many ways to treat stains, but only one sink
+so the plannings for doing treating_stains are:
+pick_up_the_detergent_bottle
+pour_detergent_into_the-washer;
+fill-the-washer-with-water;
+put-in-the-rag-or-tissue;
+take-out-the-stain;
+put-in-the-sofa-cushion;
+Now please output plannings for doing putting-in-the-sofa-cushion
+This part of the plan is very simple
+Step 1: Put-in-the-sofa-cushion
+Target:['table_linen', 'sofa_cushion']
+Observed Relation:
+['table_linen', 'covered', 'stain']
+['rag', 'inside', 'washer']
+['sofa_cushion', 'covered', 'stain']
+Step 2: Take-out-the-stain
+Target:['sofa_cushion']
+Observed Relation:
+['sofa_cushion', 'covered', 'stain']
+Step 3: Put-in-the-sofa-cushion
+Target:['sofa_cushion']
+Observed Relation:
+['sofa_cushion', 'covered', 'stain']
+Step 4: Take-out-the-stain
+Target:['sofa_cushion']
+Observed Relation:
+['sofa_cushion', 'covered', 'stain']
+Step 5: Put-in-the-sofa-cushion
+Target:['sofa_cushion']

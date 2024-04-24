@@ -1,0 +1,14 @@
+Task Goal:
+buy_salad_greens
+Observed Relation:
+['cash_register', 'ontop', 'checkout']
+['lettuce', 'ontop', 'shelf']
+['spinach', 'ontop', 'shelf']
+['sack', 'ontop', 'checkout']
+['money', 'ontop', 'checkout']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing buy_salad_greens
+
+Please output plannings for doing buy_salad_greens
+Now please output plannings for doing buy_salad_greens

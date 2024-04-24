@@ -1,0 +1,20 @@
+Task Goal:
+spring_clean_your_skateboard
+Observed Relation:
+['acetone__atomizer', 'insource', 'acetone']
+['acetone__atomizer', 'ontop', 'floor']
+['bucket', 'filled', 'water']
+['bucket', 'ontop', 'floor']
+['skateboard', 'ontop', 'floor']
+['skateboard', 'covered', 'stain']
+['rag', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing spring_clean_your_skateboard
+Response:
+Step 1: Pick up the skateboard
+Step 2: Dip the rag into the bucket of water
+Step 3: Wipe the skateboard with the wet rag
+Step 4: Apply acetone on the skateboard
+Step 5: Wait for a while for the acetone to dry
+Step 6: Remove the acetone from the skateboard
+Step 7: Put the rag back into the bucket of water

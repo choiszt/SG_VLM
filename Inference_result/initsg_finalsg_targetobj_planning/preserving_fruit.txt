@@ -1,0 +1,34 @@
+Task Goal:
+preserving_fruit
+Observed Relation:
+['strawberry', 'inside', 'tupperware']
+['tupperware', 'inside', 'electric_refrigerator']
+['mint', 'inside', 'electric_refrigerator']
+['granulated_sugar__sack', 'filled', 'granulated_sugar']
+['granulated_sugar__sack', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'countertop']
+['saucepot', 'inside', 'cabinet']
+['soup_ladle', 'inside', 'cabinet']
+['mason_jar', 'ontop', 'countertop']
+['blender', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing preserving_fruit
+
+### Response:
+Step 1: Open the electric refrigerator
+Target:['electric_refrigerator']
+Step 2: Take the strawberry out of the tupperware
+Target:['tupperware', 'strawberry']
+Step 3: Add granulated sugar to the blender
+Target:['granulated_sugar__sack', 'blender']
+Step 4: Put the blender on the stove
+Target:['blender', 'stove']
+Step 5: Fill the sink with water
+Target:['sink']
+Step 6: Put the strawberry in the blender
+Target:['strawberry', 'blender']
+Step 7: Combine the strawberry and sugar in the blender
+Target:['strawberry', 'granulated_sugar']
+

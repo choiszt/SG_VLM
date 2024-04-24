@@ -1,0 +1,23 @@
+Task Goal:
+iron_curtains
+Observed Relation:
+['ironing_board', 'ontop', 'floor']
+['iron', 'ontop', 'ironing_board']
+['curtain', 'ontop', 'ironing_board']
+['curtain', 'covered', 'wrinkle']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing iron_curtains
+Step 1: Move the agent to the ironing board
+Target:['agent', 'ironing_board']
+Step 2: Plug the iron
+Target:['iron']
+Step 3: Heat the iron
+Target:['iron']
+Step 4: Iron the wrinkle
+Target:['curtain', 'wrinkle']
+Step 5: Clean the iron
+Target:['iron']
+Step 6: Move the ironing board back to its original position
+Target:['ironing_board']
+Step 7: Complete the ironing task
+Target:['iron_curtains']

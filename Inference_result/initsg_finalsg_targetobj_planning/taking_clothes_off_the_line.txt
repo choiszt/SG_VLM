@@ -1,0 +1,25 @@
+Task Goal:
+taking_clothes_off_the_line
+Observed Relation:
+['clothesline', 'ontop', 'floor']
+['hamper', 'ontop', 'floor']
+['tank_top', 'draped', 'clothesline']
+['blouse', 'draped', 'clothesline']
+['trouser', 'draped', 'clothesline']
+['underwear', 'draped', 'clothesline']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing taking_clothes_off_the_line
+### Response:
+Step 1: Move the clothesline away from the hamper
+Target:['clothesline', 'hamper']
+Step 2: Remove the tank top from the clothesline
+Target:['tank_top', 'clothesline']
+Step 3: Remove the blouse from the clothesline
+Target:['blouse', 'clothesline']
+Step 4: Remove the trousers from the clothesline
+Target:['trouser', 'clothesline']
+Step 5: Remove the underwear from the clothesline
+Target:['underwear', 'clothesline']
+Step 6: Hang the clothes to dry
+Target:['clothesline']

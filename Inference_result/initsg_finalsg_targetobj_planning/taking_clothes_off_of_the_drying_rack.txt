@@ -1,0 +1,25 @@
+Task Goal:
+taking_clothes_off_of_the_drying_rack
+Observed Relation:
+['blouse', 'draped', 'coatrack']
+['tank_top', 'draped', 'coatrack']
+['hamper', 'ontop', 'floor']
+['coatrack', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing taking_clothes_off_of_the_drying_rack
+### Response:
+Step 1: Move the coatrack away from the blouse
+Target:['coatrack', 'blouse']
+Step 2: Move the coatrack away from the tank top
+Target:['coatrack', 'tank_top']
+Step 3: Move the hamper away from the blouse
+Target:['hamper', 'blouse']
+Step 4: Move the coatrack away from the blouse
+Target:['coatrack', 'blouse']
+Step 5: Move the coatrack away from the tank top
+Target:['coatrack', 'tank_top']
+Step 6: Move the blouse off the drying rack
+Target:['blouse', 'coatrack']
+Step 7: Move the tank top off the drying rack
+Target:['tank_top', 'coatrack']

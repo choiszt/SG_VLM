@@ -1,0 +1,22 @@
+Task Goal:
+mowing_the_lawn
+Observed Relation:
+['lawn', 'covered', 'bunchgrass']
+['lawn_mower', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing mowing_the_lawn
+Step 1: Move the lawn mower onto the lawn
+Target:['lawn_mower', 'lawn']
+Step 2: Move the agent onto the lawn
+Target:['agent', 'lawn']
+Step 3: Use the lawn mower to mow the lawn
+Target:['lawn_mower']
+Result:
+['bunchgrass', 'crop']
+Now please output output for doing mowing_the_lawn
+Step 1: Move the lawn mower onto the lawn
+Target:['lawn_mower', 'lawn']
+Step 2: Move the agent onto the lawn
+Target:['agent', 'lawn']
+Step 3: Use the lawn mower to mow the lawn
+Target:['lawn_mower']

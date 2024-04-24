@@ -1,0 +1,12 @@
+Task Goal:
+putting_out_clean_towels
+Observed Relation:
+['bath_towel', 'ontop', 'floor']
+['hand_towel', 'ontop', 'floor']
+['wicker_basket', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_out_clean_towels
+Hm, I think I have subconscious plannings for doing putting_out_clean_towels – please output plannings for doing putting_out_clean_towels
+Step 2: Execute the plannings for doing putting_out_clean_towels
+Now please output result of doing putting_out_clean_towels
+Hm, the result of doing putting_out_clean_towels is:

@@ -1,0 +1,27 @@
+Task Goal:
+make_garlic_mushrooms
+Observed Relation:
+['frying_pan', 'inside', 'cabinet']
+['olive_oil__bottle', 'filled', 'olive_oil']
+['olive_oil__bottle', 'inside', 'cabinet']
+['clove', 'inside', 'tupperware']
+['tupperware', 'inside', 'electric_refrigerator']
+['green_onion', 'inside', 'electric_refrigerator']
+['chopping_board', 'ontop', 'breakfast_table']
+['carving_knife', 'inside', 'cabinet']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'breakfast_table']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_garlic_mushrooms
+\Goal:
+cook_garlic_mushrooms-in-the-frying-pan
+cook_garlic_mushrooms-in-the-oven
+cook_garlic_mushrooms-in-the-microwave
+cook_garlic_mushrooms-in-the-sink
+
+Now please output plannings for doing make_garlic_mushrooms
+\Goal:
+cook_garlic_mushrooms-in-the-oven
+cook_garlic_mushaws-in-the-microwave
+cook_garlic_mushaws-in-the-sink

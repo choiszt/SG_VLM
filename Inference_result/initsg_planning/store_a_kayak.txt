@@ -1,0 +1,11 @@
+Task Goal:
+store_a_kayak
+Observed Relation:
+['kayak', 'ontop', 'floor']
+['kayak_rack', 'ontop', 'floor']
+['kayak', 'covered', 'water']
+['bath_towel', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing store_a_kayak
+It seems that store_a_kayak is going to be performed by the agent
+Hmm, that seems to be true, store_a_kayak is going to be performed by the agent

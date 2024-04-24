@@ -1,0 +1,10 @@
+Task Goal:
+hanging_flags
+Observed Relation:
+['pole', 'attached', 'wall_nail']
+['national_flag', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing hanging_flags
+
+Now please output plannings for doing hanging_flags

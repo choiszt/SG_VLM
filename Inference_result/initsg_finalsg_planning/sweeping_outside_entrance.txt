@@ -1,0 +1,23 @@
+Task Goal:
+sweeping_outside_entrance
+Observed Relation:
+['driveway', 'covered', 'dust']
+['ashcan', 'ontop', 'floor']
+['entire_leaf', 'ontop', 'driveway']
+['wreath', 'ontop', 'driveway']
+['broom', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing sweeping_outside_entrance
+
+### Response:
+Step 1: Move the broom to the floor
+Step 2: Sweep the dust off the floor
+Step 3: Move the broom to the driveway
+Step 4: Sweep the dust off the driveway
+Step 5: Move the broom to the ashcan
+Step 6: Sweep the dust off the ashcan
+Step 7: Move the broom to the wreath
+Step 8: Sweep the dust off the wreath
+Step 9: Move the broom to the broom
+Step 10: Sweep the dust off the broom

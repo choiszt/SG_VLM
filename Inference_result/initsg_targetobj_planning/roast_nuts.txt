@@ -1,0 +1,33 @@
+Task Goal:
+roast_nuts
+Observed Relation:
+['walnut', 'ontop', 'cookie_sheet']
+['cookie_sheet', 'inside', 'cabinet']
+['granulated_sugar__sack', 'filled', 'granulated_sugar']
+['granulated_sugar__sack', 'inside', 'cabinet']
+['olive_oil__bottle', 'filled', 'olive_oil']
+['olive_oil__bottle', 'inside', 'cabinet']
+['bowl', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing roast_nuts
+Step 1: Open the cabinet
+Target:['cabinet']
+Step 2: Take the cookie sheet out of the cabinet
+Target:['cabinet', 'cookie_sheet']
+Step 3: Take the granulated sugar sack out of the cabinet
+Target:['cabinet', 'granulated_sugar__sack']
+Step 4: Take the olive oil bottle out of the cabinet
+Target:['cabinet', 'olive_oil__bottle']
+Step 5: Take the bowl out of the cabinet
+Target:['cabinet', 'bowl']
+Step 6: Place the cookie sheet on the oven
+Target:['cookie_sheet', 'oven']
+Step 7: Roast the nuts in the oven
+Target:['walnut']
+Response:
+Step 8: Take the nuts out of the oven
+Target:['oven', 'nuts']
+Step 9: Put the nuts in the bowl
+Target:['oven', 'nuts', 'bowl']
+Step 10: Finish roast_nuts
+Target:['roast_nuts']

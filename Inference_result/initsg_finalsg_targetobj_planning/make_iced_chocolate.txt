@@ -1,0 +1,32 @@
+Task Goal:
+make_iced_chocolate
+Observed Relation:
+['ice_cube', 'inside', 'cup']
+['cup', 'inside', 'electric_refrigerator']
+['cocoa_powder__box', 'filled', 'cocoa_powder']
+['cocoa_powder__box', 'inside', 'cabinet']
+['milk__carton', 'filled', 'whole_milk']
+['milk__carton', 'inside', 'electric_refrigerator']
+['sugar__sack', 'filled', 'granulated_sugar']
+['sugar__sack', 'ontop', 'countertop']
+['vanilla__bottle', 'insource', 'vanilla']
+['vanilla__bottle', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_iced_chocolate
+\Goal: cook_iced_chocolate
+Target:['ice_cube', 'cocoa_powder', 'whole_milk', 'granulated_sugar', 'vanilla']
+Step 1: Open the electric refrigerator
+Target:['electric_refrigerator']
+Step 2: Take the cup out of the refrigerator
+Target:['electric_refrigerator', 'cup']
+Step 3: Take the cocoa powder out of the cocoa powder box
+Target:['coca_powder__box', 'cocoa_powder']
+Step 4: Take the milk out of the milk carton
+Target:['milk__carton', 'milk']
+Step 5: Take the sugar sack from the countertop
+Target:['sugar__sack']
+Step 6: Take the vanilla bottle from the cabinet
+Target:['vanilla__bottle']
+Step 7: Combine the ingredients to make iced chocolate
+Target:['ice_cube', 'cocoa_powder', 'whole_milk', 'granulated_sugar', 'vanilla']

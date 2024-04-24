@@ -1,0 +1,26 @@
+Task Goal:
+prepare_sea_salt_soak
+Observed Relation:
+['cup', 'ontop', 'bed']
+['salt__shaker', 'insource', 'salt']
+['tablespoon', 'ontop', 'countertop']
+['salt__shaker', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing prepare_sea_salt_soak
+### Response:
+Step 1: Pick up the salt shaker
+Target:['salt__shaker']
+Step 2: Fill the salt shaker with salt
+Target:['salt__shaker', 'salt']
+Step 3: Pick up the cup
+Target:['cup']
+Step 4: Pour water into the cup
+Target:['cup', 'water']
+Step 5: Mix the salt and water in the cup
+Target:['cup', 'salt', 'water']
+Step 6: Pour the mixed salt and water into the salt shaker
+Target:['salt__shaker', 'mixed_salt__water']
+Step 7: Place the salt shaker on the countertop
+Target:['salt__shaker', 'countertop']

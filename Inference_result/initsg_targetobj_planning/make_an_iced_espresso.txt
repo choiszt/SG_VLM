@@ -1,0 +1,40 @@
+Task Goal:
+make_an_iced_espresso
+Observed Relation:
+['cup', 'filled', 'espresso']
+['cup', 'ontop', 'countertop']
+['milk__carton', 'filled', 'low-fat_milk']
+['milk__carton', 'ontop', 'countertop']
+['sugar_syrup__bottle', 'insource', 'sugar_syrup']
+['sugar_syrup__bottle', 'ontop', 'countertop']
+['teaspoon', 'ontop', 'countertop']
+['mug', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_an_iced_espresso
+Step 1: Take the milk__carton and cup from the countertop
+Target:
+['milk__carton', 'cup']
+Step 2: Pour low-fat milk into the cup
+Target:
+['cup', 'low-fat_milk']
+Step 3: Take the sugar syrup__bottle from the countertop
+Target:
+['sugar_syrup__bottle']
+Step 4: Pour sugar syrup into the cup
+Target:
+['cup', 'sugar_syrup']
+Step 5: Take a teaspoon from the countertop
+Target:
+['teaspoon']
+Step 6: Put espresso powder into the cup
+Target:
+['cup', 'espresso_powder']
+Step 7: Add ice cubes into the cup
+Target:
+['cup', 'ice_cube']
+Step 8: Stir the drink
+Target:
+['cup']
+Step 9: Enjoy the drink
+Target:
+['cup']

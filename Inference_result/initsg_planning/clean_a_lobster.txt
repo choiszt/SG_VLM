@@ -1,0 +1,19 @@
+Task Goal:
+clean_a_lobster
+Observed Relation:
+['lobster', 'covered', 'mud']
+['bowl', 'inside', 'electric_refrigerator']
+['lobster', 'inside', 'bowl']
+['hand_towel', 'inside', 'shelf']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_a_lobster
+The bowl is inside the electric refrigerator
+The lobster is inside the bowl
+The hand towel is inside the shelf
+The sink is assigned to filling with water
+The agent is on top of the floor
+The main output for doing clean_a_lobster is: remove the lobster from the bowl
+Then the agent should be doing clean_a_lobster
+Now please output consequences of doing clean_a_lobster
+ontop_of_floor answer

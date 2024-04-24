@@ -1,0 +1,19 @@
+Task Goal:
+make_cinnamon_sugar
+Observed Relation:
+['cinnamon__shaker', 'insource', 'cinnamon']
+['cinnamon__shaker', 'ontop', 'countertop']
+['sugar__sack', 'filled', 'granulated_sugar']
+['sugar__sack', 'ontop', 'countertop']
+['tablespoon', 'ontop', 'countertop']
+['mixing_bowl', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_cinnamon_sugar
+The plannings for doing make_cinnamon_sugar are as follows:
+Step 1: Take the cinnamon shaker off the countertop
+Step 2: Take the sugar sack off the countertop
+Step 3: Take the tablespoon off the countertop
+Step 4: Put the cinnamon into the mixing bowl
+Step 5: Put the granulated sugar into the mixing bowl
+Step 6: Sprinkle cinnamon onto the tablespoon
+Step 7: Mix the cinnamon and granulated sugar in the mixing bowl

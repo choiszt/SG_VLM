@@ -1,0 +1,19 @@
+Task Goal:
+stash_snacks_in_your_room
+Observed Relation:
+['chip', 'ontop', 'bed']
+['pack__of__chocolate_bar', 'ontop', 'bed']
+['bag__of__jerky', 'ontop', 'bed']
+['chocolate_bar', 'ontop', 'bed']
+['granola_bar', 'ontop', 'bed']
+['chocolate_biscuit', 'ontop', 'sack']
+['sack', 'ontop', 'table']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing stash_snacks_in_your_room
+Now please output actions for doing stash_snacks_in_your_room
+The task goal is:
+stash_snacks_in_your_room
+The observed relation is:
+The object of the task goal is:
+The object of the plannings task is:
+The object of the actions task is:

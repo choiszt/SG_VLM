@@ -1,0 +1,47 @@
+Task Goal:
+clean_nickel
+Observed Relation:
+['rag', 'ontop', 'countertop']
+['vinegar__bottle', 'filled', 'vinegar']
+['vinegar__bottle', 'ontop', 'countertop']
+['nickel', 'ontop', 'countertop']
+['nickel', 'covered', 'stain']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing clean_nickel
+\Goal/ rag:ontop_of_countertop
+Trace:
+Step 1: Pick up the rag from the countertop
+Target:['rag']
+Step 2: Pour vinegar on the rag
+Target:['vinegar__bottle', 'rag']
+Step 3: Wipe the rag on the stain on the countertop
+Target:['rag', 'stain']
+Step 4: Rinse the rag with water from the sink
+Target:['sink', 'water', 'rag']
+Step 5: Wipe the rag on the countertop again
+Target:['rag', 'countertop']
+Step 6: Repeat steps 3 and 4 until the stain is removed
+Target:['rag', 'stain']
+Step 7: Put the rag back on the countertop
+Target:['rag', 'countertop']
+
+Now please output plannings for doing clean_nickel
+\Goal/
+
+self /step 1: Pick up the rag from the countertop
+Target:['countertop', 'rag']
+self /step 2: Pour vinegar on the rag
+Target:['vinegar__bottle', 'rag']
+self /step 3: Wipe the rag on the stain on the countertop
+Target:['rag', 'stain']
+self /step 4: Rinse the rag with water from the sink
+Target:['sink', 'water', 'rag']
+self /step 5: Wipe the rag on the countertop again
+Target:['rag', 'countertop']
+self /step 6: Repeat steps 3 and 4 until the stain is removed
+Target:['rag', 'stain']
+self /step 7: Put the rag back on the countertop
+Target:['rag', 'countertop']
+

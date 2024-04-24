@@ -1,0 +1,17 @@
+Task Goal:
+polish_wood_floors
+Observed Relation:
+['swab', 'ontop', 'floor']
+['polish__bottle', 'filled', 'polish']
+['bucket', 'ontop', 'floor']
+['polish__bottle', 'inside', 'shelf']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing polish_wood_floors
+\Goal
+
+Now please output plannings for doing polish_wood_floors
+\Task Goal
+
+Now please output plannings for doing polish_wood_floors
+\Task Goal

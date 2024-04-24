@@ -1,0 +1,20 @@
+Task Goal:
+treating_stains
+Observed Relation:
+['table_linen', 'covered', 'stain']
+['detergent__bottle', 'filled', 'detergent']
+['detergent__bottle', 'ontop', 'floor']
+['table_linen', 'ontop', 'floor']
+['rag', 'ontop', 'floor']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing treating_stains
+### Response:
+Step 1: Pick up the rag from the floor
+Step 2: Pick up the table linen from the floor
+Step 3: Pick up the detergent bottle from the floor
+Step 4: Pour water from the sink into the detergent bottle
+Step 5: Put detergent into the washer
+Step 6: Put the table linen and rag into the washer
+Step 7: Start the washer

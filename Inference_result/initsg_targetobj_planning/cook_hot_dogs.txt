@@ -1,0 +1,22 @@
+Task Goal:
+cook_hot_dogs
+Observed Relation:
+['frying_pan', 'ontop', 'oven']
+['sink', 'insource', 'water']
+['hotdog', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cook_hot_dogs
+Step 1: Take the hotdog out of the electric refrigerator
+Target:['hotdog', 'electric_refrigerator']
+Step 2: Fill the sink with water
+Target:['sink', 'water']
+Step 3: Put the hotdog in the frying pan
+Target:['hotdog', 'frying_pan']
+Step 4: Turn on the oven
+Target:['oven']
+Step 5: Cook the hotdog in the oven
+Target:['hotdog']
+Step 6: Serve the cooked hotdog
+Target:['hotdog']
+Step 7: Clean up the kitchen
+Target:['floor', 'oven', 'frying_pan', 'sink']

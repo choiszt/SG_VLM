@@ -1,0 +1,16 @@
+Task Goal:
+polishing_shoes
+Observed Relation:
+['shoe', 'covered', 'stain']
+['rag', 'ontop', 'floor']
+['shoe', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing polishing_shoes
+
+Usually, the planner will output a series of steps to do polishing_shoes
+['step 1': 'take the rag', 'step 2': 'shake off excess water', 'step 3': 'apply polish', 'step 4': 'buff the polish into the leather', 'step 5': 'remove', 'step 6': 'put', 'step 7': 'return', 'rag']
+But this is unlikely to be what humans expect, because humans don't expect fantasy
+So the output should be:
+['step 1': 'take the rag', 'step 2': 'shake off excess water', 'step 3': 'apply polish', 'step 4': 'buff the polish into the leather', 'step 5': 'remove', 'step 6': 'put', 'step 7': 'return', 'rag']
+Actually doing polishing shoes is much easier than outputting plannings for doing polishing_shoes
+

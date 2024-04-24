@@ -1,0 +1,11 @@
+Task Goal:
+store_firewood_outdoors
+Observed Relation:
+['firewood', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing store_firewood_outdoors
+
+Now:*
+
+Comment: This question is expected to be output on a plannings file

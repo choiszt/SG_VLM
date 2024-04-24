@@ -1,0 +1,10 @@
+Task Goal:
+folding_piece_of_cloth
+Observed Relation:
+['drawers', 'inside', 'clothes_dryer']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing folding_piece_of_cloth
+\Goal
+\Goal: Planning for doing folding_piece_of_cloth
+Now please output plannings for doing folding_piece_of_cloth

@@ -1,0 +1,17 @@
+Task Goal:
+putting_protective_cover_on_vehicle
+Observed Relation:
+['car', 'ontop', 'driveway']
+['tarpaulin', 'ontop', 'lawn']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing putting_protective_cover_on_vehicle
+
+### Response:
+Step 1: Move the car onto the lawn
+Step 2: Move the tarpaulin onto the lawn
+Step 3: Move the agent onto the driveway
+Step 4: Move the protective cover onto the driveway
+Step 5: Cover the car with the protective cover
+Step 6: Remove the protective cover from the car
+Step 7: Move the protective cover onto the car

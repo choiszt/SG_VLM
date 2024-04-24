@@ -1,0 +1,22 @@
+Task Goal:
+stash_snacks_in_your_room
+Observed Relation:
+['chip', 'ontop', 'bed']
+['pack__of__chocolate_bar', 'ontop', 'bed']
+['bag__of__jerky', 'ontop', 'bed']
+['chocolate_bar', 'ontop', 'bed']
+['granola_bar', 'ontop', 'bed']
+['chocolate_biscuit', 'ontop', 'sack']
+['sack', 'ontop', 'table']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing stash_snacks_in_your_room
+
+### Response
+Step 1: Move the agent from the floor to the bed
+Step 2: Move the sack from the table to the bed
+Step 3: Move the bag of jerky from the bed to the sack
+Step 4: Move the bag of chocolate bar from the bed to the sack
+Step 5: Move the pack of chocolate bar from the bed to the sack
+Step 6: Move the bag of granola bar from the bed to the sack
+Step 7: Move the chocolate biscuit from the bed to the sack

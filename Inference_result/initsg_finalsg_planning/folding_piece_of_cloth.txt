@@ -1,0 +1,16 @@
+Task Goal:
+folding_piece_of_cloth
+Observed Relation:
+['drawers', 'inside', 'clothes_dryer']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing folding_piece_of_cloth\Goal Expected Relation:
+
+Now please output plannings for doing folding_pieces_of_cloth
+### Response:
+Step 1: Open the drawers
+Step 2: Take the folding_piece_of_cloth out of the drawers
+Step 3: Place the folding_piece_of_cloth on the floor
+Step 4: Fold the folding_piece_of_cloth
+Step 5: Close the drawers
+Step 6: Put the folded folding_piece_of_cloth back into the drawers

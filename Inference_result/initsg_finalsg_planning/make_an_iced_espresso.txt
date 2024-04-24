@@ -1,0 +1,16 @@
+Task Goal:
+make_an_iced_espresso
+Observed Relation:
+['cup', 'filled', 'espresso']
+['cup', 'ontop', 'countertop']
+['milk__carton', 'filled', 'low-fat_milk']
+['milk__carton', 'ontop', 'countertop']
+['sugar_syrup__bottle', 'insource', 'sugar_syrup']
+['sugar_syrup__bottle', 'ontop', 'countertop']
+['teaspoon', 'ontop', 'countertop']
+['mug', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_an_iced_espresso
+\Goal Expected Relation:
+

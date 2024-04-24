@@ -1,0 +1,31 @@
+Task Goal:
+clean_a_glass_pipe
+Observed Relation:
+['pipe', 'inside', 'sack']
+['pipe', 'covered', 'adhesive_material']
+['pipe', 'covered', 'stain']
+['pipe', 'covered', 'sodium_carbonate']
+['rubbing_alcohol__atomizer', 'insource', 'rubbing_alcohol']
+['rubbing_alcohol__atomizer', 'ontop', 'floor']
+['sack', 'ontop', 'floor']
+['pipe_cleaner', 'inside', 'sack']
+['rag', 'ontop', 'floor']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing clean_a_glass_pipe
+### Response:
+Step 1: Take the pipe out of the sack
+Target:['sack', 'pipe']
+Step 2: Remove the adhesive material from the pipe
+Target:['pipe', 'adhesive_material']
+Step 3: Remove the stain from the pipe
+Target:['pipe', 'stain']
+Step 4: Remove the sodium carbonate from the sack
+Target:['sack', 'sodium_carbonate']
+Step 5: Fill the sink with water
+Target:['sink', 'water']
+Step 6: Place the pipe in the sink
+Target:['pipe', 'sink']
+Step 7: Dip the rag in water and rub the pipe with it
+Target:['pipe', 'rag', 'water']

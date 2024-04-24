@@ -1,0 +1,23 @@
+Task Goal:
+packing_sports_equipment_into_car
+Observed Relation:
+['car', 'ontop', 'driveway']
+['sock', 'ontop', 'lawn']
+['helmet', 'ontop', 'lawn']
+['sports_equipment', 'ontop', 'lawn']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing packing_sports_equipment_into_car
+Step 1: Open the car trunk
+Target:['car']
+Step 2: Pick up the sock from the lawn
+Target:['sock', 'lawn']
+Step 3: Pick up the helmet from the lawn
+Target:['helmet', 'lawn']
+Step 4: Pick up the sports equipment from the lawn
+Target:['sports_equipment', 'lawn']
+Step 5: Put the sock inside the car
+Target:['sock', 'car']
+Step 6: Put the helmet inside the car
+Target:['helmet', 'car']
+Step 7: Put the sports equipment inside the car
+Target:['sports_equipment', 'car']

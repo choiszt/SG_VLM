@@ -1,0 +1,24 @@
+Task Goal:
+hang_a_bike_on_the_wall
+Observed Relation:
+['bicycle', 'ontop', 'floor']
+['bicycle_rack', 'attached', 'wall_nail']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing hang_a_bike_on_the_wall
+
+Now please output plannings for doing hang_a_bike_on_the_wall
+Step 1: Find a wall nail
+Target:['bicycle_rack', 'wall_nail']
+Step 2: Attach the bike rack to the wall nail
+Target:['bicyre_rack', 'wall_nail']
+Step 3: Hang a bike on the wall
+Target:['bicyre']
+Step 4: Detach the bike rack from the wall nail
+Target:['bicyre_rack', 'wall_nail']
+Step 5: Remove the wall nail
+Target:['wall_nail']
+Step 6: Remove the bicyre from the bike rack
+Target:['bicyre', 'bicyre_rack']
+Step 7: Remove the bicyre from the wall
+Target:['bicyre', 'wall']

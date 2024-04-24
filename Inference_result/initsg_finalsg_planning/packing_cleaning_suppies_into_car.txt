@@ -1,0 +1,16 @@
+Task Goal:
+packing_cleaning_suppies_into_car
+Observed Relation:
+['car', 'ontop', 'driveway']
+['face_mask', 'ontop', 'backpack']
+['rag', 'ontop', 'floor']
+['backpack', 'ontop', 'driveway']
+['scrub_brush', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing packing_cleaning_suppies_into_car
+### Response:
+Step 1: Open the car door
+Step 2: Take the cleaning supplies out of the backpack
+Step 3: Put the cleaning supplies into the car
+Step 4: Close the car door

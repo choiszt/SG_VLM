@@ -1,0 +1,43 @@
+Task Goal:
+sorting_vegetables
+Observed Relation:
+['mixing_bowl', 'ontop', 'countertop']
+['wicker_basket', 'ontop', 'countertop']
+['bok_choy', 'inside', 'wicker_basket']
+['chard', 'inside', 'wicker_basket']
+['leek', 'inside', 'wicker_basket']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+['bok_choy', 'inside', 'mixing_bowl']
+['chard', 'inside', 'mixing_bowl']
+['leek', 'inside', 'mixing_bowl']
+['artichoke', 'inside', 'mixing_bowl']
+['sweet_corn', 'inside', 'mixing_bowl']
+Now please output plannings for doing sorting_vegetables
+Now please output plannings for doing sorting_vegetables
+Task Goal: sorting_vegetables
+Observed Relation:
+['wicker_basket', 'ontop', 'countertop']
+['bok_choy', 'inside', 'wicker_basket']
+['chard', 'inside', 'wicker_basket']
+['leek', 'inside', 'wicker_basket']
+['artichoke', 'inside', 'wicker_basket']
+['sweet_corn', 'inside', 'wicker_basket']
+['mixing_bowl', 'fill', 'water']
+['mixing_bowl', 'fill', 'white_salt']
+['oven', 'ontop', 'countertop']
+['cooking_oven', 'ontop', 'floor']
+['bowl', 'inside', 'oven']
+Now please output plannings for doing sorting_vegetables
+Task Goal: sort food
+Observed Relation:
+['wicker_basket', 'ontop', 'countertop']
+['bok_choy', 'inside', 'wicker_basket']
+['chard', 'inside', 'wicker_basket']
+['leek', 'inside', 'wicker_basket']
+['artichoke', 'inside', 'wicker_basket']
+['sweet_corn', 'inside', 'wicker_basket']
+['mixing_bowl', 'fill', 'water']
+['mixing_bowl', 'fill', 'white_salt']
+['oven', 'ontop', 'countertop']
+['bowl', 'inside', 'oven']
+Now please output plannings for doing sort_food

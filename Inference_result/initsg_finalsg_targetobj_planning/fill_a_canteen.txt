@@ -1,0 +1,15 @@
+Task Goal:
+fill_a_canteen
+Observed Relation:
+['canteen', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing fill_a_canteen
+Observed Relation:
+['canteen', 'filled', 'lemonade']
+['canteen', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing fill_a_canteen

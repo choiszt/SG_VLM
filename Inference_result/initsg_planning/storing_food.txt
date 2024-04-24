@@ -1,0 +1,16 @@
+Task Goal:
+storing_food
+Observed Relation:
+['box__of__oatmeal', 'ontop', 'countertop']
+['chip', 'ontop', 'countertop']
+['bottle__of__olive_oil', 'ontop', 'countertop']
+['jar__of__sugar', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing storing_food
+The box of oatmeal, bottle of oil, and jar of sugar can be stored on the shelf. The box of oatmeal is usually best stored on the bottom shelf. The chip is usually best stored in a container. The olive oil is usually best stored in a bottle. The sugar is usually best stored in a container. The agent is usually found falling down on the floor.
+Then plannings for doing storing_food may be created.
+Answer: Plannings may be created for doing storing_food
+The box of oatmeal can be stored on the shelf.
+The bottle of oil can be stored on the shelf.
+The jar of sugar can be stored on the shelf.
+The agent can be found falling down on the floor. He/she needs to pick up the agent from the floor.

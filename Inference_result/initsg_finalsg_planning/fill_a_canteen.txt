@@ -1,0 +1,12 @@
+Task Goal:
+fill_a_canteen
+Observed Relation:
+['canteen', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing fill_a_canteen
+### Response:
+Step 1: Move the canteen to the sink
+Step 2: Fill the canteen with water from the sink
+Step 3: Move the canteen back to the countertop

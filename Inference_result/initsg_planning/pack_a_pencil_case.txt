@@ -1,0 +1,15 @@
+Task Goal:
+pack_a_pencil_case
+Observed Relation:
+['pencil_box', 'ontop', 'desk']
+['pen', 'ontop', 'desk']
+['pencil', 'ontop', 'desk']
+['eraser', 'ontop', 'desk']
+['shears', 'ontop', 'desk']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing pack_a_pencil_case
+The pencil box should be put inside the pencil case
+The pencil box should be put inside the pencil case
+The pencil should be put inside the pencil case
+The eraser should be put inside the pencil case
+The shears should be put inside the pencil case

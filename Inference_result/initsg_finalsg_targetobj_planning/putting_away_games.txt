@@ -1,0 +1,11 @@
+Task Goal:
+putting_away_games
+Observed Relation:
+['board_game', 'ontop', 'desk']
+['carton', 'ontop', 'desk']
+['jigsaw_puzzle', 'ontop', 'desk']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+['jigsaw_puzzle', 'inside', 'carton']
+['board_game', 'inside', 'carton']
+['carton', 'ontop', 'shelf']
+Now please output plannings for doing putting_away_games

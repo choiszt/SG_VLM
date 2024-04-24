@@ -1,0 +1,24 @@
+Task Goal:
+packing_sports_equipment_into_car
+Observed Relation:
+['car', 'ontop', 'driveway']
+['sock', 'ontop', 'lawn']
+['helmet', 'ontop', 'lawn']
+['sports_equipment', 'ontop', 'lawn']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing packing_sports_equipment_into_car
+```
+Last step: Place the sports equipment in the car
+Target:['sports_equipment', 'car']
+
+Response:['sack', 'lawn']
+
+Now please put the sack with sports equipment into the car
+Target:['sack', 'car']
+\Goal Expected Relation:
+
+Now please output plannings for doing packing_sports_equipment_into_car
+Target:['sack', 'car']
+Response:['sack', 'car']
+

@@ -1,0 +1,13 @@
+Task Goal:
+fertilize_a_lawn
+Observed Relation:
+['fertilizer__atomizer', 'insource', 'fertilizer']
+['fertilizer__atomizer', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing fertilize_a_lawn
+
+Now please output plannings for doing fertilize_a_lawn
+
+Now please output plannings for doing fertilize_a_lawn
+

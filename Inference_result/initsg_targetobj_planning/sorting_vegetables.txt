@@ -1,0 +1,32 @@
+Task Goal:
+sorting_vegetables
+Observed Relation:
+['mixing_bowl', 'ontop', 'countertop']
+['wicker_basket', 'ontop', 'countertop']
+['bok_choy', 'inside', 'wicker_basket']
+['chard', 'inside', 'wicker_basket']
+['leek', 'inside', 'wicker_basket']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing sorting_vegetables
+###
+Step 1: Take the wicker basket
+Target:
+['wicker_basket']
+Step 2: Take the mixing bowl
+Target:
+['mixing_bowl']
+Step 3: Put the bok choy in the mixing bowl
+Target:
+['bok_choy', 'mixing_bowl']
+Step 4: Put the chard in the mixing bowl
+Target:
+['chard', 'mixing_bowl']
+Step 5: Put the leek in the mixing bowl
+Target:
+['leek', 'mixing_bowl']
+Step 6: Sort the vegetables in one corner of the countertop
+Target:
+['bok_choy', 'chard', 'leek']
+Step 7: Put the sorting_vegetables in the wicker basket
+Target:
+['bok_choy', 'chard', 'leek', 'mixing_bowl']

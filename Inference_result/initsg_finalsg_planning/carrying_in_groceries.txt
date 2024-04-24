@@ -1,0 +1,13 @@
+Task Goal:
+carrying_in_groceries
+Observed Relation:
+['car', 'ontop', 'driveway']
+['carton', 'inside', 'car']
+['bacon', 'inside', 'carton']
+['beefsteak_tomato', 'inside', 'carton']
+['pack__of__bread', 'inside', 'carton']
+['carton__of__milk', 'inside', 'carton']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing carrying_in_groceries
+Now please output plannings for doing carrying_in_groceries

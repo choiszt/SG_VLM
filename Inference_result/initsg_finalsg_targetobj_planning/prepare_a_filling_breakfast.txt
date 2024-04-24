@@ -1,0 +1,20 @@
+Task Goal:
+prepare_a_filling_breakfast
+Observed Relation:
+['table_knife', 'ontop', 'countertop']
+['egg', 'inside', 'electric_refrigerator']
+['bratwurst', 'inside', 'electric_refrigerator']
+['frying_pan', 'ontop', 'countertop']
+['orange', 'inside', 'electric_refrigerator']
+['plate', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing prepare_a_filling_breakfast
+Last Time Step:
+['fill_a_bowl', 'egg', 'bratwurst', 'frying_pan', 'orange', 'plate']
+
+Now please output plannings for doing prepare_a_filling_breakfast
+
+Now please output plannings for doing prepare_a_filling_breakfast
+

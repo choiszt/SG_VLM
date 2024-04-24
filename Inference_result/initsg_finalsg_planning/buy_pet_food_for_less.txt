@@ -1,0 +1,17 @@
+Task Goal:
+buy_pet_food_for_less
+Observed Relation:
+['cash_register', 'ontop', 'checkout']
+['can__of__dog_food', 'ontop', 'shelf']
+['money', 'inside', 'shopping_cart']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing buy_pet_food_for_less
+### Response:
+Step 1: Approach the checkout
+Step 2: Take the shopping cart to the checkout
+Step 3: Put the money on the checkout
+Step 4: Open the shopping cart
+Step 5: Take a dog food can from the shelf
+Step 6: Put the dog food can in the shopping cart
+Step 7: Complete the purchase

@@ -1,0 +1,15 @@
+Task Goal:
+decorating_for_religious_ceremony
+Observed Relation:
+['dip', 'inside', 'shelf']
+['wreath', 'ontop', 'floor']
+['candlestick', 'inside', 'shelf']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing decorating_for_religious_ceremony
+
+Now please output plannings for doing decorating_for_religious_ceremony
+
+### Response: Foster*: Move the agent to the shelf
+### Response: Move the wreath from the floor to the shelf
+### Response: Move the candlestick from the shelf to the floor

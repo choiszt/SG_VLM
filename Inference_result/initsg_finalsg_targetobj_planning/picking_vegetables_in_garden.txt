@@ -1,0 +1,23 @@
+Task Goal:
+picking_vegetables_in_garden
+Observed Relation:
+['artichoke', 'ontop', 'lawn']
+['chard', 'ontop', 'lawn']
+['beet', 'ontop', 'lawn']
+['wicker_basket', 'ontop', 'lawn']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing picking_vegetables_in_garden
+### Response:
+Step 1: Pick up the wicker basket
+Target:['wicker_basket']
+Step 2: Pick the artichoke from the lawn
+Target:['artichoke', 'lawn']
+Step 3: Pick the chard from the lawn
+Target:['chard', 'lawn']
+Step 4: Pick the beet from the lawn
+Target:['beet', 'lawn']
+Step 5: Put the vegetables in the wicker basket
+Target:['artichoke', 'chard', 'beet', 'wicker_basket']
+Step 6: Put the wicker basket in the refrigerator
+Target:['wicker_basket', 'electric_refrigerator']

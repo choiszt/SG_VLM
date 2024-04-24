@@ -1,0 +1,39 @@
+Task Goal:
+make_chicken_curry
+Observed Relation:
+['chicken_breast', 'inside', 'electric_refrigerator']
+['beefsteak_tomato', 'inside', 'electric_refrigerator']
+['vidalia_onion', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'chopping_board']
+['chopping_board', 'ontop', 'countertop']
+['cooking_oil__bottle', 'filled', 'cooking_oil']
+['cooking_oil__bottle', 'ontop', 'countertop']
+['curry_powder__shaker', 'insource', 'curry_powder']
+['curry_powder__shaker', 'ontop', 'countertop']
+['stockpot', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_chicken_curry
+Target:
+None
+Observed Relation:
+['agent', 'floor']
+Target Observed Relation:
+None
+
+Now please output plannings for doing make_chicken_curry
+Target:
+None
+Observed Relation:
+['agent', 'floor']
+Target Observed Relation:
+None
+
+Now please output plannings for doing make_chicken_curry
+Target:
+None
+Observed Relation:
+['agent', 'floor']
+Target Observed Relation:
+None
+

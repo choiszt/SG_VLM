@@ -1,0 +1,20 @@
+Task Goal:
+clean_snap_peas
+Observed Relation:
+['vinegar__bottle', 'filled', 'vinegar']
+['vinegar__bottle', 'ontop', 'countertop']
+['pea_pod', 'ontop', 'mixing_bowl']
+['pea_pod', 'covered', 'mud']
+['mixing_bowl', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing clean_snap_peas
+### Response Plannings:
+Step 1: Take the vinegar bottle from the countertop
+Step 2: Pour water from the sink into the mixing bowl
+Step 3: Wash the mud off the pea pod
+Step 4: Put the pea pod into the mixing bowl
+Step 5: Add vinegar from the vinegar bottle to the mixing bowl
+Step 6: Put the mixing bowl into the microwave
+Step 7: Clean the countertop

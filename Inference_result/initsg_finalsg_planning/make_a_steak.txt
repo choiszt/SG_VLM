@@ -1,0 +1,21 @@
+Task Goal:
+make_a_steak
+Observed Relation:
+['olive_oil__bottle', 'filled', 'olive_oil']
+['olive_oil__bottle', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['pepper_mill', 'insource', 'black_pepper']
+['pepper_mill', 'ontop', 'countertop']
+['steak', 'ontop', 'chopping_board']
+['chopping_board', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+['clove', 'ontop', 'steak']
+Now please output plannings for doing make_a_steak
+Step 1: Take the olive oil bottle from the countertop
+Step 2: Take the salt shaker from the countertop
+Step 3: Take the black pepper shaker from the countertop
+Step 4: Put the clove on the chopping board
+Step 5: Put the steak on the grill
+Step 6: Preheat the grill
+Step 7: Season the steak with olive oil, salt, and pepper

@@ -1,0 +1,37 @@
+Task Goal:
+fixing_mailbox
+Observed Relation:
+['mailbox', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing fixing_mailbox
+Step 1: Pick up the mailbox
+Target:['mailbox']
+Step 2: Move the agent to the wall
+Target:['agent', 'wall']
+Step 3: Attach the mailbox to the wall using nails
+Target:['mailbox', 'wall']
+Step 4: Clean up the floor
+Target:['floor']
+Step 5: Repair the mailbox
+Target:['mailbox']
+Step 6: Check if the mail is delivered
+Target:['letter']
+Step 7: Drop the letter into the mailbox
+Target:['letter', 'mailbox']
+Step 8: Task completed
+Target:[]
+Now please output plannings for doing fixing_mailbox
+Step 1: Pick up the mailbox
+Target:['mailbox']
+Step 2: Move the agent to the wall
+Target:['agent', 'wall']
+Step 3: Attach the mailbox to the wall using nails
+Target:['mailbox', 'wall']
+Step 4: Clean up the floor
+Target:['floor']
+Step 5: Repair the mailbox
+Target:['mailbox']
+Step 6: Check if the mail is delivered
+Target:['letter']
+Step 7: Drop the letter into the mailbox
+Target:['letter', 'mailbox']

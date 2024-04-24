@@ -1,0 +1,24 @@
+Task Goal:
+make_cookie_dough
+Observed Relation:
+['flour__sack', 'filled', 'flour']
+['flour__sack', 'inside', 'cabinet']
+['sugar__sack', 'filled', 'granulated_sugar']
+['sugar__sack', 'inside', 'cabinet']
+['vanilla__bottle', 'insource', 'vanilla']
+['vanilla__bottle', 'inside', 'electric_refrigerator']
+['butter', 'inside', 'bowl']
+['baking_powder__jar', 'filled', 'baking_powder']
+['baking_powder__jar', 'inside', 'cabinet']
+['salt__shaker', 'insource', 'salt']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_cookie_dough
+### Response:
+Step 1: Open the cabinet
+Step 2: Take the flour sack out of the cabinet
+Step 3: Take the sugar sack out of the cabinet
+Step 4: Take the vanilla bottle out of the refrigerator
+Step 5: Mix the flour, sugar, and baking powder in the bowl
+Step 6: Melt the butter in the microwave
+Step 7: Add the vanilla to the dough

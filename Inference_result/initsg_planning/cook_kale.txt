@@ -1,0 +1,13 @@
+Task Goal:
+cook_kale
+Observed Relation:
+['kale', 'inside', 'electric_refrigerator']
+['olive_oil__bottle', 'filled', 'olive_oil']
+['olive_oil__bottle', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['saucepot', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cook_kale
+Why did the response plannings for doing cook_kale fail?
+Observed Relation:

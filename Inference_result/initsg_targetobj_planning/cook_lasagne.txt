@@ -1,0 +1,42 @@
+Task Goal:
+cook_lasagne
+Observed Relation:
+['lasagna', 'ontop', 'oven']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cook_lasagne
+The oven is turned on and is heating
+The lasagna is taken out of the carton
+The lasagna is placed on top of the oven
+The lasagna is cooked
+Then the lasagna is taken out of the oven
+The lasagna is served on a plate
+The plate is placed on the table
+The lasagna is eaten
+Now please output plannings for doing cook_lasagne
+The oven is turned on and is heating
+The lasagna is taken out of the carton
+The lasagna is placed on top of the oven
+The lasagna is cooked
+Then the lasagna is taken out of the oven
+The lasagna is served on a plate
+The plate is placed on the table
+The lasagna is eaten
+Then please output plannings for doing cook_lasagne
+The oven is turned on and is heating
+The lasagna is taken out of the carton
+The lasagna is placed on top of the oven
+The lasagna is cooked
+Then the lasagna is taken out of the oven
+The lasagna is served on a plate
+The plate is placed on the table
+The lasagna is eaten
+Then please output plannings for doing cook_lasagne
+The oven is turned on and is heating
+The lasagna is taken out of the carton
+The lasagna is placed on top of the oven
+The lasagna is cooked
+Then the lasagna is taken out of the oven
+The lasagna is served on a plate
+The plate is placed on the table
+The lasagna is eaten
+Then please output plannings for doing cook_lasagne

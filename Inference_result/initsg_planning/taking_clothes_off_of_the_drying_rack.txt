@@ -1,0 +1,19 @@
+Task Goal:
+taking_clothes_off_of_the_drying_rack
+Observed Relation:
+['blouse', 'draped', 'coatrack']
+['tank_top', 'draped', 'coatrack']
+['hamper', 'ontop', 'floor']
+['coatrack', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing taking_clothes_off_of_the_drying_rack
+The blouse and tank top are draped on the coatrack
+The hamper isontopofloor
+The agent isontopofloor
+Step 1: Move the coatrack near to the floor
+Step 2: Move the hanger near to the floor
+Step 3: Remove the blouse and tank top from the coatrack
+Step 4: Put the blouse and tank top on the hanger
+Step 5: Transfer the hanger to the coatrack
+Step 6: Put the tank top on the coatrack
+Step 7: Put the hat on the coatracks

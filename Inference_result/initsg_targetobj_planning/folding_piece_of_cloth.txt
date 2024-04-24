@@ -1,0 +1,33 @@
+Task Goal:
+folding_piece_of_cloth
+Observed Relation:
+['drawers', 'inside', 'clothes_dryer']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing folding_piece_of_cloth
+Step 1: Open the clothes dryer
+Target:['clothes_dryer']
+Step 2: Take the drawers out of the clothes dryer
+Target:['clothes_dryer', 'drawers']
+Step 3: Fold the piece of cloth
+Target:['folding_piece_of_cloth']
+Step 4: Put the folded piece of cloth back into the clothes dryer
+Target:['folding_piece_of_cloth', 'drawers', 'clothes_dryer']
+Step 5: Close the clothes dryer
+Target:['clothes_dryer']
+Step 6: Put the drawers back into the clothes dryer
+Target:['drawers', 'clothes_dryer']
+Step 7: Check if the goals are achieved
+Target:['folding_piece_of_cloth']
+Output:
+Step 1: Open the clothes dryer
+Target:['clothes_dryer']
+Step 2: Take the drawers out of the clothes dryer
+Target:['clothes_dryer', 'drawers']
+Step 3: Fold the piece of cloth
+Target:['folding_piece_of_clort']
+Step 4: Put the folded piece of cloth back into the clothes dryer
+Target:['folding_piece_of_clort', 'drawers', 'clothes_dryer']
+Step 5: Close the clothes dryer
+Target:['clothes_dryer']
+Step 6: Put the drawers back into the clothes dryer
+Target:['drawers', 'clothes_dryer']

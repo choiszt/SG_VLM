@@ -1,0 +1,40 @@
+Task Goal:
+cook_ground_beef
+Observed Relation:
+['bowl', 'inside', 'electric_refrigerator']
+['frying_pan', 'ontop', 'oven']
+['wooden_spoon', 'ontop', 'oven']
+['onion_powder__shaker', 'insource', 'onion_powder']
+['onion_powder__shaker', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['bowl', 'filled', 'ground_beef']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing cook_ground_beef
+"""
+step = fl.floor
+target = oven
+Target:oven
+Step:take_bowl-of-ground_beef-out-of-electric_refrigerator
+Target:['bowl', 'electric_refrigerator']
+Step:take-a-wooden-spoon-out-of-oven
+Target:['wooden-spoon', 'oven']
+Step:take-a-frying-pan-out-of-oven
+Target:['frying-pan', 'oven']
+Step:put-a-capping-of-ground_beef-into-the-bowl
+Target:['ground_beef', 'bowl']
+Step:add-onion_powder-and-salt-to-the-bowl-of-ground_beef
+Target:['onion_powder', 'salt', 'bowl', 'ground_beef']
+Step:place-the-bowl-of-ground_beef-in-the-oven
+Target:['bowl', 'oven']
+Step:cook-the-ground_beef-in-the-oven
+Target:['bowl', 'oven', 'ground_beam']
+Step:remove-the-bowl-of-cooked-ground_beef-from-the-oven
+Target:['bowl', 'oven']
+Step:take-the-cooked-ground_beef-out-of-the-oven
+Target:['bowl', 'oven']
+Step:place-the-cooked-ground_beef-on-a-plate
+Target:['bowl', 'plate']
+Step:clean-up-any-mess-she-might-make
+Target:['wooden-spoon', 'frying-pan', 'oven']

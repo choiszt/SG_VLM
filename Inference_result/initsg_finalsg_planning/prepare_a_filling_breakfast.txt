@@ -1,0 +1,22 @@
+Task Goal:
+prepare_a_filling_breakfast
+Observed Relation:
+['table_knife', 'ontop', 'countertop']
+['egg', 'inside', 'electric_refrigerator']
+['bratwurst', 'inside', 'electric_refrigerator']
+['frying_pan', 'ontop', 'countertop']
+['orange', 'inside', 'electric_refrigerator']
+['plate', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing prepare_a_filling_breakfast
+
+### Response
+Step 1: Open the electric refrigerator
+Step 2: Take the egg out of the electric refrigerator
+Step 3: Take the bratwurst out of the electric refrigerator
+Step 4: Preheat the frying pan on the stove
+Step 5: Cut the orange into slices
+Step 6: Put the egg, bratwurst, and slices of orange in the frying pan
+Step 7: Serve the breakfast

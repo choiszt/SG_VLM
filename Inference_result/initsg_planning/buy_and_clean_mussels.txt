@@ -1,0 +1,19 @@
+Task Goal:
+buy_and_clean_mussels
+Observed Relation:
+['mussel', 'inside', 'sack']
+['mussel', 'covered', 'sand']
+['sack', 'ontop', 'countertop']
+['mixing_bowl', 'filled', 'water']
+['mixing_bowl', 'ontop', 'countertop']
+['paper_towel', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing buy_and_clean_mussels
+Before doing buy_and_clean_mussels, please ensure to do the following tasks:
+Step 1: Take the sack out of the refrigerator.
+Step 2: Take the mussels out of the sack.
+Step 3: Clean the mussels with water and scrub them with scrub brush.
+Step 4: Drain the water from the mixing bowl.
+Step 5: Put the cleaned mussels into the mixing bowl.
+Step 6: Dispose of the scrub brush and put it back into the refrigerator.
+Step 7: Finish doing buy_and_clean_mussels and clean up the countertop.

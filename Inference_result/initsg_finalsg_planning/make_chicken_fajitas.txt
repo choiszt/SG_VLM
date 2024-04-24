@@ -1,0 +1,28 @@
+Task Goal:
+make_chicken_fajitas
+Observed Relation:
+['frying_pan', 'ontop', 'countertop']
+['chicken', 'inside', 'electric_refrigerator']
+['olive_oil__bottle', 'filled', 'olive_oil']
+['olive_oil__bottle', 'ontop', 'countertop']
+['bell_pepper', 'inside', 'electric_refrigerator']
+['beefsteak_tomato', 'inside', 'electric_refrigerator']
+['vidalia_onion', 'ontop', 'countertop']
+['pepper__shaker', 'ontop', 'countertop']
+['chopping_board', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'countertop']
+['pepper__shaker', 'insource', 'black_pepper']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['marjoram__shaker', 'insource', 'marjoram']
+['marjoram__shaker', 'inside', 'cabinet']
+['cumin__shaker', 'insource', 'cumin']
+['cumin__shaker', 'inside', 'cabinet']
+['paprika__shaker', 'insource', 'paprika']
+['paprika__shaker', 'inside', 'cabinet']
+['salsa__bottle', 'insource', 'salsa']
+['salsa__bottle', 'inside', 'electric_refrigerator']
+['lime', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_chicken_fajitas

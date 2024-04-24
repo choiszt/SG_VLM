@@ -1,0 +1,37 @@
+Task Goal:
+make_a_blended_iced_cappuccino
+Observed Relation:
+['sink', 'insource', 'water']
+['tablespoon', 'ontop', 'countertop']
+['instant_coffee__jar', 'filled', 'instant_coffee']
+['instant_coffee__jar', 'inside', 'cabinet']
+['sugar__sack', 'filled', 'cane_sugar']
+['sugar__sack', 'inside', 'cabinet']
+['milk__carton', 'filled', 'chocolate_milk']
+['milk__carton', 'inside', 'electric_refrigerator']
+['ice_cube', 'inside', 'bowl']
+['cup', 'ontop', 'countertop']
+['blender', 'ontop', 'countertop']
+['coffee_maker', 'ontop', 'countertop']
+['bowl', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_a_blended_iced_cappuccino
+\Goal Expected Relation:
+
+### Response
+Step 1: Fill the cup with water
+Target:['cup', 'water']
+Step 2: Pour instant coffee into the cup
+Target:['cup', 'instant_coffee']
+Step 3: Add sugar to the cup
+Target:['cup', 'sugar']
+Step 4: Add milk to the cup
+Target:['cup', 'milk']
+Step 5: Add ice cubes to the cup
+Target:['cup', 'ice_cube']
+Step 6: Blend the ingredients in the blender
+Target:['blender']
+Step 7: Pour the blended drink into the cup
+Target:['cup', 'drink']
+

@@ -1,0 +1,25 @@
+Task Goal:
+wash_towels
+Observed Relation:
+['bath_towel', 'ontop', 'floor']
+['bath_towel', 'covered', 'dirt']
+['detergent__bottle', 'ontop', 'floor']
+['detergent__bottle', 'filled', 'detergent']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing wash_towels
+\Goal/
+
+Task Goal:
+Now please output plannings for doing wash_towels
+Goal/
+
+Target:
+['bath_towel', 'detergent__bottle']
+
+Relation Partial Mapping:
+None
+
+Target Partial Mapping:
+['bath_towel', 'detergent__bottle']
+

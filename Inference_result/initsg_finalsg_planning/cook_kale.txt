@@ -1,0 +1,20 @@
+Task Goal:
+cook_kale
+Observed Relation:
+['kale', 'inside', 'electric_refrigerator']
+['olive_oil__bottle', 'filled', 'olive_oil']
+['olive_oil__bottle', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['saucepot', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing cook_kale
+### Response Plannings:
+Step 1: Take the kale out of the refrigerator
+Step 2: Pour olive oil into the saucepot
+Step 3: Add salt into the saucepot
+Step 4: Turn on the stove
+Step 5: Put the saucepot on the stove
+Step 6: Cook the kale
+Step 7: Remove the kale from the saucepot

@@ -1,0 +1,12 @@
+Task Goal:
+store_firewood_outdoors
+Observed Relation:
+['firewood', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing store_firewood_outdoors
+### Response:
+Step 1: Pick up the firewood
+Step 2: Move the firewood to the outdoors
+Step 3: Place the firewood in a safe location
+Step 4: Ensure that the firewood is protected from weathering

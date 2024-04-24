@@ -1,0 +1,22 @@
+Task Goal:
+thawing_frozen_food
+Observed Relation:
+['date', 'inside', 'electric_refrigerator']
+['olive', 'inside', 'electric_refrigerator']
+['lobster', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing thawing_frozen_food
+Step 1: Open the electric refrigerator
+Target:['electric_refrigerator']
+Step 2: Take the date out of the electric refrigerator
+Target:['electric_refrigerator', 'date']
+Step 3: Take the olive out of the electric refrigerator
+Target:['electric_refrigerator', 'olive']
+Step 4: Take the lobster out of the electric refrigerator
+Target:['electric_refrigerator', 'lobster']
+Step 5: Put the date in the microwave
+Target:['date', 'microwave']
+Step 6: Put the olive in the microwave
+Target:['olive', 'microwave']
+Step 7: Put the lobster in the microwave
+Target:['lobster', 'microwave']

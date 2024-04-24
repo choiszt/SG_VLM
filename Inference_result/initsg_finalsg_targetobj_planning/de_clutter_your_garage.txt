@@ -1,0 +1,14 @@
+Task Goal:
+de_clutter_your_garage
+Observed Relation:
+['ski', 'ontop', 'floor']
+['bicycle', 'ontop', 'floor']
+['tennis_racket', 'ontop', 'floor']
+['hockey_stick', 'ontop', 'floor']
+['carton', 'ontop', 'floor']
+['shovel', 'ontop', 'floor']
+['ashcan', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing de_clutter_your_garage
+\Goal

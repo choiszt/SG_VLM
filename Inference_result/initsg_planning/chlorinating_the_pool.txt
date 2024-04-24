@@ -1,0 +1,22 @@
+Task Goal:
+chlorinating_the_pool
+Observed Relation:
+['chlorine__bottle', 'filled', 'chlorine']
+['pool', 'filled', 'water']
+['chlorine__bottle', 'ontop', 'floor']
+['bucket', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing chlorinating_the_pool
+The chlorine bottle is filled with chlorine
+The pool is filled with water
+The chlorine bottle is on top of the floor
+The bucket is on top of the floor
+The agent is on top of the floor
+The chlorine bottle is poured into the bucket
+The bucket is poured into the pool
+The agent is walked into the pool
+The agent swims in the pool
+The pool needs to be maintained constant volume
+The pool needs to be maintained constant volume
+Expected Result:
+Millie's Pool Needs Maintenance

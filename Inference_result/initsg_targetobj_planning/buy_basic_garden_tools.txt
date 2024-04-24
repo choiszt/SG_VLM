@@ -1,0 +1,49 @@
+Task Goal:
+buy_basic_garden_tools
+Observed Relation:
+['shovel', 'ontop', 'shelf']
+['rake', 'ontop', 'shelf']
+['money', 'inside', 'backpack']
+['backpack', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing buy_basic_garden_tools
+Targets:
+None
+Step 1: Go to the store
+Target:
+['agent']
+Step 2: Find the garden tools section in the store
+Observed Relation:
+None
+Step 3: Buy the desired garden tools
+Target:
+['shovel', 'rake', 'money', 'backpack']
+Step 4: Carry the garden tools to the checkout counter
+Target:
+['shovel', 'rake', 'backpack']
+Step 5: Pay for the garden tools
+Target:
+['shovel', 'rake']
+Step 6: Leave the store
+Target:
+['agent']
+Step 7: Go home
+Target:
+['agent']
+Response:
+Step 8: Place the garden tools in the shed
+Target:
+['shovel', 'rake']
+Step 9: Take out the garden tools if needed
+Target:
+['shovel', 'rake']
+Conclusion:
+Step 10: Task completed
+Target:
+None
+
+P.S.: Please be careful when carrying the garden tools
+Stakeouts: None
+
+Target: None
+

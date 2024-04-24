@@ -1,0 +1,16 @@
+Task Goal:
+polish_wood_floors
+Observed Relation:
+['swab', 'ontop', 'floor']
+['polish__bottle', 'filled', 'polish']
+['bucket', 'ontop', 'floor']
+['polish__bottle', 'inside', 'shelf']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing polish_wood_floors
+Step 1: Get the swab
+Step 2: Take the polish bottle out of the shelf
+Step 3: Pour the polish onto the swab
+Step 4: Smoothly spread the polish on the floor
+Step 5: Put the swab back on the floor
+Step 6: Shake the bucket to distribute the polish
+Step 7: Wipe the polished floor with the swab

@@ -1,0 +1,23 @@
+Task Goal:
+boxing_food_after_dinner
+Observed Relation:
+['kabob', 'ontop', 'plate']
+['plate', 'ontop', 'breakfast_table']
+['tupperware', 'ontop', 'breakfast_table']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing boxing_food_after_dinner
+Step 1: Open the electric refrigerator
+Target:['electric_refrigerator']
+Step 2: Take the tupperware out of the electric refrigerator
+Target:['electric_refrigerator', 'tupperware']
+Step 3: Put the kabob into the tupperware
+Target:['kabob', 'tupperware']
+Step 4: Close the tupperware
+Target:['tupperware']
+Step 5: Put the tupperware back into the electric refrigerator
+Target:['electric_refrigerator', 'tupperware']
+Step 6: Clean up the breakfast table
+Target:['breakfast_table']
+Step 7: Put the boxed kabob into the microwave oven
+Target:['kabob', 'microwave_oven']
+

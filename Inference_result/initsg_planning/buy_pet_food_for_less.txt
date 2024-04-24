@@ -1,0 +1,23 @@
+Task Goal:
+buy_pet_food_for_less
+Observed Relation:
+['cash_register', 'ontop', 'checkout']
+['can__of__dog_food', 'ontop', 'shelf']
+['money', 'inside', 'shopping_cart']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing buy_pet_food_for_less
+The answer will be saved for later using because of this question
+Go to a store.
+Hop onto the checkout.
+Buy pet food for less
+Step 2: Task Completion
+Hopefully, this question will be able to help you do buy_pet_food_for_less
+Step 3: Post-Task Reporting
+Now I am reporting my experience with buy_pet_food_for_less
+I believe I heard or saw something during the task
+I believe I should report my experience with buy_pet_food_for_less
+Observed Relation:
+Step 4: Question-Response Pathway
+Certainly, this question should be answered
+Now please output plannings for doing certainty
+Step 5: Question-Response Pathway

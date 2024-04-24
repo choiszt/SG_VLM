@@ -1,0 +1,22 @@
+Task Goal:
+setup_a_fish_tank
+Observed Relation:
+['tank', 'ontop', 'table']
+['bucket', 'ontop', 'floor']
+['bucket', 'filled', 'water']
+['water_filter', 'ontop', 'table']
+['pebble', 'ontop', 'table']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing setup_a_fish_tank
+\Goal Expected Relation:
+['bucket', 'ontop', 'shelf']
+['tank', 'ontop', 'shelf']
+['pebble', 'remove']
+['water_filter', 'move_to', 'shelf']
+['pebble', 'move_to', 'shelf']
+Target Relation:
+
+Now please output plannings for doing setup_a_fish_tank
+\Target Relation:
+

@@ -1,0 +1,23 @@
+Task Goal:
+make_garlic_mushrooms
+Observed Relation:
+['frying_pan', 'inside', 'cabinet']
+['olive_oil__bottle', 'filled', 'olive_oil']
+['olive_oil__bottle', 'inside', 'cabinet']
+['clove', 'inside', 'tupperware']
+['tupperware', 'inside', 'electric_refrigerator']
+['green_onion', 'inside', 'electric_refrigerator']
+['chopping_board', 'ontop', 'breakfast_table']
+['carving_knife', 'inside', 'cabinet']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'breakfast_table']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_garlic_mushrooms
+Wikipedia page for making garlic mushrooms: https://en.wikipedia.org/wiki/Garlic_mushroom
+Step 1: Take the frying pan out of the cabinet
+Step 2: Take the olive oil bottle out of the cabinet
+Step 3: Take the clove out of the tupperware
+Step 4: Take the green onion out of the electric refrigerator
+Step 5: Take the chopping board off the breakfast table
+Step 6: Take the carving knife out of the cabinet
+Step 7: Put the chopping board on the breakfast table

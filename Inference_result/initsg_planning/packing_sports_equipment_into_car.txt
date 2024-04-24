@@ -1,0 +1,20 @@
+Task Goal:
+packing_sports_equipment_into_car
+Observed Relation:
+['car', 'ontop', 'driveway']
+['sock', 'ontop', 'lawn']
+['helmet', 'ontop', 'lawn']
+['sports_equipment', 'ontop', 'lawn']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing packing_sports_equipment_into_car
+It looks like the agent did a good job. Sleeping on the floor is likely to happen again
+Relation: car - driveway
+Response: true
+Relation: sock -ontop-lawn
+Response: true
+Relation: helmet -ontop-lawn
+Relation: sports_equipment -ontop-lawn
+Relation: agent -ontop-floor
+Task: packing_sports_equipment_into_car
+Observed Relation:
+Now please output plannings for doing packing_sports_equipment_into_car

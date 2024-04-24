@@ -1,0 +1,15 @@
+Task Goal:
+fill_a_canteen
+Observed Relation:
+['canteen', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing fill_a_canteen
+With the canteen on the countertop:
+Step 1: Fill the canteen with water from the sink
+Step 2: Put the canteen in the microwave
+Step 3: Put the microwave on the electric stove
+Step 4: Cook the canteen in the microwave
+Step 5: Take the canteen out of the microwave
+Step 6: Put the canteen back on the countertop
+Step 7: Remove the label from the canteen

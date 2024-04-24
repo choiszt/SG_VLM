@@ -1,0 +1,29 @@
+Task Goal:
+clean_a_backpack
+Observed Relation:
+['detergent__bottle', 'filled', 'detergent']
+['detergent__bottle', 'ontop', 'floor']
+['backpack', 'ontop', 'floor']
+['bucket', 'ontop', 'floor']
+['rag', 'ontop', 'clothes_dryer']
+['hand_towel', 'ontop', 'washer']
+['sponge', 'ontop', 'clothes_dryer']
+['bucket', 'filled', 'water']
+['backpack', 'covered', 'dust']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_a_backpack
+Example:
+Step 1: Pick up the bucket from the floor
+Target:['bucket']
+Step 2: Pour water into the bucket
+Target:['bucket']
+Step 3: Pick up the rag from the clothes dryer
+Target:['rag']
+Step 4: Pour water from the bucket onto the rag
+Target:['rag']
+Step 5: Clean the backpack with the wet rag
+Target:['backpack', 'rag']
+Step 6: Dry the backpack with a hand towel
+Target:['backpack', 'hand_towel']
+Step 7: Put the clean backpack away
+Target:['backpack']

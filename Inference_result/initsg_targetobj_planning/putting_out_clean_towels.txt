@@ -1,0 +1,48 @@
+Task Goal:
+putting_out_clean_towels
+Observed Relation:
+['bath_towel', 'ontop', 'floor']
+['hand_towel', 'ontop', 'floor']
+['wicker_basket', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_out_clean_towels
+Step 1: Pick up the bath towel
+Target:['bath_towel']
+Step 2: Put the bath towel in the wicker basket
+Target:['bath_towel', 'wicker_basket']
+Step 3: Pick up the hand towel
+Target:['hand_towel']
+Step 4: Put the hand towel in the wicker basket
+Target:['hand_towel', 'wicker_basket']
+Step 5: Pick up the wicker basket
+Target:['wicker_basket']
+Step 6: Put the wicker basket on the floor
+Target:['wicker_basket']
+Step 7: Pick up the bath towel
+Target:['bath_towel']
+Step 8: Put the bath towel back in the wicker basket
+Target:['bath_towel', 'wicker_basket']
+Step 9: Pick up the hand towel
+Target:['hand_towel']
+Step 10: Put the hand towel back in the wicker basket
+Target:['hand_towel', 'wicker_basket']
+Step 11: Remove the towels from the wicker basket
+Target:['wicker_basket']
+Step 12: Put the towels out on the floor
+Target:['wicker_basket', 'floor']
+Step 13: Check if the task is finished
+Target:['wicker_basket']
+Step 14: Nothing to do
+Target:[]
+Step 15: Nothing to do
+Target:[]
+Step 16: See if the task is performed correctly
+Target:['wicker_basket']
+Step 17: See if the task is performed correctly
+Target:['wicker_basket']
+Step 18: See if the task was performed correctly
+Target:['wicker_basket']
+Step 19: Nothing to do
+Target:[]
+Step 20: Nothing to do
+Target:[]

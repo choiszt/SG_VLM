@@ -1,0 +1,15 @@
+Task Goal:
+setup_a_fish_tank
+Observed Relation:
+['tank', 'ontop', 'table']
+['bucket', 'ontop', 'floor']
+['bucket', 'filled', 'water']
+['water_filter', 'ontop', 'table']
+['pebble', 'ontop', 'table']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing setup_a_fish_tank
+The tank should be placed on the table
+The bucket should be poured on the floor
+The water filter should be placed on the table
+A pebble should be placed on the table
+The agent should be placed on the floor

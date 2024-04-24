@@ -1,0 +1,8 @@
+Task Goal:
+putting_away_bicycles
+Observed Relation:
+['bicycle', 'ontop', 'driveway']
+['tarpaulin', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+['tarpaulin', 'overlaid', 'bicycle']
+Now please output plannings for doing putting_away_bicycles

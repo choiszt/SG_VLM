@@ -1,0 +1,14 @@
+Task Goal:
+putting_laundry_in_drawer
+Observed Relation:
+['short_pants', 'ontop', 'bed']
+['tank_top', 'ontop', 'bed']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_laundry_in_drawer
+Step 1: Pick up the short pants from the bed
+Step 2: Pick up the tank top from the bed
+Step 3: Put the short pants in the drawers
+Step 4: Put the tank top in the drawers
+Step 5: Organize the drawers
+Step 6: Put the laundry in the drawers
+Step 7: Check if the laundry is folded correctly

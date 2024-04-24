@@ -1,0 +1,29 @@
+Task Goal:
+packing_hobby_equipment
+Observed Relation:
+['jigsaw_puzzle', 'ontop', 'sofa']
+['carton', 'ontop', 'floor']
+['baseball', 'ontop', 'floor']
+['soccer_ball', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing packing_hobby_equipment
+First Step:
+Choose the carton
+Target:['carton']
+Next Step:
+Put the jigsaw puzzle in the carton
+Target:['jigsaw_puzzle', 'carton']
+Next Step:
+Put the baseball in the carton
+Target:['baseball', 'carton']
+Next Step:
+Put the soccer ball in the carton
+Target:['soccer_ball', 'carton']
+Next Step:
+Put the agent in the carton
+Target:['agent', 'carton']
+Finally Please output plannings for doing packing_hobby_equipment
+Target:['carton']
+Now please choose plannings for doing packing_hobby_equipment
+Target:['carton']
+

@@ -1,0 +1,30 @@
+Task Goal:
+putting_away_games
+Observed Relation:
+['board_game', 'ontop', 'desk']
+['carton', 'ontop', 'desk']
+['jigsaw_puzzle', 'ontop', 'desk']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_away_games
+The carton should be moved onto the floor
+The jigsaw puzzle should be moved onto the floor
+The board game should be moved onto the floor
+The agent should be moved onto the floor
+Relation: board_game_game; agent | father; 'board game' | cover
+Now please output optix for doing putting_away_games
+'carton', 'ontop', 'desk' , 'jigsaw_puzzle', 'ontop', 'desk' , 'agent', 'ontop', 'floor' , 'board_game', 'ontop', 'desk'
+'carton', 'ontop', 'floor'
+'jigsaw_puzzle', 'ontop', 'floor'
+'agent', 'ontop', 'floor'
+Relation: board_game_game; agent | father; 'board game' | cover
+Relation: carton; agent | agent; cover
+Relation: jigsaw_puzzle; agent | agent; cover
+Relation: floor; 'board game', 'cover', 'floor'
+Relation: carton, 'cover', 'floor'
+Relation: jigsaw_puzzle, 'cover', 'floor'
+Relation: carton, 'ontop', 'floor'
+Relation: jigsaw_puzzle, 'ontop', 'floor'
+Relation: board_game, 'ontop', 'desk'
+Relation: carton, 'ontop', 'desk'
+Relation: jigsaw_puzzle, 'ontop', 'desk'
+Now please output plannings for doing putting_away_games

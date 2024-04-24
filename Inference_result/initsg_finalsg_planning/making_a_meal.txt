@@ -1,0 +1,23 @@
+Task Goal:
+making_a_meal
+Observed Relation:
+['pasta__box', 'filled', 'penne']
+['pasta__box', 'inside', 'cabinet']
+['meatball', 'inside', 'tupperware']
+['tupperware', 'inside', 'electric_refrigerator']
+['marinara__jar', 'filled', 'marinara']
+['marinara__jar', 'inside', 'electric_refrigerator']
+['bowl', 'inside', 'cabinet']
+['stockpot', 'inside', 'cabinet']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing making_a_meal
+### Response:
+Step 1: Open the cabinet
+Step 2: Take the pasta box out of the cabinet
+Step 3: Take the tupperware out of the refrigerator
+Step 4: Take the meatball out of the tupperware
+Step 5: Take the marinara jar out of the refrigerator
+Step 6: Take the bowl out of the cabinet
+Step 7: Fill the stockpot with water from the sink

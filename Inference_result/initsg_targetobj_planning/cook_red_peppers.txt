@@ -1,0 +1,28 @@
+Task Goal:
+cook_red_peppers
+Observed Relation:
+['frying_pan', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'countertop']
+['chopping_board', 'ontop', 'countertop']
+['bell_pepper', 'inside', 'electric_refrigerator']
+['hummus__box', 'filled', 'hummus']
+['hummus__box', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cook_red_peppers
+Step 1: Open the electric refrigerator
+Target:['electric_refrigerator']
+Step 2: Take the bell pepper out of the electric refrigerator
+Target:['electric_refrigerator', 'bell_pepper']
+Step 3: Put the bell pepper on the chopping board
+Target:['bell_pepper', 'chopping_board']
+Step 4: Cut the bell pepper into slices
+Target:['bell_pepper', 'slicing_board']
+Step 5: Fry the sliced bell pepper in the frying pan
+Target:['bell_pepper', 'frying_pan']
+Step 6: Serve the cooked red peppers as an accompaniment to hummus
+Target:['bell_pepper', 'frying_pan', 'hummus']
+Step 7: Finish cooking the red peppers
+Target:['bell_pepper']
+Response:
+Step 7:
+

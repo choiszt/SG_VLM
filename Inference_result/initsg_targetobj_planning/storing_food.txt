@@ -1,0 +1,23 @@
+Task Goal:
+storing_food
+Observed Relation:
+['box__of__oatmeal', 'ontop', 'countertop']
+['chip', 'ontop', 'countertop']
+['bottle__of__olive_oil', 'ontop', 'countertop']
+['jar__of__sugar', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing storing_food
+Step 1: Open the cabinet
+Target:['cabinet']
+Step 2: Take the box of oatmeal out of the cabinet
+Target:['cabinet', 'box__of__oatmeal']
+Step 3: Take the chip out of the cabinet
+Target:['cabinet', 'chip']
+Step 4: Take the bottle of olive oil out of the cabinet
+Target:['cabinet', 'bottle__of__olive_oil']
+Step 5: Take the jar of sugar out of the cabinet
+Target:['cabinet', 'jar__of__sugar']
+Step 6: Put the box of oatmeal in the pantry
+Target:['pantry', 'box__of__oatmeal']
+Step 7: Put the chip on top of the oatmeal in the pantry
+Target:['pantry', 'chip']

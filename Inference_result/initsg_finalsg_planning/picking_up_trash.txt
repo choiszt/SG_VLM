@@ -1,0 +1,8 @@
+Task Goal:
+picking_up_trash
+Observed Relation:
+['can__of__soda', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing picking_up_trash
+### Response:
+Step 1: Move the can of soda from the floor to the trash can

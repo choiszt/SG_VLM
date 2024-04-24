@@ -1,0 +1,23 @@
+Task Goal:
+laying_restaurant_table_for_dinner
+Observed Relation:
+['plate', 'inside', 'cabinet']
+['tablefork', 'inside', 'cabinet']
+['table_knife', 'inside', 'cabinet']
+['tablespoon', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing laying_restaurant_table_for_dinner
+Step 1: Open the cabinet
+Target:['cabinet']
+Step 2: Take the plate out of the cabinet
+Target:['cabinet', 'plate']
+Step 3: Take the tablefork out of the cabinet
+Target:['cabinet', 'tablefork']
+Step 4: Take the tableknife out of the cabinet
+Target:['cabinet', 'tableknife']
+Step 5: Take the spoons out of the cabinet
+Target:['cabinet', 'tablespoon']
+Step 6: Put the plate on the table
+Target:['plate', 'table']
+Step 7: Put the tablefork next to the plate
+Target:['tablefork', 'plate']

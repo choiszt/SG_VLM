@@ -1,0 +1,18 @@
+Task Goal:
+freeze_fruit
+Observed Relation:
+['tupperware', 'inside', 'cabinet']
+['bowl', 'ontop', 'countertop']
+['apple', 'inside', 'bowl']
+['tray', 'ontop', 'countertop']
+['strawberry', 'ontop', 'tray']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing freeze_fruit
+### Response:
+Step 1: Open the cabinet
+Step 2: Take the tupperware out of the cabinet
+Step 3: Put the apple in the tupperware
+Step 4: Close the tupperware
+Step 5: Put the tupperware back in the cabinet
+Step 6: Preheat the oven
+Step 7: Put the tupperware with apples in the freezer

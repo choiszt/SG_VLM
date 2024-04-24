@@ -1,0 +1,21 @@
+Task Goal:
+spring_clean_your_skateboard
+Observed Relation:
+['acetone__atomizer', 'insource', 'acetone']
+['acetone__atomizer', 'ontop', 'floor']
+['bucket', 'filled', 'water']
+['bucket', 'ontop', 'floor']
+['skateboard', 'ontop', 'floor']
+['skateboard', 'covered', 'stain']
+['rag', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing spring_clean_your_skateboard
+### planning output legstep: 2 ACTIVE_IN_GOAL, 2 EXPECTED_RELATION; OBSERVED_RELATION: 2 OBSERVED_ACTOR: Agent, Skateboard
+Step 1: Pick up the skateboard
+Step 2: Dip the rag into water
+Step 3: Dip the rag into acetone
+Step 4: Rub the stain on the skateboard with the wet rag
+Step 5: Put the skateboard in the sink
+Step 6: Clean the skateboard with water
+Step 7: Put the skateboard back on the floor

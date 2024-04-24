@@ -1,0 +1,24 @@
+Task Goal:
+filling_pepper
+Observed Relation:
+['bell_pepper', 'inside', 'electric_refrigerator']
+['chili', 'inside', 'electric_refrigerator']
+['carving_knife', 'ontop', 'countertop']
+['saucepot', 'filled', 'white_rice']
+['saucepot', 'ontop', 'countertop']
+['plate', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing filling_pepper
+The bell pepper is inside the electric refrigerator
+The chili is inside the electric refrigerator
+The carving knife is on top of the countertop
+The saucepot is filled with white rice
+The plate is on top of the countertop
+The agent is on top of the floor
+There is only one plannings for doing filling_pepper: Open the electric refrigerator
+Obtain the bell pepper from inside the electric refrigerator
+Put the bell pepper into the saucepot
+Now please output solutions for doing filling_pepper
+The solution for doing filling_pepper is to open the electric refrigerator
+Obtain the chili from inside the electric refrigerator
+Put the chili into the saucepot

@@ -1,0 +1,16 @@
+Task Goal:
+watering_outdoor_flowers
+Observed Relation:
+['watering_can', 'insource', 'water']
+['watering_can', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing watering_outdoor_flowers
+\Goal Expected Relation:
+
+Now please output plannings for doing watering_outdoor_flowers
+
+## Output plannings for doing watering_outdoor_flowers
+Step 1: Pick up the watering can
+Step 2: Fill the watering can with water
+Step 3: water the outdoor flowers

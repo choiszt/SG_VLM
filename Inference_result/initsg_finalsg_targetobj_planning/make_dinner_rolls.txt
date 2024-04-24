@@ -1,0 +1,63 @@
+Task Goal:
+make_dinner_rolls
+Observed Relation:
+['flour__sack', 'filled', 'flour']
+['flour__sack', 'inside', 'cabinet']
+['yeast__shaker', 'insource', 'yeast']
+['yeast__shaker', 'inside', 'cabinet']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['sugar__sack', 'filled', 'granulated_sugar']
+['sugar__sack', 'inside', 'cabinet']
+['butter', 'inside', 'butter__package']
+['butter__package', 'inside', 'electric_refrigerator']
+['milk__carton', 'filled', 'whole_milk']
+['milk__carton', 'inside', 'electric_refrigerator']
+['electric_mixer', 'ontop', 'countertop']
+['cookie_sheet', 'inside', 'oven']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing make_dinner_rolls
+\Goal Expected Relation:
+
+Reducing the Task to be Completed:
+
+Now please output plannings for doing make_dinner_rolls
+
+Task Goal:
+make_dinner_rolls
+Observed Relation:
+['flour']
+['yeast']
+['salt']
+['granulated_sugar']
+['whole_milk']
+['butter']
+['cookie_sheet']
+['electric_mixer']
+['oven']
+['electric_refrigerator']
+['countertop']
+['floor']
+Target Relation:
+
+Now please output plannings for doing make_dinner_rolls
+
+Task Goal:
+make_dinner_rolls
+Observed Relation:
+['flour']
+['yeast']
+['salt']
+['granulated_sugar']
+['whole_milk']
+['butter']
+['cookie_sheet']
+['electric_mixer']
+['oven']
+['electric_refrigerator']
+['countertop']
+['floor']
+Target Relation:
+
+Now please output plannings for doing make_dinner_rolls

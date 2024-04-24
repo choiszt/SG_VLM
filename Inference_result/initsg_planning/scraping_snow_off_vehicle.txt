@@ -1,0 +1,8 @@
+Task Goal:
+scraping_snow_off_vehicle
+Observed Relation:
+['car', 'ontop', 'driveway']
+['car', 'covered', 'snow']
+['scraper', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing scraping_snow_off_vehicle

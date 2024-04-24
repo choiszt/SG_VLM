@@ -1,0 +1,19 @@
+Task Goal:
+hang_paper_lanterns
+Observed Relation:
+['paper_lantern', 'ontop', 'table']
+['pole', 'ontop', 'table']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing hang_paper_lanterns
+Obtain plannings:
+Go to the pole section of the shelf
+Hang the paper lanterns on the pole
+Go to the table
+Place the pole on the table
+Hang the pole on the table
+Step 2: Output please increase resource
+Step 3: Output do I need to do to satisfy requirements
+Step 4: Output plannings were fulfilled
+Step 5: Output fulfillment status
+Step 6: Output fulfillment status
+Step 7: Output outcome

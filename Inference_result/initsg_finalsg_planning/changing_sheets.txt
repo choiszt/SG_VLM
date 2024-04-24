@@ -1,0 +1,8 @@
+Task Goal:
+changing_sheets
+Observed Relation:
+['sheet', 'ontop', 'bed']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing changing_sheets
+## Planning: 'Take_sheet_off_bed', 'move_to_washer', 'move_to_washer', 'dry', 'move_to_clothesline', 'hang', 'clothesline', 'cubicle', 'move_to_clothesline', 'dry', 'move_to_clothesline', 'done'

@@ -1,0 +1,17 @@
+Task Goal:
+clean_the_exterior_of_your_garage
+Observed Relation:
+['liquid_soap__bottle', 'filled', 'liquid_soap']
+['liquid_soap__bottle', 'ontop', 'floor']
+['sponge', 'ontop', 'floor']
+['door', 'covered', 'stain']
+['agent', 'ontop', 'floor']
+['sink', 'insource', 'water']
+Now please output plannings for doing clean_the_exterior_of_your_garage
+Expected Result:
+Step 1: Pick up the sponge
+Step 2: Fill the sink with water
+Step 3: Dip the sponge into the sink
+Step 4: Wipe the stain on the garage door with the sponge
+Step 5: apply liquid soap on the sponge
+Step 6: Clean the exterior of your garage using the soapy sponge

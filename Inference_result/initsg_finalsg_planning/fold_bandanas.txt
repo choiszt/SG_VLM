@@ -1,0 +1,15 @@
+Task Goal:
+fold_bandanas
+Observed Relation:
+['hand_towel', 'ontop', 'sofa']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing fold_bandanas
+### Response:
+Step 1: Pick up the hand towel from the sofa
+Step 2: Place the hand towel on the floor
+Step 3: Fold the bandana
+Step 4: Place the folded bandana on the sofa
+Step 5: Remove the hand towel from the floor
+Step 6: Put the hand towel on the sofa
+Step 7: Task completed

@@ -1,0 +1,50 @@
+Task Goal:
+picking_up_trash
+Observed Relation:
+['can__of__soda', 'ontop', 'floor']
+Now please output plannings for doing picking_up_trash//popcorn_cube/can_of_soda
+Step 1: Pick up the can of soda from the floor
+Target:['floor', 'can__of__soda']
+Step 2: Dispose of the can of soda in the trash
+Target:['can__of__soda', 'trash']
+Step 3: Pick up the popcorn cube from the floor
+Target:['floor', 'popcorn_cube']
+Step 4: Dispose of the popcorn cube in the trash
+Target:['popcorn_cube', 'trash']
+Step 5: Put the trash can out
+Target:['trash']
+Step 6: Clean up the mess on the floor
+Target:['floor']
+Step 7: Finish the task
+Target:[]
+Output:
+Step 1: Pick up the can of soda from the floor
+Target:['floor', 'can__of__soda']
+Step 2: Dispose of the can of soda in the trash
+Target:['can__of__soda', 'trash']
+Step 3: Pick up the popcorn cube from the floor
+Target:['floor', 'popcorn_cube']
+Step 4: Dispose of the popcorn cube in the trash
+Target:['popcorn_cube', 'trash']
+Step 5: Put the trash can out
+Target:['trash']
+Step 6: Clean up the mess on the floor
+Target:['floor']
+Step 7: Finish the task
+Target:[]
+
+Thus the plan is:
+Step 1: Pick up the can of soda from the floor
+Target:['floor', 'can__of__soda']
+Step 2: Dispose of the can of soda in the trash
+Target:['can__of__soda', 'trash']
+Step 3: Pick up the popcorn cube from the floor
+Target:['floor', 'popcorn_cube']
+Step 4: Dispose of the popcorn cube in the trash
+Target:['popcorn_cube', 'trash']
+Step 5: Put the trash can out
+Target:['trash']
+Step 6: Clean up the mess on the floor
+Target:['floor']
+Step 7: Finish the task
+Target:[]

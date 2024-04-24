@@ -1,0 +1,16 @@
+Task Goal:
+packing_art_supplies_into_car
+Observed Relation:
+['car', 'ontop', 'driveway']
+['bag', 'ontop', 'driveway']
+['pencil', 'ontop', 'bag']
+['marker', 'ontop', 'bag']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing packing_art_supplies_into_car
+Step 1: Open the car door
+Step 2: Take the bag out of the car
+Step 3: Take the pencil out of the bag
+Step 4: Take the marker out of the bag
+Step 5: Put the pencil in the car
+Step 6: Put the bag in the car
+Step 7: Put the pencil back in the bag

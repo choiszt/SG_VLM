@@ -1,0 +1,11 @@
+Task Goal:
+storing_food
+Observed Relation:
+['box__of__oatmeal', 'ontop', 'countertop']
+['chip', 'ontop', 'countertop']
+['bottle__of__olive_oil', 'ontop', 'countertop']
+['jar__of__sugar', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing storing_food
+\Goal/

@@ -1,0 +1,16 @@
+Task Goal:
+store_firewood_outdoors
+Observed Relation:
+['firewood', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing store_firewood_outdoors
+With the money you save by storing firewood outdoors, you can buy more firewood. Alternatively, you can buy a log splitter or hire a contractor to split firewood for you.
+Answer: Store firewood outdoors
+Obtained Plannings:
+Step 1: Store firewood outdoors
+Step 2: Move 'firewood' from 'ontop' to 'outside'
+Step 3: Move 'agent' from 'ontop' to 'outside'
+Step 4: Ensure that the firewood is stored safely outdoors
+Step 5: Ensure that the agent is stored safely outdoors
+Step 6: Save money by storing firewood outdoors
+Step 7: Save money by storing agent outdoors

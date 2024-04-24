@@ -1,0 +1,43 @@
+Task Goal:
+picking_vegetables_in_garden
+Observed Relation:
+['artichoke', 'ontop', 'lawn']
+['chard', 'ontop', 'lawn']
+['beet', 'ontop', 'lawn']
+['wicker_basket', 'ontop', 'lawn']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing picking_vegetables_in_garden
+Exploration Step:
+['agent', 'ontop', 'floor']
+Now please output plannings for doing picking_vegetables_in_garden
+Response:
+Step 1: Move the wicker basket to the lawn
+Target:['wicker_basket']
+Step 2: Pick artichoke from the lawn
+Target:['lawn', 'artichoke']
+Step 3: Pick chard from the lawn
+Target:['lawn', 'chard']
+Step 4: Pick beet from the lawn
+Target:['lawn', 'beet']
+Step 5: Put artichoke, chard, and beet into the wicker basket
+Target:['artichoke', 'chard', 'beet', 'wicker_basket']
+Step 6: Move the wicker basket to the counter
+Target:['wicker_basket', 'counter']
+Step 7: Serve the vegetables as a side dish
+Target:['wicker_basket']
+
+Plan:
+Step 1: Move the wicker basket to the lawn
+Target:['wicker_basket', 'lawn']
+Step 2: Pick artichoke from the lawn
+Target:['lawn', 'artichoke']
+Step 3: Pick chard from the lawn
+Target:['lawn', 'chard']
+Step 4: Pick beet from the lawn
+Target:['lawn', 'beet']
+Step 5: Put artichoke, chard, and beet into the wicker basket
+Target:['artichoke', 'chard', 'beet', 'wicker_basket']
+Step 6: Move the wicker basket to the counter
+Target:['wicker_basket', 'counter']
+Step 7: Serve the vegetables as a side dish
+Target:['wicker_basket']

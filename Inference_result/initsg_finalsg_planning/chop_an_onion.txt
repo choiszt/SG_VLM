@@ -1,0 +1,16 @@
+Task Goal:
+chop_an_onion
+Observed Relation:
+['chopping_board', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'chopping_board']
+['vidalia_onion', 'ontop', 'chopping_board']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing chop_an_onion
+
+Step 1: Pick up the carving knife
+Step 2: Put the carving knife on the chopping board
+Step 3: Pick up the vidalia_onion
+Step 4: Place the vidalia_onion on the chopping board
+Step 5: Chop the vidalia_onion using the carving knife
+Step 6: Finish chopping the vidalia_onion

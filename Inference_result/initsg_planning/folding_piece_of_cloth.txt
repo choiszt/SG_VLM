@@ -1,0 +1,11 @@
+Task Goal:
+folding_piece_of_cloth
+Observed Relation:
+['drawers', 'inside', 'clothes_dryer']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing folding_piece_of_cloth
+Relation between task and observed relation: None
+Relation between task and output plannings: None
+Relation between output plannings and doing folding_piece_of_cloth: None
+Relation between output plannings and doing folding_piece_of_cloth: Preparation
+Relation between output plannings and doing folding_piece_of_cloth: Doing folding_piece_of_cloth

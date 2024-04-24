@@ -1,0 +1,23 @@
+Task Goal:
+cooking_food_for_adult
+Observed Relation:
+['steak', 'inside', 'electric_refrigerator']
+['thyme__shaker', 'insource', 'thyme']
+['thyme__shaker', 'ontop', 'countertop']
+['plate', 'ontop', 'countertop']
+['cooking_oil__bottle', 'filled', 'cooking_oil']
+['cooking_oil__bottle', 'ontop', 'countertop']
+['frying_pan', 'ontop', 'stove']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing cooking_food_for_adult
+
+Task Goal:
+cooking_food_for_adult
+Observed Relation:
+['steak', 'inside', 'oven']
+['frying_pan', 'inside', 'cabinet']
+['thyme__shaker', 'ontop', 'countertop']
+['cooking_oil__bottle', 'filled', 'cooking_oil']
+['cooking_oil__bottle', 'ontop', 'countertop']
+Now please output plannings for doing cooking_food_for_adult

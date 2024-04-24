@@ -1,0 +1,86 @@
+Task Goal:
+cleaning_table_after_clearing
+Observed Relation:
+['table', 'covered', 'stain']
+['bar_soap', 'inside', 'cabinet']
+['dishtowel', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cleaning_table_after_clearing
+Targets:
+None
+Time Horizon:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Step:
+Target:
+None
+Plannings:
+None
+Execution:
+Please assign necessary plannings
+Results:
+None
+Failure:
+None

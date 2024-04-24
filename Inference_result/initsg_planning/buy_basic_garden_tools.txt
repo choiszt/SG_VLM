@@ -1,0 +1,14 @@
+Task Goal:
+buy_basic_garden_tools
+Observed Relation:
+['shovel', 'ontop', 'shelf']
+['rake', 'ontop', 'shelf']
+['money', 'inside', 'backpack']
+['backpack', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing buy_basic_garden_tools
+The backpack is on the floor
+Hence doing buy_basic_garden_tools is possible only if the backpack is removed from the floor
+Hence removing the backpack from the floor is a good opportunity to do buy_basic_garden_tools
+Now please output plannings for doing removing the backpack from the floor
+Hence removing the backpack from the floor is a good opportunity to do buy_basic_garden_tools

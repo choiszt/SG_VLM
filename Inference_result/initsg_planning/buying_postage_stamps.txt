@@ -1,0 +1,12 @@
+Task Goal:
+buying_postage_stamps
+Observed Relation:
+['cash_register', 'ontop', 'checkout']
+['postage', 'ontop', 'checkout']
+['money', 'ontop', 'checkout']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing buying_postage_stamps
+Observed Relation:
+['postage_stuffer', 'ontop', 'checkout']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing postage_stuffer

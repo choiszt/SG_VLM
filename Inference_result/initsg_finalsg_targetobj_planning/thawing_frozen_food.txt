@@ -1,0 +1,13 @@
+Task Goal:
+thawing_frozen_food
+Observed Relation:
+['date', 'inside', 'electric_refrigerator']
+['olive', 'inside', 'electric_refrigerator']
+['lobster', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing thawing_frozen_food
+\Goal
+
+Now please output plannings for doing thawing_frozen_food
+\Task

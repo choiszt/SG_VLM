@@ -1,0 +1,23 @@
+Task Goal:
+store_loose_leaf_tea
+Observed Relation:
+['sack', 'filled', 'green_tea']
+['sack', 'ontop', 'countertop']
+['mason_jar', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing store_loose_leaf_tea to the sack
+Do please output plannings for doing store_loose_leaf_tea to the sack
+Step 1: Open the sack
+Target:['sack']
+Step 2: Take the sack to the countertop
+Target:['sack', 'countertop']
+Step 3: Pour the green_tea into the mason_jar
+Target:['green_tea', 'mason_jar']
+Step 4: Close the mason_jar
+Target:['mason_jar']
+Step 5: Put the mason_jar back onto the countertop
+Target:['mason_jar', 'countertop']
+Step 6: Put the sack back on the countertop
+Target:['sack', 'countertop']
+Step 7: Close the sack
+Target:['sack']

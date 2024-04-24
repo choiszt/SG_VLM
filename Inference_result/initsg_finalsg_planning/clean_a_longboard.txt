@@ -1,0 +1,21 @@
+Task Goal:
+clean_a_longboard
+Observed Relation:
+['skateboard', 'ontop', 'floor']
+['liquid_soap__bottle', 'filled', 'liquid_soap']
+['liquid_soap__bottle', 'inside', 'cabinet']
+['sponge', 'inside', 'cabinet']
+['skateboard', 'covered', 'dust']
+['skateboard', 'covered', 'mud']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing clean_a_longboard
+### Response:
+Step 1: Open the cabinet
+Step 2: Take the liquid soap bottle out of the cabinet
+Step 3: Take the sponge out of the cabinet
+Step 4: Fill the sink with water
+Step 5: Dip the sponge into the water
+Step 6: Rub the sponge on the skateboard to remove the dust
+Step 7: Rinse the skateboard with water

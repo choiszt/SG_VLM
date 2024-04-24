@@ -1,0 +1,20 @@
+Task Goal:
+roast_nuts
+Observed Relation:
+['walnut', 'ontop', 'cookie_sheet']
+['cookie_sheet', 'inside', 'cabinet']
+['granulated_sugar__sack', 'filled', 'granulated_sugar']
+['granulated_sugar__sack', 'inside', 'cabinet']
+['olive_oil__bottle', 'filled', 'olive_oil']
+['olive_oil__bottle', 'inside', 'cabinet']
+['bowl', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing roast_nuts
+Example: Put the cookie sheet on the floor
+Example: Take the cookie sheet out of the cabinet
+Example: Take the granulated sugar sack out of the cabinet
+Example: Pour the granulated sugar onto the cookie sheet
+Example: Take the olive oil bottle out of the cabinet
+Example: Pour olive oil onto the cookie sheet
+Example: Take a walnut out of the bowl and put it on top of the olive oil on the cookie sheet
+Example: Roast the walnut in the oven

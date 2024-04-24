@@ -1,0 +1,16 @@
+Task Goal:
+polishing_furniture
+Observed Relation:
+['shelf', 'covered', 'dust']
+['table', 'covered', 'dust']
+['rag', 'ontop', 'table']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing polishing_furniture
+
+Now please output plannings for doing polishing_furniture
+
+Now please output plannings for doing polishing_furniture
+
+Now please output plannings for doing polishing_furniture
+

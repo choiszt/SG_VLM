@@ -1,0 +1,23 @@
+Task Goal:
+clean_tennis_balls
+Observed Relation:
+['tennis_ball', 'covered', 'stain']
+['tennis_ball', 'covered', 'mud']
+['sink', 'insource', 'water']
+['liquid_soap__bottle', 'filled', 'liquid_soap']
+['liquid_soap__bottle', 'ontop', 'sink']
+['tennis_ball', 'inside', 'bucket']
+['sponge', 'inside', 'bucket']
+['bucket', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing clean_tennis_balls
+
+## Response Plannings:
+Step 1: Take the bucket off the floor
+Step 2: Take the tennis balls out of the bucket
+Step 3: Remove the stain from the tennis balls using liquid soap
+Step 4: Remove the mud from the tennis balls using water
+Step 5: Put the clean tennis balls back in the bucket
+Step 6: Clean the sink
+Step 7: Put the liquid soap bottle back on the sink

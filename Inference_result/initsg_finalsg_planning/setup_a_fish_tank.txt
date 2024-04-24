@@ -1,0 +1,19 @@
+Task Goal:
+setup_a_fish_tank
+Observed Relation:
+['tank', 'ontop', 'table']
+['bucket', 'ontop', 'floor']
+['bucket', 'filled', 'water']
+['water_filter', 'ontop', 'table']
+['pebble', 'ontop', 'table']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing setup_a_fish_tank
+### Response:
+Step 1: Move the table to the sink
+Step 2: Empty the water from the bucket
+Step 3: Move the water filter to the table
+Step 4: Move the pebble to the table
+Step 5: Put the tank in the corner of the table
+Step 6: Fill the tank with water
+Step 7: Clean the floor

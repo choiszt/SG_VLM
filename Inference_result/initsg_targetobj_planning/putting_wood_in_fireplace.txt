@@ -1,0 +1,56 @@
+Task Goal:
+putting_wood_in_fireplace
+Observed Relation:
+['log', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_wood_in_fireplace
+Step 1: Pick up the log from the floor
+Target:['log']
+Step 2: Carry the log to the fireplace
+Target:['log', 'fireplace']
+Step 3: Place the log in the fireplace
+Target:['log', 'fireplace']
+Step 4: Close the fireplace
+Target:['fireplace']
+Step 5: Ignite the fireplace
+Target:['fireplace']
+Step 6: Wait for the fireplace to be cooled down
+Target:['fireplace']
+Step 7: Check if the fireplace is ready for burning the wood
+Target:['fireplace']
+Step 8: Adjust the fireplace if needed
+Target:['fireplace']
+Step 9: Put the wood in the fireplace again
+Target:['fireplace', 'log']
+Step 10: Ignite the fireplace
+Target:['fireplace', 'log']
+Step 11: Wait for the fireplace to be cooled down
+Target:['fireplace']
+Step 12: Check if the fireplace is ready for burning the wood
+Target:['fireplace']
+Step 13: Adjust the fireplace if needed
+Target:['fireplace']
+Step 14: Put the wood in the fireplace again
+Target:['fireplace', 'log']
+Step 15: Ignite the fireplace
+Target:['fireplace', 'log']
+Step 16: Wait for the fireplace to be cooled down
+Target:['fireplace']
+Step 17: Check if the fireplace is ready for burning the wood
+Target:['fireplace']
+Step 18: Adjust the fireplace if needed
+Target:['fireplace']
+Step 19: Put the wood in the fireplace again
+Target:['fireplace', 'log']
+Step 20: Ignite the fireplace
+Target:['fireplace', 'log']
+Step 21: Wait for the fireplace to be cooled down
+Target:['fireplace']
+Step 22: Check if the fireplace is ready for burning the wood
+Target:['fireplace']
+Step 23: Adjust the fireplace if needed
+Target:['fireplace']
+Step 24: Put the wood in the fireplace again
+Target:['fireplace', 'log']
+Step 25: Ignite the fireplace
+Target:['fireplace', 'log']

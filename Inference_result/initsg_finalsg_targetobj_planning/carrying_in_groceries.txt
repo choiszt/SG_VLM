@@ -1,0 +1,34 @@
+Task Goal:
+carrying_in_groceries
+Observed Relation:
+['car', 'ontop', 'driveway']
+['carton', 'inside', 'car']
+['bacon', 'inside', 'carton']
+['beefsteak_tomato', 'inside', 'carton']
+['pack__of__bread', 'inside', 'carton']
+['carton__of__milk', 'inside', 'carton']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing carrying_in_groceries
+
+Step 1: Put the carton in the car
+Target:
+['car', 'carton']
+Step 2: Put the bacon in the car
+Target:
+['car', 'bacon']
+Step 3: Put the beefsteak_tomato in the car
+Target:
+['car', 'beefsteak_tomato']
+Step 4: Put the pack of bread in the car
+Target:
+['car', 'pack__of__bread']
+Step 5: Put the carton of milk in the car
+Target:
+['car', 'carton__of__milk']
+Step 6: Put the carton on the floor
+Target:
+['carton', 'floor']
+Step 7: Finish carrying groceries
+Target:
+['car', 'floor']

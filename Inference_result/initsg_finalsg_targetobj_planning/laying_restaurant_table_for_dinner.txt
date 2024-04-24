@@ -1,0 +1,42 @@
+Task Goal:
+laying_restaurant_table_for_dinner
+Observed Relation:
+['plate', 'inside', 'cabinet']
+['tablefork', 'inside', 'cabinet']
+['table_knife', 'inside', 'cabinet']
+['tablespoon', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+['wineglass', 'nextto', 'plate']
+['water_glass', 'nextto', 'plate']
+['dinner_napkin', 'nextto', 'plate']
+['dinner_napkin', 'nextto', 'tablefork']
+['tablespoon', 'nextto', 'table_knife']
+Now please output plannings for doing laying_restaurant_table_for_dinner
+Now please output plannings for doing laying_restaurant_table_for_dinner
+Task Goal: laying_restaurant_table_for_dinner
+Observed Relation:
+['table', 'ontop', 'floor']
+Now please output plannings for doing laying_restaurant_table_for_dinner
+Now please output plannings for doing laying_restaurant_table
+Task Goal: laying_restaurant_table
+Observed Relation:
+['plate', 'ontop', 'table']
+['water_glass', 'ontop', 'table']
+['dinner_napkin', 'ontop', 'table']
+['tablespoon', 'ontop', 'table_knife']
+['tablefork', 'ontop', 'table_knife']
+Now please output plannings for doing laying_restaurant_table
+Task Goal:
+['wineglass', 'onto', 'plate']
+['water_glass', 'onto', 'plate']
+['dinner_napkin', 'onto', 'plate']
+['tablespoon', 'onto', 'table_knife']
+Now please output plannings for doing laying_restaurant_table
+Now please output plannings for doing laying_restaurant_table
+Task Goal:
+['plate', 'onto', 'table']
+['water_glass', 'onto', 'table']
+['dinner_napkin', 'onto', 'table']
+['tablespoon', 'onto', 'table_knife']
+Now please output plannings for doing laying_restaurant_table
+Now please output plannings for doing laying_restaurant_table

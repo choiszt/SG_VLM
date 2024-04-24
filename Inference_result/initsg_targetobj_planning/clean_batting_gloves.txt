@@ -1,0 +1,23 @@
+Task Goal:
+clean_batting_gloves
+Observed Relation:
+['batting_glove', 'ontop', 'washer']
+['batting_glove', 'covered', 'mud']
+['detergent__bottle', 'filled', 'detergent']
+['detergent__bottle', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_batting_gloves
+Step 1: Fill the washer with detergent
+Target:['detergent__bottle', 'washer']
+Step 2: Remove the mud from the batting glove
+Target:['batting_glove', 'mud']
+Step 3: Place the batting glove in the washer
+Target:['batting_glove', 'washer']
+Step 4: Agitate the washer to clean the batting glove
+Target:['washer']
+Step 5: Turn off the electricity supply and take out the washer from the machine
+Target:['washer', 'electricity_supply']
+Step 6: Take out the batting glove from the washer
+Target:['washer', 'batting_glove']
+Step 7: Place the batting glove to dry
+Target:['batting_glove']

@@ -1,0 +1,11 @@
+Task Goal:
+delivering_groceries_to_doorstep
+Observed Relation:
+['bread_slice', 'inside', 'sack']
+['carton__of__milk', 'inside', 'sack']
+['sack', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing delivering_groceries_to_doorstep
+
+Answer: First of all, you need to walk to the grocery store. Once you get to the store, go to the aisle where you can find groceries. After that, go to the checkout counter and pay for the groceries. Then, put the groceries into the sack. Finally, walk to the doorstep and deliver the groceries.

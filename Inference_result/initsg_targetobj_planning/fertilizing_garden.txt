@@ -1,0 +1,20 @@
+Task Goal:
+fertilizing_garden
+Observed Relation:
+['fertilizer__atomizer', 'insource', 'fertilizer']
+['pot', 'ontop', 'floor']
+['pot', 'filled', 'soil']
+['fertilizer__atomizer', 'ontop', 'floor']
+['potato', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing fertilizing_garden
+response = please output plannings for doing fertilizing_garden
+Target:['potato', 'soil']
+Then the agent may pick up the fertilizer_atomizer
+Target:['fertilizer__atomizer']
+Now the agent is able to use the fertilizer_atomizer to apply fertilizer to the potato
+Target:['potato', 'fertilizer']
+Finally, the agent may put the potato with fertilizer back on the floor
+Target:['potato', 'floor']
+Now please-please output plannings for doing fertilizing_garden
+response = now please-please output plannings for doing fertilizing_garden

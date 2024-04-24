@@ -1,0 +1,81 @@
+Task Goal:
+clean_a_golf_club
+Observed Relation:
+['golf_club', 'ontop', 'floor']
+['liquid_soap__bottle', 'filled', 'liquid_soap']
+['golf_club', 'covered', 'mud']
+['liquid_soap__bottle', 'ontop', 'floor']
+['rag', 'ontop', 'floor']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_a_golf_club
+Step 1: Pick up the rag
+Target:['rag']
+Step 2: Fill the rag with water from the sink
+Target:['sink', 'water', 'rag']
+Step 3: Wipe the golf club with the rag
+Target:['golf_club', 'rag']
+Step 4: Put the rag back on the floor
+Target:['rag']
+Step 5: Pick up the golf club
+Target:['golf_club']
+Step 6: Remove the mud from the golf club
+Target:['golf_club']
+Step 7: Dry the golf club with a towel
+Target:['golf_club', 'towel']
+Step 8: Put the golf club back on the floor
+Target:['golf_club']
+Step 9: Clean the floor
+Target:['floor']
+Step 10: Finish
+Target:[]
+Step 11: Check if the golf club is clean
+Target:['golf_club']
+Step 12: Put the clean golf club back on the floor
+Target:['golf_club']
+Step 13: Ensure the golf club is clean and ready to use
+Target:['golf_club']
+Step 14: Smooth the agent's hair
+Target:['hair']
+Step 15: Smile
+Target:['face']
+Step 16: Task accomplished
+Target:[]
+
+Admin's output:
+Step 1: Pick up the rag
+Target:['rag']
+Step 2: Fill the rag with water from the sink
+Target:['sink', 'water', 'rag']
+Step 3: Wipe the golf club with the rag
+Target:['golf_club', 'rag']
+Step 4: Put the rag back on the floor
+Target:['rag']
+Step 5: Pick up the golf club
+Target:['golf_club']
+Step 6: Remove the mud from the golf club
+Target:['golf_club']
+Step 7: Dry the golf club with a towel
+Target:['golf_club', 'towel']
+Step 8: Put the golf club back on the floor
+Target:['golf_club']
+Step 9: Clean the floor
+Target:['floor']
+Step 10: Finish
+Target:[]
+Step 11: Check if the golf club is clean
+Target:['golf_club']
+Step 12: Put the clean golf club back on the floor
+Target:['golf_club']
+Step 13: Ensure the golf club is clean and ready to use
+Target:['golf_club']
+Step 14: Put the clean golf club back on the floor
+Target:['golf_club']
+Step 15: Finish
+Target:[]
+Step 16: Smile
+Target:['face']
+Step 17: Check if the golf club is clean and ready to use
+Target:['golf_club']
+
+output: //raymond_ross/otto/backup/logfile/task_goal/clean_a_golf_club/ False

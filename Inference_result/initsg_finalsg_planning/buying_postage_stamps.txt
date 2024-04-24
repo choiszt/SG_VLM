@@ -1,0 +1,15 @@
+Task Goal:
+buying_postage_stamps
+Observed Relation:
+['cash_register', 'ontop', 'checkout']
+['postage', 'ontop', 'checkout']
+['money', 'ontop', 'checkout']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing buying_postage_stamps
+Now please output reasoning about why plannings for doing buying_postage_stamps
+are needed
+
+Now please output plannings for doing buying_postage_stamps
+Now please output reasoning about why plannings for doing buying_postage_stamps
+are needed

@@ -1,0 +1,13 @@
+Task Goal:
+putting_in_a_hot_tub
+Observed Relation:
+['hot_tub', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_in_a_hot_tub
+'Step 1: Move the hot tub to the lawn'
+'Step 2: Connect the hot tub to the water supply'
+'Step 3: Connect the electricity supply to the hot tub'
+'Step 4: Drain the hot tub'
+'Step 5: Approve inspecting the hot tub'
+'Step 6: Trace the plumbing'
+'Step 7: Put the hot tub on the driveway'

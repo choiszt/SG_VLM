@@ -1,0 +1,27 @@
+Task Goal:
+cook_ground_beef
+Observed Relation:
+['bowl', 'inside', 'electric_refrigerator']
+['frying_pan', 'ontop', 'oven']
+['wooden_spoon', 'ontop', 'oven']
+['onion_powder__shaker', 'insource', 'onion_powder']
+['onion_powder__shaker', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['bowl', 'filled', 'ground_beef']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cook_ground_beef
+The bowl of ground beef is usually found inside the electric refrigerator
+The frying pan is usually found on the oven
+The onion powder shaker is usually found on the countertop
+The salt shaker is usually found on the countertop
+The agent is usually found on the floor
+The oven is usually turned on
+The electric refrigerator is usually turned off
+Step 1: Open the electric refrigerator
+Step 2: Take the bowl out of the electric refrigerator
+Step 3: Put the bowl on the oven
+Step 4: Mix the ground beef and onion powder in the bowl
+Step 5: Turn off the oven
+Step 6: Put the frying pan back on the oven
+Step 7: Cook the ground beef in the oven using the electric refrigerator, oven, and cooking timer

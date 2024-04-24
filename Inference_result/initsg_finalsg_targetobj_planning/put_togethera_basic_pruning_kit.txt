@@ -1,0 +1,25 @@
+Task Goal:
+put_togethera_basic_pruning_kit
+Observed Relation:
+['pruner', 'ontop', 'floor']
+['shears', 'ontop', 'floor']
+['toolbox', 'ontop', 'floor']
+['agent', 'ontop', 'floor']\Goal Expected Relation:
+
+Now please output plannings for doing put_togethera_basic_pruning_kit
+
+### Response:
+Step 1: Pick up the pruner
+Target:['pruner']
+Step 2: Pick up the shears
+Target:['shears']
+Step 3: Pick up the toolbox
+Target:['toolbox']
+Step 4: Pick up the agent
+Target:['agent']
+Step 5: Put the pruner into the toolbox
+Target:['pruner', 'toolbox']
+Step 6: Put the shears into the toolbox
+Target:['shears', 'toolbox']
+Step 7: Put the basic pruning kit into the toolbox
+Target:['pruner', 'shears', 'toolbox']

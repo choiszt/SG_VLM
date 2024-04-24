@@ -1,0 +1,18 @@
+Task Goal:
+picking_vegetables_in_garden
+Observed Relation:
+['artichoke', 'ontop', 'lawn']
+['chard', 'ontop', 'lawn']
+['beet', 'ontop', 'lawn']
+['wicker_basket', 'ontop', 'lawn']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing picking_vegetables_in_garden
+What do you want to know?
+See also: picking_vegetables_in_garden | wicker_basket | lawn
+Explanation: The lawn is a grassy surface
+Response: Pick up the vegetables from the lawn and put them in the wicker basket
+Relation between picking_vegetables_in_garden and wicker_basket is undefined, expected relationship is plannings
+Relation between picking_vegetables_in_garden and lawn is undefined, expected relationship is plannings
+Relation between wicker_basket and lawn is undefined, expected relationship is plannings
+What's being done?
+I am picking vegetables in garden
