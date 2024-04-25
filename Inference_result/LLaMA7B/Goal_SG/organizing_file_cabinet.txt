@@ -1,0 +1,21 @@
+Task Goal:
+organizing_file_cabinet
+Observed Relation:
+['marker', 'ontop', 'chair']
+['document', 'ontop', 'table']
+['folder', 'ontop', 'table']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing organizing_file_cabinet
+You should output
+Then output
+Then output
+Then output
+Then output
+Then output
+Then output
+And output
+For example:
+Et salsa og fart
+For skillet
+On the dish
+With a

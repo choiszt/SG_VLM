@@ -1,0 +1,4 @@
+Task Goal:
+freeze_pies
+Now please output plannings for doing freeze_pies and ice_cream as well as total_hours. Also please output total_hours as the sum of hours needed for freeze_pies and ice_cream.
+This is a matrix problem. That is, you should

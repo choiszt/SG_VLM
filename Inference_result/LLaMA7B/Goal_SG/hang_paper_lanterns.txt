@@ -1,0 +1,8 @@
+Task Goal:
+hang_paper_lanterns
+Observed Relation:
+['paper_lantern', 'ontop', 'table']
+['pole', 'ontop', 'table']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing hang_paper_lanterns.
+Perhaps a reasonable way to avoid that the robot falls down using the table is to put the table as far away from the agent as possible. That's why it is not the goal of the task to go to the table, but

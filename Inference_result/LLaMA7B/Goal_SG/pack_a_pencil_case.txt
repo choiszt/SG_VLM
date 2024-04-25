@@ -1,0 +1,11 @@
+Task Goal:
+pack_a_pencil_case
+Observed Relation:
+['pencil_box', 'ontop', 'desk']
+['pen', 'ontop', 'desk']
+['pencil', 'ontop', 'desk']
+['eraser', 'ontop', 'desk']
+['shears', 'ontop', 'desk']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing pack_a_pencil_case the most efficient way assuming that each relation is more important than the others.
+This is an example of the use of the notion of ordering relations among goals. Every goal in the box is a goal for the task, but not all goals are equally

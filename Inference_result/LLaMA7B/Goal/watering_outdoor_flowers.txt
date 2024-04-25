@@ -1,0 +1,5 @@
+Task Goal:
+watering_outdoor_flowers
+Now please output plannings for doing watering_outdoor_flowers task for 3 days using your algorithm.
+- First, you need to specify the task. It should be done by this line.
+- Secondly, you count how many days you need to do this task. It should be done by

@@ -1,0 +1,9 @@
+Task Goal:
+cleaning_around_pool_in_garden
+Observed Relation:
+['driveway', 'covered', 'dust']
+['broom', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cleaning_around_pool_in_garden:
+driveway_1_cleaned_dust_on_covered_floor
+How does it work? -The agent is the entity that does the "task". In our example, the entities that do the task are the agent

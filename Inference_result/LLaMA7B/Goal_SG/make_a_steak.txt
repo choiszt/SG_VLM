@@ -1,0 +1,13 @@
+Task Goal:
+make_a_steak
+Observed Relation:
+['olive_oil__bottle', 'filled', 'olive_oil']
+['olive_oil__bottle', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['pepper_mill', 'insource', 'black_pepper']
+['pepper_mill', 'ontop', 'countertop']
+['steak', 'ontop', 'chopping_board']
+['chopping_board', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_a_steak. The base planning is to bring all the objects in the room to the countertop at once. The second thing to do is to bring all the ingredients to the countertop, and then we cook the steak with all the ingred

@@ -1,0 +1,4 @@
+Task Goal:
+filling_pepper
+Now please output plannings for doing filling_pepper task for 31.12 and 01.01 of the next year.
+The input file contains the following information about the task for every day. The last line of the input file contains only the number 1.

@@ -1,0 +1,6 @@
+Task Goal:
+picking_up_trash
+Now please output plannings for doing picking_up_trash at the 8th, 9th and 10th of April.
+Stay in the 3rd floor of the building.
+Stay in the 2nd floor of the building.
+Stay in the 3

@@ -1,0 +1,5 @@
+Task Goal:
+putting_dirty_dishes_in_sink
+Now please output plannings for doing putting_dirty_dishes_in_sink task.
+What if I already do this task in my life, but just don't want to do this task in the simulated task-based life? A Newbie’s Guide to New York City
+New York City is

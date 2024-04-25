@@ -1,0 +1,5 @@
+Task Goal:
+clearing_table_after_coffee
+Now please output plannings for doing clearing_table_after_coffee.
+In this exercise, you will learn how to use an advanced feature of Esterel - the separation of parameters and conditions.
+There is a concept of parameters in Esterel that includes a set of values (integer, real or boolean

@@ -1,0 +1,10 @@
+Task Goal:
+scrubbing_bathroom_floor
+Observed Relation:
+['floor', 'covered', 'dirt']
+['bucket', 'filled', 'water']
+['scrub_brush', 'ontop', 'floor']
+['bucket', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing scrubbing_bathroom_floor
+So, you’re imagining a set of very simple actions, where each action is just a verb and each action is just an entity that performs the action. This is a very simple, but powerful, model for describing how to do some

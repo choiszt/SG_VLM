@@ -1,0 +1,4 @@
+Task Goal:
+putting_protective_cover_on_vehicle
+Now please output plannings for doing putting_protective_cover_on_vehicle on vehicle A and vehicle B, which has priority 1 and priority 2 and will be done at 17:00 and 20:00 respectively.
+For example, there is a vehicle B and vehicle A.

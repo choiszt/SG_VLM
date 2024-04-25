@@ -1,0 +1,7 @@
+Task Goal:
+pack_a_pencil_case
+Now please output plannings for doing pack_a_pencil_case the most efficient way assuming that:
+You can go to the store and back any time, any way.
+You have enough money to buy whatever you need.
+You can burn all the time necessary to perform the task.
+You don'

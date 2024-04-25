@@ -1,0 +1,8 @@
+Task Goal:
+make_chocolate_syrup
+Now please output plannings for doing make_chocolate_syrup.
+The answer is the following:
+1. Make chocolate syrup
+2. Use chocolate syrup for making chocolate cake
+3. Make chocolate cake
+4. Use chocolate c

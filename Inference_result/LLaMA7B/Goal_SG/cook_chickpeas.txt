@@ -1,0 +1,15 @@
+Task Goal:
+cook_chickpeas
+Observed Relation:
+['bowl', 'filled', 'chickpea']
+['bowl', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['salt__shaker', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['stockpot', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cook_chickpeas.
+Goal: 'cook_chickpeas'
+Relation: ['bowl', 'filled', 'chickpea']
+Agent: ['salt__shaker', 'insource', 'salt']
+At

@@ -1,0 +1,4 @@
+Task Goal:
+putting_in_a_hot_tub
+Now please output plannings for doing putting_in_a_hot_tub using the following rules:
+I'm not sure that I understand the requirement. (I've expanded it a little, but it's just as confusing now.) The only thing I can figure out is that the tool is to display a

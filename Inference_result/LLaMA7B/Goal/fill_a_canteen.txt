@@ -1,0 +1,6 @@
+Task Goal:
+fill_a_canteen
+Now please output plannings for doing fill_a_canteen for next 24 hours and the next 24 hours for a day
+(please use the same day number)
+And please also output the average amount of canteens filled that you help fill for every hour
+and the total

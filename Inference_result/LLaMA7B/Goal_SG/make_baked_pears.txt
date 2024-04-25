@@ -1,0 +1,14 @@
+Task Goal:
+make_baked_pears
+Observed Relation:
+['pear', 'inside', 'electric_refrigerator']
+['wine_bottle', 'filled', 'red_wine']
+['wine_bottle', 'inside', 'cabinet']
+['granulated_sugar__sack', 'filled', 'granulated_sugar']
+['granulated_sugar__sack', 'inside', 'cabinet']
+['stockpot', 'inside', 'cabinet']
+['wooden_spoon', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_baked_pears for each of the following:
+The instructions say "Please output" plannings for making baked pears.
+The instructions also say "for each of the following:". This second sentence explains when to execute the "plannings for

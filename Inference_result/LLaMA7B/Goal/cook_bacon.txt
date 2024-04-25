@@ -1,0 +1,7 @@
+Task Goal:
+cook_bacon
+Now please output plannings for doing cook_bacon
+I, sally, will do the task cook_bacon
+I, amanda, will do the task cook_bacon
+I, ada, will do the task cook_bacon
+I, anna, will do

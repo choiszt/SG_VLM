@@ -1,0 +1,5 @@
+Task Goal:
+putting_out_dog_food
+Now please output plannings for doing putting_out_dog_food.
+The following will show you how to create new tasks and then you can use it to create new goals.
+00:00:08.860 So here I've been given the task of putting out dog food

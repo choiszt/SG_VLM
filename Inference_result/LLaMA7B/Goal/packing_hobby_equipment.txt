@@ -1,0 +1,6 @@
+Task Goal:
+packing_hobby_equipment
+Now please output plannings for doing packing_hobby_equipment, given the following in a file named "packing_hobby_equipment.txt".
+The data is composed of the following information:
+Packing_hobby_equipment1
+packing_hob

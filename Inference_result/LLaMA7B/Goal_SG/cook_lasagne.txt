@@ -1,0 +1,7 @@
+Task Goal:
+cook_lasagne
+Observed Relation:
+['lasagna', 'ontop', 'oven']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cook_lasagne with the other cooking methods.
+Lasagna is a traditional Italian dish consisting of flat pasta noodles (usually wide, thin noodles called lasagne frolla) layered with various cheeses (usually

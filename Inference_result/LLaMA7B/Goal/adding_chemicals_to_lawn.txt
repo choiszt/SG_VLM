@@ -1,0 +1,6 @@
+Task Goal:
+adding_chemicals_to_lawn
+Now please output plannings for doing adding_chemicals_to_lawn at the current date.
+Example Input:
+add_chemical_to_lawn(lawn, weed_killer, fertilizer, grass_seed, $START, $END)
+# The first argument is

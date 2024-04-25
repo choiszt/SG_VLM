@@ -1,0 +1,10 @@
+Task Goal:
+polishing_furniture
+Observed Relation:
+['shelf', 'covered', 'dust']
+['table', 'covered', 'dust']
+['rag', 'ontop', 'table']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing polishing_furniture task, so it is reasonable to do them by agent or one of it's subgoals.
+These relations are gathered in task's base.
+You should output 'accept', 'reject', 'ignore' plannings

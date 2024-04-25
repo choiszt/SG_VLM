@@ -1,0 +1,11 @@
+Task Goal:
+putting_out_dog_food
+Observed Relation:
+['dog_food__can', 'filled', 'dog_food']
+['bowl', 'ontop', 'floor']
+['dog_food__can', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_out_dog_food.
+For the second task, we simply create new tasks as we did for the first one.
+Task Goal: put_out_dog_food out_dog_food
+Observed Relation: out_dog_

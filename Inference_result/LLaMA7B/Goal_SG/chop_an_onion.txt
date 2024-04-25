@@ -1,0 +1,9 @@
+Task Goal:
+chop_an_onion
+Observed Relation:
+['chopping_board', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'chopping_board']
+['vidalia_onion', 'ontop', 'chopping_board']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing chop_an_onion, chopping_board and vidalia_onion. Each planning should be either the action, the tool, or the task.
+There are at least two different ways of solving this problem. One of them will be presented in this document.

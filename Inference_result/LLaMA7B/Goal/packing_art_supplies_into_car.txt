@@ -1,0 +1,12 @@
+Task Goal:
+packing_art_supplies_into_car
+Now please output plannings for doing packing_art_supplies_into_car task.
+
+Input Params:
++ task_name - task name
++ params_list - task parameters
+
+Output Params:
++ plannings - plannings array
++ i - current job number
++ next

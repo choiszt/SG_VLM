@@ -1,0 +1,5 @@
+Task Goal:
+treating_stains
+Now please output plannings for doing treating_stains
+When treating_stains is a task, we want to output planning for doing treating_stains, in other words we need to know when treating_stains will be done and in which order.
+We need to find

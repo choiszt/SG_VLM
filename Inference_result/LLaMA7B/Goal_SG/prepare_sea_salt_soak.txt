@@ -1,0 +1,11 @@
+Task Goal:
+prepare_sea_salt_soak
+Observed Relation:
+['cup', 'ontop', 'bed']
+['salt__shaker', 'insource', 'salt']
+['tablespoon', 'ontop', 'countertop']
+['salt__shaker', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing prepare_sea_salt_soak task.
+Currently, the ontology has been revised and extended to include 509 concepts with 4743 relations. The current version of the ontology is maintained by Aisha Pandit and is available at

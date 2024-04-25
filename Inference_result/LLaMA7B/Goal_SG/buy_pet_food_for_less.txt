@@ -1,0 +1,13 @@
+Task Goal:
+buy_pet_food_for_less
+Observed Relation:
+['cash_register', 'ontop', 'checkout']
+['can__of__dog_food', 'ontop', 'shelf']
+['money', 'inside', 'shopping_cart']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing buy_pet_food_for_less using the following code:
+# Task Definition
+# Please read the following task description carefully.
+# Instructions for Agent:
+# 1. Click the shelf to examine the products.
+# 2. Click the objects to

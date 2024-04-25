@@ -1,0 +1,13 @@
+Task Goal:
+clean_batting_gloves
+Observed Relation:
+['batting_glove', 'ontop', 'washer']
+['batting_glove', 'covered', 'mud']
+['detergent__bottle', 'filled', 'detergent']
+['detergent__bottle', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_batting_gloves. The first plan should be:
+1. Put detergent in the bottle.
+2. Put the bottle on the floor
+3. Put the gloves on the floor
+4. Put the gloves on the washer

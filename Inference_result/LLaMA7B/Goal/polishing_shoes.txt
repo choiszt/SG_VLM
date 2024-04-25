@@ -1,0 +1,4 @@
+Task Goal:
+polishing_shoes
+Now please output plannings for doing polishing_shoes that ends in 2005-01-30 10:00:00.
+A. Output the first planning that ends in 2005-01-30 10:0

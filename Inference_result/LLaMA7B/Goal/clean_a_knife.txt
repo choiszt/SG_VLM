@@ -1,0 +1,5 @@
+Task Goal:
+clean_a_knife
+Now please output plannings for doing clean_a_knife.
+Placing a priority on tasks is important for creating a good plan.
+During the planning, you can make a decision about the task's priority. The priority you give a task might influence the steps that you and your team

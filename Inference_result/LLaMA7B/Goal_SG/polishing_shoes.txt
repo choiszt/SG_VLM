@@ -1,0 +1,11 @@
+Task Goal:
+polishing_shoes
+Observed Relation:
+['shoe', 'covered', 'stain']
+['rag', 'ontop', 'floor']
+['shoe', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing polishing_shoes that incorporate as many observations as possible.
+1. The shoes are dirty.
+2. One needs a rag to clean the shoes.
+3. Doing the polishing is more important than cleaning the shoes. (

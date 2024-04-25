@@ -1,0 +1,5 @@
+Task Goal:
+store_a_kayak
+Now please output plannings for doing store_a_kayak
+What is the optimal way to do this?
+After reading the text and answering these questions, you might want to test your learning with a practice problem and/or you might want to see how your group did by taking the quiz, Kay

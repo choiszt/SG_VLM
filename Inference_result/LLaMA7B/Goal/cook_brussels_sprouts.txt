@@ -1,0 +1,5 @@
+Task Goal:
+cook_brussels_sprouts
+Now please output plannings for doing cook_brussels_sprouts in the next 24 hours.
+So, problem is that we are looking for a best solution for the given cook_brussels_sprouts, but there can be more than one solution to it.
+And the last but not

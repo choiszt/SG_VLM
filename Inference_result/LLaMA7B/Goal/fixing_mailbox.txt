@@ -1,0 +1,5 @@
+Task Goal:
+fixing_mailbox
+Now please output plannings for doing fixing_mailbox task, or its part.
+1. mailbox1
+60 60 30 30 30 30 30 30 30 30 30 30 3

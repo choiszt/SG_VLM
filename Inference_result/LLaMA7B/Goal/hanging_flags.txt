@@ -1,0 +1,4 @@
+Task Goal:
+hanging_flags
+Now please output plannings for doing hanging_flags and then doing hanging_flags and then doing hanging_flags.
+Why is this necessary? The reason is that a common mistake in the test cases is to ask a robot to do a task repeatedly doing the same thing after having done the

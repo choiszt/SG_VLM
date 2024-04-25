@@ -1,0 +1,11 @@
+Task Goal:
+cleaning_table_after_clearing
+Observed Relation:
+['table', 'covered', 'stain']
+['bar_soap', 'inside', 'cabinet']
+['dishtowel', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cleaning_table_after_clearing task in order of priority.
+Note: The agent should have a mental model of the location and relation of the table, cover, soap, dishtowel, agent, and floor.
+Answer: 1.table
+2.cover

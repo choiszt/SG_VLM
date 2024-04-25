@@ -1,0 +1,6 @@
+Task Goal:
+cleaning_shed
+Now please output plannings for doing cleaning_shed task for next month (Today's month is June)
+Task Planning:
+Task 1: first cleaning_shed task will execute on 2017-06-03
+Task 2:

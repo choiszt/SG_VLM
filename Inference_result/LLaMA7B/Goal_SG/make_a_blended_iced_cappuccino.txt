@@ -1,0 +1,19 @@
+Task Goal:
+make_a_blended_iced_cappuccino
+Observed Relation:
+['sink', 'insource', 'water']
+['tablespoon', 'ontop', 'countertop']
+['instant_coffee__jar', 'filled', 'instant_coffee']
+['instant_coffee__jar', 'inside', 'cabinet']
+['sugar__sack', 'filled', 'cane_sugar']
+['sugar__sack', 'inside', 'cabinet']
+['milk__carton', 'filled', 'chocolate_milk']
+['milk__carton', 'inside', 'electric_refrigerator']
+['ice_cube', 'inside', 'bowl']
+['cup', 'ontop', 'countertop']
+['blender', 'ontop', 'countertop']
+['coffee_maker', 'ontop', 'countertop']
+['bowl', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_a_blended_iced_cappuccino in the kitchen. Fill in tables downstream of the output in each relation that will be needed. If no such action is needed or possible, output an empty string.
+1. If you are going to make the coffee, then when you

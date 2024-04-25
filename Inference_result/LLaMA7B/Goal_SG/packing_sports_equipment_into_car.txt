@@ -1,0 +1,10 @@
+Task Goal:
+packing_sports_equipment_into_car
+Observed Relation:
+['car', 'ontop', 'driveway']
+['sock', 'ontop', 'lawn']
+['helmet', 'ontop', 'lawn']
+['sports_equipment', 'ontop', 'lawn']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing packing_sports_equipment_into_car so that the goal is achieved. The plannings are to be output in the form: (agent, place, direction, object). "ontop" is to be understood as "on top of".
+When writing an output for packing

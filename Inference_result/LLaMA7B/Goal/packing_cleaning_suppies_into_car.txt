@@ -1,0 +1,6 @@
+Task Goal:
+packing_cleaning_suppies_into_car
+Now please output plannings for doing packing_cleaning_suppies_into_car.
+Input: a set of objects and a container.
+Output: a sequence of tasks for packing the objects into the container.
+Examples: 370:100, 30:180, 

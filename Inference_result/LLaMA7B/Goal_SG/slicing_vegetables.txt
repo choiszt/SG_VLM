@@ -1,0 +1,12 @@
+Task Goal:
+slicing_vegetables
+Observed Relation:
+['bell_pepper', 'inside', 'electric_refrigerator']
+['beet', 'inside', 'electric_refrigerator']
+['zucchini', 'inside', 'electric_refrigerator']
+['carving_knife', 'ontop', 'countertop']
+['chopping_board', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing slicing_vegetables on the floor.
+Please don't think you can do it in the same way as for the previous task. A floor is a different kind of environment.
+The reason why this is doable is because the environment we have is so well

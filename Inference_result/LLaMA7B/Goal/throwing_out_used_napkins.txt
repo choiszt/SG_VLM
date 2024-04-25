@@ -1,0 +1,4 @@
+Task Goal:
+throwing_out_used_napkins
+Now please output plannings for doing throwing_out_used_napkins under a number of budget constraints.
+Let's start with the simplest case: you are given an amount of money $M$ and you have to decide whether you are going to use $M$ for throwing_out_used_napkins

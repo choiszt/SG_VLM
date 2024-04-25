@@ -1,0 +1,5 @@
+Task Goal:
+wash_towels
+Now please output plannings for doing wash_towels.
+At first you should get used to this program and find out how to use it.
+There could be several ways to solve a task. Program is not expected to use the best way, but to provide a solution which is the best in

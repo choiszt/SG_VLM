@@ -1,0 +1,10 @@
+Task Goal:
+buying_postage_stamps
+Observed Relation:
+['cash_register', 'ontop', 'checkout']
+['postage', 'ontop', 'checkout']
+['money', 'ontop', 'checkout']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing buying_postage_stamps task. How many agents are needed in each of these plans?
+First, the agents are examined, and the costs of the plans with them are calculated.
+Agent $1 is needed in 5 plans, but the cost is 2

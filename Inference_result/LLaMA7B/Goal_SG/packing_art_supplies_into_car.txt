@@ -1,0 +1,15 @@
+Task Goal:
+packing_art_supplies_into_car
+Observed Relation:
+['car', 'ontop', 'driveway']
+['bag', 'ontop', 'driveway']
+['pencil', 'ontop', 'bag']
+['marker', 'ontop', 'bag']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing packing_art_supplies_into_car task.
+
+'''
+ package org.inferred.freebuilder.processor.util;
+
+import org.inferred.freebuilder.FreeBuilder;
+import org.inferred.freebuilder

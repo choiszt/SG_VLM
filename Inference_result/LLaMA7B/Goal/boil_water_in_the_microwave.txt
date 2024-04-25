@@ -1,0 +1,5 @@
+Task Goal:
+boil_water_in_the_microwave
+Now please output plannings for doing boil_water_in_the_microwave task instead of doing some other tasks.
+Of course, you can use whatever you find on the web or in your notes to help with the task.
+We just do not want some of your random thoughts, written in the middle of the night

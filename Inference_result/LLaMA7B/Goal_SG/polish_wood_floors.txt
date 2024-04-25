@@ -1,0 +1,13 @@
+Task Goal:
+polish_wood_floors
+Observed Relation:
+['swab', 'ontop', 'floor']
+['polish__bottle', 'filled', 'polish']
+['bucket', 'ontop', 'floor']
+['polish__bottle', 'inside', 'shelf']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing polish_wood_floors.
+Note: Planning and Action are two separate tasks. The use of 'get' verb denotes that an agent fetches a weapon.
+Task 2: find_missing_keys
+Observed Relations:
+['look_

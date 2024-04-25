@@ -1,0 +1,4 @@
+Task Goal:
+prepare_sea_salt_soak
+Now please output plannings for doing prepare_sea_salt_soak task.
+Currently, the prepared task planner has two main methods to find task dependencies. one is to use the knowledgebase to find task dependencies, another is to use the “task dependency graph” provided by the task planner. However

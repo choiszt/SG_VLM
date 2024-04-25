@@ -1,0 +1,7 @@
+Task Goal:
+scraping_snow_off_vehicle
+Now please output plannings for doing scraping_snow_off_vehicle. The plannings will consist of the following information for each vehicle:
+The vehicle number,
+The number of hours to complete the task,
+The number of hour the task can be completed in,
+The earliest time the vehicle can start

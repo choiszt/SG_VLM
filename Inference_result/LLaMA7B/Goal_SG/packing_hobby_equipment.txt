@@ -1,0 +1,11 @@
+Task Goal:
+packing_hobby_equipment
+Observed Relation:
+['jigsaw_puzzle', 'ontop', 'sofa']
+['carton', 'ontop', 'floor']
+['baseball', 'ontop', 'floor']
+['soccer_ball', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing packing_hobby_equipment, given the observed relation.
+For the case that a task has multiple tasks, there is a plan to do each task such that the relation of the tasks holds.
+You are allowed to use any language you want to solve this task.

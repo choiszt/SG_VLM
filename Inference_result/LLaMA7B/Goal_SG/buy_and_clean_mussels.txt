@@ -1,0 +1,14 @@
+Task Goal:
+buy_and_clean_mussels
+Observed Relation:
+['mussel', 'inside', 'sack']
+['mussel', 'covered', 'sand']
+['sack', 'ontop', 'countertop']
+['mixing_bowl', 'filled', 'water']
+['mixing_bowl', 'ontop', 'countertop']
+['paper_towel', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing buy_and_clean_mussels task with following constraints:
+- agent has to reach fishmonger;
+- agent has 5 minutes to reach fishmonger;
+- fishmonger has to stay at the same place and do only a task of s

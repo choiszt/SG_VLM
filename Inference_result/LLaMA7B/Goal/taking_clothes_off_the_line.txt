@@ -1,0 +1,5 @@
+Task Goal:
+taking_clothes_off_the_line
+Now please output plannings for doing taking_clothes_off_the_line task.
+Sat 07:58:02.800 PM      0:00:01.100   1:36:33.800      2
+Sun 0

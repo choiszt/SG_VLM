@@ -1,0 +1,16 @@
+Task Goal:
+make_chocolate_syrup
+Observed Relation:
+['sugar__sack', 'filled', 'granulated_sugar']
+['sugar__sack', 'ontop', 'countertop']
+['tablespoon', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['vanilla__bottle', 'insource', 'vanilla']
+['vanilla__bottle', 'ontop', 'countertop']
+['cocoa__box', 'filled', 'cocoa_powder']
+['cocoa__box', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_chocolate_syrup.
+The answer is: '[[sugar__sack, table, cupboard], [salt__shaker, table, countertop], [cocoa__box, table, countertop], [vanilla__bottle

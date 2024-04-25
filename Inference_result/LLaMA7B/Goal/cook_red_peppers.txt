@@ -1,0 +1,7 @@
+Task Goal:
+cook_red_peppers
+Now please output plannings for doing cook_red_peppers task:
+Today's Task Planning
+Today's Task
+Lennart and John have to do cook_red_peppers
+Their task starts at 12:00 and ends at 1

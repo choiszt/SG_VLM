@@ -1,0 +1,18 @@
+Task Goal:
+pack_your_gym_bag
+Observed Relation:
+['muffin', 'ontop', 'coffee_table']
+['tank_top', 'ontop', 'coffee_table']
+['duffel_bag', 'ontop', 'floor']
+['gym_shoe', 'ontop', 'floor']
+['sock', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing pack_your_gym_bag.
+The observation is:
+- a bag,
+- clothes,
+- a muffin,
+- a coffee table.
+The observed relation is:
+- a muffin on the coffee table,
+- a coffee table

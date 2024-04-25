@@ -1,0 +1,12 @@
+Task Goal:
+throwing_out_used_napkins
+Observed Relation:
+['napkin', 'ontop', 'countertop']
+['ashcan', 'ontop', 'floor']
+['napkin', 'covered', 'stain']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing throwing_out_used_napkins under
+at least one of the 4 observed relations.
+The second task is a little more interesting:
+task: "Aunt Mary was picking up her house and she was trying to decide
+what to do with her 5-

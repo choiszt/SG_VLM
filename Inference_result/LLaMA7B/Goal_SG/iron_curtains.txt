@@ -1,0 +1,11 @@
+Task Goal:
+iron_curtains
+Observed Relation:
+['ironing_board', 'ontop', 'floor']
+['iron', 'ontop', 'ironing_board']
+['curtain', 'ontop', 'ironing_board']
+['curtain', 'covered', 'wrinkle']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing iron_curtains as described in the text. If you can make one plan, please make more than one.
+While working on your solution, please pay attention to the following questions:
+What kind of problem is iron_curtains, and why is

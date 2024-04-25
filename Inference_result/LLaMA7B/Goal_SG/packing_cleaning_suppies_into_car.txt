@@ -1,0 +1,11 @@
+Task Goal:
+packing_cleaning_suppies_into_car
+Observed Relation:
+['car', 'ontop', 'driveway']
+['face_mask', 'ontop', 'backpack']
+['rag', 'ontop', 'floor']
+['backpack', 'ontop', 'driveway']
+['scrub_brush', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing packing_cleaning_suppies_into_car.
+To do this, you will need to guess what the agent intends, which is the "what I want to do" part of planning. If you are not sure what you should do, you should ask the agent in some way what

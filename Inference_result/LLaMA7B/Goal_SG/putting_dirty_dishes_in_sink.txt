@@ -1,0 +1,10 @@
+Task Goal:
+putting_dirty_dishes_in_sink
+Observed Relation:
+['bowl', 'covered', 'breadcrumb']
+['plate', 'covered', 'breadcrumb']
+['bowl', 'ontop', 'countertop']
+['plate', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_dirty_dishes_in_sink task. All the items should be in the order from earlier steps.
+So, if we need to plan how to put dishes in the sink, we will have to figure out all the steps to do it. So, we have to find

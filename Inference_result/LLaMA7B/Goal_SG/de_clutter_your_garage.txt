@@ -1,0 +1,14 @@
+Task Goal:
+de_clutter_your_garage
+Observed Relation:
+['ski', 'ontop', 'floor']
+['bicycle', 'ontop', 'floor']
+['tennis_racket', 'ontop', 'floor']
+['hockey_stick', 'ontop', 'floor']
+['carton', 'ontop', 'floor']
+['shovel', 'ontop', 'floor']
+['ashcan', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing de_clutter_your_garage in this situation.
+The agent can only move from one thing to another in the garage (some things can only be moved to one place and some things can only be moved to other things).
+The garage is quite cluttered,

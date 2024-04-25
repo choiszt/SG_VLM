@@ -1,0 +1,9 @@
+Task Goal:
+hang_a_bike_on_the_wall
+Observed Relation:
+['bicycle', 'ontop', 'floor']
+['bicycle_rack', 'attached', 'wall_nail']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing hang_a_bike_on_the_wall (in the same order as above).
+Imagine the planner starts at this moment and must reach the same goal as above in the same order.
+In other words, it must first find the 'bicycle', then attach the '

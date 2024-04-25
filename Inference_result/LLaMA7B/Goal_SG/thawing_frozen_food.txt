@@ -1,0 +1,11 @@
+Task Goal:
+thawing_frozen_food
+Observed Relation:
+['date', 'inside', 'electric_refrigerator']
+['olive', 'inside', 'electric_refrigerator']
+['lobster', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing thawing_frozen_food
+do_thawing_frozen_food([d|D]e) :-
+    get_food(food, [d|D]),
+    thawing_food(food, [d

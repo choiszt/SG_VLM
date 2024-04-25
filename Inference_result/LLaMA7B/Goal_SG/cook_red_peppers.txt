@@ -1,0 +1,14 @@
+Task Goal:
+cook_red_peppers
+Observed Relation:
+['frying_pan', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'countertop']
+['chopping_board', 'ontop', 'countertop']
+['bell_pepper', 'inside', 'electric_refrigerator']
+['hummus__box', 'filled', 'hummus']
+['hummus__box', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cook_red_peppers task:
+TASK: cook_red_peppers
+OBSERVED: ['frying_pan', 'ontop', 'countertop']
+PLANNING: ['carving_knife', 'ontop

@@ -1,0 +1,6 @@
+Task Goal:
+buy_basic_garden_tools
+Now please output plannings for doing buy_basic_garden_tools task.
+Hint: If you have already bought some tool of the same type, you do not need to buy it again.
+Note: The output must not exceed 40 characters.
+The first line contains the number n (1 

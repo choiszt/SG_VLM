@@ -1,0 +1,6 @@
+Task Goal:
+cook_hot_dogs
+Now please output plannings for doing cook_hot_dogs.
+All the plannings are done.
+The plannings are to be executed in the order shown in the file.
+The execution is to be done so that each cook_hot_dogs is executed once within the file.

@@ -1,0 +1,3 @@
+Task Goal:
+clean_fur
+Now please output plannings for doing clean_fur and clean_fur+go_to_a_cafe, so that the total time for doing clean_fur+go_to_a_cafe is less than the cost for the cheapest way to do clean_fur+go

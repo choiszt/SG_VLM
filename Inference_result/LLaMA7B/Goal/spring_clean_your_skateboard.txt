@@ -1,0 +1,5 @@
+Task Goal:
+spring_clean_your_skateboard
+Now please output plannings for doing spring_clean_your_skateboard. But note that you must stick to the rule that you can do one thing at a time and that you can't work tomorrow.
+Write a program that takes inputs from 2 files:
+FK_spring_clean_your

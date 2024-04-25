@@ -1,0 +1,7 @@
+Task Goal:
+fill_a_canteen
+Observed Relation:
+['canteen', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing fill_a_canteen for the three states. The first output should be the plan for the initial state, including a description of the actions required, and the second output should be the plan for the ‘desired’ (i.e. goal-reaching) state

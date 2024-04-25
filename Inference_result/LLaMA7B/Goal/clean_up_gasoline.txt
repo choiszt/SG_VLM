@@ -1,0 +1,5 @@
+Task Goal:
+clean_up_gasoline
+Now please output plannings for doing clean_up_gasoline for 10 days in such a way that it takes maximum time to complete clean_up_gasoline and minimum time to complete other tasks.
+If plannings are not possible, this goal is not solvable.
+Let `

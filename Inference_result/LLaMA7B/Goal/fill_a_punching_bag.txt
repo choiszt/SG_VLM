@@ -1,0 +1,6 @@
+Task Goal:
+fill_a_punching_bag
+Now please output plannings for doing fill_a_punching_bag.
+For example, if the user wants to make 1000 units of fill_a_punching_bag, a command line that output those plans would be:
+run_punch_1000
+(

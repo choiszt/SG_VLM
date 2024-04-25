@@ -1,0 +1,8 @@
+Task Goal:
+make_garlic_mushrooms
+Now please output plannings for doing make_garlic_mushrooms, they
+must follow the following format:
+- line 1: 1 - input1
+- line 2: 1 - output1
+- line 5: 2 - output2
+- line 9: 1

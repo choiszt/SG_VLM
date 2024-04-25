@@ -1,0 +1,7 @@
+Task Goal:
+buy_and_clean_mussels
+Now please output plannings for doing buy_and_clean_mussels task with following constraints:
+- Time limit 120s
+- You should only ask 4 questions
+- You should not ask question inside a loop.
+The algorithm should be such that for a given day only a single number (

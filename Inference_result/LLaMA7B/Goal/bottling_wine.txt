@@ -1,0 +1,5 @@
+Task Goal:
+bottling_wine
+Now please output plannings for doing bottling_wine task:
+A bottling_wine task is to fill wine in a bottle. This task is done by one person only. For the planning please provide us with the following information:
+Start time (hh:mm:ss):

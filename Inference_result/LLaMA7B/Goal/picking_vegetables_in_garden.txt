@@ -1,0 +1,7 @@
+Task Goal:
+picking_vegetables_in_garden
+Now please output plannings for doing picking_vegetables_in_garden (in order they will be performed). Add comments to explain how each outputted task will be performed.
+Finding a Place to Put Down the Equipment
+Location Evaluation and Planning
+Selecting Equipment
+Cover

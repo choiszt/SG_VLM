@@ -1,0 +1,11 @@
+Task Goal:
+adding_chemicals_to_lawn
+Observed Relation:
+['herbicide__bottle', 'ontop', 'floor']
+['fertilizer__atomizer', 'ontop', 'floor']
+['herbicide__bottle', 'filled', 'herbicide']
+['fertilizer__atomizer', 'insource', 'fertilizer']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing adding_chemicals_to_lawn. On planner output, you can omit planner goal.
+In this task, we have two different inputs. In the first input, we have Agent in the second input, we have Herbicide.
+In the first input

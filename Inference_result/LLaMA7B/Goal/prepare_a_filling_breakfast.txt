@@ -1,0 +1,6 @@
+Task Goal:
+prepare_a_filling_breakfast
+Now please output plannings for doing prepare_a_filling_breakfast
+My first thought is: lets write a script which will output the plannings for me.
+Very easy to program and to debug: I need to write only one script which will be run once.
+If I know that the task

@@ -1,0 +1,9 @@
+Task Goal:
+storing_food
+Observed Relation:
+['box__of__oatmeal', 'ontop', 'countertop']
+['chip', 'ontop', 'countertop']
+['bottle__of__olive_oil', 'ontop', 'countertop']
+['jar__of__sugar', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing storing_food in a way that maximizes the number of different items stored in a single task. What I am looking for is the combination of product and location (example: oatmeal on the countertop) that maximizes the number of combinations.

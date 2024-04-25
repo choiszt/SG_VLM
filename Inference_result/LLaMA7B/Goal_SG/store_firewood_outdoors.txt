@@ -1,0 +1,8 @@
+Task Goal:
+store_firewood_outdoors
+Observed Relation:
+['firewood', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing store_firewood_outdoors.
+Whenever we're doing the task, we're storing the firewood on the floor, on top of the floor, or ontop the floor.
+If you want to store the firewood outside, we can store the fire

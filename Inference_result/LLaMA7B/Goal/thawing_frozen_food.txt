@@ -1,0 +1,6 @@
+Task Goal:
+thawing_frozen_food
+Now please output plannings for doing thawing_frozen_food
+do_thawing_frozen_food a = 600; b = 1100;
+a = 10+a; b = 11+b;
+do_thaw

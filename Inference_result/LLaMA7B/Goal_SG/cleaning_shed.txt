@@ -1,0 +1,19 @@
+Task Goal:
+cleaning_shed
+Observed Relation:
+['broom', 'ontop', 'floor']
+['vacuum', 'ontop', 'floor']
+['rake', 'ontop', 'floor']
+['shovel', 'ontop', 'floor']
+['chicken_wire', 'ontop', 'floor']
+['trowel', 'ontop', 'floor']
+['leaf_blower', 'ontop', 'floor']
+['leaf_blower', 'covered', 'dust']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cleaning_shed task for different agents (you do not need to consider the rest)
+Task: 1
+Relation: 1
+Task: 14
+Relation: 6
+Task: 144
+Relation: 2

@@ -1,0 +1,7 @@
+Task Goal:
+store_firewood_outdoors
+Now please output plannings for doing store_firewood_outdoors.
+Whenever the user is outside the house, this task is run.
+What to do to make sure this task works:
+It can be started by the user once a day. The user must confirm this when starting it.
+When

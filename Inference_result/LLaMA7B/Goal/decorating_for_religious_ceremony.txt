@@ -1,0 +1,6 @@
+Task Goal:
+decorating_for_religious_ceremony
+Now please output plannings for doing decorating_for_religious_ceremony.
+You should output the time when there is at least one person performing decorating_for_religious_ceremony.
+There are multiple inputs with the same number of tasks.
+Each line has two integers T and N (

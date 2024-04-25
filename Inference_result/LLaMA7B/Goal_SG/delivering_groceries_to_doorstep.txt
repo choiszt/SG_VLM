@@ -1,0 +1,13 @@
+Task Goal:
+delivering_groceries_to_doorstep
+Observed Relation:
+['bread_slice', 'inside', 'sack']
+['carton__of__milk', 'inside', 'sack']
+['sack', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing delivering_groceries_to_doorstep task
+
+The expected result is quite simple and follows the logic.
+
+The first planing is: I don’t need a sack because I don’t have any groceries.
+I have a bread slice and a cart

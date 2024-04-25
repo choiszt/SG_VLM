@@ -1,0 +1,16 @@
+Task Goal:
+make_an_iced_espresso
+Observed Relation:
+['cup', 'filled', 'espresso']
+['cup', 'ontop', 'countertop']
+['milk__carton', 'filled', 'low-fat_milk']
+['milk__carton', 'ontop', 'countertop']
+['sugar_syrup__bottle', 'insource', 'sugar_syrup']
+['sugar_syrup__bottle', 'ontop', 'countertop']
+['teaspoon', 'ontop', 'countertop']
+['mug', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_an_iced_espresso as a sequence of action descriptions.
+I came up with the following input document:
+I will take a teaspoon and place it on the countertop.
+I will take a low-fat milk carton and place it

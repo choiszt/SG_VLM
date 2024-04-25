@@ -1,0 +1,7 @@
+Task Goal:
+storing_food
+Now please output plannings for doing storing_food in a most efficient way.
+For example, suppose we have some foods:
+A - 169850000
+B - 238500000
+C - 338

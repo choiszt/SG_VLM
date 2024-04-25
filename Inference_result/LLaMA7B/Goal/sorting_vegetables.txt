@@ -1,0 +1,5 @@
+Task Goal:
+sorting_vegetables
+Now please output plannings for doing sorting_vegetables task.
+Problems for the first problem:
+Our situation is pretty typical, and by the way the same for almost any manager working in a software company. The situation is that we have a large number (N) of people in our

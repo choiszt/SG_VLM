@@ -1,0 +1,4 @@
+Task Goal:
+make_chocolate_spread
+Now please output plannings for doing make_chocolate_spread with all the available resources. You must output the plans for every possible combination of time span, resources and goal for making the chocolate-spread.
+The input file contains a single line with 7 (integer) numbers separated by spaces

@@ -1,0 +1,4 @@
+Task Goal:
+cook_ground_beef
+Now please output plannings for doing cook_ground_beef, and testing_ground_beef_quality using the different strategies described above.
+The first task is cook_ground_beef(). This task adds cooked ground beef to the database. For this experiment, we'll ignore

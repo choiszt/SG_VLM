@@ -1,0 +1,23 @@
+Task Goal:
+make_dinner_rolls
+Observed Relation:
+['flour__sack', 'filled', 'flour']
+['flour__sack', 'inside', 'cabinet']
+['yeast__shaker', 'insource', 'yeast']
+['yeast__shaker', 'inside', 'cabinet']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['sugar__sack', 'filled', 'granulated_sugar']
+['sugar__sack', 'inside', 'cabinet']
+['butter', 'inside', 'butter__package']
+['butter__package', 'inside', 'electric_refrigerator']
+['milk__carton', 'filled', 'whole_milk']
+['milk__carton', 'inside', 'electric_refrigerator']
+['electric_mixer', 'ontop', 'countertop']
+['cookie_sheet', 'inside', 'oven']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_dinner_rolls.
+This is clearly a mess, and it takes a lot of effort to understand what is going on.
+The answer for each example above is:
+1. Put the flour sack on the countertop.
+2. Shake

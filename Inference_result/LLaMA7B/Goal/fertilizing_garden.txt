@@ -1,0 +1,4 @@
+Task Goal:
+fertilizing_garden
+Now please output plannings for doing fertilizing_garden task. In the output, please select one task at a time and specify the relative weights of all resources for the selected task.
+Each resource “i” should have a weight wi, so that the total weight of the selected resources produces the

@@ -1,0 +1,4 @@
+Task Goal:
+clean_a_loofah_or_natural_sponge
+Now please output plannings for doing clean_a_loofah_or_natural_sponge, and then output the costs incurred by doing these clean_a_loofah_or_natural_sponges.
+The costs incurred by doing these clean_a_loofah_or_natural_sp

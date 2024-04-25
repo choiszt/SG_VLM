@@ -1,0 +1,5 @@
+Task Goal:
+carrying_in_groceries
+Now please output plannings for doing carrying_in_groceries task (you must output the plannings for some point of time, not the beginning of the day).
+Input: A sequence (a list of strings) of strings.
+Output: A sequence (a list of strings) of strings.

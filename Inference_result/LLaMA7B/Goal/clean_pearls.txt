@@ -1,0 +1,6 @@
+Task Goal:
+clean_pearls
+Now please output plannings for doing clean_pearls task
+The task TASK_ID must be one of the tasks in this task:
+The task TASK_ID must be one of the tasks in this task.
+Note that the result of the task MUST BE INVALID

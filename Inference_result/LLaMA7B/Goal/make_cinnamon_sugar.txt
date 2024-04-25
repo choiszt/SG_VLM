@@ -1,0 +1,5 @@
+Task Goal:
+make_cinnamon_sugar
+Now please output plannings for doing make_cinnamon_sugar.
+The plannings can be the same or different and can be stored in a database, file, or memory. Computers can also execute the plans automatically without human action.
+The plannings are often called task plans or schedules

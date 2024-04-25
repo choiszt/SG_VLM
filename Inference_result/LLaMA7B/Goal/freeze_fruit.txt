@@ -1,0 +1,5 @@
+Task Goal:
+freeze_fruit
+Now please output plannings for doing freeze_fruit(a,10,30,20)
+The input is a string and the string contains one integer value. The integer value is the number of bananas you need to eat in 20 days.
+The output must be

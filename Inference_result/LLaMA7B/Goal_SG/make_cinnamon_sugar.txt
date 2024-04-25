@@ -1,0 +1,22 @@
+Task Goal:
+make_cinnamon_sugar
+Observed Relation:
+['cinnamon__shaker', 'insource', 'cinnamon']
+['cinnamon__shaker', 'ontop', 'countertop']
+['sugar__sack', 'filled', 'granulated_sugar']
+['sugar__sack', 'ontop', 'countertop']
+['tablespoon', 'ontop', 'countertop']
+['mixing_bowl', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_cinnamon_sugar.
+
+
+"""
+
+
+def create_task(task_name, *args):
+    """Helper function to create tasks.
+
+    Parameter task_name:
+        String specifying the task to create.
+        *

@@ -1,0 +1,8 @@
+Task Goal:
+make_a_bake_sale_stand_stall
+Now please output plannings for doing make_a_bake_sale_stand_stall.
+The stand may have two levels:
+the top level is to collect money,
+the lower level is to sell baked goods.
+Please output the plannings for the following given task:
+R1 2 5 

@@ -1,0 +1,8 @@
+Task Goal:
+watering_outdoor_flowers
+Observed Relation:
+['watering_can', 'insource', 'water']
+['watering_can', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing watering_outdoor_flowers, where the action is using watering can on the floor (agent inspecting), standing on the floor (agent doing the watering), and standing on the floor (agent standing).
+In a natural language, such plannings might be specified

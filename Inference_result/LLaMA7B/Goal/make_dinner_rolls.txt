@@ -1,0 +1,6 @@
+Task Goal:
+make_dinner_rolls
+Now please output plannings for doing make_dinner_rolls.
+This is the second example, which is similar to the previous one, except that it shows the process of planning a multi-stage goal requiring several different actions to complete.
+Again, the example is as follows:
+Task Goal

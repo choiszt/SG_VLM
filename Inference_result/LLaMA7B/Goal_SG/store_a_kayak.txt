@@ -1,0 +1,12 @@
+Task Goal:
+store_a_kayak
+Observed Relation:
+['kayak', 'ontop', 'floor']
+['kayak_rack', 'ontop', 'floor']
+['kayak', 'covered', 'water']
+['bath_towel', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing store_a_kayak
+that would satisfy the task goal.
+Posted by: Daniel Velarde on 11/28/2018 01:58 PM
+When you say "output", do you mean "print in the console

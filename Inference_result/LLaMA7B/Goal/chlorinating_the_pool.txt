@@ -1,0 +1,7 @@
+Task Goal:
+chlorinating_the_pool
+Now please output plannings for doing chlorinating_the_pool task with the following parameters:
+Schedule goal: shortest, best, fairest
+Satisfiability goal: full, strict, partial
+Decision goals: optimistic, conservative, pessimistic
+Goal constraints:

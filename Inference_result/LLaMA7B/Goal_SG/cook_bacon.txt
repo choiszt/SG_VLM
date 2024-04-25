@@ -1,0 +1,9 @@
+Task Goal:
+cook_bacon
+Observed Relation:
+['bacon', 'ontop', 'tray']
+['tray', 'inside', 'electric_refrigerator']
+['griddle', 'ontop', 'stove']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cook_bacon with the previous observations as input.
+E.g. if I ask the program to make me a lunch and it sees that I have a plate on the table. It should make me some food. It should not just assume that I want

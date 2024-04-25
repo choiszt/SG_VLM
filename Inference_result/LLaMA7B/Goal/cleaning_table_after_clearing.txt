@@ -1,0 +1,4 @@
+Task Goal:
+cleaning_table_after_clearing
+Now please output plannings for doing cleaning_table_after_clearing task in table-cleaning-after-clearing.csv file, which is set for the first week of each month, and each individual task itself should appear in the file once only.
+There is a lot of different information in the file

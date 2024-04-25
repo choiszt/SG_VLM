@@ -1,0 +1,4 @@
+Task Goal:
+putting_away_bicycles
+Now please output plannings for doing putting_away_bicycles on Thursday.
+Putting_away_bicycles 12:30 12:30 12:30 12:30 12:30 12:30

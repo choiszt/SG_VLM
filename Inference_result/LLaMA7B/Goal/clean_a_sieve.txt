@@ -1,0 +1,6 @@
+Task Goal:
+clean_a_sieve
+Now please output plannings for doing clean_a_sieve.
+Everything is in the same order as in the original task.
+Let's start with the same type of lines - one-line tasks.
+In fact, we have here 30 lines, so we can use the C

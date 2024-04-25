@@ -1,0 +1,12 @@
+Task Goal:
+making_a_snack
+Now please output plannings for doing making_a_snack task. It will be done automatically.
+You can do this by using the command:
+
+    abe-make goal=making_a_snack
+
+
+"",
+"",
+"""
+      # This is our

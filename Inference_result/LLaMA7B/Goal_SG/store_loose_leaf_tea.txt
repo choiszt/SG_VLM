@@ -1,0 +1,13 @@
+Task Goal:
+store_loose_leaf_tea
+Observed Relation:
+['sack', 'filled', 'green_tea']
+['sack', 'ontop', 'countertop']
+['mason_jar', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing store_loose_leaf_tea.
+The Planning Task:
+The current robot is capable of the following actions:
+move(2)
+move(1, 4)
+The robot has a sack of green tea (with a capacity of 1) and

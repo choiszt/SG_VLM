@@ -1,0 +1,8 @@
+Task Goal:
+scraping_snow_off_vehicle
+Observed Relation:
+['car', 'ontop', 'driveway']
+['car', 'covered', 'snow']
+['scraper', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing scraping_snow_off_vehicle. The first plan will have to deal with removing the snow from the car, and will do so in a manner that preserves the car. The second plan will have to clear the driveway so that the person can get into the house, and

@@ -1,0 +1,4 @@
+Task Goal:
+clean_a_kitchen_table
+Now please output plannings for doing clean_a_kitchen_table. Here is the template:
+1:10 0:00 1:10 1:10 0:20 0:00 0:30 0:00 0:2

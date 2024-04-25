@@ -1,0 +1,4 @@
+Task Goal:
+putting_wood_in_fireplace
+Now please output plannings for doing putting_wood_in_fireplace task.
+Your task is to write a program that reads in as input a sentence from a specification file, then makes a human readable sentence on screen of the result of executing that sentence. Your program will be graded on the correctness of the

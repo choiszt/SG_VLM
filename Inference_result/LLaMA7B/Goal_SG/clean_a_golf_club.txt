@@ -1,0 +1,14 @@
+Task Goal:
+clean_a_golf_club
+Observed Relation:
+['golf_club', 'ontop', 'floor']
+['liquid_soap__bottle', 'filled', 'liquid_soap']
+['golf_club', 'covered', 'mud']
+['liquid_soap__bottle', 'ontop', 'floor']
+['rag', 'ontop', 'floor']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_a_golf_club task.
+List the observed relations and the goals for each of the three different kinds of agents - ground, walking, and flying.
+In this task, each agent is assumed to do one of the four kinds of actions:
+Ground agents

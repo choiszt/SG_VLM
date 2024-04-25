@@ -1,0 +1,8 @@
+Task Goal:
+hanging_flags
+Observed Relation:
+['pole', 'attached', 'wall_nail']
+['national_flag', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing hanging_flags and follow its execution in the following episodes.
+There is a task goal of 'hanging_flags' that can be executed in the next following episode. There is an observed relation (relation type: ‘R_N_E’) in

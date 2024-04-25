@@ -1,0 +1,5 @@
+Task Goal:
+buy_salad_greens
+Now please output plannings for doing buy_salad_greens action.
+Inputs: the goal task (a list), and the rest of the tasks (a list).
+Outputs: a list of plannings for the goal task, and a list of any plannings for any of the

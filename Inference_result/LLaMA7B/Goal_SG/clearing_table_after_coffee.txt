@@ -1,0 +1,11 @@
+Task Goal:
+clearing_table_after_coffee
+Observed Relation:
+['mug', 'ontop', 'countertop']
+['mug', 'filled', 'drip_coffee']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clearing_table_after_coffee.
+In this exercise, we will see how to use an extension of ASP (Action Selection Problem) to solve the task goal:
+clearing_table_after_coffee
+Where we have the following observations:
+["mug

@@ -1,0 +1,5 @@
+Task Goal:
+carrying_out_garden_furniture
+Now please output plannings for doing carrying_out_garden_furniture as follows:
+For each task in this problem, a certain number of workers can do the task, each being able to do an amount of time per day.
+The output of carried_out_garden_furniture should be an

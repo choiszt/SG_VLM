@@ -1,0 +1,9 @@
+Task Goal:
+fill_a_punching_bag
+Observed Relation:
+['bucket', 'filled', 'white_rice']
+['punching_bag', 'ontop', 'floor']
+['bucket', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing fill_a_punching_bag.
+I believe the issue is the ambiguity of the observation. The reason I say this is that the program believes that fill_a_punching_bag is impossible if all of the three objects are on the floor. From a

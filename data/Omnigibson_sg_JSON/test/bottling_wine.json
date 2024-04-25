@@ -1,1 +1,198 @@
-{"Step 1": {"Planning": "Open the cabinet", "Target": ["cabinet"], "Expect Scene Graph": [["bucket", "ontop", "countertop"], ["wine_bottle", "ontop", "countertop"], ["cork", "inside", "cabinet"], ["bucket", "filled", "red_wine"]]}, "Step 2": {"Planning": "Take the cork out of the cabinet", "Target": ["cabinet", "cork"], "Expect Scene Graph": [["bucket", "ontop", "countertop"], ["wine_bottle", "ontop", "countertop"], ["bucket", "filled", "red_wine"]]}, "Step 3": {"Planning": "Attach the cork to the wine bottle", "Target": ["cork", "wine_bottle"], "Expect Scene Graph": [["bucket", "ontop", "countertop"], ["wine_bottle", "ontop", "countertop"], ["cork", "attached", "wine_bottle"], ["bucket", "filled", "red_wine"]]}, "Step 4": {"Planning": "Fill the wine bottle with red wine", "Target": ["bucket", "wine_bottle"], "Expect Scene Graph": [["bucket", "ontop", "countertop"], ["wine_bottle", "ontop", "countertop"], ["cork", "attached", "wine_bottle"], ["bucket", "filled", "red_wine"]]}, "Step 5": {"Planning": "Close the cabinet", "Target": ["cabinet"], "Expect Scene Graph": [["bucket", "ontop", "countertop"], ["wine_bottle", "ontop", "countertop"], ["cork", "attached", "wine_bottle"], ["bucket", "filled", "red_wine"]]}, "Step 6": {"Planning": "Put the wine bottle on the countertop", "Target": ["countertop", "wine_bottle"], "Expect Scene Graph": [["bucket", "ontop", "countertop"], ["cork", "attached", "wine_bottle"], ["bucket", "filled", "red_wine"], ["wine_bottle", "ontop", "countertop"]]}, "Step 7": {"Planning": "Put the corked wine bottle in the bucket", "Target": ["bucket", "wine_bottle"], "Expect Scene Graph": [["cork", "attached", "wine_bottle"], ["bucket", "filled", "red_wine"], ["wine_bottle", "ontop", "countertop"], ["bucket", "contains", "wine_bottle"]]}}
+{
+    "Step 1": {
+        "Planning": "Open the cabinet",
+        "Target": [
+            "cabinet"
+        ],
+        "Expect Scene Graph": [
+            [
+                "bucket",
+                "ontop",
+                "countertop"
+            ],
+            [
+                "wine_bottle",
+                "ontop",
+                "countertop"
+            ],
+            [
+                "cork",
+                "inside",
+                "cabinet"
+            ],
+            [
+                "bucket",
+                "filled",
+                "red_wine"
+            ]
+        ]
+    },
+    "Step 2": {
+        "Planning": "Take the cork out of the cabinet",
+        "Target": [
+            "cabinet",
+            "cork"
+        ],
+        "Expect Scene Graph": [
+            [
+                "bucket",
+                "ontop",
+                "countertop"
+            ],
+            [
+                "wine_bottle",
+                "ontop",
+                "countertop"
+            ],
+            [
+                "bucket",
+                "filled",
+                "red_wine"
+            ]
+        ]
+    },
+    "Step 3": {
+        "Planning": "Attach the cork to the wine bottle",
+        "Target": [
+            "cork",
+            "wine_bottle"
+        ],
+        "Expect Scene Graph": [
+            [
+                "bucket",
+                "ontop",
+                "countertop"
+            ],
+            [
+                "wine_bottle",
+                "ontop",
+                "countertop"
+            ],
+            [
+                "cork",
+                "attached",
+                "wine_bottle"
+            ],
+            [
+                "bucket",
+                "filled",
+                "red_wine"
+            ]
+        ]
+    },
+    "Step 4": {
+        "Planning": "Fill the wine bottle with red wine",
+        "Target": [
+            "bucket",
+            "wine_bottle"
+        ],
+        "Expect Scene Graph": [
+            [
+                "bucket",
+                "ontop",
+                "countertop"
+            ],
+            [
+                "wine_bottle",
+                "ontop",
+                "countertop"
+            ],
+            [
+                "cork",
+                "attached",
+                "wine_bottle"
+            ],
+            [
+                "bucket",
+                "filled",
+                "red_wine"
+            ]
+        ]
+    },
+    "Step 5": {
+        "Planning": "Close the cabinet",
+        "Target": [
+            "cabinet"
+        ],
+        "Expect Scene Graph": [
+            [
+                "bucket",
+                "ontop",
+                "countertop"
+            ],
+            [
+                "wine_bottle",
+                "ontop",
+                "countertop"
+            ],
+            [
+                "cork",
+                "attached",
+                "wine_bottle"
+            ],
+            [
+                "bucket",
+                "filled",
+                "red_wine"
+            ]
+        ]
+    },
+    "Step 6": {
+        "Planning": "Put the wine bottle on the countertop",
+        "Target": [
+            "countertop",
+            "wine_bottle"
+        ],
+        "Expect Scene Graph": [
+            [
+                "bucket",
+                "ontop",
+                "countertop"
+            ],
+            [
+                "cork",
+                "attached",
+                "wine_bottle"
+            ],
+            [
+                "bucket",
+                "filled",
+                "red_wine"
+            ],
+            [
+                "wine_bottle",
+                "ontop",
+                "countertop"
+            ]
+        ]
+    },
+    "Step 7": {
+        "Planning": "Put the corked wine bottle in the bucket",
+        "Target": [
+            "bucket",
+            "wine_bottle"
+        ],
+        "Expect Scene Graph": [
+            [
+                "cork",
+                "attached",
+                "wine_bottle"
+            ],
+            [
+                "bucket",
+                "filled",
+                "red_wine"
+            ],
+            [
+                "wine_bottle",
+                "ontop",
+                "countertop"
+            ],
+            [
+                "bucket",
+                "contains",
+                "wine_bottle"
+            ]
+        ]
+    }
+}

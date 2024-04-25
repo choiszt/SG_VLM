@@ -1,0 +1,11 @@
+Task Goal:
+putting_protective_cover_on_vehicle
+Observed Relation:
+['car', 'ontop', 'driveway']
+['tarpaulin', 'ontop', 'lawn']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_protective_cover_on_vehicle on all those different scenarios.
+Putting_protective_cover_on_vehicle.pl
+Vehicle ontology:
+Vehicle is a vehicle as a concept, it is not a specific vehicle.
+ont

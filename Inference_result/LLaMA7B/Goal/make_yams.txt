@@ -1,0 +1,7 @@
+Task Goal:
+make_yams
+Now please output plannings for doing make_yams task.
+== plan next 3 days ==
+# plan next 3 days
+# make_yams
+What's really cool is that if there's a change in the file of tasks you can re-run the program and

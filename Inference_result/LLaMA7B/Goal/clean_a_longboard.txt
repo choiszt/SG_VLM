@@ -1,0 +1,4 @@
+Task Goal:
+clean_a_longboard
+Now please output plannings for doing clean_a_longboard (i.e. what you're going to do, when you're going to do it, and how long it's going to take) in the following format: begin.
+Goal: clean_a_longboard

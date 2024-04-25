@@ -1,0 +1,15 @@
+Task Goal:
+clean_plastic_containers
+Observed Relation:
+['liquid_soap__bottle', 'filled', 'liquid_soap']
+['liquid_soap__bottle', 'ontop', 'countertop']
+['bowl', 'ontop', 'countertop']
+['lid', 'ontop', 'countertop']
+['bowl', 'covered', 'adhesive_material']
+['lid', 'covered', 'adhesive_material']
+['rag', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_plastic_containers with the CARLA simulated environment.
+You may add many more constraints than the ones I have listed.
+The constraints are listed in a key-value format. The first element is the name of the constraint. The second element is the

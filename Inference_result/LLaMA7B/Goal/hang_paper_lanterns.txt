@@ -1,0 +1,5 @@
+Task Goal:
+hang_paper_lanterns
+Now please output plannings for doing hang_paper_lanterns.
+For each step, the output should consist of the current step number (which is 0, 1 or 2), the duration of that step, and the unit of that step.
+A step starts and ends at 0.

@@ -1,0 +1,8 @@
+Task Goal:
+store_loose_leaf_tea
+Now please output plannings for doing store_loose_leaf_tea.
+The Planning Task:
+cannot be done during the day;
+must be done before the morning;
+must be done on a week day;
+can be done only once per day (not more than once a day);

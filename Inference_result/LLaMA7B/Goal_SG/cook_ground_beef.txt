@@ -1,0 +1,14 @@
+Task Goal:
+cook_ground_beef
+Observed Relation:
+['bowl', 'inside', 'electric_refrigerator']
+['frying_pan', 'ontop', 'oven']
+['wooden_spoon', 'ontop', 'oven']
+['onion_powder__shaker', 'insource', 'onion_powder']
+['onion_powder__shaker', 'ontop', 'countertop']
+['salt__shaker', 'insource', 'salt']
+['salt__shaker', 'ontop', 'countertop']
+['bowl', 'filled', 'ground_beef']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cook_ground_beef, and testing that the resulting ground beef meets the goal of being tasty.
+The first task is to plan a sequence of actions to prepare the ground beef. The second task is to test that the resulting ground beef tast

@@ -1,0 +1,9 @@
+Task Goal:
+cook_hot_dogs
+Observed Relation:
+['frying_pan', 'ontop', 'oven']
+['sink', 'insource', 'water']
+['hotdog', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cook_hot_dogs.
+All the observations are in the order of: [hot_dogs, cook, cooking_pan, frying_pan, sink, kitchen_sink, cooking_pan, hot_dogs, cook, cook

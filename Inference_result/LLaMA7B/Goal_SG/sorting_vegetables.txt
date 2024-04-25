@@ -1,0 +1,13 @@
+Task Goal:
+sorting_vegetables
+Observed Relation:
+['mixing_bowl', 'ontop', 'countertop']
+['wicker_basket', 'ontop', 'countertop']
+['bok_choy', 'inside', 'wicker_basket']
+['chard', 'inside', 'wicker_basket']
+['leek', 'inside', 'wicker_basket']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing sorting_vegetables.
+I.e. for each action available, what is the best sequence in which to take the actions to maximize the total objective value given the constraints.
+Please output the number of actions and the corresponding actions as a sequence.
+You

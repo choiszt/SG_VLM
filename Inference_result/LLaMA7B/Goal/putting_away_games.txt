@@ -1,0 +1,4 @@
+Task Goal:
+putting_away_games
+Now please output plannings for doing putting_away_games_1,2,3,4,5,6,7...until you are done.
+Each plannig lines has the number of step for the task (the length of the list). And you may output the plannings in

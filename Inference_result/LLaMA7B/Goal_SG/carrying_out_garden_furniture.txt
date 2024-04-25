@@ -1,0 +1,9 @@
+Task Goal:
+carrying_out_garden_furniture
+Observed Relation:
+['lawn_chair', 'ontop', 'floor']
+['barrow', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing carrying_out_garden_furniture as well as for carrying_out_lawn_chair from the available agents and resources.
+Our problem is now defined as a static planning problem.
+The output of the task is the set of plans that are possible according to the

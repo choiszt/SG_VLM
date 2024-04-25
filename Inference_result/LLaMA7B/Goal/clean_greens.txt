@@ -1,0 +1,4 @@
+Task Goal:
+clean_greens
+Now please output plannings for doing clean_greens and how can do it with minimal wasted time and energy. You can assume all clean_greens are on same day but plannings are in different days.
+You should also output same task name in each plannings(not output

@@ -1,0 +1,3 @@
+Task Goal:
+wash_lettuce
+Now please output plannings for doing wash_lettuce. This is a task that you would perform in your kitchen. It's a simple task. So what kind of planning strategy is used to do this? One strategy is the fastest path strategy. Another strategy is called the least move strategy,

@@ -1,0 +1,11 @@
+Task Goal:
+laying_restaurant_table_for_dinner
+Observed Relation:
+['plate', 'inside', 'cabinet']
+['tablefork', 'inside', 'cabinet']
+['table_knife', 'inside', 'cabinet']
+['tablespoon', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing laying_restaurant_table_for_dinner that are (a), (b) and (c) illustrated below.
+'fork' contains a fork; 'knife' contains a knife; 'spoon' contains a spoon
+I like the tree structure of solution (

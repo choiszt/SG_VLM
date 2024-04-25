@@ -1,0 +1,6 @@
+Task Goal:
+changing_sheets
+Now please output plannings for doing changing_sheets
+plannings = gen.PriorityHeap(100)
+plannings.append(Task(name="a1", priority=100, duration=10)) # 100 Duration
+pl

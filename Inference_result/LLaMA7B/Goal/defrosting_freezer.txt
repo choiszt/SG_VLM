@@ -1,0 +1,4 @@
+Task Goal:
+defrosting_freezer
+Now please output plannings for doing defrosting_freezer.
+This task shows the situation where there are many subtasks of a single task. In a real case it can happen that we have hundreds of subtasks of a single task. For example, if we have a task to discharge the water

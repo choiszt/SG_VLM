@@ -1,0 +1,6 @@
+Task Goal:
+make_a_blended_iced_cappuccino
+Now please output plannings for doing make_a_blended_iced_cappuccino in the bar.
+It is acceptable for the bar to be in another place than your house.
+It is acceptable for the bar to be in the future, but not in the past.
+It is acceptable for the bar to be in reality

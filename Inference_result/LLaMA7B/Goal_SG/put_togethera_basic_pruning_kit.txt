@@ -1,0 +1,10 @@
+Task Goal:
+put_togethera_basic_pruning_kit
+Observed Relation:
+['pruner', 'ontop', 'floor']
+['shears', 'ontop', 'floor']
+['toolbox', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing put_togethera_basic_pruning_kit to the Ontology Pruning Kits file.
+The above output is good, because it shows the kit as being stored in a bin, and it shows both the items that compose the kit and their identifiers.
+Now please output

@@ -1,0 +1,13 @@
+Task Goal:
+setting_up_living_room_for_guest
+Observed Relation:
+['chip', 'inside', 'bowl']
+['bowl', 'inside', 'shelf']
+['hardback', 'ontop', 'table']
+['rag', 'inside', 'shelf']
+['teddy', 'ontop', 'floor']
+['table', 'covered', 'dust']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing setting_up_living_room_for_guest task, and please choose one plannings as best decision.
+Task is to Setting up living room for guest. The task is to arrange furniture of living room for guest.
+Task Goal is setting_up_living_

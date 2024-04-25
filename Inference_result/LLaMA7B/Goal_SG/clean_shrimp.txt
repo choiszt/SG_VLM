@@ -1,0 +1,13 @@
+Task Goal:
+clean_shrimp
+Observed Relation:
+['chopping_board', 'ontop', 'oven']
+['prawn', 'ontop', 'chopping_board']
+['prawn', 'covered', 'sand']
+['carving_knife', 'ontop', 'chopping_board']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_shrimp, assuming you have access to the following:
+['cooker', 'ontop', 'oven']
+['sand', 'insource', 'shrimp']
+['sand', 'insource', 'chopping_board']

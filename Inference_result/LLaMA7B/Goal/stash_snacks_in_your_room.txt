@@ -1,0 +1,5 @@
+Task Goal:
+stash_snacks_in_your_room
+Now please output plannings for doing stash_snacks_in_your_room task in next 24 hours.
+Here's a list of all the plannings for this task.
+Here's a list of all the plannings for stash_snacks_in_your_room task.

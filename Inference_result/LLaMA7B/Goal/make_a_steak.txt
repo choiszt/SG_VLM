@@ -1,0 +1,3 @@
+Task Goal:
+make_a_steak
+Now please output plannings for doing make_a_steak. The plannings should be calculated in the similar way as when doing make_a_salad but such that the different steps are calculated in the proper order. Write a program which outputs the answers for the following two plannings.

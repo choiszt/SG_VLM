@@ -1,0 +1,5 @@
+Task Goal:
+polishing_furniture
+Now please output plannings for doing polishing_furniture task, it means the output should be a plan for doing one time polishing_furniture goal.
+For each goal there will be a separate plan.
+You should output a plan before the next task is output, not simultaneously.

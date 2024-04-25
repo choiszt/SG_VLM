@@ -1,0 +1,12 @@
+Task Goal:
+making_a_snack
+Observed Relation:
+['tortilla_chip', 'inside', 'sack']
+['sack', 'ontop', 'countertop']
+['tupperware', 'filled', 'diced__beefsteak_tomato']
+['tupperware', 'inside', 'electric_refrigerator']
+['platter', 'ontop', 'electric_refrigerator']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing making_a_snack, where making_a_snack is the goal of this task.
+The plan for making_a_snack is:
+There are many ways to make a snack with the following ingredients. Your method should use the least

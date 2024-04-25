@@ -1,0 +1,7 @@
+Task Goal:
+buy_pet_food_for_less
+Now please output plannings for doing buy_pet_food_for_less
+The task should be considered as a valid one if its one of the following cases:
+-The task goal occurs in all plans
+-The task goal is contained in some plans
+The planning problem is a search problem and it is based on

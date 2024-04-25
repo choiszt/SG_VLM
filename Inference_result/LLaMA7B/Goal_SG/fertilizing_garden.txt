@@ -1,0 +1,12 @@
+Task Goal:
+fertilizing_garden
+Observed Relation:
+['fertilizer__atomizer', 'insource', 'fertilizer']
+['pot', 'ontop', 'floor']
+['pot', 'filled', 'soil']
+['fertilizer__atomizer', 'ontop', 'floor']
+['potato', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing fertilizing_garden task. In the output, please select one of the four plans and explain the reasoning behind selecting such a plan. These four plans are:
+Plan 1: Put fertilizer in potatoes.
+In plan 1, take fertil

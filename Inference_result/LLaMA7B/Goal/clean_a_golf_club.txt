@@ -1,0 +1,5 @@
+Task Goal:
+clean_a_golf_club
+Now please output plannings for doing clean_a_golf_club task.
+The first rule is that it can only be started while there is still time left to do clean_a_golf_club task.
+In general, the planner should always know when the next time is to do task.

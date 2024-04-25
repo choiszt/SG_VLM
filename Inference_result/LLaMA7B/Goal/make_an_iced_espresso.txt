@@ -1,0 +1,8 @@
+Task Goal:
+make_an_iced_espresso
+Now please output plannings for doing make_an_iced_espresso as a sequence of action.
+The output should be like
+make_an_iced_espresso:
+•	Take espresso-machine out of kitchen
+•	Place in bedroom
+•	Pour water into coffee

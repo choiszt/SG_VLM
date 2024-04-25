@@ -1,0 +1,4 @@
+Task Goal:
+pack_your_gym_bag
+Now please output plannings for doing pack_your_gym_bag.
+The first argument to our function is a list of the tasks to be done in order. So we need to break down the task into its individual steps, record the times necessary to complete each step, and then join them together into one command

@@ -1,0 +1,12 @@
+Task Goal:
+spring_clean_your_skateboard
+Observed Relation:
+['acetone__atomizer', 'insource', 'acetone']
+['acetone__atomizer', 'ontop', 'floor']
+['bucket', 'filled', 'water']
+['bucket', 'ontop', 'floor']
+['skateboard', 'ontop', 'floor']
+['skateboard', 'covered', 'stain']
+['rag', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing spring_clean_your_skateboard. You can use any language you like, but please be clear; preferably also give the order of the actions (i.e. whether acetone__atomizer is to be applied before or after the other two actions) in the list

@@ -1,0 +1,15 @@
+Task Goal:
+unpacking_moving_van
+Observed Relation:
+['pan', 'inside', 'carton']
+['saucepot', 'inside', 'carton']
+['carton', 'ontop', 'pickup']
+['pickup', 'ontop', 'floor']
+['blanket', 'ontop', 'pickup']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing unpacking_moving_van
+Task Goal: unpacking_moving_van
+Observed Relation:
+['pan', 'inside', 'carton']
+['saucepot', 'inside', 'carton']
+['carton',

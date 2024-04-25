@@ -1,0 +1,10 @@
+Task Goal:
+putting_away_bicycles
+Observed Relation:
+['bicycle', 'ontop', 'driveway']
+['tarpaulin', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_away_bicycles on a tarpaulin on the floor.
+In general, the output may vary, but can be consistent with the output of the goal TaskGoal.[name(goal)].
+Task: putting_away_bicycles
+Go

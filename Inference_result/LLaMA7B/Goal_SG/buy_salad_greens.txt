@@ -1,0 +1,14 @@
+Task Goal:
+buy_salad_greens
+Observed Relation:
+['cash_register', 'ontop', 'checkout']
+['lettuce', 'ontop', 'shelf']
+['spinach', 'ontop', 'shelf']
+['sack', 'ontop', 'checkout']
+['money', 'ontop', 'checkout']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing buy_salad_greens action.
+Input 1: [cash_register, ontop, checkout]
+Output: salad
+Output 2: [lettuce, ontop, shelf]
+Output 3: [spinach, ontop

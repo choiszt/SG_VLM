@@ -1,0 +1,4 @@
+Task Goal:
+cook_lasagne
+Now please output plannings for doing cook_lasagne with the constraints cooking_time <= 300 and cooking_time <= 220.
+A plannings is a list of instructions, each instruction is a pair of a time and an action. You should write an

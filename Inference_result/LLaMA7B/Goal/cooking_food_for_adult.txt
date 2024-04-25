@@ -1,0 +1,8 @@
+Task Goal:
+cooking_food_for_adult
+Now please output plannings for doing cooking_food_for_adult for 1 day. And plannings should be in the following format.
+Date: dd-mm-yy
+Task: food_for_adult
+Time: hh-mm
+Please use the below sample data:
+Date

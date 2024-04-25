@@ -1,0 +1,4 @@
+Task Goal:
+cook_chickpeas
+Now please output plannings for doing cook_chickpeas tasks (in the sequence).
+This is an example of an open loop scheduling problem, which means that the optimal schedule is not known in advance. In this case, it is assumed that no decision about the optimal schedule is needed for now,

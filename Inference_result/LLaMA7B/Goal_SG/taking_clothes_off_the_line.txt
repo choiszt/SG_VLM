@@ -1,0 +1,15 @@
+Task Goal:
+taking_clothes_off_the_line
+Observed Relation:
+['clothesline', 'ontop', 'floor']
+['hamper', 'ontop', 'floor']
+['tank_top', 'draped', 'clothesline']
+['blouse', 'draped', 'clothesline']
+['trouser', 'draped', 'clothesline']
+['underwear', 'draped', 'clothesline']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing taking_clothes_off_the_line for the following conditions:
+No washing machine
+taking_clothes_off_the_line may not be executed
+taking_clothes_off_the_line is not a valid action
+No clothing to

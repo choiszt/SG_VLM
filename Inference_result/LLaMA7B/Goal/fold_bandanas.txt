@@ -1,0 +1,5 @@
+Task Goal:
+fold_bandanas
+Now please output plannings for doing fold_bandanas task in current month.
+2011-09-25: I changed the data structure to reflect the usage of the fold_bandanas function from the game-programming contest, and fixed some errors.
+As usual,

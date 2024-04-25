@@ -1,0 +1,8 @@
+Task Goal:
+folding_piece_of_cloth
+Observed Relation:
+['drawers', 'inside', 'clothes_dryer']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing folding_piece_of_cloth, while
+observing the following observed relations:
+0b2c2f2a28272926252c2b2a24222a21202724

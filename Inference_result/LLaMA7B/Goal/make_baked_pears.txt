@@ -1,0 +1,8 @@
+Task Goal:
+make_baked_pears
+Now please output plannings for doing make_baked_pears for each
+task_goal_to_planning_mapper.
+The goal is to generalize the system so that it can be used for
+different tasks:
+"make_baked_pears"
+"reduce fruit

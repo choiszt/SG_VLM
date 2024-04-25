@@ -1,0 +1,6 @@
+Task Goal:
+make_chicken_fajitas
+Now please output plannings for doing make_chicken_fajitas task.
+The plannings list should have a single entry, which is a task plan for doing the task.
+If you have no plan for doing the task, then your answer should be:
+The plannings list should have no

@@ -1,0 +1,5 @@
+Task Goal:
+packing_sports_equipment_into_car
+Now please output plannings for doing packing_sports_equipment_into_car in chronological order.
+Once the plannings are completed, output the chosen one plannings which is the most suitable one.
+The problem statement is not very clear, but i'm pretty sure the answer is supposed to be the

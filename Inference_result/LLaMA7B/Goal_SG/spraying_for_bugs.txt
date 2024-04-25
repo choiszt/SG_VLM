@@ -1,0 +1,10 @@
+Task Goal:
+spraying_for_bugs
+Observed Relation:
+['insectifuge__atomizer', 'ontop', 'floor']
+['insectifuge__atomizer', 'insource', 'insectifuge']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing spraying_for_bugs task.
+(R)
+Note: this task is made up. Planning language will not work properly for such tasks as shown here. It is a toy task and the subject is not a bug.
+In another case, let’

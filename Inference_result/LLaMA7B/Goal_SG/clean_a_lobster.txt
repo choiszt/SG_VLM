@@ -1,0 +1,14 @@
+Task Goal:
+clean_a_lobster
+Observed Relation:
+['lobster', 'covered', 'mud']
+['bowl', 'inside', 'electric_refrigerator']
+['lobster', 'inside', 'bowl']
+['hand_towel', 'inside', 'shelf']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_a_lobster,
+but where there is no possible solution you should output the
+word 'impossible'.
+In the next test case, the task is to clean_a_lobster.
+But the lobster is inside the bowl, so

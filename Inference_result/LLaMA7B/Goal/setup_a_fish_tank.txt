@@ -1,0 +1,8 @@
+Task Goal:
+setup_a_fish_tank
+Now please output plannings for doing setup_a_fish_tank.
+Now please output plannings for doing setup_a_fish_tank, which currently looks like this:
+Use a planner.
+Use a planer.
+Use a planer, then a planner.
+Use

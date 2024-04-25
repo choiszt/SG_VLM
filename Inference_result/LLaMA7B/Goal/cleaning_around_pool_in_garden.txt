@@ -1,0 +1,5 @@
+Task Goal:
+cleaning_around_pool_in_garden
+Now please output plannings for doing cleaning_around_pool_in_garden task 4 times, using the same person as in the previous task.
+The person should clean the pool 2 times a week. The first week, four days should be cleaning and the other day should be a rest day.
+The

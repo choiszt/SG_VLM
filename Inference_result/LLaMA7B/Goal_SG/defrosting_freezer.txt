@@ -1,0 +1,13 @@
+Task Goal:
+defrosting_freezer
+Observed Relation:
+['dustpan', 'ontop', 'floor']
+['bucket', 'ontop', 'floor']
+['scraper', 'ontop', 'countertop']
+['towel', 'ontop', 'countertop']
+['rag', 'ontop', 'countertop']
+['crayfish', 'inside', 'electric_refrigerator']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing defrosting_freezer.
+This is not the kind of plannings you'll need to get the dishes done, it's a much more complex set of actions.
+In the above example, the agent, represented by the 'agent' node in

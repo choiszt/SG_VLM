@@ -1,0 +1,4 @@
+Task Goal:
+make_iced_chocolate
+Now please output plannings for doing make_iced_chocolate.
+Let me introduce the model. This model is a mapping of actual task goal 'make_iced_chocolate' to the possible sequence of operations that can be performed to achieve the task goal. The model consists of 'Task Context',

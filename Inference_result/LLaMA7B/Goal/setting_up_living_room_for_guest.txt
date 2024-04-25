@@ -1,0 +1,6 @@
+Task Goal:
+setting_up_living_room_for_guest
+Now please output plannings for doing setting_up_living_room_for_guest task, and print out the plannings as follows:
+Print: "1. Take off TV in the living room"
+Print: "2. Set up sofa in the living room"
+Print: "3. Arrange ch

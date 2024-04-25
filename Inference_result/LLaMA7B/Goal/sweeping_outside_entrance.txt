@@ -1,0 +1,8 @@
+Task Goal:
+sweeping_outside_entrance
+Now please output plannings for doing sweeping_outside_entrance task.
+Now we have to combine a few things.
+Those are the resources you have.
+What are the tasks? And how big is each.
+what are their completion times?
+What are the resource availability situations?

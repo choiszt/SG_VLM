@@ -1,0 +1,14 @@
+Task Goal:
+cooking_food_for_adult
+Observed Relation:
+['steak', 'inside', 'electric_refrigerator']
+['thyme__shaker', 'insource', 'thyme']
+['thyme__shaker', 'ontop', 'countertop']
+['plate', 'ontop', 'countertop']
+['cooking_oil__bottle', 'filled', 'cooking_oil']
+['cooking_oil__bottle', 'ontop', 'countertop']
+['frying_pan', 'ontop', 'stove']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing cooking_food_for_adult for 1 day.
+Given a set of tasks and observations where an observation is a relation of 2 objects and a task is a tuple of objects, output a plan for each day that makes up a week for each task.
+The

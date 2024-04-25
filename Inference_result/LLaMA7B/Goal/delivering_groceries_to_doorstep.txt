@@ -1,0 +1,13 @@
+Task Goal:
+delivering_groceries_to_doorstep
+Now please output plannings for doing delivering_groceries_to_doorstep task
+
+The input is as following:
+`
+#! /usr/bin/env python
+
+import argparse
+from datetime import datetime
+from pyspreadsheet.exceptions import WorkbookNotFound
+
+parser = argparse

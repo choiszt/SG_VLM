@@ -1,0 +1,5 @@
+Task Goal:
+make_chicken_curry
+Now please output plannings for doing make_chicken_curry which takes no arguments. It's first argument should be "eggplant".
+For each variable you should try plotting its value at some time.
+x_planning = [0,1,2,3,4]

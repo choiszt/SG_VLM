@@ -1,0 +1,18 @@
+Task Goal:
+make_a_bake_sale_stand_stall
+Observed Relation:
+['plate', 'inside', 'carton']
+['pitcher', 'inside', 'carton']
+['mason_jar', 'filled', 'lemonade']
+['plastic_wrap', 'overlaid', 'cookie_sheet']
+['brownie', 'ontop', 'cookie_sheet']
+['cupcake', 'inside', 'tupperware']
+['carton', 'ontop', 'floor']
+['booth', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_a_bake_sale_stand_stall.
+The planner is asked to:
+make_a_bake_sale_stand_stall/planning.pl
+1 # # # # #
+2 # # # # # # #
+3 # # #

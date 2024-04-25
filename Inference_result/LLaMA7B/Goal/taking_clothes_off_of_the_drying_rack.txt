@@ -1,0 +1,4 @@
+Task Goal:
+taking_clothes_off_of_the_drying_rack
+Now please output plannings for doing taking_clothes_off_of_the_drying_rack, as well as for doing NOT taking_clothes_off_of_the_drying_rack (each case is a separate line). Make sure that you don’t forget the drying rack.
+Initial State:

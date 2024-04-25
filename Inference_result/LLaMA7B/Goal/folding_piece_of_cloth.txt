@@ -1,0 +1,4 @@
+Task Goal:
+folding_piece_of_cloth
+Now please output plannings for doing folding_piece_of_cloth, but without using the plan for the next step, until you will print the goal.
+If you have the piece of cloth folded into triangle (2 cells x 3 cells), you can fold it into hexagon (6 cells)

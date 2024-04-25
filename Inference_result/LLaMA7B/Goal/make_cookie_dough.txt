@@ -1,0 +1,8 @@
+Task Goal:
+make_cookie_dough
+Now please output plannings for doing make_cookie_dough task if you have 12 hours per day.
+Make a report in the following format:
+day_id
+task_id 1
+task_id 2 3
+task_id 5 6 7 8

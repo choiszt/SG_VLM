@@ -1,0 +1,17 @@
+Task Goal:
+prepare_a_filling_breakfast
+Observed Relation:
+['table_knife', 'ontop', 'countertop']
+['egg', 'inside', 'electric_refrigerator']
+['bratwurst', 'inside', 'electric_refrigerator']
+['frying_pan', 'ontop', 'countertop']
+['orange', 'inside', 'electric_refrigerator']
+['plate', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'countertop']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing prepare_a_filling_breakfast
+Evaluation Metric:
+Average Length of the Planning
+The task goal is to prepare a filling breakfast. The task consists of the following parts:
+Cutting brats
+Mixing frying pan with

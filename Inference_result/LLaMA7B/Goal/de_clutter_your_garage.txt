@@ -1,0 +1,7 @@
+Task Goal:
+de_clutter_your_garage
+Now please output plannings for doing de_clutter_your_garage in the following order.
+Note: I will input all the tasks in the first row.
+You should output a new line after every task. Like this:
+de_clutter_your_garage_1
+de_clutter

@@ -1,0 +1,6 @@
+Task Goal:
+picking_up_trash
+Observed Relation:
+['can__of__soda', 'ontop', 'floor']
+Now please output plannings for doing picking_up_trash at the same time.
+The sequence of actions that a plan represents is not necessarily the sequence of events that takes place when actually performing the task. For example, if in a plan, a person was picking up a can of soda,

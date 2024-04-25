@@ -1,0 +1,7 @@
+Task Goal:
+putting_in_a_hot_tub
+Observed Relation:
+['hot_tub', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_in_a_hot_tub using the correct relations and goals.
+If you are using a neural net for this (as opposed to simply using a probabilistic model), you can just count the number of steps required for the path, and multiply by the probability of taking it.

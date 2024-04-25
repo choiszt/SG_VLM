@@ -1,0 +1,12 @@
+Task Goal:
+wash_lettuce
+Observed Relation:
+['colander', 'inside', 'cabinet']
+['lettuce', 'inside', 'electric_refrigerator']
+['paper_towel', 'ontop', 'countertop']
+['lettuce', 'covered', 'dirt']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing wash_lettuce. This is a general task goal so you should be able to plan the entire task from beginning to end:
+Step 1: Observe the problem. List the actions that are relevant to the task.
+Step 2: Expect what

@@ -1,0 +1,13 @@
+Task Goal:
+buy_basic_garden_tools
+Observed Relation:
+['shovel', 'ontop', 'shelf']
+['rake', 'ontop', 'shelf']
+['money', 'inside', 'backpack']
+['backpack', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing buy_basic_garden_tools task.
+Hint: If an agent remains on the same location, it does not need to be
+specified in the plan. Instead, the agent can just collect the specified
+objects and walk away from the location.
+The agent has many

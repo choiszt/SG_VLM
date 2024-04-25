@@ -1,0 +1,6 @@
+Task Goal:
+packing_bags_or_suitcase
+Now please output plannings for doing packing_bags_or_suitcase task.
+Input Format:
+N (1 ≤ N ≤ 10100) is the number of bags to be packed.
+Each case in the input file contains one line with the number of bags to

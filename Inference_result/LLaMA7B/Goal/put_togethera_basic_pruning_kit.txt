@@ -1,0 +1,6 @@
+Task Goal:
+put_togethera_basic_pruning_kit
+Now please output plannings for doing put_togethera_basic_pruning_kit to the console, where you will output the following:
+Planning(put_togethera_basic_pruning_kit)
+Starting all of the actors and simulating for a second
+8.157 seconds total

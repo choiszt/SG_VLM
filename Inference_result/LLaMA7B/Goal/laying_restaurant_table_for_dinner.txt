@@ -1,0 +1,4 @@
+Task Goal:
+laying_restaurant_table_for_dinner
+Now please output plannings for doing laying_restaurant_table_for_dinner task. (Note that output of plans is optional and that I am not required to use an algorithm. You can simply output a text with some of your ideas)
+You can assume, that the last table (the one with 12 people

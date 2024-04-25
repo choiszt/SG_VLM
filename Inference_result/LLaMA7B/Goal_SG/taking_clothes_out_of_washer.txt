@@ -1,0 +1,14 @@
+Task Goal:
+taking_clothes_out_of_washer
+Observed Relation:
+['jersey', 'inside', 'washer']
+['jersey', 'saturated', 'water']
+['underwear', 'inside', 'washer']
+['underwear', 'saturated', 'water']
+['sock', 'inside', 'washer']
+['sock', 'saturated', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing taking_clothes_out_of_washer, and optionally output the following information:
+How many shifts must be made to restore the system to the operational configuration?
+What is the total time that is required to do so?
+How many operational modes must be entered and

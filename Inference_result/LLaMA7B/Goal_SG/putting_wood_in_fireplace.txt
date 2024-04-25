@@ -1,0 +1,7 @@
+Task Goal:
+putting_wood_in_fireplace
+Observed Relation:
+['log', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_wood_in_fireplace as a subtask for doing_stuff with these observations.
+The author wishes to thank Eamonn O'Neill for discussions about the problem. Lions vs. Giants: 'It's Awesome' to

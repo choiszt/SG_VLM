@@ -1,0 +1,5 @@
+Task Goal:
+cook_kale
+Now please output plannings for doing cook_kale task with various optimization, such as:
+This task has two ingredients: kale and garlic.
+This task has two ingredients: kale and garlic. These ingredients can be cooked in some ways -

@@ -1,0 +1,5 @@
+Task Goal:
+buying_postage_stamps
+Now please output plannings for doing buying_postage_stamps task. How many hours it takes you to do it?
+Input: A task with a goal and a duration in hours (from 0 to 24), for example:
+- buy_postage_stamps_3: the

@@ -1,0 +1,16 @@
+Task Goal:
+make_chicken_curry
+Observed Relation:
+['chicken_breast', 'inside', 'electric_refrigerator']
+['beefsteak_tomato', 'inside', 'electric_refrigerator']
+['vidalia_onion', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'chopping_board']
+['chopping_board', 'ontop', 'countertop']
+['cooking_oil__bottle', 'filled', 'cooking_oil']
+['cooking_oil__bottle', 'ontop', 'countertop']
+['curry_powder__shaker', 'insource', 'curry_powder']
+['curry_powder__shaker', 'ontop', 'countertop']
+['stockpot', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_chicken_curry which will use a chicken breast, inside, an electric refrigerator, a beefsteak tomato, a vidalia onion, a carving knife, a chopping board,
+cooking oil, a curry

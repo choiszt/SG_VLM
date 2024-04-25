@@ -1,0 +1,6 @@
+Task Goal:
+chop_an_onion
+Now please output plannings for doing chop_an_onion and chopping_an_onion tasks.
+Time Goal:
+5 minutes 45 seconds
+But on this task, we can’t ask the agent to do “chop_an_onion” explicitly, because the

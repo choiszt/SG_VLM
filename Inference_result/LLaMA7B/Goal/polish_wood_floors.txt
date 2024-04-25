@@ -1,0 +1,4 @@
+Task Goal:
+polish_wood_floors
+Now please output plannings for doing polish_wood_floors.
+Note: Plannings are sequences of goals that the robot needs to solve in order to achieve the goal that we are planning. As the problem asks for the plannings (not the goals), it is not necessary to include the initial

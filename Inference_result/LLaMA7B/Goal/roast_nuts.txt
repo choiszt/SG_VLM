@@ -1,0 +1,4 @@
+Task Goal:
+roast_nuts
+Now please output plannings for doing roast_nuts.
+1. Write your program using the Java programming language. Write the program as a single class. You should use the Java file naming convention, so that the classes and files end in ".java" and the main file ends in ".java.

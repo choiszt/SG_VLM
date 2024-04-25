@@ -1,0 +1,5 @@
+Task Goal:
+iron_curtains
+Now please output plannings for doing iron_curtains as described in the text. If you can make everything better, please do.
+If you are not sure what to do with the task, kindly follow the steps 1-3.
+iron_curtains/iron_cur

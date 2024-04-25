@@ -1,0 +1,13 @@
+Task Goal:
+treating_stains
+Observed Relation:
+['table_linen', 'covered', 'stain']
+['detergent__bottle', 'filled', 'detergent']
+['detergent__bottle', 'ontop', 'floor']
+['table_linen', 'ontop', 'floor']
+['rag', 'ontop', 'floor']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing treating_stains
+When treating_stains is a task goal, and the observed relation is ['floor', 'stained'] then:
+We need to see that treating_stains is a task goal and [floor, stained] is the

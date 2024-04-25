@@ -1,0 +1,8 @@
+Task Goal:
+scrubbing_bathroom_floor
+Now please output plannings for doing scrubbing_bathroom_floor in the following ways:
+1. In an incremental way.
+2. In a parallel way.
+3. In a non-incremental way.
+4. In a blocked way.
+5. In a dynamic way.

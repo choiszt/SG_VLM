@@ -1,0 +1,15 @@
+Task Goal:
+packing_bags_or_suitcase
+Observed Relation:
+['backpack', 'ontop', 'floor']
+['toothbrush', 'ontop', 'bed']
+['bottle__of__shampoo', 'ontop', 'bed']
+['hardback', 'ontop', 'bed']
+['underwear', 'ontop', 'bed']
+['tube__of__toothpaste', 'ontop', 'bed']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing packing_bags_or_suitcase task.
+Please try to keep all conditions as they are and to keep the constraints as they are.
+Please do not allow any constraint to be violated.
+Tags: homework, Artificial Intelligence
+Posted by Jared

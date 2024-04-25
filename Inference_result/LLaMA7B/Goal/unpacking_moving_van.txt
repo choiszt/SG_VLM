@@ -1,0 +1,6 @@
+Task Goal:
+unpacking_moving_van
+Now please output plannings for doing unpacking_moving_van task.
+The task is represented by the following simple graph structure:
+The following picture illustrates the complete problem structure:
+The goal of the problem is to unpack all the boxes with the help of the robot. The robot can only go

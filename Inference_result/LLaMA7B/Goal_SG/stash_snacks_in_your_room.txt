@@ -1,0 +1,13 @@
+Task Goal:
+stash_snacks_in_your_room
+Observed Relation:
+['chip', 'ontop', 'bed']
+['pack__of__chocolate_bar', 'ontop', 'bed']
+['bag__of__jerky', 'ontop', 'bed']
+['chocolate_bar', 'ontop', 'bed']
+['granola_bar', 'ontop', 'bed']
+['chocolate_biscuit', 'ontop', 'sack']
+['sack', 'ontop', 'table']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing stash_snacks_in_your_room task in different rooms.
+This task is to solve using two different rooms. (1st room: chocolate_bar, granola_bar; 2nd room: stash_snacks_in_your_room; 

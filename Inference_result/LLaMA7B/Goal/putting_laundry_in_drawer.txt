@@ -1,0 +1,4 @@
+Task Goal:
+putting_laundry_in_drawer
+Now please output plannings for doing putting_laundry_in_drawer when you have 8 hours of time in your week.
+The plannings should be in the form of tasklists. Tasks within a tasklist should be ordered in a balanced way, or, in other words, the shortest

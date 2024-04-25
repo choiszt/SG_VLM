@@ -110,7 +110,7 @@ def main(
         )
         output = tokenizer.decode(y)
         # print(output)
-        with open(f"out/{test_EXP}/{task}.txt","w")as f:
+        with open(f"Inference_result/{test_EXP}/{task}.txt","w")as f:
             f.write(output)
 
 if __name__ == "__main__":

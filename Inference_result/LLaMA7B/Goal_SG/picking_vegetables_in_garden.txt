@@ -1,0 +1,11 @@
+Task Goal:
+picking_vegetables_in_garden
+Observed Relation:
+['artichoke', 'ontop', 'lawn']
+['chard', 'ontop', 'lawn']
+['beet', 'ontop', 'lawn']
+['wicker_basket', 'ontop', 'lawn']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing picking_vegetables_in_garden (in order of increasing execution time). Add comments to explain why each plannung is more efficient than the previous one.
+g(s) = go(s)[0]
+Must be a string containing a sequence of 0s

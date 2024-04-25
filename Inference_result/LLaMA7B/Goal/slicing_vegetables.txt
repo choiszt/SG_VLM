@@ -1,0 +1,7 @@
+Task Goal:
+slicing_vegetables
+Now please output plannings for doing slicing_vegetables task.
+As an example, here it is
+plan_slice_vegetables()
+int how_many_vegetables = 10;
+vegetable_species* species = new_vegetable_species[

@@ -1,0 +1,14 @@
+Task Goal:
+sweeping_outside_entrance
+Observed Relation:
+['driveway', 'covered', 'dust']
+['ashcan', 'ontop', 'floor']
+['entire_leaf', 'ontop', 'driveway']
+['wreath', 'ontop', 'driveway']
+['broom', 'ontop', 'driveway']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing sweeping_outside_entrance task.
+You may assume that there is no dust on agent or on the floor.
+Task: sweeping_outside_entrance
+Input to Dijkstra Algorithm:
+['driveway', 'covered', 'dust']

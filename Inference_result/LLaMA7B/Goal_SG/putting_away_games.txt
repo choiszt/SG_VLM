@@ -1,0 +1,10 @@
+Task Goal:
+putting_away_games
+Observed Relation:
+['board_game', 'ontop', 'desk']
+['carton', 'ontop', 'desk']
+['jigsaw_puzzle', 'ontop', 'desk']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing putting_away_games that show how each agent could achieve its goal.
+The first line of input contains two integers n and t.
+N lines follow. Each line contains t space-separated integers ai, bi, and ai+bi+1. ai is

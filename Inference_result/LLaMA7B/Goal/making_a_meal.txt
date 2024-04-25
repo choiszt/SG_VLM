@@ -1,0 +1,7 @@
+Task Goal:
+making_a_meal
+Now please output plannings for doing making_a_meal given the following table:
+Action            Amount           Preparation
+Bread             15 g            15 m
+First_Course     120 g           20 m
+Second_Course     100 g          

@@ -1,0 +1,11 @@
+Task Goal:
+bottling_wine
+Observed Relation:
+['bucket', 'ontop', 'countertop']
+['wine_bottle', 'ontop', 'countertop']
+['cork', 'inside', 'cabinet']
+['bucket', 'filled', 'red_wine']
+Now please output plannings for doing bottling_wine task:
+A human would state the task and produce a plan (in a natural language).
+We need to have specific ways to describe the goals. For example, if the human states:
+Goal: Doing the bottling_w

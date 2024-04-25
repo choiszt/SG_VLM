@@ -1,0 +1,10 @@
+Task Goal:
+make_yams
+Observed Relation:
+['stockpot', 'ontop', 'countertop']
+['yam', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_yams task.
+==> http://pypi.python.org/pypi/solve-minimal-puzzles-part-2
+Puzzle 154 of minimial puzzles, the parking lot

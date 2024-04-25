@@ -1,0 +1,13 @@
+Task Goal:
+taking_clothes_off_of_the_drying_rack
+Observed Relation:
+['blouse', 'draped', 'coatrack']
+['tank_top', 'draped', 'coatrack']
+['hamper', 'ontop', 'floor']
+['coatrack', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing taking_clothes_off_of_the_drying_rack, as well as any other actions in the world that are connected to it.
+[action, action_state]
+['action', 'action_state']
+[action_state, action_state_constraints]
+['action_

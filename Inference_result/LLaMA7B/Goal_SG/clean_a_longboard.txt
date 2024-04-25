@@ -1,0 +1,13 @@
+Task Goal:
+clean_a_longboard
+Observed Relation:
+['skateboard', 'ontop', 'floor']
+['liquid_soap__bottle', 'filled', 'liquid_soap']
+['liquid_soap__bottle', 'inside', 'cabinet']
+['sponge', 'inside', 'cabinet']
+['skateboard', 'covered', 'dust']
+['skateboard', 'covered', 'mud']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_a_longboard (preferably with comments on why they chose that action, where they are, and what their goal is)
+Here are the outputs (if you can't read them, click the link and it will open in a new tab):

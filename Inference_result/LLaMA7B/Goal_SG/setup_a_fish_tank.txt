@@ -1,0 +1,12 @@
+Task Goal:
+setup_a_fish_tank
+Observed Relation:
+['tank', 'ontop', 'table']
+['bucket', 'ontop', 'floor']
+['bucket', 'filled', 'water']
+['water_filter', 'ontop', 'table']
+['pebble', 'ontop', 'table']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing setup_a_fish_tank.
+Now please output plannings for doing setup_a_fish_tank, which may take any of the three actions above.
+Above examples are taken from IMOC2006, "The 4th International

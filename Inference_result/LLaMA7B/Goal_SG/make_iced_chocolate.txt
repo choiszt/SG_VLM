@@ -1,0 +1,21 @@
+Task Goal:
+make_iced_chocolate
+Observed Relation:
+['ice_cube', 'inside', 'cup']
+['cup', 'inside', 'electric_refrigerator']
+['cocoa_powder__box', 'filled', 'cocoa_powder']
+['cocoa_powder__box', 'inside', 'cabinet']
+['milk__carton', 'filled', 'whole_milk']
+['milk__carton', 'inside', 'electric_refrigerator']
+['sugar__sack', 'filled', 'granulated_sugar']
+['sugar__sack', 'ontop', 'countertop']
+['vanilla__bottle', 'insource', 'vanilla']
+['vanilla__bottle', 'inside', 'cabinet']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing make_iced_chocolate.
+
+We can just model the actions that happen in order to make iced chocolate:
+1) Make a coffee cup
+2) Fill it with sugar and milk
+3) Fill it with ice cubes
+4

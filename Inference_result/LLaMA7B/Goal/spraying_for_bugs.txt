@@ -1,0 +1,5 @@
+Task Goal:
+spraying_for_bugs
+Now please output plannings for doing spraying_for_bugs task.
+This is the first step on the way to implementing the A* algorithm.
+A* algorithm is based on the algorithm of finding the shortest paths in a graph. The graph that we are going to use is the simple graph,

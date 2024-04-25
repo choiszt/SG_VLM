@@ -1,0 +1,4 @@
+Task Goal:
+preserving_fruit
+Now please output plannings for doing preserving_fruit between 30 years in the future and 300 years in the future.
+Now please output plannings for doing preserving_fruit between 30 years in the future and 300 years in the future.

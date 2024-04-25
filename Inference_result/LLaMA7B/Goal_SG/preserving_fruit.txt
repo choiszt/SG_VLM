@@ -1,0 +1,18 @@
+Task Goal:
+preserving_fruit
+Observed Relation:
+['strawberry', 'inside', 'tupperware']
+['tupperware', 'inside', 'electric_refrigerator']
+['mint', 'inside', 'electric_refrigerator']
+['granulated_sugar__sack', 'filled', 'granulated_sugar']
+['granulated_sugar__sack', 'ontop', 'countertop']
+['carving_knife', 'ontop', 'countertop']
+['saucepot', 'inside', 'cabinet']
+['soup_ladle', 'inside', 'cabinet']
+['mason_jar', 'ontop', 'countertop']
+['blender', 'ontop', 'countertop']
+['sink', 'insource', 'water']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing preserving_fruit in the least bad order, according to the following rules:
+Each step should be defined in terms of the observed relations and the current goal. The actions that can be taken depend on the agent and the environment.
+The agent can move to a

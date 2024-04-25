@@ -203,8 +203,8 @@ def generate_instruction(option,is_train):
 if __name__ == '__main__':
     makedir=lambda PATH: os.makedirs(PATH) if not os.path.exists(PATH) else None
 
-    OPTIONS=["initsg_planning","initsg_targetobj_planning","initsg_finalsg_planning","initsg_finalsg_targetobj_planning"]
-    # OPTIONS=["initsg_targetobj_planning","initsg_finalsg_targetobj_planning"]
+    # OPTIONS=["initsg_planning","initsg_targetobj_planning","initsg_finalsg_planning","initsg_finalsg_targetobj_planning"]
+    OPTIONS=["initsg_finalsg_planning","initsg_finalsg_targetobj_planning"]
     for OPTION in OPTIONS:
         tar_path=os.path.join("data/OGSG_data/",OPTION)
         makedir(tar_path)

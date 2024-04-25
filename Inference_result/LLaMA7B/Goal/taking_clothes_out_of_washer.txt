@@ -1,0 +1,9 @@
+Task Goal:
+taking_clothes_out_of_washer
+Now please output plannings for doing taking_clothes_out_of_washer task in the following formats:
+task_description.txt
+workflow_descriptions.txt
+task_goals.txt
+workflow_goals.txt
+workflow_dependency_graph.txt
+task_dependency_

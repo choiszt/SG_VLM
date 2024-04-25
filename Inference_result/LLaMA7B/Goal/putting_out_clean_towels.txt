@@ -1,0 +1,3 @@
+Task Goal:
+putting_out_clean_towels
+Now please output plannings for doing putting_out_clean_towels task, where you are doing firstly putting_out_clean_towels-1 task and then putting_out_clean_towels-2 task and so on. The plannings need to be the same as the input

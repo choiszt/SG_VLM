@@ -1,0 +1,6 @@
+Task Goal:
+fixing_mailbox
+Observed Relation:
+['mailbox', 'ontop', 'floor']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing fixing_mailbox for each agent. By default, the plannings should be output in the order of agents. If you want to sort by the Observed Relation Score, please give the sorting argument "obsr_score". Otherwise, the sorting

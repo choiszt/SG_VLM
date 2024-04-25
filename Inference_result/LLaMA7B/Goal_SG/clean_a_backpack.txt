@@ -1,0 +1,16 @@
+Task Goal:
+clean_a_backpack
+Observed Relation:
+['detergent__bottle', 'filled', 'detergent']
+['detergent__bottle', 'ontop', 'floor']
+['backpack', 'ontop', 'floor']
+['bucket', 'ontop', 'floor']
+['rag', 'ontop', 'clothes_dryer']
+['hand_towel', 'ontop', 'washer']
+['sponge', 'ontop', 'clothes_dryer']
+['bucket', 'filled', 'water']
+['backpack', 'covered', 'dust']
+['agent', 'ontop', 'floor']
+Now please output plannings for doing clean_a_backpack and clean_a_bucket. The plannings have to be in the format of [action, obj, task].
+The output has to be sorted by the action.
+E.g.: clean_a_backpack -> [clean

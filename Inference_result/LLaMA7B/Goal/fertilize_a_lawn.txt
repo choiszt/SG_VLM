@@ -1,0 +1,5 @@
+Task Goal:
+fertilize_a_lawn
+Now please output plannings for doing fertilize_a_lawn.
+A planning is a list of steps. Each step is a list of actions.
+Each action has a type that tells what kind of action it is (fertilize_a_lawn, weed_a_lawn or
