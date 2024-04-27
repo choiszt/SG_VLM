@@ -1,7 +1,7 @@
 <div align="center">
 <img src="figure/logo.png" alt="SG_VLM Logo" width="200"/>
 
-# SG_Planner
+# SGPlanner
 </div>
 
 # Scene Graph Enhanced Embodied Task Planning
