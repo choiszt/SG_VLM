@@ -1,0 +1,11 @@
+Action Planning for picking_up_trash:
+
+1. Identify the location of the trash.
+2. Grab a trash bag or bin.
+3. Approach the trash and carefully pick it up.
+4. Place the trash in the bag or bin.
+5. Close the bag or secure the lid of the bin.
+6. Dispose of the trash in the appropriate waste disposal area.
+7. Clean and sanitize your hands after handling the trash.
+
+Note: Please ensure to follow local waste management guidelines for proper disposal of trash.

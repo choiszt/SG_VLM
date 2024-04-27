@@ -1,0 +1,11 @@
+Action Planning for putting_dirty_dishes_in_sink:
+
+1. Pick up dirty dishes from the dining table.
+2. Carry the dishes to the kitchen sink.
+3. Turn on the tap to fill the sink with water.
+4. Place the dirty dishes into the sink.
+5. Add dishwashing liquid or soap to the sink.
+6. Use a sponge or brush to scrub the dishes clean.
+7. Rinse off the soap from the dishes and let them air dry.
+
+Note: If there are too many dishes to fit in the sink, you may need to repeat steps 3-7 in batches until all the dishes are cleaned.

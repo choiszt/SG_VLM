@@ -1,0 +1,17 @@
+Planning 1:
+1. Identify the dirty dishes.
+2. Pick up the dirty dishes one by one.
+3. Carry the dirty dishes to the kitchen.
+4. Open the sink.
+5. Place the dirty dishes in the sink.
+6. Close the sink.
+7. Return to your original position.
+
+Planning 2:
+1. Identify the dirty dishes.
+2. Pick up the dirty dishes one by one.
+3. Carry the dirty dishes to the kitchen.
+4. Open the dishwasher.
+5. Place the dirty dishes in the dishwasher.
+6. Close the dishwasher.
+7. Return to your original position.

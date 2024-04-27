@@ -1,0 +1,11 @@
+Action Planning for picking_up_trash:
+
+1. Locate the trash: Use sensors or visual perception to identify the location of the trash.
+2. Approach the trash: Move towards the trash while avoiding obstacles or obstacles in the environment.
+3. Grasp the trash: Use gripper or suction mechanism to securely hold the trash.
+4. Lift the trash: Use the appropriate lifting mechanism to raise the trash off the ground.
+5. Carry the trash: Move to a designated disposal area while holding the trash securely.
+6. Release the trash: Open the gripper or release the suction to let go of the trash in the disposal area.
+7. Return to the starting position: Navigate back to the original location or await further instructions.
+
+Note: The specific actions and mechanisms involved may vary depending on the capabilities of the indoor service robot.

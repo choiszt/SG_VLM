@@ -1,0 +1,9 @@
+Action Planning for putting_wood_in_fireplace:
+
+1. Gather firewood from the storage area.
+2. Carry the firewood to the fireplace.
+3. Open the fireplace grate or door.
+4. Place the firewood inside the fireplace, ensuring it is arranged properly for efficient burning.
+5. Close the fireplace grate or door.
+6. Ignite the firewood using matches or a lighter.
+7. Monitor the fire to ensure it is burning safely and adjust the airflow if necessary.

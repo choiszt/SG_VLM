@@ -129,9 +129,31 @@ def main(random_selection=False, headless=False, short_exec=False):
     for act in tqdm(os.listdir("data/Omnigibson_sg_JSON/test")):
         
         behavior_activity=act.split(".json")[0]
-        # input_context ="Objects:\n"+str(tuple(clean_objects))+"\n"+"Task:\n"+behavior_activity+"\n"+"Initial Scene Graph:\n" + str(input_initial_scene_graph) + "\n"+"Goal Scene Graph\n" + str(input_goal_scene_graph)\
-        # +"\nNow,please output your plannings"
 
+        activity_definition = 0                      
+        simulator = "omnigibson"
+        conds = Conditions(behavior_activity, activity_definition, simulator)
+
+        objects=[a+"_1" for a in conds.parsed_objects.keys()] #Get the first instance 
+        initial=conds.parsed_initial_conditions
+        initial_scene_graph=get_scene_graph(initial,objects)
+        
+        clean_objects=[obj.split(".")[0] for obj in objects]
+
+        goal=conds.parsed_goal_conditions
+        goal_scene_graph=get_scene_graph(goal,objects)
+        
+        input_initial_scene_graph="\n".join(str(tuple(a)) for a in initial_scene_graph)
+        input_goal_scene_graph="\n".join(str(tuple(a)) for a in goal_scene_graph)
+
+        index = behavior_activity.index(behavior_activity)
+        save_path = os.path.join(os.getcwd(), "respond_og", str(index) + ".json")
+
+        # load task bddl as text
+        with open(os.path.join("bddl/bddl/activity_definitions", behavior_activity, "problem0.bddl")) as f:
+            bddl_text = f.read()
+
+        input_context ="Objects:\n"+str(tuple(clean_objects))+"\n"+"Task:\n"+behavior_activity+"\n"+"Initial Scene Graph:\n" + str(input_initial_scene_graph) +"\nNow,please output your plannings and expected scene graph"
         # # messages = get_prompt()
         # # messages=get_prompt_instruction()
         messages = [{"role": "system", "content": "You are an indoor service robot to help me with everyday tasks by giving action planning with at most 7 steps. The simpler, the better"}]
@@ -155,7 +177,7 @@ def main(random_selection=False, headless=False, short_exec=False):
             except:
                 max_tries+=1  
                 time.sleep(4)
-        with open(f"Inference_result/GPT/Goal/{behavior_activity}.txt","w")as f:
+        with open(f"Inference_result/GPT/Goal_SG/{behavior_activity}.txt","w")as f:
             f.write(data)
 
 
