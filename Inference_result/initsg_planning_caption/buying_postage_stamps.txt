@@ -1,0 +1,12 @@
+Task Goal:
+buying_postage_stamps
+Observed Relation:
+"Agent paying for postage and money at the checkout with a cash register."
+Now please output plannings for doing buying_postage_stamps
+Step 1: Walk to the checkout
+Step 2: Take out money from the cash register
+Step 3: Go to the postage section
+Step 4: Buy postage stamps
+Step 5: Put the postage stamps in your pocket
+Step 6: Go to the checkout
+Step 7: Pay for the postage

@@ -1,0 +1,12 @@
+Task Goal:
+clean_plastic_containers
+Observed Relation:
+A bottle of liquid soap is filled with soap and placed on top of the countertop. A bowl and a lid are also placed on the countertop. The bowl is covered with adhesive material and the lid is also covered with the same material. A rag is placed on top of the countertop. A sink is the source of water. There is an agent on the floor.
+Now please output plannings for doing clean_plastic_containers
+Step 1: Move the agent to the sink
+Step 2: Fill the sink with water
+Step 3: Take the bottle of liquid soap from the countertop
+Step 4: Pour the liquid soap into the sink
+Step 5: Move the agent to the countertop
+Step 6: Take the bowl from the countertop
+Step 7: Clean the plastic containers by putting the bowl with liquid soap into the washer

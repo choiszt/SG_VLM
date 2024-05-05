@@ -1,0 +1,8 @@
+Task Goal:
+watering_outdoor_flowers
+Observed Relation:
+A robot is watering the floor with a watering can.
+Now please output plannings for doing watering_outdoor_flowers
+Step 1: Pick up the watering can from the floor
+Step 2: Fill the watering can with water from the sink
+Step 3: Water the outdoor flowers with the watering can

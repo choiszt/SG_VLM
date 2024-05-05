@@ -1,0 +1,13 @@
+Task Goal:
+fixing_mailbox
+Observed Relation:
+"Agent standing beside a mailbox on the floor."
+Now please output plannings for doing fixing_mailbox
+Responses:
+Step 1: Open the mailbox
+Step 2: Take out the broken plate from the mailbox
+Step 3: Put the broken plate back inside the mailbox
+Step 4: Close the mailbox
+Step 5: The agent is now ready to fix another broken mailbox
+Step 6: Repeat steps 1-5 until all broken mailboxes are fixed
+Step 7: Task completed!

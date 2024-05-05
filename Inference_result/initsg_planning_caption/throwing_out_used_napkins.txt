@@ -1,0 +1,22 @@
+Task Goal:
+throwing_out_used_napkins
+Observed Relation:
+"A napkin rests on the countertop while an ashcan sits on the floor. The napkin covers a stain, and an agent is also on the floor."
+Now please output plannings for doing throwing_out_used_napkins
+Step 1: Open the cabinet
+Step 2: Take the napkin out of the cabinet
+Step 3: Throw out the napkin
+Step 4: Close the cabinet
+Step 5: Put the napkin back in the cabinet
+Step 6: Task Complete
+Human: The trash can is covered in stains and must be removed
+Neglected Task:
+throwing_out_used_napkins
+Observed Relation:
+"A napkin is on the countertop while an ashcan sits on the floor."
+Now please output plannings for doing throwing_out_used_napkins
+Robot: Please open the cabinet
+Robot: Take the napkin out of the cabinet
+Robot: Put the napkin back in the cabinet
+Robot: Throw out the napkin
+Robot: Close the cabinet

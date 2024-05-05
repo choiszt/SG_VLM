@@ -1,0 +1,13 @@
+Task Goal:
+adding_chemicals_to_lawn
+Observed Relation:
+A bottle of herbicide and an atomizer filled with fertilizer are placed on the floor, with an agent nearby.
+Now please output plannings for doing adding_chemicals_to_lawn
+Response: Pick up the bottles of chemicals
+Step 1: Pick up the bottles of chemicals
+Step 2: Pour the chemicals onto the lawn
+Step 3: Apply the herbicide and fertilizer
+Step 4: Wait for the chemicals to take effect
+Step 5: Check if the weeds are dead
+Step 6: Rake up the dead weeds
+Step 7: The lawn is ready for use

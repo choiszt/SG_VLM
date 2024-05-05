@@ -1,0 +1,13 @@
+Task Goal:
+clean_a_knife
+Observed Relation:
+"Kitchen essentials neatly organized on the countertop with a knife, hand towel, and a liquid soap bottle. The sink is filled with water, ready for use."
+Now please output plannings for doing clean_a_knife
+Response: "Choose the knife to clean"
+Step 1: Pick up the chosen knife
+Step 2: Wet the hand towel with water from the sink
+Step 3: Wipe the knife with the wet hand towel
+Step 4: Pour liquid soap from the bottle into the sink
+Step 5: Clean the knife with the soapy water in the sink
+Step 6: Rinse the knife with water from the sink
+Step 7: Put the clean knife back on the countertop

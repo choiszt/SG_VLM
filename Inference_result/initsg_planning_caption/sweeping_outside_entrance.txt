@@ -1,0 +1,8 @@
+Task Goal:
+sweeping_outside_entrance
+Observed Relation:
+A dusty driveway with an ashcan and a broom on the floor. An entire leaf, wreath, and an agent are also on the driveway.
+Now please output plannings for doing sweeping_outside_entrance
+Responses: Plannings: Pick up the broom
+Plannings: Sweep the dusty area on the driveway with the broom
+Next Step: De-dust the area

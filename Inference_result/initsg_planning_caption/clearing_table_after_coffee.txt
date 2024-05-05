@@ -1,0 +1,13 @@
+Task Goal:
+clearing_table_after_coffee
+Observed Relation:
+"Agent spills coffee while trying to pour it into a mug on the countertop."
+Now please output plannings for doing clearing_table_after_coffee
+Here is an example plannings for doing clearing_table_after_coffee
+Step 1: Pick up the napkin
+Step 2: Remove the coffee sauce from the table
+Step 3: Place the napkin on the coffee sauce
+Step 4: Clean the table with the napkin
+Step 5: Put the napkin back onto the table
+Step 6: Clear the table of all crumbs
+Step 7: Put the napkin back onto the table

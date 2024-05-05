@@ -1,0 +1,13 @@
+Task Goal:
+making_a_meal
+Observed Relation:
+"Robot organizes kitchen supplies in the cabinet and refrigerator while water flows in the sink on the floor."
+Now please output plannings for doing making_a_meal
+Responses:
+Step 1: Open the cabinet
+Step 2: Take the bag of white bread out of the cabinet
+Step 3: Take the can of condensed milk out of the cabinet
+Step 4: Take the bowl out of the cabinet
+Step 5: Take the frying pan out of the cabinet
+Step 6: Take the plate out of the refrigerator
+Step 7: Set the table

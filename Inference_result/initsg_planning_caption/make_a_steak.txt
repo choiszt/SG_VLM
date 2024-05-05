@@ -1,0 +1,11 @@
+Task Goal:
+make_a_steak
+Observed Relation:
+A bottle of olive oil filled with olive oil is on top of the countertop. A salt shaker filled with salt is also on the countertop. Additionally, a pepper mill filled with black pepper is on the countertop as well. A steak is on top of a chopping board, which is also on the countertop. Finally, the agent is on the floor.
+Now please output plannings for doing make_a_steak
+Step 1: Open the olive oil bottle
+Step 2: Pour the olive oil on the steak
+Step 3: Sprinkle salt on the steak
+Step 4: Sprinkle pepper on the steak
+Step 5: Cut the steak into smaller pieces
+Step 6: Cook the steak

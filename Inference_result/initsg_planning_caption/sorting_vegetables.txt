@@ -1,0 +1,13 @@
+Task Goal:
+sorting_vegetables
+Observed Relation:
+"Robot mixing ingredients in a bowl on the countertop, with a sack of vegetables nearby."
+Now please output plannings for doing sorting_vegetables
+Response: Pick up the bowl from the countertop
+Step 1: Pick up the bowl from the countertop
+Step 2: Take the sack of vegetables from the countertop
+Step 3: Open the sack of vegetables
+Step 4: Empty the contents of the sack onto the countertop
+Step 5: Put the contents of the sack into the bowl
+Step 6: Close the sack
+Step 7: Put the bowl back on the countertop

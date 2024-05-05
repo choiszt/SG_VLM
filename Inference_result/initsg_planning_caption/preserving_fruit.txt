@@ -1,0 +1,17 @@
+Task Goal:
+preserving_fruit
+Observed Relation:
+"Freshly picked strawberries stored in a tupperware container inside an electric refrigerator, with a sack of granulated sugar on the countertop. A saucepot and a soup ladle are stored inside a cabinet, while a mason jar sits on the countertop. The sink is filled with water, and the agent is on the floor."
+Now please output plannings for doing preserving_fruit
+Response:
+Step 1: Open the electric refrigerator
+Step 2: Take the tupperware out of the electric refrigerator
+Step 3: Take the strawberries out of the tupperware
+Step 4: Pour the water from the sink into the saucepot
+Step 5: Pour the granulated sugar from the sack onto the saucepot
+Step 6: Put the saucepot on the countertop
+Step 7: Take the mason jar out of the countertop
+Step 8: Put the strawberries into the mason jar
+Step 9: Seal the mason jar
+Step 10: Put the mason jar back on the countertop
+Step 11: Store the mason jar in the electric refrigerator

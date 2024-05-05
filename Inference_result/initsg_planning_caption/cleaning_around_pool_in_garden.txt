@@ -1,0 +1,12 @@
+Task Goal:
+cleaning_around_pool_in_garden
+Observed Relation:
+Robot agent sweeping the dusty driveway with a broom.
+Now please output plannings for doing cleaning_around_pool_in_garden with the sweeper.
+Step 1: Move the sweeper to the lawn
+Step 2: Sweep the lawn
+Step 3: Move the sweeper to the driveway
+Step 4: Sweep the driveway
+Step 5: Move the sweeper to the floor
+Step 6: Sweep the floor
+Step 7: Move the sweeper to the pool

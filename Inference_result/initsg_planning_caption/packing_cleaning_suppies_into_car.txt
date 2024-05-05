@@ -1,0 +1,9 @@
+Task Goal:
+packing_cleaning_suppies_into_car
+Observed Relation:
+"A car parked on the driveway with a backpack and face mask on top, while a rag and scrub brush lie on the floor next to an agent."
+Now please output plannings for doing packing_cleaning_suppies_into_car
+Step 1: Open the pickup truck
+Step 2: Place the backpack in the pickup truck
+Step 3: Place the mop and scrub brush in the pickup truck
+Step 4: Close the pickup truck

@@ -1,0 +1,12 @@
+Task Goal:
+taking_clothes_off_the_line
+Observed Relation:
+"Agent hangs various clothing items on the clothesline while a hamper sits on the floor."
+Now please output plannings for doing taking_clothes_off_the_line
+Step 1: Pick up the hanger
+Step 2: Hang the hanger on the clothesline
+Step 3: Take the hanger off the clothesline
+Step 4: Take the coat off the clothesline
+Step 5: Take the blouse off the clothesline
+Step 6: Take the skirt off the clothesline
+Step 7: Take the underwear off the clothesline

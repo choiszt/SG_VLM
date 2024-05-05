@@ -1,0 +1,8 @@
+Task Goal:
+putting_away_bicycles
+Observed Relation:
+"A bicycle parked on the driveway with a tarpaulin covering the floor, while an agent stands nearby."
+Now please output plannings for doing putting_away_bicycles
+Step 1: Move the bicycle onto the tarpaulin
+Step 2: Take the tarpaulin off the bicycle
+Step 3: Put the bicycle in the garage

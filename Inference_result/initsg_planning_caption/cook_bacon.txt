@@ -1,0 +1,13 @@
+Task Goal:
+cook_bacon
+Observed Relation:
+"Delicious bacon on a tray inside an electric refrigerator, while a griddle sits on top of a stove on the floor."
+Now please output plannings for doing cook_bacon
+Answer: Pick up the tray with bacon
+Step 1: Move the tray with bacon to the countertop
+Step 2: Place the griddle on the stove
+Step 3: Place the bacon on the griddle
+Step 4: Turn on the stove
+Step 5: Wait for the food to be cooked
+Step 6: Take the bacon off the griddle
+Step 7: Eat the bacon

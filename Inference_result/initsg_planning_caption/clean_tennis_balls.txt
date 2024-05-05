@@ -1,0 +1,74 @@
+Task Goal:
+clean_tennis_balls
+Observed Relation:
+A tennis ball covered in a stain and mud sits inside a bucket along with a sponge. The liquid soap bottle is filled with liquid soap and placed on top of the sink. The sink is filled with water. The bucket is placed on the floor, where an agent stands.
+Now please output plannings for doing clean_tennis_balls
+Step 1: Take the bucket off the floor
+Step 2: Take the sponge out of the bucket
+Step 3: Take the liquid soap bottle out of the sink
+Step 4: Fill the sink with water
+Step 5: Put the liquid soap on the sponge
+Step 6: Clean the stained tennis ball with the sponge and liquid soap
+Step 7: Dispose of the sponge and liquid soap
+Cleaning a tennis ball using a sponge and liquid soap
+cleaner_scores
+Task_goal_cleaning_tennis_balls_tool_bucket_sponge_liquid_soap_sink
+Observed_relation_cleaner_place_stain_mud_water_tennis_ball
+Now please output plannings for doing cleaning_tennis_balls
+Step 1: Take the bucket off the floor
+Step 2: Take the sponge out of the bucket
+Step 3: Take the liquid soap bottle out of the sink
+Step 4: Fill the sink with water
+Step 5: Put the liquid soap on the sponge
+Step 6: Clean the stained tennis ball with the sponge and liquid soap
+Step 7: Dispose of the sponge and liquid soap
+Observed Relation
+Cleaning a tennis ball using a sponge and liquid soap
+Task Goal
+clean_paint_bodies
+Observed Relation
+Cleaner Score
+Task Goal
+clean_mold_off_cheese_amplify_task_functionality_to_do_anyone_job
+Take the scrub brush out of the cabinet
+Take the paint remover out of the cabinet
+Take the sponge out of the bucket
+Take the bottle of paint remover out of the cabinet
+Clean the stain on the floor with the scrub brush and paint remover
+Dispose of the scrub brush and paint remover
+Task Goal:
+clean_paint_bodies
+clean_mold_off_cheese
+amplify_task_functionality_to_do_anyone_job
+Remove the stain from the cheese using the paint remover
+Remove the mold from the paint remover using the scrub brush
+Dispose of the paint remover
+Step 1: Take the scrub brush out of the cabinet
+Step 2: Take the paint remover out of the cabinet
+Step 3: Take the bucket off the floor
+Step 4: Fill the bucket with water
+Step 5: Take the sponge out of the bucket
+Step 6: Clean the stain on the floor with the scrub brush and paint remaker
+Step 7: Dispose of the scrub brush and paint remaker
+Observed Relation:
+Cleaner Score:
+Task Goal:
+clean_paint_bodies__amplify_task_functionality_to_do_anyone_job
+clean_mold_off_cheese__remove_the_stain_from_the_cheese_use_the_paint_remaker
+Dispose of the mold off the cheese using the scrub brush
+Cleaning a cheese using a scrub brush and paint remaker
+Task Goal: clean_paint_bodies__amplify_task_functionality_to_do_anyone_job
+Cleaning a cheese using a scrub brush and paint remaker
+Observed Relation: Cleaning a cheese using a scrub brush and paint remaker
+Step 1: Take the paint remaker out of the cabinet
+Step 2: Take the bucket off the floor
+Step 3: Fill the bucket with water
+Step 4: Take the scrub brush out of the cabinet
+Step 5: Take the paint remaker out of the cabinet
+Step 6: Clean the cheese using the scrub brush and paint remaker
+Task Goal: clean_paint_bodies__amplify_task_functionality_to_do_any_one_job
+clean_mold_off_cheese__remove_the_stain_from_the_cheese_use_the_paint_remaker
+Observed Relation: Cleaning a cheese using a scrub brush and paint remaker
+Step 1: Take the paint remaker out of the cabinet
+Step 2: Take the bucket off the floor
+Step 3: Fill the bucket with

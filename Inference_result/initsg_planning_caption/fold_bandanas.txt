@@ -1,0 +1,12 @@
+Task Goal:
+fold_bandanas
+Observed Relation:
+A bandanna sits on top of the sofa while an agent stands on the floor.
+Now please output plannings for doing fold_bandanas
+Step 1: Pick up the bandanna from the sofa
+Step 2: Move the agent onto the floor
+Step 3: Fold the bandanna
+Step 4: Place the folded bandanna on the sofa
+Step 5: Move the agent back onto the floor
+Step 6: Remove the bandanna from the sofa
+Step 7: Put the bandanna in the washer

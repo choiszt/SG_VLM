@@ -1,0 +1,19 @@
+Task Goal:
+freeze_pies
+Observed Relation:
+"A delicious pie sits on a plate, which is resting on top of an oven. A tupperware is neatly placed inside a cabinet. A sink is filled with water. The agent is standing on the floor."
+Now please output plannings for doing freeze_pies
+Step 1: Open the cabinet
+Step 2: Take out the tupperware
+Step 3: Fill the tupperware with water
+Step 4: Place the tupperware with water in the oven
+Step 5: Close the oven
+Step 6: Put water in the oven
+Step 7: Take out the plate from the oven
+Step 8: Put the plate with pie on the plate
+Step 9: Close the oven
+Step 10: Cool down the plate with pie
+Step 11: Remove the pie from the pan
+Step 12: Place the pie in the freezer
+Step 13: Close the freezer
+Step 14: Wait for the pies to freeze

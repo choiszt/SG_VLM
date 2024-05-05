@@ -1,0 +1,12 @@
+Task Goal:
+wash_towels
+Observed Relation:
+"A bath towel lies on the floor, covering some dirt. A detergent bottle is also on the floor, filled with detergent. The agent is standing on top of the floor as well."
+Now please output plannings for doing wash_towels
+Step 1: Pick up the bath towel
+Step 2: Shake off the dust from the bath towel
+Step 3: Fill the detergent bottle with detergent
+Step 4: Pour detergent onto the stained towel
+Step 5: Put the detergent-covered towel into the washer
+Step 6: Start the washer
+Step 7: Wait for the towel to be cleaned

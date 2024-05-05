@@ -1,0 +1,24 @@
+Task Goal:
+bottling_wine
+Observed Relation:
+"A bucket and a wine bottle are placed on top of the countertop, while a cork is inside a cabinet. The cork is also attached to the wine bottle. The bucket is filled with red wine."
+Now please output plannings for doing bottling_wine
+Step 1: Open the cabinet
+Step 2: Take the cork out of the cabinet
+Step 3: Fill the bucket with red wine
+Step 4: Open the cabinet
+Step 5: Take the bottle of wine out of the cabinet
+Step 6: Pour the red wine into the bottle
+Step 7: Close the cabinet
+Observed Relation:
+"A bucket and a wine bottle are placed on top of the countertop, while a cork is inside a cabinet. The cork is also attached to the wine bottle."
+Now please output plannings for doing bottling_wine
+Step 1: Open the cabinet
+Step 2: Take the cork out of the cabinet
+Step 3: Fill the bucket with red wine
+Step 4: Open the cabinet
+Step 5: Take the bottle of wine out of the cabinet
+Step 6: Pour the red wine into the bottle
+Step 7: Close the cabinet
+Step 8: Cap the bottle of red wine
+Step 9: Cork the bottle of red wine

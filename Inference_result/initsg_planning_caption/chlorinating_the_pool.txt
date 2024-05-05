@@ -1,0 +1,13 @@
+Task Goal:
+chlorinating_the_pool
+Observed Relation:
+"Agent pours chlorine into the pool from a chlorine bottle, ensuring a clean and safe swimming experience."
+Now please output plannings for doing chlorinating_the_pool
+Response: Pick up the chlorine bottle
+Step 1: Move the chlorine bottle to the pool
+Step 2: Open the chlorine bottle
+Step 3: Pour chlorine into the pool
+Step 4: Move the chlorine bottle back to the floor
+Step 5: Closely place the chlorine bottle on the floor
+Step 6: Pick up the chlorine bottle
+Step 7: Close the chlorine bottle

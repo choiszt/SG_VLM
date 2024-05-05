@@ -1,0 +1,12 @@
+Task Goal:
+clean_a_birdcage
+Observed Relation:
+A birdcage covered in mildew sits on the floor next to a liquid soap bottle filled with liquid soap. A rag also lies on the floor. The birdcage is now covered in disinfectant. The sink is the source of water. An agent is also present on the floor. A disinfectant bottle filled with disinfectant is on the floor as well.
+Now please output plannings for doing clean_a_birdcage
+Step 1: Pick up the birdcage
+Step 2: Pour water from the sink onto the birdcage
+Step 3: Apply liquid soap onto the rag
+Step 4: Clean the birdcage with the soiled rag
+Step 5: Rinse the birdcage with water
+Step 6: Dry the birdcage with a clean rag
+Step 7: Put the birdcage back onto the shelf

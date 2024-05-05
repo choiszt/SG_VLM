@@ -1,0 +1,12 @@
+Task Goal:
+decorating_for_religious_ceremony
+Observed Relation:
+"Exploring the hidden treasures inside the cabinet, with a wreath and a dip. A sign rests on the floor while a candlestick stands on top of the cabinet. The dip is attached to the candlestick, and the sign and wreath are attached to the wall. The agent is calmly observing everything from the floor."
+Now please output plannings for doing decorating_for_religious_ceremony
+Step 1: Open the cabinet
+Step 2: Take the wreath out of the cabinet
+Step 3: Take the dip out of the cabinet
+Step 4: Place the wreath on the floor
+Step 5: Place the dip on the floor
+Step 6: Place the candlestick on the cabinet
+Step 7: Decorate the floor with the wreath, dip, and candlestick

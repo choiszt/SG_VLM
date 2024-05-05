@@ -18,8 +18,8 @@ from create_dataset.prompt.prompt_utils_og_choiszt import *
 openai.api_type = "azure"
 openai.api_base = "https://voyager.openai.azure.com/"
 openai.api_version = "2023-07-01-preview"
-openai.api_key = "5ea4d624a50a495d9c532bda3665d3de"
-os.environ["OPENAI_API_KEY"] = "5ea4d624a50a495d9c532bda3665d3de"
+openai.api_key = "Your Azure Api Key"
+os.environ["OPENAI_API_KEY"] = "Your Azure Api Key"
 
 from bddl.activity import Conditions 
 

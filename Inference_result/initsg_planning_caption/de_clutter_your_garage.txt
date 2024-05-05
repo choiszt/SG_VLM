@@ -1,0 +1,12 @@
+Task Goal:
+de_clutter_your_garage
+Observed Relation:
+"An assortment of sports equipment and objects are neatly arranged on the floor, with a robot standing in the middle."
+Now please output plannings for doing de_clutter_your_garage
+Step 1: Pick up the gym bag
+Step 2: Pick up the basketball
+Step 3: Pick up the baseball
+Step 4: Pick up the football
+Step 5: Pick up the sack
+Step 6: Pick up the valet
+Step 7: Put all the objects into the sack

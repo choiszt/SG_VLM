@@ -1,0 +1,14 @@
+Task Goal:
+make_garlic_mushrooms
+Observed Relation:
+A frying pan is stored inside a cabinet, next to a bottle of olive oil filled with olive oil. The olive oil bottle is also stored inside the cabinet. Inside a tupperware container, there is a clove. The tupperware container is inside an electric refrigerator, along with a green onion. A chopping board is on top of a breakfast table. Inside a cabinet, there is a carving knife. A salt shaker is sourced from salt and is placed on top of the breakfast table. The scene also includes an agent standing on the floor.
+Now please output plannings for doing make_garlic_mushrooms
+Step 1: Take the tupperware out of the refrigerator
+Step 2: Pour the olive oil into the tupperware
+Step 3: Chop the garlic on the chopping board
+Step 4: Add the chopped garlic to the tupperware
+Step 5: Add the salt to the tupperware
+Step 6: Turn on the oven and let the mushrooms doughen
+Step 7: Turn off the oven and remove the mushrooms from the oven
+Step 8: Serve the mushrooms as an appetizer
+Step 9: Clean up the countertop

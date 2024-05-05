@@ -1,0 +1,71 @@
+Task Goal:
+storing_food
+Observed Relation:
+"A box of oatmeal, a chip, a bottle of olive oil, and a jar of sugar on the countertop."
+Now please output plannings for doing storing_food
+Run Planning:
+Step 1: Open the cabinet
+Step 2: Take the box of oatmeal from the countertop
+Step 3: Take the chip from the countertop
+Step 4: Open the sack
+Step 5: Take the bottle of olive oil from the countertop
+Step 6: Take the jar of sugar from the countertop
+Step 7: Close the cabinet
+Observed Relation:
+"A box of oatmeal, a chip, a bottle of olive oil, and a jar of sugar on the countertop"
+Now please output plannings for putting_food
+Task Goal: putting_food
+Step 1: Open the cabinet
+Step 2: Take the box of oatmeal from the countertop
+Step 3: Take the chip from the countertop
+Step 4: Open the sack
+Step 5: Take the bottle of olive oil from the countertop
+Step 6: Take the jar of sugar from the countertop
+Step 7: Close the cabinet
+Observed Relation:
+"A box of oatmeal, a chip, a bottle of olive oil, and a jar of sugar on the countertop"
+Now please output plannings for storing_food
+Step 1: Take the box of oatmeal from the countertop
+Step 2: Put the box of oatmeal in the cabinet
+Step 3: Take the chip from the countertop
+Step 4: Take the bottle of olive oil from the countertop
+Step 5: Put the bottle of olive oil in the cabinet
+Step 6: Take the jar of sugar from the countertop
+Step 7: Put the jar of sugar in the cabinet
+"Take the box of oatmeal, a chip, a bottle of olive oil, and a jar of sugar on the countertop"
+"Take the box of oatmeal, a chip, and a bottle of olive oil from the countertop"
+"Take the box of oatmeal and a chip from the countertop"
+"Take the bottle of olive oil and a jar of sugar from the countertop"
+"Take the box of oatmeal from the cabinet"
+"Take the chip from the cabinet"
+"Take the bottle of olive oil from the cabinet"
+"Take the jar of sugar from the cabinet"
+"Take the box of oatmeal from the floor"
+"Take the chip from the floor"
+"Take the bottle of olive oil from the floor"
+"Take the jar of sugar from the floor"
+"Take the box of oatmeal from the table"
+"Take the chip from the table"
+"Take the bottle of olive oil from the table"
+"Take the jar of sugar from the table"
+"Take the box of oatmeal from the counter"
+"Take the chip from the counter"
+"Take the bottle of olive oil from the counter"
+"Take the jar of sugar from the counter"
+"Take the box of oatmeal from the cabinet"
+"Take the chip from the cabinet"
+"Take the bottle of olive oil from the cabinet"
+"Take the jar of sugar from the cabinet"
+"Take the box of oatmeal from the floor"
+"Take the chip from the floor"
+"Take the bottle of olive oil from the floor"
+"Take the jar of sugar from the floor"
+"Take the box of oatmeal from the table"
+"Take the chip from the table"
+"Take the bottle of olive oil from the table"
+"Take the jar of sugar from the table"
+"Store food: Oatmeal"
+"Store food: Oatmeal, Olive Oil"
+"Store food: Oatmeal, Bread"
+"Store food: Oatmeal, Bread, Olive Oil"
+Humansleeping::Pomogious::Apples::Oatmeal::Bread::Olive_Oil::Food::Task_listings::Observed_relationship::Planning::Step_7: Store food: Oatmeal::Apples::Bread::Olive_Oil::Food::Task_listings::Observed_relationship::Planning::Step_8: Store food: Oatmeal::Apples::Bread::Olive_Oil::Food::Task_listings::Observed_relationship::Planning::Step_9: Store food: Oatmeal::

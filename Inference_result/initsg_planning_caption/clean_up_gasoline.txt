@@ -1,0 +1,12 @@
+Task Goal:
+clean_up_gasoline
+Observed Relation:
+A driveway covered in gasoline with a filled liquid soap bottle and a bucket of water on top. A swab and an agent are also on the driveway.
+Now please output plannings for doing clean_up_gasoline
+Step 1: Pick up the swab
+Step 2: Pour water on the swab
+Step 3: Clean the swab with the water
+Step 4: Pick up the gasoline saturated swab
+Step 5: Pour more gasoline on the swab
+Step 6: Clean the swab with the water
+Step 7: Repeat steps 2-6 until the swab is clean

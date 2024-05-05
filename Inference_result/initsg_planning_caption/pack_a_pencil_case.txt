@@ -1,0 +1,11 @@
+Task Goal:
+pack_a_pencil_case
+Observed Relation:
+A variety of stationery items neatly placed on a desk, with the agent standing on the floor.
+Now please output plannings for doing pack_a_pencil_case
+"Take a pencil case and put it on top of the desk"
+"Put the notebook inside the pencil case"
+"Put the highlighter inside the pencil case"
+"Put the pencil inside the pencil case"
+"Put the eraser inside the pencil case"
+"Put the agent onto the floor"

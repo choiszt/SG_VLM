@@ -1,0 +1,12 @@
+Task Goal:
+cook_kale
+Observed Relation:
+"Agent spills salt from the shaker while retrieving kale from inside the electric refrigerator, with an olive oil bottle filled with olive oil on top of the countertop and a saucepot also on top."
+Now please output plannings for doing cook_kale
+Step 1: Take the kale out of the electric refrigerator
+Step 2: Dry the kale with a towel
+Step 3: Heat the kale in the saucepot
+Step 4: Add olive oil and salt to the kale
+Step 5: Remove the kale from the saucepot
+Step 6: Place the kale in the oven
+Step 7: Cook the kale until tender

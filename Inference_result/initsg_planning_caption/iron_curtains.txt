@@ -1,0 +1,12 @@
+Task Goal:
+iron_curtains
+Observed Relation:
+"An ironing board with an iron and a curtain on top, covering a wrinkle, while an agent stands nearby on the floor."
+Now please output plannings for doing iron_curtains
+Step 1: Move the curtain to a different location
+Step 2: Remove the curtain from the iron
+Step 3: Iron the curtain
+Step 4: Move the ironed curtain to its original location
+Step 5: Move the iron to its original location
+Step 6: Place the curtain back on the ironing board
+Step 7: Turn on the iron

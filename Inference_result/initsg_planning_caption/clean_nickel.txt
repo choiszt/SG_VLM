@@ -1,0 +1,12 @@
+Task Goal:
+clean_nickel
+Observed Relation:
+"A rag is on top of the countertop, next to a vinegar bottle filled with vinegar. The vinegar bottle is also on the countertop. A nickel is on top of the countertop, covering a stain. A sink is in the source of water. An agent is on top of the floor."
+Now please output plannings for doing clean_nickel
+Response: Pick up the nickel from the countertop
+Step 1: Pick up the nickel from the countertop
+Step 2: Pour vinegar onto the nickel
+Step 3: Clean the nickel with the rag
+Step 4: Rinse the nickel with water in the sink
+Step 5: Put the nickel back on the countertop
+Step 6: Finish cleaning the nickel

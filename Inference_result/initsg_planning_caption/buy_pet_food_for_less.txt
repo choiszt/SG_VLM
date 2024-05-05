@@ -1,0 +1,12 @@
+Task Goal:
+buy_pet_food_for_less
+Observed Relation:
+"A robot agent stands on the floor next to a cash register on top of a checkout counter, with a shopping cart containing money inside. A can of dog food is on top of a shelf nearby."
+Now please output plannings for doing buy_pet_food_for_less
+Step 1: Approach the checkout counter
+Step 2: Take the shopping cart
+Step 3: Find the dog food on the shelf
+Step 4: Take the dog food from the shelf
+Step 5: Go to the checkout counter
+Step 6: Place the dog food in the shopping cart
+Step 7: Pay for the dog food at the cash register

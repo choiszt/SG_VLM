@@ -1,0 +1,12 @@
+Task Goal:
+picking_vegetables_in_garden
+Observed Relation:
+"An artichoke, chard, and beet resting on the lush green lawn, accompanied by a wicker basket. A robot stands on the floor nearby."
+Now please output plannings for doing picking_vegetables_in_garden
+Step 1: Pick up the artichoke
+Step 2: Pick up the chard
+Step 3: Pick up the beet
+Step 4: Put all the vegetables in the basket
+Step 5: Take the basket with vegetables to the countertop
+Step 6: Place the basket with vegetables on the countertop
+Step 7: Arrange the vegetables on the countertop

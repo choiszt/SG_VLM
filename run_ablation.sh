@@ -12,6 +12,6 @@ export WANDB_PROJECT=SG_VLM_trail2
 wandb online
 
 # ["initsg_planning","initsg_targetobj_planning","initsg_finalsg_planning","initsg_finalsg_targetobj_planning"]
-srun -p 3dobject_aigc_mid CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python finetune/OGSG_adapter.py $EXP_NAME $PROJECT_NAME
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python finetune/OGSG_adapter.py $EXP_NAME $PROJECT_NAME
 
 

@@ -1,0 +1,11 @@
+Task Goal:
+make_a_blended_iced_cappuccino
+Observed Relation:
+A sink with water, a tablespoon on the countertop, an instant coffee jar filled with coffee inside a cabinet, a sugar sack filled with cane sugar also inside a cabinet, a milk carton filled with chocolate milk inside an electric refrigerator, an ice cube inside a bowl, a cup on the countertop, a blender on the countertop, a coffee maker on the countertop, a bowl inside the electric refrigerator, and an agent on the floor.
+Now please output plannings for doing make_a_blended_iced_cappuccino
+Step 1: Pour water into the cup from the electric refrigerator
+Step 2: Add ice from the bowl into the cup
+Step 3: Add coffee from the coffee jar into the blender
+Step 4: Add milk from the milk carton into the blender
+Step 5: Blend the ingredients in the blender
+Step 6: Pour the blended iced coffee into the cup on the countertop

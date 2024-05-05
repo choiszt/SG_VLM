@@ -1,0 +1,12 @@
+Task Goal:
+freeze_fruit
+Observed Relation:
+"Organized kitchen essentials neatly stored in the cabinet, with a bowl containing a fresh apple on the countertop. A tray with a vibrant strawberry is also placed on the countertop. The agent is standing on the floor."
+Now please output plannings for doing freeze_fruit
+Step 1: Open the cabinet
+Step 2: Take out the bowl
+Step 3: Put the bowl on the countertop
+Step 4: Take out the tray
+Step 5: Put the tray on the countertop
+Step 6: Take out the apple from the bowl
+Step 7: Put the apple on the tray

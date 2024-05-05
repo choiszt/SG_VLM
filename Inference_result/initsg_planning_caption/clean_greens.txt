@@ -1,0 +1,13 @@
+Task Goal:
+clean_greens
+Observed Relation:
+A chard inside a bowl on top of a countertop, covered in dirt. A rag also sits on the countertop. A sink with water is nearby.
+Now please output plannings for doing clean_greens
+Response: Pick up the rag
+Step 1: Move the rag to the sink
+Step 2: Wet the rag with water from the sink
+Step 3: Clean the dirt off the chard with the wet rag
+Step 4: Rinse the rag with water from the sink
+Step 5: Wipe the chard with the rag
+Step 6: Put the chard back inside the bowl
+Step 7: Put away the rag

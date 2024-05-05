@@ -1,0 +1,13 @@
+Task Goal:
+roast_nuts
+Observed Relation:
+A walnut sits on top of a cookie sheet, which is inside a cabinet. A sack of granulated sugar is filled with sugar and also inside the cabinet. An olive oil bottle is filled with oil and also stored in the cabinet. A bowl is also inside the cabinet. The scene is completed by an agent standing on the floor.
+Now please output plannings for doing roast_nuts
+Response: Open the cabinet
+Step 1: Take the bowl out of the cabinet
+Step 2: Take the walnut out of the bowl
+Step 3: Place the walnut on top of the cookie sheet
+Step 4: Take the sugar sack out of the cabinet
+Step 5: Take the olive oil bottle out of the cabinet
+Step 6: Pour the oil onto the cookie sheet
+Step 7: Roast the nuts on the cookie sheet oven

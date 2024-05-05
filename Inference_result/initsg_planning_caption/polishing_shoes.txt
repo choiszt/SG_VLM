@@ -1,0 +1,14 @@
+Task Goal:
+polishing_shoes
+Observed Relation:
+"A shoe covered in a stain sits on top of the floor, with a rag also on the floor nearby. The agent is also on the floor."
+Now please output plannings for doing polishing_shoes
+Note: There are many robot assistants that can help with polishing shoes.
+Answer: Pick up the rag
+Step 1: Pick up the rag
+Step 2: Clean the shoe with the rag
+Step 3: Apply polish to the rag
+Step 4: Polish the shoe with the rag
+Step 5: Remove the polish from the rag
+Step 6: Put the rag back on the floor
+Step 7: Take a picture of the polished shoes

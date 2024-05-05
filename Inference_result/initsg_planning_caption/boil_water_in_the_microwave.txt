@@ -1,0 +1,26 @@
+Task Goal:
+boil_water_in_the_microwave
+Observed Relation:
+"A robot places a mug inside a cabinet while a sink pours water into it, and an agent stands on top of the floor."
+Now please output plannings for doing boil_water_in_the_microwave
+Response: Open the cabinet, take the mug out of the cabinet, and place it in the microwave
+Task Goal:
+boil_water_in_the_microwave
+Observed Relation:
+"A robot places a mug inside a cabinet while a sink pours water into it, and an agent stands on top of the floor."
+Now please output plannings for doing boil_water_in_the_microwave
+Response: Open the cabinet, take the mug out of the cabinet, and place it in the microwave
+Task: boil_water_in_the_microwave
+Agent: Place the mug into the cabinet
+Step: Open the cabinet
+Step: Take the mug out of the cabinet
+Step: Place the mug into the microwave
+Observed Relation:
+"A robot places a mug inside a cabinet while a sink pours water into it, and an agent stands on top of the floor."
+Now please output plannings for doing boil_water_in_the_microwave
+Response: Open the cabinet, take the mug out of the cabinet, and place it in the microwave
+Task: boil_water_in_the_microwave
+Agent: Place the mug into the cabinet
+Step: Open the cabinet
+Step: Take the mug out of the cabinet
+Step: Place the mug into the microwave

@@ -1,0 +1,10 @@
+Task Goal:
+fill_a_canteen
+Observed Relation:
+A robot stands on the floor in a canteen, on top of a countertop, with a sink flowing with water in the background.
+Now please output plannings for doing fill_a_canteen
+The canteen needs to be filled
+Step 1: Pick up the canteen
+Step 2: Pour water into the canteen
+Step 3: Put the canteen back on the countertop
+Step 4: Fill the canteen with water

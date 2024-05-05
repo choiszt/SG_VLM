@@ -1,0 +1,12 @@
+Task Goal:
+cook_brussels_sprouts
+Observed Relation:
+"Freshly cooked Brussels sprouts stored in a Tupperware container inside an electric refrigerator, while a stockpot sits on top of the stove. The agent is on the floor nearby."
+Now please output plannings for doing cook_brussels_sprouts
+Step 1: Open the electric refrigerator
+Step 2: Take the tupperware out of the electric refrigerator
+Step 3: Take the brussels sprouts out of the tupperware
+Step 4: Place the tupperware with brussels sprouts on the stove
+Step 5: Turn on the stove
+Step 6: Put water in the stockpot
+Step 7: Put the brussels sprouts in the stockpot

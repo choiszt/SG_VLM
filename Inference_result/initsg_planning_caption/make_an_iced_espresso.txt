@@ -1,0 +1,11 @@
+Task Goal:
+make_an_iced_espresso
+Observed Relation:
+A cup filled with espresso sits on top of the countertop. A milk carton filled with low-fat milk and a bottle of sugar syrup are also on the countertop. A teaspoon, a mug, and the agent are on the floor.
+Now please output plannings for doing make_an_iced_espresso
+Step 1: Pour some milk into the mug
+Step 2: Scoop some espresso from the cup
+Step 3: Add sugar to the espresso in the mug
+Step 4: Pour low-fat milk into the mug
+Step 5: Stir the iced coffee mixture in the mug
+Step 6: Enjoy your iced coffee

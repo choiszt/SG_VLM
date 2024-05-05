@@ -1,0 +1,12 @@
+Task Goal:
+make_cinnamon_sugar
+Observed Relation:
+A cinnamon shaker sits on top of the countertop next to a sack of granulated sugar. A tablespoon and a mixing bowl also rest on the countertop.
+Now please output plannings for doing make_cinnamon_sugar
+Answer: Take the cinnamon shaker from the countertop and put it in the sack of granulated sugar
+Answer: Take the tablespoon from the countertop
+Answer: Take the mixing bowl from the countertop
+Answer: Pour the granulated sugar into the mixing bowl
+Answer: Mix the cinnamon and granulated sugar in the mixing bowl
+Answer: Place the mixture of cinnamon and granulated sugar on a plate
+Answer: Serve the dessert with cinnamon and granulated sugar

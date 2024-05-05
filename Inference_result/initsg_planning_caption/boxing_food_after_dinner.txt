@@ -1,0 +1,8 @@
+Task Goal:
+boxing_food_after_dinner
+Observed Relation:
+A delicious kabob sits atop a plate on the breakfast table, while a tupperware container also rests nearby.
+Now please output plannings for doing boxing_food_after_dinner
+The robot is advised to take the tupperware container out of the cabinet and place it on the floor
+Next, the agent should put the plate with the kabob on top of the tupperware
+Finally, the agent should close the cabinet

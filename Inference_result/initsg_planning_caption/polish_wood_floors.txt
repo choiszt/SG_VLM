@@ -1,0 +1,12 @@
+Task Goal:
+polish_wood_floors
+Observed Relation:
+A robot is cleaning the floor with a swab while a bucket and a polish bottle filled with polish are on the floor. Another polish bottle is inside a shelf.
+Now please output plannings for doing polish_wood_floors
+Step 1: Take the bucket out of the bucket shelf
+Step 2: Take the polish bottle out of the polish shelf
+Step 3: Pour the polish into the bucket
+Step 4: Use the swab to polish the wood floor
+Step 5: Remove the swab from the floor
+Step 6: Check if the wood floor is shiny enough
+Step 7: Repeat steps 2 to 6 until the floor is shiny enough

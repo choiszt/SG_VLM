@@ -1,0 +1,16 @@
+Task Goal:
+thawing_frozen_food
+Observed Relation:
+"Agent places date, olive, and fish inside the electric refrigerator."
+Now please output plannings for doing thawing_frozen_food
+Response: Open the electric refrigerator to expose the date, olive, and fish inside
+Next step: Put the dish towel on the countertop
+-task_goal thawing_frozen_food
+-object_the date
+-object_the olive
+-object_the fish
+-task_goal putting_thawed_food_in_the_fridge
+-object_the fritoonie
+-task_goal putting_thawed_food_in_the_oven
+-task_goal putting_thawed_food_in_the_bowl
+-task_goal putting_thawed_food_in_the_pan

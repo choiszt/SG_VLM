@@ -1,0 +1,12 @@
+Task Goal:
+cook_ground_beef
+Observed Relation:
+A bowl of ground beef sits inside an electric refrigerator while a frying pan and a wooden spoon rest on top of an oven. Onion powder and salt shakers are placed on the countertop.
+Now please output plannings for doing cook_ground_beef
+Step 1: Open the electric refrigerator
+Step 2: Take the bowl out of the electric refrigerator
+Step 3: Take the ground beef out of the bowl
+Step 4: Preheat the oven
+Step 5: Put the ground beef into the frying pan
+Step 6: Cook the ground beef
+Step 7: Remove the cooked ground beef from the frying pan

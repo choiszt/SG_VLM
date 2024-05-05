@@ -1,0 +1,12 @@
+Task Goal:
+fill_a_punching_bag
+Observed Relation:
+"Agent punches a punching bag while a bucket filled with white rice sits on the floor."
+Now please output plannings for doing fill_a_punching_bag
+Step 1: Pick up the punching bag from the floor
+Step 2: Fill the bucket with white rice
+Step 3: Hang the punching bag on the pole
+Step 4: Pick up the punching bag from the pole
+Step 5: Throw the punching bag into the bucket
+Step 6: Empty the bucket
+Step 7: Take out the punching bag from the bucket

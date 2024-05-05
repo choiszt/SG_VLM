@@ -1,0 +1,12 @@
+Task Goal:
+clean_a_sieve
+Observed Relation:
+A sieve covered in adhesive material sits on top of a countertop, while a liquid soap bottle filled with soap is inside a cabinet. A sponge also rests on the countertop. Water flows from a sink, and an agent is on the floor.
+Now please output plannings for doing clean_a_sieve
+Step 1: Open the cabinet
+Step 2: Take the sieve out of the cabinet
+Step 3: Pour water into the sink
+Step 4: Take the sponge and go to the countertop
+Step 5: Take the liquid soap bottle out of the cabinet
+Step 6: Pour liquid soap onto the sponge
+Step 7: Clean the sieve with the soapy sponge

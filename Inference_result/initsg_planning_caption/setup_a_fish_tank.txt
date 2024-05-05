@@ -1,0 +1,12 @@
+Task Goal:
+setup_a_fish_tank
+Observed Relation:
+"A tank placed on top of a table, with a bucket filled with water on the floor. A water filter and a pebble are also on the table. An agent is standing on the floor."
+Now please output plannings for doing setup_a_fish_tank
+Step 1: Move the table onto the floor
+Step 2: Move the bucket filled with water onto the floor
+Step 3: Move the water filter onto the floor
+Step 4: Move the pebble onto the floor
+Step 5: Move the agent onto the floor
+Step 6: Place the fish tank on the table
+Step 7: Fill the fish tank with water from the bucket

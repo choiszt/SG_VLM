@@ -1,0 +1,13 @@
+Task Goal:
+slicing_vegetables
+Observed Relation:
+"Fresh vegetables stored inside an electric refrigerator, with a carving knife and chopping board on the countertop, while the agent rests on the floor."
+Now please output plannings for doing slicing_vegetables
+Response: Pick up the carving knife
+Step 1: Move the agent to the chopping board
+Step 2: Place the carving knife on the chopping board
+Step 3: Slice the turnip into half-turnip
+Step 4: Place the half-turnip on the chopping board
+Step 5: Slice the zucchini into half-zucchini
+Step 6: Place the half-zucchini on the chopping board
+Step 7: Slice the green bean into half-green bean

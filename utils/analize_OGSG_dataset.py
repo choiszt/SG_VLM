@@ -1,4 +1,4 @@
-import os
+import os 
 import json
 from bddl.activity import Conditions 
 # cnt=0

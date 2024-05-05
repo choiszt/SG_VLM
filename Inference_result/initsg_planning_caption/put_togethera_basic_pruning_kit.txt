@@ -1,0 +1,13 @@
+Task Goal:
+put_togethera_basic_pruning_kit
+Observed Relation:
+"A robot agent surrounded by tools and equipment including a pruner, shears, and a toolbox, on the floor."
+Now please output plannings for doing put_togethera_basic_pruning_kit
+The robot is putting togethera basic pruning kit
+Step 1: Open the toolbox
+Step 2: Take out the pruner from the toolbox
+Step 3: Pick up the shears
+Step 4: Pick up the pruner
+Step 5: Put the pruner on the tray
+Step 6: Pick up the shears
+Step 7: Put the shears on the tray

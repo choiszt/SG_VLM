@@ -1,0 +1,12 @@
+Task Goal:
+laying_restaurant_table_for_dinner
+Observed Relation:
+"Organized kitchen with plates inside the cabinet, wineglass and water glass on the kitchen table, and utensils neatly stored away."
+Now please output plannings for doing laying_restaurant_table_for_dinner
+Step 1: Open the cabinet
+Step 2: Take the plates out of the cabinet
+Step 3: Take the wine glass out of the cabinet
+Step 4: Take the water glass out of the cabinet
+Step 5: Take the cutlery out of the cabinet
+Step 6: Place the plates on the dining table
+Step 7: Place the wineglass on the dining table

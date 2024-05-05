@@ -1,0 +1,12 @@
+Task Goal:
+cleaning_table_after_clearing
+Observed Relation:
+"Agent accidentally spills a stain on the covered table while reaching for bar soap and dishtowel inside the cabinet."
+Now please output plannings for doing cleaning_table_after_clearing
+Step 1: Move the agent from the floor to the table
+Step 2: Move the cabinet from the floor to the table
+Step 3: Move the bar soap and dishtowel from the cabinet to the table
+Step 4: Clean the table with the bar soap
+Step 5: Dry the table with the dishtowel
+Step 6: Move the table back to the floor
+Step 7: Finish cleaning the table

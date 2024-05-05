@@ -1,0 +1,6 @@
+Task Goal:
+cook_hot_dogs
+Observed Relation:
+A robot chef is frying a hotdog on top of an oven while a sink is pouring water into it. The hotdog was previously stored inside an electric refrigerator.
+Now please output plannings for doing cook_hot_dogs
+Pretty much the same as above, but without the water.

@@ -1,0 +1,12 @@
+Task Goal:
+make_a_bake_sale_stand_stall
+Observed Relation:
+"Delicious treats and refreshing lemonade neatly organized in a carton on the floor, ready to be enjoyed."
+Now please output plannings for doing make_a_bake_sale_stand_stall
+Step 1: Pick up the carton
+Step 2: Stack the ingredients on the carton
+Step 3: Arrange the ingredients neatly
+Step 4: Place the lemonade bottle next to the carton
+Step 5: Place the cup next to the lemonade bottle
+Step 6: Place the tupperware next to the carton
+Step 7: Place the registration form next to the tupperware

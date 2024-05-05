@@ -1,0 +1,11 @@
+Task Goal:
+putting_out_clean_towels
+Observed Relation:
+"A robot placed a bath towel, a hand towel, and a wicker basket on the floor."
+Now please output plannings for doing putting_out_clean_towels
+Step 1: Pick up the bath towel from the floor
+Step 2: Pick up the hand towel from the floor
+Step 3: Pick up the wicker basket from the floor
+Step 4: Put out the bath towel
+Step 5: Put out the hand towel
+Step 6: Put out the wicker basket

@@ -1,0 +1,15 @@
+Task Goal:
+make_chicken_fajitas
+Observed Relation:
+A robot chef preparing a meal with a frying pan on the countertop. Inside the electric refrigerator, there is chicken, bell pepper, and beefsteak tomato. A bottle of olive oil filled with olive oil is also on the countertop. Various seasonings like black pepper, salt, marjoram, cumin, and paprika are available in shakers inside the cabinet. The chef is using a carving knife on a chopping board. A bottle of salsa is also inside the refrigerator, along with a lime. The robot chef is working on the floor.
+Now please output plannings for doing make_chicken_fajitas
+Answer:
+Step 1: Move the countertop to the cabinet
+Step 2: Open the electric refrigerator
+Step 3: Take the chicken out of the electric refrigerator
+Step 4: Take the bell pepper out of the electric refrigerator
+Step 5: Take the beefsteak tomato out of the electric refrigerator
+Step 6:Take the olive oil out of the electric refrigerator
+Step 7: Take the salt out of the electric refrigerator
+Step 8: Take the paprika out of the electric refrigerator
+Step 9: Take the chopping board out of the floor

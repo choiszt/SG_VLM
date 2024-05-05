@@ -1,0 +1,15 @@
+Task Goal:
+make_baked_pears
+Observed Relation:
+"An electric refrigerator holds a pear, while a cabinet stores a wine bottle filled with red wine. Another cabinet contains a sack of granulated sugar and a stockpot. A wooden spoon sits alongside them. All of this is happening on the floor."
+Now please output plannings for doing make_baked_pears
+First step: Take the pear out of the electric refrigerator
+Second step: Pour the red wine into the bowl
+Third step: Take the sugar sack out of the cabinet
+Fourth step: Pour the sugar into the stockpot
+Fifth step: Place the pear into the bowl with the melted sugar
+Step 1: Take the pear out of the electric refrigerator
+Step 2: Pour the red wine into the bowl
+Step 3: Take the sugar sack out of the cabinet
+Step 4: Pour the sugar into the stockpot
+Step 5: Place the pear into the bowl with the melted sugar

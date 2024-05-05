@@ -1,0 +1,12 @@
+Task Goal:
+packing_bags_or_suitcase
+Observed Relation:
+A messy bedroom with a backpack on the floor and various items like a toothbrush, bottle of shampoo, hardback book, underwear, and tube of toothpaste scattered on the bed.
+Now please output plannings for doing packing_bags_or_suitcase
+Step 1: Pick up the backpack from the floor
+Step 2: Open the backpack
+Step 3: Put the underwears inside the backpack
+Step 4: Put the bottle of shampoo inside the backpack
+Step 5: Put the hardback book inside the backpack
+Step 6: Put the toothbrush inside the backpack
+Step 7: Put the bottle of water inside the backpack

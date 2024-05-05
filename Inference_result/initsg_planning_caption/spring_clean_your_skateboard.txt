@@ -1,0 +1,12 @@
+Task Goal:
+spring_clean_your_skateboard
+Observed Relation:
+"Robot atomizes acetone onto the floor while a bucket filled with water sits nearby. A skateboard covered in stain and a rag are also on the floor."
+Now please output plannings for doing spring_clean_your_skateboard
+Step 1: Move the skateboard off the floor
+Step 2: Spray the stain on the skateboard with acetone
+Step 3: Scrub the stain with a rag
+Step 4: Dry the skateboard
+Step 5: Move the rag off the floor
+Step 6: Move the bucket off the floor
+Step 7: Move the rag back onto the stain

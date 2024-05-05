@@ -1,0 +1,12 @@
+Task Goal:
+treating_stains
+Observed Relation:
+A stained table linen is covered with detergent. The detergent bottle is on the floor, along with the table linen, rag, and agent. The sink is filled with water.
+Now please output plannings for doing treating_stains
+Now please output plannings for doing treating_stains:
+Step 1: Pick up the table linen from the floor
+Step 2: Pour water on the stain on the table linen
+Step 3: Take the rag from the table
+Step 4: Dip the rag in the detergent bottle
+Step 5: Remove the stain from the table linen using the rag
+Step 6: Put the table linen back on the floor

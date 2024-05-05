@@ -1,0 +1,12 @@
+Task Goal:
+filling_pepper
+Observed Relation:
+A bell pepper and chili are inside an electric refrigerator. A carving knife is on top of the countertop. A saucepot filled with white rice is on top of the countertop. A plate is also on top of the countertop. The scene is set on the floor.
+Now please output plannings for doing filling_pepper
+Step 1: Open the electric refrigerator
+Step 2: Take the bell pepper out of the electric refrigerator
+Step 3: Remove the chili pepper pod from the bell pepper
+Step 4: Cut the bell pepper into slices using a carving knife
+Step 5: Fill the saucepot with white rice
+Step 6: Arrange the dishes on the countertop
+Step 7: Use the plate to fill the bell pepper slices with chili peppers

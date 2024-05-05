@@ -1,0 +1,13 @@
+Task Goal:
+chop_an_onion
+Observed Relation:
+"A chef prepares to chop a Vidalia onion on a chopping board with a carving knife nearby, placed on a countertop."
+Now please output plannings for doing chop_an_onion
+Responses: Plannings
+Step 1: Pick up the chopping board
+Step 2: Place the chopping board on the countertop
+Step 3: Move the carving knife to the chopping board
+Step 4: Chop an onion using the carving knife
+Step 5: Pick up the onion slice
+Step 6: Put the onion slice on the chopping board
+Step 7: Move the carving knife to the chopping board

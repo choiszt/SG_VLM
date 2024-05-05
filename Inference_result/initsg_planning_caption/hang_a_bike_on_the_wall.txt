@@ -1,0 +1,12 @@
+Task Goal:
+hang_a_bike_on_the_wall
+Observed Relation:
+A bicycle is placed on the floor with a bicycle rack attached to the wall.
+Now please output plannings for doing hang_a_bike_on_the_wall
+Step 1: Pick up the bicycle rack
+Step 2: Find a wall nail
+Step 3: Attach the bicycle rack to the wall nail
+Step 4: Use one hand to position the bicycle on the bicycle rack
+Step 5: Use the other hand to attach the bicycle rack to the wall nail
+Step 6: Move the bicycle to the position
+Step 7: Repeat steps 2 to 6 until the bicycle is securely hung on the wall

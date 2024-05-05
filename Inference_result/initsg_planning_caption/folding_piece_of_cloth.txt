@@ -1,0 +1,14 @@
+Task Goal:
+folding_piece_of_cloth
+Observed Relation:
+"Agent on top of the floor, with a sheet inside the clothes dryer."
+Now please output plannings for doing folding_piece_of_cloth
+Step 1: Open the clothes dryer
+Step 2: Take the sheet out of the clothes dryer
+Step 3: Fold the piece of cloth
+Step 4: Put the folded piece of cloth back into the clothes dryer
+Step 5: Close the clothes dryer
+Step 6: Take the sheet out of the clothes dryer
+Step 7: Fold the piece of cloth
+Step 8: Put the folded piece of cloth back into the clothes dryer
+Step 9: Close the clothes dryer

@@ -1,0 +1,12 @@
+Task Goal:
+defrosting_freezer
+Observed Relation:
+"Robot cleaning up a stain on the sink while organizing tools and supplies on the countertop and floor."
+Now please output plannings for doing defrosting_freezer
+Step 1: Move the defrosted freezer to the countertop
+Step 2: Remove the stain from the sink
+Step 3: Clean the freezer with water
+Step 4: Place the freezer back on the countertop
+Step 5: Remove the stain from the sink
+Step 6: Clean the freezer with water
+Step 7: Place the freezer back on the countertop

@@ -1,0 +1,11 @@
+Task Goal:
+putting_laundry_in_drawer
+Observed Relation:
+"Robot's wardrobe malfunction - a pile of clothes on the desk."
+Now please output plannings for doing putting_laundry_in_drawer
+Step 1: Pick up the sweater from the desk
+Step 2: Pick up the trousers from the desk
+Step 3: Pick up the skirt from the desk
+Step 4: Put the sweater in the drawer
+Step 5: Put the trousers in the drawer
+Step 6: Put the skirt in the drawer

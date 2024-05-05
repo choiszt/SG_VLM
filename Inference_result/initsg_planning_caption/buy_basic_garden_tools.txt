@@ -1,0 +1,14 @@
+Task Goal:
+buy_basic_garden_tools
+Observed Relation:
+"An agent left a shovel and a rake on top of a shelf, while a bag containing money sits on the floor."
+Now please output plannings for doing buy_basic_garden_tools
+Agent: Thank you AI) Please output plannings for doing buy_basic_garden_tools
+Reply: Please output plannings for doing buy_basic_garden_tools
+Step 1: Go to the store
+Step 2: Find the garden tools section
+Step 3: Take a shovel and a rake from the shelf
+Step 4: Put the shovel and rake in the shopping cart
+Step 5: Pay at the checkout
+Step 6: Leave the store
+Step 7: Take the shopping cart to your garden

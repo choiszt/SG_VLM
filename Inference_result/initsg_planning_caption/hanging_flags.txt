@@ -1,0 +1,12 @@
+Task Goal:
+hanging_flags
+Observed Relation:
+A flagpole is attached to the wall, with a national flag inside a bag on top of the floor. An agent is also on top of the floor.
+Now please output plannings for doing hanging_flags
+Step 1: Take the national flag out of the bag
+Step 2: Hang the national flag on the flagpole
+Step 3: Attach the flagpole to the wall
+Step 4: Place the agent on the floor
+Step 5: Hang the flag on the flagpole
+Step 6: Take the national flag out of the bag
+Step 7: Hang the national flag on the flagpole

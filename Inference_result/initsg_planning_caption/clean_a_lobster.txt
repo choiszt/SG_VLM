@@ -1,0 +1,13 @@
+Task Goal:
+clean_a_lobster
+Observed Relation:
+A lobster covered in mud sits inside a bowl inside an electric refrigerator, with a hand towel placed on a shelf nearby. The sink is running water and there is an agent standing on top of the floor.
+Now please output plannings for doing clean_a_lobster
+Now please output plannings for doing clean_a_lobster
+Step 1: Open the electric refrigerator
+Step 2: Take the bowl out of the electric refrigerator
+Step 3: Take the lobster out of the bowl
+Step 4: Clean the lobster with the hand towel
+Step 5: Dispose of the dirty towel in the sink
+Step 6: Clean the bowl
+Step 7: Put the bowl back into the electric refrigerator

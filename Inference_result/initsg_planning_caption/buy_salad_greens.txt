@@ -1,0 +1,24 @@
+Task Goal:
+buy_salad_greens
+Observed Relation:
+"Agent purchases groceries at checkout with cash register in the background."
+Now please output plannings for doing buy_salad_greens
+Here is an example of a step-by-step planner:
+Observed Relation: "Agent places salad greens in shopping cart"
+Step 1: Find a salad package
+Step 2: Open the salad package
+Step 3: Take the salad greens out of the package
+Step 4: Place the salad greens in the shopping cart
+Step 5: Pay for the salad greens at the cash register
+Step 6: Leave the salad greens at the checkout counter
+Step 7: Take the shopping cart to the checkout counter
+Task 1: Put the salad greens in the refrigerator
+Step 8: Place the salad greens in the refrigerator
+Step 9: Close the refrigerator
+Step 10: Put salad greens in Tupperware
+Step 11: Close the Tupperware
+Step 12: Put salad greens in the refrigerator
+Step 13: Clean up any spilled salad greens
+Step 14: Store the salad greens in the refrigerator
+Step 15: Throw away any unappetizing salad greens
+Step 16: Check if the salad is complete

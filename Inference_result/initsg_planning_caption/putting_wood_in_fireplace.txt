@@ -1,0 +1,8 @@
+Task Goal:
+putting_wood_in_fireplace
+Observed Relation:
+"A robot balancing on top of a log on the floor."
+Now please output plannings for doing putting_wood_in_fireplace
+Step 1: Pick up the log from the floor
+Step 2: Move the agent to the fireplace
+Step 3: Put the log in the fireplace

@@ -1,0 +1,13 @@
+Task Goal:
+organizing_file_cabinet
+Observed Relation:
+"Efficient organization: A marker sits on top of a chair, while a document and folder are neatly placed on a table. The diligent agent stands on the floor, ready for action."
+Now please output plannings for doing organizing_file_cabinet
+Step 1: Move the agent to the file cabinet
+Step 2: Take the folder out of the file cabinet
+Step 3: Open the folder
+Step 4: Take the document out of the folder
+Step 5: Put the document back into the folder
+Step 6: Close the folder
+Step 7: Put the folder back into the file cabinet
+Task Completed

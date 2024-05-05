@@ -1,0 +1,13 @@
+Task Goal:
+putting_away_games
+Observed Relation:
+"An agent is standing on the floor next to a desk with a board game, packing box, and jigsaw puzzle on top."
+Now please output plannings for doing putting_away_games
+Responses: Plannings for doing putting_away_games
+Step 1: Open the packing box
+Step 2: Take the board game out of the desk
+Step 3: Take the jigsaw puzzle out of the desk
+Step 4: Put the board game into the packing box
+Step 5: Put the board game back on the desk
+Step 6: Put the jigsaw puzzle back on the desk
+Step 7: Close the packing box

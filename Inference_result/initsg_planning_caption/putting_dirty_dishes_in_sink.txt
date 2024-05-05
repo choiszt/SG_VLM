@@ -1,0 +1,18 @@
+Task Goal:
+putting_dirty_dishes_in_sink
+Observed Relation:
+"A bowl and a plate covered in breadcrumbs on the countertop, with an agent standing on the floor."
+Now please output plannings for doing putting_dirty_dishes_in_sink
+Responses: Pick up the bowl from the countertop
+Step 1: Put the bowl in the sink
+Step 2: Turn on the water in the sink
+Step 3: Wash the bowl in the sink
+Step 4: Put the bowl back on the countertop
+Step 5: Pick up the plate from the countertop
+Step 6: Turn on the electricity
+Step 7: Wash the plate in the sink
+Step 8: Put the plate back on the countertop
+Step 9: Put the agent on the floor
+Step 10: Put dirty dishes in the sink
+Step 11: Clean the dishes
+Step 12: Finished putting dirty dishes in the sink

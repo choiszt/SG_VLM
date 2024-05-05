@@ -1,0 +1,10 @@
+Task Goal:
+picking_up_trash
+Observed Relation:
+A can of soda on the floor.
+Now please output plannings for doing picking_up_trash with a can of soda.
+Response:
+Step 1: Pick up the can of soda
+Step 2: Pick up the trash
+Step 3: Put the can of soda and the trash in the ashcan
+Step 4: Empty the ashcan

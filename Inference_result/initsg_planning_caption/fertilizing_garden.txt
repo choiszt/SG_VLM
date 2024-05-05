@@ -1,0 +1,11 @@
+Task Goal:
+fertilizing_garden
+Observed Relation:
+A robot atomizer applies fertilizer to a pot filled with soil, while a potato sits nearby on the floor.
+Now please output plannings for doing fertilizing_garden
+Responses:
+Step 1: Pick up the atomizer
+Step 2: Fill the pot with fertilizer
+Step 3: Water the potato
+Step 4: Plant the potato in the soil
+Step 5: Release the atomizer

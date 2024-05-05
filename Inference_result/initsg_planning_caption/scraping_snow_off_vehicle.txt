@@ -1,0 +1,9 @@
+Task Goal:
+scraping_snow_off_vehicle
+Observed Relation:
+"A car covered in snow parked on a driveway, with a scraper nearby. An agent standing on the floor."
+Now please output plannings for doing scraping_snow_off_vehicle
+Responses:
+Step 1: Pick up the scraper
+Step 2: Scraping snow off the car
+Step 3: Parking the car in the driveway

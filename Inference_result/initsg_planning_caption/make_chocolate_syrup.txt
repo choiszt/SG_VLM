@@ -1,0 +1,13 @@
+Task Goal:
+make_chocolate_syrup
+Observed Relation:
+A sugar sack filled with granulated sugar is on top of the countertop, along with a tablespoon. A salt shaker filled with salt, a bottle of vanilla filled with vanilla, and a box of cocoa powder are also on the countertop. The sink is the source of water. The agent is on the floor.
+Now please output plannings for doing make_chocolate_syrup
+Response: Open the sugar sack and take out the granulated sugar
+Step 1: Open the sugar sack
+Step 2: Take out the granulated sugar from the sack
+Step 3: Take the tablespoon from the countertop
+Step 4: Scoop up the granulated sugar with the tablespoon
+Step 5: Sprinkle the granulated sugar on the countertop
+Step 6: Use the salt shaker to sprinkle salt on the countertop
+Step 7: Use the bottle of vanilla to sprinkle vanilla on the countertop

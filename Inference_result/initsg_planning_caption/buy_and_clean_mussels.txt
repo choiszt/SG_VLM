@@ -1,0 +1,12 @@
+Task Goal:
+buy_and_clean_mussels
+Observed Relation:
+A mussel inside a sack is covered in sand while a mixing bowl filled with water sits on top of a countertop. A paper towel is also on the countertop. The scene is completed with an agent standing on the floor.
+Now please output plannings for doing buy_and_clean_mussels
+Step 1: Open the wallet
+Step 2: Take out the money
+Step 3: Go to the grocery store
+Step 4: Buy mussels
+Step 5: Open the mussel
+Step 6: Clean the mussel
+Step 7: Put the cleaned mussel in the bowl

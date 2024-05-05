@@ -1,0 +1,19 @@
+Task Goal:
+make_cookie_dough
+Observed Relation:
+A robot's perspective of a kitchen scene: A flour sack filled with flour is inside a cabinet, along with a sugar sack filled with granulated sugar. A vanilla bottle filled with vanilla is inside an electric refrigerator, while butter is inside a bowl. The bowl is also inside the electric refrigerator. A jar of baking powder filled with baking powder is inside a cabinet, and a salt shaker is dispensing salt. A mixing bowl is attached to an electric mixer, and there is an agent on top of the floor.
+Now please output plannings for doing make_cookie_dough
+Response:
+Step 1: Open the cabinet
+Step 2: Take the flour sack out of the cabinet
+Step 3: Take the sugar sack out of the cabinet
+Step 4: Take the vanilla bottle out of the electric refrigerator
+Step 5: Take the butter out of the bowl
+Step 6: Take the baking powder out of the cabinet
+Step 7: Take the salt shaker out of the cabinet
+Step 8: Pour the flour into the mixing bowl
+Step 9: Pour the sugar into the mixing bowl
+Step 10: Pour the baking powder into the mixing bowl
+Step 11: Pour the vanilla into the mixing bowl
+Step 12: Pour the butter into the mixing bowl
+Step 13: Pour the salt into the mixing bowl

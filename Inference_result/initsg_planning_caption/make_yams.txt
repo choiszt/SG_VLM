@@ -1,0 +1,9 @@
+Task Goal:
+make_yams
+Observed Relation:
+A stockpot and a yam are on the countertop, while water is flowing from the sink. The agent is on the floor.
+Now please output plannings for doing make_yams
+Step 1: Take the yam out of the stockpot
+Step 2: Put the yam in the oven to bake
+Step 3: Turn on the oven
+Step 4: Wait for the yams to bake

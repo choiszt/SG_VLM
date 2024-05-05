@@ -1,0 +1,13 @@
+Task Goal:
+scrubbing_bathroom_floor
+Observed Relation:
+A robot agent is on the floor, surrounded by dirt. It is holding a bucket filled with water and has a scrub brush on top of the bucket.
+Now please output plannings for doing scrubbing_bathroom_floor
+Response: Pick up the scrub brush
+Step 1: Move to the sink
+Step 2: Pour the water from the bucket into the sink
+Step 3: Scrub the floor with the scrub brush
+Step 4: Move to the bucket
+Step 5: Empty the bucket
+Step 6: Move to the floor
+Step 7: Put down the scrub brush

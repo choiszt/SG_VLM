@@ -1,0 +1,11 @@
+Task Goal:
+stash_snacks_in_your_room
+Observed Relation:
+"Robotic agent organizing snacks on the bed and desk."
+Now please output plannings for doing stash_snacks_in_your_room
+Response: Pick up the snack bowls from the bed
+Response: Pick up the apple from the bed
+Response: Pick up the chocolate bar from the bed
+Response: Pick up the potato chips from the bed
+Response: Pick up the Tupper Toy from the bed
+Response: Pick up the agent from the bed

@@ -1,0 +1,13 @@
+Task Goal:
+delivering_groceries_to_doorstep
+Observed Relation:
+"Robot efficiently organizes groceries, placing bread, milk, and chicken inside a sack on the driveway."
+Now please output plannings for doing delivering_groceries_to_doorstep
+Answer: Open the doorstep
+Step 1: Take the sack
+Step 2: Open the cabinet
+Step 3: Take the cup out of the cabinet
+Step 4: Put the cup on the countertop
+Step 5: Open the refrigerator
+Step 6: Take the bread out of the refrigerator
+Step 7: Put the bread in the sack

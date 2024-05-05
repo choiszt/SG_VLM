@@ -1,0 +1,13 @@
+Task Goal:
+make_chicken_curry
+Observed Relation:
+"A well-stocked refrigerator with chicken breast and beefsteak tomato, while a carving knife sits on a chopping board. Vidalia onion is on the countertop. Cooking oil and curry powder are also present. A stockpot is stored inside a cabinet."
+Now please output plannings for doing make_chicken_curry
+Response:
+Step 1: Take the chicken breast out of the refrigerator
+Step 2: Cut the chicken breast into small pieces using the carving knife
+Step 3: Heat cooking oil on the stove
+Step 4: Mix curry powder with cooking oil on the stove
+Step 5: Add Vidalia onion to the mixture on the stove
+Step 6: Grill the marinated chicken breast on the stove
+Step 7: Mix the cooked chicken with curry powder and cooking oil on the stove

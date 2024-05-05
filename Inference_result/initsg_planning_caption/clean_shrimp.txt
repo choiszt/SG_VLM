@@ -1,0 +1,12 @@
+Task Goal:
+clean_shrimp
+Observed Relation:
+A prawn is on top of a chopping board near an oven. Another prawn is covered with sand. A carving knife is also on the chopping board. There is a sink with water nearby.
+Now please output plannings for doing clean_shrimp
+Step 1: Move the prawn from the chopping board to the sink
+Step 2: Clean the sand from the prawn
+Step 3: Move the carving knife from the chopping board
+Step 4: Fill the sink with water
+Step 5: Wash the prawn with water
+Step 6: Move the prawn from the sink to the chopping board
+Step 7: Cut the prawn into pieces with the carving knife

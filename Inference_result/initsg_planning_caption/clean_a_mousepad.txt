@@ -1,0 +1,13 @@
+Task Goal:
+clean_a_mousepad
+Observed Relation:
+"Dusty mousepad being cleaned with a rag on top of a sink, while water flows into the sink. Agent standing on the floor."
+Now please output plannings for doing clean_a_mousepad
+Answer: Pick up the rag from the sink
+Step 1: Pick up the rag from the sink
+Step 2: Clean the dust from the mousepad
+Step 3: Put the rag back on the sink
+Step 4: Empty the water from the sink
+Step 5: Put the water back into the sink
+Step 6: Put the mousepad back on the table
+Step 7: Finish cleaning the mousepad

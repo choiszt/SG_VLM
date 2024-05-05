@@ -1,0 +1,12 @@
+Task Goal:
+clean_a_kitchen_table
+Observed Relation:
+A messy kitchen with a chopping board on top of a table, a rag on the floor, and dust covering the table. The chopping board is covered in cooking oil and the table is covered in crumbs. The sink is filled with water and there is a bottle of liquid soap on the countertop.
+Now please output plannings for doing clean_a_kitchen_table
+Step 1: Move the rag from the floor to the countertop
+Step 2: Move the rag from the countertop to the table
+Step 3: Clean the table with the rag
+Step 4: Move the rag from the table to the floor
+Step 5: Rinse the rag with water from the sink
+Step 6: Apply liquid soap on the rag
+Step 7: Clean the table again with the rag

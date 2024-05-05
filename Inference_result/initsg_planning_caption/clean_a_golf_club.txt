@@ -1,0 +1,11 @@
+Task Goal:
+clean_a_golf_club
+Observed Relation:
+A golf club covered in mud rests on the floor next to a liquid soap bottle, which is filled with liquid soap. A rag and the golf club are both sitting on the floor. A sink is seen with water flowing from it.
+Now please output plannings for doing clean_a_golf_club
+Step 1: Take the golf club out of the mud
+Step 2: Fill the golf club with liquid soap
+Step 3: Clean the golf club with the liquid soap
+Step 4: Rinse the golf club with water in the sink
+Step 5: Wipe the golf club with the rag
+Step 6: Put the golf club back on the floor

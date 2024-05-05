@@ -1,0 +1,12 @@
+Task Goal:
+unpacking_moving_van
+Observed Relation:
+"A carton containing a pan and a saucepot is placed inside a van, with a blanket also inside. The van is on top of the floor, and there is an agent standing on the floor."
+Now please output plannings for doing unpacking_moving_van
+Step 1: Open the carton
+Step 2: Take out the pan
+Step 3: Take out the saucepot
+Step 4: Remove the blanket from the carton
+Step 5: Move the carton onto the floor
+Step 6: Open the carton
+Step 7: Take out the pan

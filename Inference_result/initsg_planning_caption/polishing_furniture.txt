@@ -1,0 +1,6 @@
+Task Goal:
+polishing_furniture
+Observed Relation:
+"Dusty shelves and a table cluttered with dust, as an agent stands on the floor."
+Now please output plannings for doing polishing_furniture
+Once the polish is applied, an agent should polish the furniture using a rag

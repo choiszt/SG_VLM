@@ -1,0 +1,13 @@
+Task Goal:
+clean_your_baseboard_radiators
+Observed Relation:
+A scrub brush and a radiator sit on the floor, with the radiator covered in dust. A sink is shown with water running from it.
+Now please output plannings for doing clean_your_baseboard_radiators
+Now please output plannings for doing clean_your_baseboard_radiators:
+Step 1: Move the scrub brush from the floor to the sink
+Step 2: Take the rag from the floor
+Step 3: Clean the dust off the scrub brush
+Step 4: Clean the dust off the rag
+Step 5: Clean the dust off the radiator
+Step 6: Move the scrub brush from the sink
+Step 7: Put the scrub brush back on the floor

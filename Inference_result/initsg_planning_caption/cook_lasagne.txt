@@ -1,0 +1,12 @@
+Task Goal:
+cook_lasagne
+Observed Relation:
+A delicious lasagna sits on top of the oven, while a robot is on the floor.
+Now please output plannings for doing cook_lasagne
+Step 1: Open the oven
+Step 2: Take the lasagna out of the oven
+Step 3: Put the lasagna in the microwave
+Step 4: Set the microwave to cook the lasagna
+Step 5: Turn on the oven
+Step 6: Take the lasagna out of the microwave
+Step 7: Put the lasagna in the oven

@@ -1,0 +1,14 @@
+Task Goal:
+carrying_out_garden_furniture
+Observed Relation:
+A lawn chair and a barrow are on the floor with an agent standing on top.
+Now please output plannings for doing carrying_out_garden_furniture
+Observed Relation:
+Create a plan for doing carrying_out_garden_furniture
+Step 1: Pick up the lawn chair
+Step 2: Carry the lawn chair to the barrow
+Step 3: Pick up the table and place it in the barrow
+Step 4: Pick up the bench and place it in the barrow
+Step 5: Make sure the barrow is not overloaded
+Step 6: Continue carrying the garden furniture to the desired location
+Step 7: Place the garden furniture

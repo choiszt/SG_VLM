@@ -10,3 +10,8 @@
 /wandb/
 /weight/
 /scenes/
+
+EmbodiedCodeMapping/*
+!EmbodiedCodeMapping/codegounding.py
+!EmbodiedCodeMapping/grounding.py
+/EmbodiedMapping_database/

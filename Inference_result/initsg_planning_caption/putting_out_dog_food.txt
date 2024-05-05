@@ -1,0 +1,16 @@
+Task Goal:
+putting_out_dog_food
+Observed Relation:
+A dog food can sits on a rug on top of the floor, next to a bowl filled with dog food. An agent stands on the floor.
+Now please output plannings for doing putting_out_dog_food
+Last time: task_goal_system
+This time: output plannings for doing putting_out_dog_food
+"Take the bowl of dog food off the rug"
+"Put the bowl of dog food on the table"
+"Open the cat food can"
+"Take the cat food can out of the refrigerator"
+"Put the cat food can on the table"
+"Take the dog food can off the table"
+"Put the dog food can on the rug"
+"Close the cat food can"
+"Clean up the floor"

@@ -1,0 +1,12 @@
+Task Goal:
+making_a_snack
+Observed Relation:
+A tortilla chip sits inside a sack on a countertop. A tupperware container is filled with diced beefsteak tomato and placed inside an electric refrigerator. A platter is placed on top of the refrigerator. A robot is seen on the floor.
+Now please output plannings for doing making_a_snack
+Step 1: Open the electric refrigerator
+Step 2: Take the tupperware out of the electric refrigerator
+Step 3: Take the sack out of the electric refrigerator
+Step 4: Open the tupperware
+Step 5: Put the diced beefsteak tomato into the tupperware
+Step 6: Close the tupperware
+Step 7: Open the platter

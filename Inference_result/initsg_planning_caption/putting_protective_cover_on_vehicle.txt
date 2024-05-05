@@ -1,0 +1,8 @@
+Task Goal:
+putting_protective_cover_on_vehicle
+Observed Relation:
+A car is parked on the driveway, a tarpaulin is on top of the lawn, and an agent is standing on the floor.
+Now please output plannings for doing putting_protective_cover_on_vehicle
+Step 1: Pick up the tarpaulin
+Step 2: Move the tarpaulin to the car
+Step 3: Put the tarpaulion on the car

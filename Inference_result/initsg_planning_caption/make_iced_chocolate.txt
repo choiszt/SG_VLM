@@ -1,0 +1,12 @@
+Task Goal:
+make_iced_chocolate
+Observed Relation:
+"Refreshing drink ingredients stored neatly in the refrigerator and cabinet, ready to be mixed on the countertop."
+Now please output plannings for doing make_iced_chocolate
+Possible answer: Take a gallon of milk from the refrigerator and put it in the bowl
+Take a bag of chocolate chips from the cabinet and put it in the bowl
+Mix the milk and chocolate chips in the bowl
+Heat the bowl in the microwave
+Pour the mixed ingredients into the mold
+Then remove the iced_chocolate from the mold
+The result is a delicious iced_chocolate

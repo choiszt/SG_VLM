@@ -1,0 +1,13 @@
+Task Goal:
+fertilize_a_lawn
+Observed Relation:
+A robot atomizer applies fertilizer onto the floor.
+Now please output plannings for doing fertilize_a_lawn
+Responses:
+Step 1: Pick up the atomizer
+Step 2: Move the atomizer to the lawn
+Step 3: Turn on the fertilizer
+Step 4: Move the atomizer to the lawn
+Step 5: Spray the fertilizer on the lawn
+Step 6: Move the atomizer to the lawn
+Step 7: Stop spraying the fertilizer

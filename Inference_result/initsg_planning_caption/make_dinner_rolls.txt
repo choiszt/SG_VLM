@@ -1,0 +1,12 @@
+Task Goal:
+make_dinner_rolls
+Observed Relation:
+A well-stocked kitchen with flour, yeast, salt, sugar, butter, and milk. An electric mixer is ready for baking, and a cookie sheet awaits inside the oven.
+Now please output plannings for doing make_dinner_rolls
+Step 1: Open the flour sack
+Step 2: Open the yeast container
+Step 3: Open the salt shaker
+Step 4: Open the sugar box
+Step 5: Open the butter container
+Step 6: Open the milk carton
+Step 7: Preparation for baking the dough

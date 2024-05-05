@@ -1,0 +1,11 @@
+Task Goal:
+clean_wood_pallets
+Observed Relation:
+"A stained pallet and a bucket filled with water are placed on the lawn. A liquid soap bottle and a scrub brush are also on the lawn. The agent is standing on the floor."
+Now please output plannings for doing clean_wood_pallets
+Step 1: Move the pallet onto the floor
+Step 2: Fill the bucket with water
+Step 3: Pour water onto the stain
+Step 4: Apply liquid soap onto the stain
+Step 5: Scrub the stain with the scrub brush
+Step 6: Move the pallet back onto the lawn

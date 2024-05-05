@@ -1,0 +1,12 @@
+Task Goal:
+prepare_a_filling_breakfast
+Observed Relation:
+A variety of food items, including a knife, egg, bratwurst, and orange, are stored inside an electric refrigerator. A frying pan, plate, and carving knife are placed on top of the countertop. An agent is standing on the floor.
+Now please output plannings for doing prepare_a_filling_breakfast
+Step 1: Open the electric refrigerator
+Step 2: Take the egg out of the electric refrigerator
+Step 3: Take the bratwurst out of the electric refrigerator
+Step 4: Take the orange out of the electric refrigerator
+Step 5: Preheat the frying pan over medium heat
+Step 6: Melt the butter in the frying pan
+Step 7: Pour the melted butter into the frying pan

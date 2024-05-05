@@ -1,0 +1,10 @@
+Task Goal:
+packing_art_supplies_into_car
+Observed Relation:
+"An agent stands on the floor, with a car and a bag on top of the driveway. A pencil and a marker are also on top of the bag."
+Now please output plannings for doing packing_art_supplies_into_car
+Step 1: Open the car door
+Step 2: Take the bag out of the car
+Step 3: Take the art supplies out of the bag
+Step 4: Place the art supplies into the car
+Step 5: Close the car door

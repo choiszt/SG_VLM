@@ -1,0 +1,12 @@
+Task Goal:
+cook_chickpeas
+Observed Relation:
+"A bowl filled with chickpeas sits on the countertop, next to a sink filled with water. A salt shaker dispenses salt onto the countertop. A stockpot and the agent are also on the floor nearby."
+Now please output plannings for doing cook_chickpeas
+Result: Open the stockpot
+Step 1: Open the stockpot
+Step 2: Put the bowl with chickpeas in the stockpot
+Step 3: Fill the stockpot with water
+Step 4: Add salt to the stockpot
+Step 5: Turn on the stove
+Step 6: Cook the chickpeas

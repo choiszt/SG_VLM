@@ -1,0 +1,18 @@
+Task Goal:
+store_loose_leaf_tea
+Observed Relation:
+"Green tea-filled sack and mason jar placed on the countertop with an agent standing on the floor."
+Now please output plannings for doing store_loose_leaf_tea
+Step 1: Open the sack
+Step 2: Take the mason jar out of the sack
+Step 3: Open the electric refrigerator
+Step 4: Put the loose-leaf green tea into the mason jar
+Step 5: Close the mason jar
+Step 6: Store the mason jar in the electric refrigerator
+Step 7: Take the mason jar out of the electric refrigerator
+Step 8: Open the mason jar
+Step 9: Pour the loose-leaf green tea into a teacup
+Step 10: Close the mason jar
+Step 11: Clean up
+Step 12: Task completed
+Note that this is only a task plan generator. The robot may or may not carry out the planned steps.

@@ -1,0 +1,17 @@
+Task Goal:
+make_chocolate_spread
+Observed Relation:
+A jar of honey, a box of cocoa powder, and a package of butter are on the countertop next to a food processor and a mixing bowl. The butter is inside the refrigerator.
+Now please output plannings for doing make_chocolate_spread
+Step 1: Open the cabinet
+Step 2: Take the honey jar out of the cabinet
+Step 3: Open the refrigerator
+Step 4: Take the box of cocoa powder out of the refrigerator
+Step 5: Take the package of butter out of the refrigerator
+Step 6: Put the honey jar, box of cocoa powder, and package of butter on the countertop
+Step 7: Open the microwave
+Step 8: Put the food processor in the microwave
+Step 9: Close the microwave
+Step 10: Mix the honey, cocoa powder, and butter in the food processor
+Step 11: Grate chocolate on the countertop using a box grater
+Step 12: Pour the chocolate spread into a mason jar

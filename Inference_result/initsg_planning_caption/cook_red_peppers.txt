@@ -1,0 +1,12 @@
+Task Goal:
+cook_red_peppers
+Observed Relation:
+A frying pan, carving knife, and chopping board are on top of a shelf. A bell pepper is inside the shelf. The hummus box is filled with hummus and also inside the shelf. An agent is on top of the floor.
+Now please output plannings for doing cook_red_peppers
+Step 1: Open the pantry
+Step 2: Take the frying pan from the pantry
+Step 3: Take the carving knife from the pantry
+Step 4: Cut the bell pepper using the carving knife
+Step 5: Place the chopping board on the countertop
+Step 6: Scoop up the bell pepper onto the chopping board
+Step 7: Put the bell pepper in the frying pan

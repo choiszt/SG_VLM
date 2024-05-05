@@ -1,0 +1,17 @@
+Task Goal:
+cleaning_shed
+Observed Relation:
+"An assortment of gardening tools, including a broom, vacuum, rake, shovel, chicken wire, trowel, and leaf blower, are scattered on the floor while an agent stands nearby."
+Now please output plannings for doing cleaning_shed
+Step 1: Pick up the broom
+Step 2: Sweep the dust with the broom
+Step 3: Pick up the vacuum
+Step 4: Clean the vacuum
+Step 5: Pick up the rake
+Step 6: Rake the leaves with the rake
+Step 7: Pick up the shovel
+Step 8: Shovel the leaves with the shovel
+Step 9: Pick up the trowel
+Step 10: Plant the flowers with the trowel
+Step 11: Clean the floor
+Step 12: Put everything back in the shed

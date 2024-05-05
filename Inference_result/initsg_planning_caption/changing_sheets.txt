@@ -1,0 +1,12 @@
+Task Goal:
+changing_sheets
+Observed Relation:
+"Robot neatly tucks sheet over bed while standing on the floor."
+Now please output plannings for doing changing_sheets
+Step 1: Pick up the sheet from the bed
+Step 2: Move to the floor
+Step 3: Pick up the sheet from the floor
+Step 4: Place the sheet over the bed
+Step 5: Get off the floor
+Step 6: Tuck the sheet neatly over the bed
+Step 7: Move to the floor
