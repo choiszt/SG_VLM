@@ -15,3 +15,4 @@ EmbodiedCodeMapping/*
 !EmbodiedCodeMapping/codegounding.py
 !EmbodiedCodeMapping/grounding.py
 /EmbodiedMapping_database/
+/log/
